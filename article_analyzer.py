@@ -65,10 +65,11 @@ class ArticleAnalyzer:
 
         print(f"Fetching articles from {from_str} to {to_str}")
 
+        # Optimized for free tier: 2 queries instead of 3
+        # Uses AND/OR operators to combine keywords efficiently
         queries = [
-            "emerging technology AI space",
-            "renewable energy battery storage",
-            "advanced materials graphene innovation"
+            "(renewable OR energy OR battery OR storage) AND (transition OR investment)",
+            "(AI OR space OR technology OR materials) AND (innovation OR emerging)"
         ]
 
         all_articles = []
