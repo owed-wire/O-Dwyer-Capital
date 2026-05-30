@@ -6,6 +6,10 @@ on:
     - cron: '0 8 * * 1-5'  # Monday-Friday at 8:00 AM UTC
   workflow_dispatch:  # Allow manual triggers
 
+# Grant write permissions to the workflow
+permissions:
+  contents: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
