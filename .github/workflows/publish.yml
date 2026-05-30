@@ -32,12 +32,19 @@ jobs:
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: |
+          echo "================================"
           echo "Starting article analyzer..."
-          echo "API Key status: ${NEWSAPI_KEY:+Set (length: ${#NEWSAPI_KEY})}"
-          python article_analyzer.py 2>&1
-          echo "Article analyzer completed"
-          echo "Checking for generated files..."
-          ls -la *.html 2>/dev/null || echo "No HTML files generated"
+          echo "API Key present: ${NEWSAPI_KEY:+YES}"
+          echo "API Key length: ${#NEWSAPI_KEY}"
+          echo "================================"
+          python article_analyzer.py 2>&1 | tee analyzer_output.txt
+          echo ""
+          echo "================================"
+          echo "Analyzer output saved to analyzer_output.txt"
+          cat analyzer_output.txt
+          echo "================================"
+          echo "Checking for new files..."
+          ls -la *-*.html 2>/dev/null || echo "No new HTML files generated"
           echo "Checking articles_data.json..."
           ls -la articles_data.json 2>/dev/null || echo "articles_data.json not modified"
 
