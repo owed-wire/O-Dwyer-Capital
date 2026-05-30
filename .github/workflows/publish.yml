@@ -27,7 +27,14 @@ jobs:
       - name: Run article analyzer
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-        run: python article_analyzer.py
+        run: |
+          echo "Starting article analyzer..."
+          python article_analyzer.py
+          echo "Article analyzer completed successfully"
+          echo "Checking for generated files..."
+          ls -la *.html 2>/dev/null || echo "No HTML files generated yet"
+          echo "Checking articles_data.json..."
+          ls -la articles_data.json 2>/dev/null || echo "articles_data.json not found"
 
       - name: Commit and push changes
         run: |
@@ -35,7 +42,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -A
           git commit -m "Daily article publication - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-          git push
+          git push origin main
 
       - name: Deployment notification
         if: always()
