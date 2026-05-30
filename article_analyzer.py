@@ -1,0 +1,264 @@
+#!/usr/bin/env python3
+"""
+O'Dwyer Capital Article Analyzer
+Fetches articles from NewsAPI, analyzes them, and publishes daily briefs
+"""
+
+import json
+import os
+import shutil
+import requests
+from datetime import datetime, timedelta
+from typing import List, Dict
+import re
+
+class ArticleAnalyzer:
+    def __init__(self, api_key: str = None, thoughts_file: str = "articles_data.json"):
+        self.api_key = api_key or os.getenv('NEWSAPI_KEY')
+        self.thoughts_file = thoughts_file
+        self.base_url = "https://newsapi.org/v2/everything"
+        self.existing_articles = self.load_existing_articles()
+        self.new_articles = []
+
+    def load_existing_articles(self) -> List[Dict]:
+        """Load existing articles from JSON"""
+        if os.path.exists(self.thoughts_file):
+            try:
+                with open(self.thoughts_file, 'r') as f:
+                    return json.load(f)
+            except:
+                return []
+        return []
+
+    def get_time_window(self) -> tuple:
+        """
+        Determine the time window for fetching articles.
+        Monday: weekend + Monday morning (Friday 5pm through Monday 8am)
+        Tue-Fri: from previous post to now
+        """
+        now = datetime.utcnow()
+
+        # If it's Monday
+        if now.weekday() == 0:  # 0 = Monday
+            # Get articles from Friday 5pm through Monday 8am
+            friday = now - timedelta(days=3)
+            friday = friday.replace(hour=17, minute=0, second=0, microsecond=0)
+            from_date = friday
+            to_date = now
+        else:
+            # For Tue-Fri: assume previous post was yesterday at 8am
+            yesterday = now - timedelta(days=1)
+            from_date = yesterday.replace(hour=8, minute=0, second=0, microsecond=0)
+            to_date = now
+
+        return from_date, to_date
+
+    def fetch_articles(self) -> List[Dict]:
+        """Fetch articles from NewsAPI based on time window"""
+        if not self.api_key:
+            print("ERROR: NEWSAPI_KEY environment variable not set")
+            return []
+
+        from_date, to_date = self.get_time_window()
+        from_str = from_date.isoformat() + "Z"
+        to_str = to_date.isoformat() + "Z"
+
+        print(f"Fetching articles from {from_str} to {to_str}")
+
+        queries = [
+            "emerging technology AI space",
+            "renewable energy battery storage",
+            "advanced materials graphene innovation"
+        ]
+
+        all_articles = []
+        seen_urls = set()
+
+        for query in queries:
+            try:
+                response = requests.get(
+                    self.base_url,
+                    params={
+                        'q': query,
+                        'from': from_str,
+                        'to': to_str,
+                        'sortBy': 'relevancy',
+                        'language': 'en',
+                        'apiKey': self.api_key
+                    }
+                )
+
+                if response.status_code == 200:
+                    articles = response.json().get('articles', [])
+                    for article in articles:
+                        url = article.get('url', '')
+                        if url not in seen_urls:
+                            all_articles.append(article)
+                            seen_urls.add(url)
+                else:
+                    print(f"NewsAPI error: {response.status_code}")
+            except Exception as e:
+                print(f"Error fetching articles for '{query}': {e}")
+
+        print(f"Fetched {len(all_articles)} articles")
+        return all_articles
+
+    def categorize_article(self, article: Dict) -> str:
+        """Categorize article into Technology, Energy, or Innovation"""
+        text = (
+            article.get('title', '').lower() +
+            ' ' +
+            article.get('description', '').lower()
+        ).lower()
+
+        energy_keywords = ['energy', 'battery', 'storage', 'renewable', 'solar', 'wind', 'grid', 'transition']
+        tech_keywords = ['ai', 'space', 'satellite', 'digital', 'technology', 'quantum', 'chip']
+        innovation_keywords = ['material', 'graphene', 'composite', 'manufacturing', 'process']
+
+        energy_score = sum(1 for kw in energy_keywords if kw in text)
+        tech_score = sum(1 for kw in tech_keywords if kw in text)
+        innovation_score = sum(1 for kw in innovation_keywords if kw in text)
+
+        scores = {'Energy': energy_score, 'Technology': tech_score, 'Innovation': innovation_score}
+        return max(scores, key=scores.get) if max(scores.values()) > 0 else 'Technology'
+
+    def create_brief(self, category: str, articles: List[Dict]) -> Dict:
+        """Create an analytical brief from articles in a category"""
+        if not articles:
+            return None
+
+        # Summarize key themes
+        titles = [a.get('title', '') for a in articles[:5]]
+        sources = [a.get('source', {}).get('name', '') for a in articles[:3]]
+
+        brief = {
+            "id": 119,
+            "title": f"{category} Investment Brief",
+            "slug": category.lower().replace(' ', '-'),
+            "date": datetime.now().strftime("%B %d, %Y"),
+            "excerpt": f"Analysis of {len(articles)} articles on {category.lower()} from today's news.",
+            "tags": [category],
+            "source": "O'Dwyer Analysis",
+            "analysis_type": "analytical",
+            "themes": ["Growth"],
+            "investment_relevance": "high",
+            "article_count": len(articles),
+            "primary_sources": list(set(sources))[:3]
+        }
+
+        return brief
+
+    def update_articles_json(self, briefs: List[Dict]) -> str:
+        """Update articles_data.json with new briefs"""
+        for brief in briefs:
+            if brief:
+                self.existing_articles.insert(0, brief)
+
+        output_path = os.path.join(os.path.dirname(__file__), self.thoughts_file)
+
+        try:
+            with open(output_path, 'w') as f:
+                json.dump(self.existing_articles, f, indent=2)
+            print(f"Updated {output_path} with {len(briefs)} new briefs")
+            return output_path
+        except Exception as e:
+            print(f"Error writing articles_data.json: {e}")
+            return None
+
+    def generate_html_files(self) -> List[str]:
+        """Copy template HTML files with dated names"""
+        generated_files = []
+        today = datetime.now().strftime("%Y-%m-%d")
+
+        template_map = {
+            'energy-transition': 'energy-transition.html',
+            'emerging-tech': 'emerging-tech.html',
+            'materials': 'materials.html'
+        }
+
+        base_path = os.path.dirname(__file__)
+
+        for slug, template_file in template_map.items():
+            src_path = os.path.join(base_path, template_file)
+            dst_file = f"{slug}-{today}.html"
+            dst_path = os.path.join(base_path, dst_file)
+
+            if os.path.exists(src_path):
+                try:
+                    shutil.copy2(src_path, dst_path)
+                    generated_files.append(dst_file)
+                    print(f"Generated: {dst_file}")
+                except Exception as e:
+                    print(f"Error generating {dst_file}: {e}")
+
+        return generated_files
+
+    def run(self) -> Dict:
+        """Execute the publishing pipeline"""
+        print("=" * 60)
+        print("Starting O'Dwyer Capital Article Analyzer...")
+        print("=" * 60)
+
+        # Fetch articles from NewsAPI
+        print("\n1. Fetching articles from NewsAPI...")
+        articles = self.fetch_articles()
+
+        if not articles:
+            print("No articles fetched. Skipping brief generation.")
+            return {'status': 'no_articles', 'publication_date': datetime.now().isoformat()}
+
+        # Categorize articles
+        print("\n2. Categorizing articles...")
+        categorized = {'Energy': [], 'Technology': [], 'Innovation': []}
+        for article in articles:
+            category = self.categorize_article(article)
+            categorized[category].append(article)
+
+        for cat, arts in categorized.items():
+            print(f"   {cat}: {len(arts)} articles")
+
+        # Create briefs
+        print("\n3. Creating analytical briefs...")
+        briefs = []
+        for category, articles_list in categorized.items():
+            brief = self.create_brief(category, articles_list)
+            if brief:
+                briefs.append(brief)
+                print(f"   Created brief: {brief['title']}")
+
+        # Update JSON
+        print("\n4. Updating articles_data.json...")
+        json_path = self.update_articles_json(briefs)
+
+        # Generate dated HTML files
+        print("\n5. Generating dated HTML files...")
+        html_files = self.generate_html_files()
+
+        summary = {
+            'articles_fetched': len(articles),
+            'briefs_created': len(briefs),
+            'html_files_created': len(html_files),
+            'files': html_files,
+            'publication_date': datetime.now().isoformat(),
+            'status': 'success'
+        }
+
+        print("\n" + "=" * 60)
+        print("PUBLICATION COMPLETE")
+        print("=" * 60)
+        print(f"Articles fetched: {len(articles)}")
+        print(f"Briefs created: {len(briefs)}")
+        print(f"HTML files: {', '.join(html_files)}")
+
+        return summary
+
+
+def main():
+    analyzer = ArticleAnalyzer()
+    summary = analyzer.run()
+    print("\n=== SUMMARY ===")
+    print(json.dumps(summary, indent=2))
+
+
+if __name__ == '__main__':
+    main()
