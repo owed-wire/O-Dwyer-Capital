@@ -1,0 +1,7 @@
+*.py
+pyproject.toml
+requirements.txt
+.github
+README.md
+*.md
+.gitignore
