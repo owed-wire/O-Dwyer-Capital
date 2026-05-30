@@ -29,12 +29,13 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: |
           echo "Starting article analyzer..."
-          python article_analyzer.py
-          echo "Article analyzer completed successfully"
+          echo "API Key status: ${NEWSAPI_KEY:+Set (length: ${#NEWSAPI_KEY})}"
+          python article_analyzer.py 2>&1
+          echo "Article analyzer completed"
           echo "Checking for generated files..."
-          ls -la *.html 2>/dev/null || echo "No HTML files generated yet"
+          ls -la *.html 2>/dev/null || echo "No HTML files generated"
           echo "Checking articles_data.json..."
-          ls -la articles_data.json 2>/dev/null || echo "articles_data.json not found"
+          ls -la articles_data.json 2>/dev/null || echo "articles_data.json not modified"
 
       - name: Commit and push changes
         env:
