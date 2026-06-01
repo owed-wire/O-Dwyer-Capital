@@ -1,0 +1,46 @@
+============================================================
+Starting O'Dwyer Capital Article Analyzer...
+============================================================
+
+1. Fetching articles from NewsAPI...
+Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T02:31:40.514647Z
+Fetched 182 articles
+
+2. Categorizing articles...
+   Energy: 23 articles
+   Technology: 157 articles
+   Innovation: 2 articles
+
+3. Creating analytical briefs...
+   Created brief: Energy Investment Brief
+   Created brief: Technology Investment Brief
+   Created brief: Innovation Investment Brief
+
+4. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
+
+5. Generating dated HTML files...
+Generated: energy-transition-2026-06-01.html
+Generated: emerging-tech-2026-06-01.html
+Generated: materials-2026-06-01.html
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 182
+Briefs created: 3
+HTML files: energy-transition-2026-06-01.html, emerging-tech-2026-06-01.html, materials-2026-06-01.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 182,
+  "briefs_created": 3,
+  "html_files_created": 3,
+  "files": [
+    "energy-transition-2026-06-01.html",
+    "emerging-tech-2026-06-01.html",
+    "materials-2026-06-01.html"
+  ],
+  "publication_date": "2026-06-01T02:31:41.181349",
+  "status": "success"
+}
