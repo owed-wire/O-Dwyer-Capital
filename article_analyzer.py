@@ -215,9 +215,11 @@ class ArticleAnalyzer:
         trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
 
                 # Map category name to slug for trend analysis
-                category_slug_map = {'Energy': 'energy-transition', 'Technology': 'emerging-tech', 'Innovation': 'materials'}
-                category_slug = category_slug_map.get(category, category.lower().replace(' ', '-'))hanalyze_historical_trends(category, current_themes)    
-        # Generate professional excerpt based on actual themes
+                category_slug_map = {'Energy': 'energy-transition', 'Technology': 'emerging-tech', 'Innovation': 'materials'}h
+        category_slug = category_slug_map.get(category, category.lower().replace(' ', '-'))        # Generate professional excerpt based on actual themes
+
+                # Analyze historical trends
+                trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
         excerpt = self.generate_professional_excerpt(category, titles)
 
         # Build trend context for the brief
