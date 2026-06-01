@@ -3,7 +3,7 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T03:51:53.189362Z
+Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T04:02:56.956560Z
 Fetched 183 articles
 
 2. Categorizing articles...
@@ -12,22 +12,35 @@ Fetched 183 articles
    materials: 2 articles
 
 3. Creating analytical briefs...
-Traceback (most recent call last):
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 402, in <module>
-    main()
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 396, in main
-    summary = analyzer.run()
-              ^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 360, in run
-    brief = self.create_brief(category_names[category], articles_list)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 248, in create_brief
-    trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 210, in analyze_historical_trends
-    category_briefs = [b for b in self.existing_articles if category.lower() in b.get('slug', '').lower()]
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 210, in <listcomp>
-    category_briefs = [b for b in self.existing_articles if category.lower() in b.get('slug', '').lower()]
-                                                            ^^^^^^^^
-NameError: name 'category' is not defined
+   Created brief: Energy Investment Brief
+   Created brief: Technology Investment Brief
+   Created brief: Innovation Investment Brief
+
+4. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
+
+5. Generating dated HTML files...
+Generated: energy-transition-2026-06-01.html
+Generated: emerging-tech-2026-06-01.html
+Generated: materials-2026-06-01.html
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 183
+Briefs created: 3
+HTML files: energy-transition-2026-06-01.html, emerging-tech-2026-06-01.html, materials-2026-06-01.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 183,
+  "briefs_created": 3,
+  "html_files_created": 3,
+  "files": [
+    "energy-transition-2026-06-01.html",
+    "emerging-tech-2026-06-01.html",
+    "materials-2026-06-01.html"
+  ],
+  "publication_date": "2026-06-01T04:02:57.739054",
+  "status": "success"
+}
