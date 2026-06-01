@@ -3,43 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T12:21:34.563757Z
-Fetched 185 articles
+Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T19:04:51.918203Z
+Fetched 188 articles
 
 2. Categorizing articles...
-   energy-transition: 33 articles
-   emerging-tech: 150 articles
+   energy-transition: 39 articles
+   emerging-tech: 147 articles
    materials: 2 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: India is rapidly scaling solar capacity as part of its industrial development strategy, while concurrent AI adoption poses both opportunities and grid stability risks—a dynamic illustrated by NextEra Energy's recent analyst upgrade, reflecting investor confidence in renewable infrastructure plays amid growing power demand.
+   Generated AI excerpt: India is leading major industrialized nations in solar-powered manufacturing, while Africa's renewable energy sector accelerates capacity expansion. Grid modernization investments are intensifying as AI adoption pressures existing infrastructure, creating strategic opportunities across generation, transmission, and smart grid technologies.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Enterprise software vendors are restructuring pricing models to capture AI workload economics, as demonstrated by Snowflake's recent quarter growth tied to consumption-based pricing shifts. Meanwhile, AI infrastructure scaling—particularly data centers—faces mounting operational and stakeholder resistance, creating potential supply-side constraints for the sector's continued expansion.
-   Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Advanced materials are emerging as critical infrastructure for next-generation robotics, with e-ink electronic paper now being tested as functional humanoid skin by Google-backed startups, while specialized materials like Kinari are gaining attention for their potential to enable previously impossible hardware applications.
+   Generated AI excerpt: AI infrastructure demands are straining data center economics, forcing enterprise software vendors to restructure pricing models as compute costs escalate; Snowflake's recent earnings suggest cloud platforms adopting consumption-based or tiered approaches are capturing AI workload spending more effectively than legacy licensing structures.
+   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Electronic paper and advanced material innovations are attracting significant venture capital interest, with Google-backed robotics firms integrating E Ink technology into humanoid designs while emerging materials like Kinari gain traction for next-generation applications. These developments suggest early-stage commercialization of previously experimental substrates that could unlock new product categories across robotics, wearables, and interactive displays.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
 Generated: energy-transition-2026-06-01.html
+Generated: emerging-tech-2026-06-01.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 185
-Briefs created: 1
-HTML files: energy-transition-2026-06-01.html
+Articles fetched: 188
+Briefs created: 2
+HTML files: energy-transition-2026-06-01.html, emerging-tech-2026-06-01.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 185,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 188,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-06-01.html"
+    "energy-transition-2026-06-01.html",
+    "emerging-tech-2026-06-01.html"
   ],
-  "publication_date": "2026-06-01T12:21:39.518784",
+  "publication_date": "2026-06-01T19:04:59.821143",
   "status": "success"
 }
