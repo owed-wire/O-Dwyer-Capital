@@ -1,3 +1,27 @@
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 218
-    category_slug_map = {'Energy': 'energy-transition', 'Technology': 'emerging-tech', 'Innovation': 'materials'}h
-IndentationError: unexpected indent
+============================================================
+Starting O'Dwyer Capital Article Analyzer...
+============================================================
+
+1. Fetching articles from NewsAPI...
+Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T03:35:51.413394Z
+Fetched 183 articles
+
+2. Categorizing articles...
+   energy-transition: 24 articles
+   emerging-tech: 157 articles
+   materials: 2 articles
+
+3. Creating analytical briefs...
+Traceback (most recent call last):
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 402, in <module>
+    main()
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 396, in main
+    summary = analyzer.run()
+              ^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 360, in run
+    brief = self.create_brief(category_names[category], articles_list)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 248, in create_brief
+    trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ArticleAnalyzer' object has no attribute 'analyze_historical_trends'
