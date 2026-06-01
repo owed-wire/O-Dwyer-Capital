@@ -175,6 +175,30 @@ class ArticleAnalyzer:
 
         return summaries.get(category, summaries['Innovation'])
 
+    def analyze_historical_trends(self, category: str, current_themes: List[str]) -> Dict:
+        """Analyze trends from historical briefs in this category"""
+        historical_themes = {}
+        category_briefs = [b for b in self.existing_articles if category.lower() in b.get('slug', '').lower()]
+
+        # Extract themes from historical briefs
+        for brief in category_briefs[-10:]:  # Last 10 briefs
+            excerpt = brief.get('excerpt', '').lower()
+            for theme in current_themes:
+                if theme.lower() in excerpt:
+                    historical_themes[theme] = historical_themes.get(theme, 0) + 1
+
+        # Identify new vs ongoing themes
+        new_themes = [t for t in current_themes if historical_themes.get(t, 0) == 0]
+        ongoing_themes = [t for t in current_themes if historical_themes.get(t, 0) > 0]
+        accelerating_themes = [t for t in current_themes if historical_themes.get(t, 0) >= 2]
+
+        return {
+            'new_themes': new_themes,
+            'ongoing_themes': ongoing_themes,
+            'accelerating_themes': accelerating_themes,
+            'historical_context': f"Based on analysis of {len(category_briefs)} historical briefs"
+        }
+
     def create_brief(self, category: str, articles: List[Dict]) -> Dict:
         """Create an analytical brief from articles in a category"""
         if not articles:
@@ -184,8 +208,21 @@ class ArticleAnalyzer:
         titles = [a.get('title', '') for a in articles[:5]]
         sources = [a.get('source', {}).get('name', '') for a in articles[:3]]
 
+        # Extract current themes
+        current_themes = self.extract_key_themes(titles)
+
+        # Analyze historical trends
+        trend_analysis = self.analyze_historical_trends(category, current_themes)
+
         # Generate professional excerpt based on actual themes
         excerpt = self.generate_professional_excerpt(category, titles)
+
+        # Build trend context for the brief
+        trend_context = []
+        if trend_analysis['new_themes']:
+            trend_context.append(f"New developments: {', '.join(trend_analysis['new_themes'])}")
+        if trend_analysis['accelerating_themes']:
+            trend_context.append(f"Accelerating trends: {', '.join(trend_analysis['accelerating_themes'])}")
 
         brief = {
             "id": 119,
@@ -196,10 +233,12 @@ class ArticleAnalyzer:
             "tags": [category],
             "source": "O'Dwyer Analysis",
             "analysis_type": "analytical",
-            "themes": ["Growth"],
+            "themes": current_themes if current_themes else ["Growth"],
             "investment_relevance": "high",
             "article_count": len(articles),
-            "primary_sources": list(set(sources))[:3]
+            "primary_sources": list(set(sources))[:3],
+            "trend_analysis": trend_analysis,
+            "trend_context": trend_context
         }
 
         return brief
