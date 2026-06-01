@@ -1,34 +1,6 @@
 [
   {
     "id": 119,
-    "title": "Innovation Investment Brief",
-    "slug": "materials",
-    "date": "June 01, 2026",
-    "excerpt": "Breakthrough innovations creating new investment opportunities across sectors",
-    "tags": [
-      "Innovation"
-    ],
-    "source": "O'Dwyer Analysis",
-    "analysis_type": "analytical",
-    "themes": [
-      "Growth"
-    ],
-    "investment_relevance": "high",
-    "article_count": 2,
-    "primary_sources": [
-      "Yanko Design",
-      "Digitimes"
-    ],
-    "trend_analysis": {
-      "new_themes": [],
-      "ongoing_themes": [],
-      "accelerating_themes": [],
-      "historical_context": "Based on analysis of 1 historical briefs"
-    },
-    "trend_context": []
-  },
-  {
-    "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
     "date": "June 01, 2026",
