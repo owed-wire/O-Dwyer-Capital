@@ -3,7 +3,7 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T12:01:09.604038Z
+Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T12:21:34.563757Z
 Fetched 185 articles
 
 2. Categorizing articles...
@@ -12,11 +12,11 @@ Fetched 185 articles
    materials: 2 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: India is accelerating industrial solar deployment ahead of major developed economies, while grid operators face emerging AI-driven power demand risks that require optimization of electron efficiency. NextEra Energy's valuation support reflects investor confidence in utility-scale renewable infrastructure amid peak electrification cycles.
+   Generated AI excerpt: India is rapidly scaling solar capacity as part of its industrial development strategy, while concurrent AI adoption poses both opportunities and grid stability risks—a dynamic illustrated by NextEra Energy's recent analyst upgrade, reflecting investor confidence in renewable infrastructure plays amid growing power demand.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: AI infrastructure demands are straining power grids and forcing data center operators to confront rising operational costs, while enterprise software vendors like Snowflake are shifting to consumption-based pricing models to capitalize on AI workload proliferation. The sector faces a critical inflection point between accelerating AI adoption and the physical and financial constraints of scaling compute capacity globally.
+   Generated AI excerpt: Enterprise software vendors are restructuring pricing models to capture AI workload economics, as demonstrated by Snowflake's recent quarter growth tied to consumption-based pricing shifts. Meanwhile, AI infrastructure scaling—particularly data centers—faces mounting operational and stakeholder resistance, creating potential supply-side constraints for the sector's continued expansion.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Humanoid robotics are advancing tactile sensing capabilities through unconventional materials, with Google-backed developers integrating E Ink electronic paper into robot skin prototypes, while emerging materials like Kinari are gaining attention for potential applications across robotics and advanced manufacturing sectors.
+   Generated AI excerpt: Advanced materials are emerging as critical infrastructure for next-generation robotics, with e-ink electronic paper now being tested as functional humanoid skin by Google-backed startups, while specialized materials like Kinari are gaining attention for their potential to enable previously impossible hardware applications.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
@@ -24,26 +24,22 @@ Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json wit
 
 5. Generating dated HTML files...
 Generated: energy-transition-2026-06-01.html
-Generated: emerging-tech-2026-06-01.html
-Generated: materials-2026-06-01.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
 Articles fetched: 185
 Briefs created: 1
-HTML files: energy-transition-2026-06-01.html, emerging-tech-2026-06-01.html, materials-2026-06-01.html
+HTML files: energy-transition-2026-06-01.html
 
 === SUMMARY ===
 {
   "articles_fetched": 185,
   "briefs_created": 1,
-  "html_files_created": 3,
+  "html_files_created": 1,
   "files": [
-    "energy-transition-2026-06-01.html",
-    "emerging-tech-2026-06-01.html",
-    "materials-2026-06-01.html"
+    "energy-transition-2026-06-01.html"
   ],
-  "publication_date": "2026-06-01T12:01:15.782216",
+  "publication_date": "2026-06-01T12:21:39.518784",
   "status": "success"
 }

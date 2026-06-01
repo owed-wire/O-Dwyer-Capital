@@ -4,6 +4,43 @@
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "June 01, 2026",
+    "excerpt": "India is rapidly scaling solar capacity as part of its industrial development strategy, while concurrent AI adoption poses both opportunities and grid stability risks\u2014a dynamic illustrated by NextEra Energy's recent analyst upgrade, reflecting investor confidence in renewable infrastructure plays amid growing power demand.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "power grid",
+      "artificial intelligence",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 33,
+    "primary_sources": [
+      "Forbes",
+      "Grist",
+      "MakeUseOf"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "power grid",
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 2 historical briefs"
+    },
+    "trend_context": [
+      "New developments: power grid, artificial intelligence, solar energy"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 01, 2026",
     "excerpt": "India is accelerating industrial solar deployment ahead of major developed economies, while grid operators face emerging AI-driven power demand risks that require optimization of electron efficiency. NextEra Energy's valuation support reflects investor confidence in utility-scale renewable infrastructure amid peak electrification cycles.",
     "tags": [
       "Energy"
