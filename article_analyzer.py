@@ -35,15 +35,44 @@ class ArticleAnalyzer:
         Determine the time window for fetching articles.
         Monday: weekend + Monday morning (Friday 5pm through Monday 8am)
         Tue-Fri: from previous post to now
+        Sat-Sun: from most recent article date to now
         """
         now = datetime.utcnow()
+        weekday = now.weekday()  # 0=Mon, 1=Tue, ..., 5=Sat, 6=Sun
 
         # If it's Monday
-        if now.weekday() == 0:  # 0 = Monday
+        if weekday == 0:  # 0 = Monday
             # Get articles from Friday 5pm through Monday 8am
             friday = now - timedelta(days=3)
             friday = friday.replace(hour=17, minute=0, second=0, microsecond=0)
             from_date = friday
+            to_date = now
+        # If it's Saturday or Sunday, look back to most recent article
+        elif weekday in [5, 6]:  # 5=Saturday, 6=Sunday
+            # Find the most recent article date
+            if self.existing_articles and len(self.existing_articles) > 0:
+                # Try to parse the date from the most recent article
+                try:
+                    latest_date_str = self.existing_articles[0].get('date', '')
+                    # Parse common date formats (e.g., "May 30, 2026" or "2026-05-30")
+                    if latest_date_str:
+                        # Try parsing "Month DD, YYYY" format
+                        try:
+                            latest_date = datetime.strptime(latest_date_str, "%B %d, %Y")
+                        except:
+                            # Try ISO format
+                            latest_date = datetime.strptime(latest_date_str.split('T')[0], "%Y-%m-%d")
+                        # Start from the latest article date
+                        from_date = latest_date.replace(hour=0, minute=0, second=0, microsecond=0)
+                    else:
+                        # Fallback: use 7 days ago
+                        from_date = now - timedelta(days=7)
+                except:
+                    # Fallback: use 7 days ago
+                    from_date = now - timedelta(days=7)
+            else:
+                # No existing articles, use 7 days ago
+                from_date = now - timedelta(days=7)
             to_date = now
         else:
             # For Tue-Fri: assume previous post was yesterday at 8am
@@ -211,15 +240,14 @@ class ArticleAnalyzer:
         # Extract current themes
         current_themes = self.extract_key_themes(titles)
 
+        # Map category name to slug for trend analysis
+        category_slug_map = {'Energy': 'energy-transition', 'Technology': 'emerging-tech', 'Innovation': 'materials'}
+        category_slug = category_slug_map.get(category, category.lower().replace(' ', '-'))
+
         # Analyze historical trends
         trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
 
-                # Map category name to slug for trend analysis
-                category_slug_map = {'Energy': 'energy-transition', 'Technology': 'emerging-tech', 'Innovation': 'materials'}h
-        category_slug = category_slug_map.get(category, category.lower().replace(' ', '-'))        # Generate professional excerpt based on actual themes
-
-                # Analyze historical trends
-                trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
+        # Generate professional excerpt based on actual themes
         excerpt = self.generate_professional_excerpt(category, titles)
 
         # Build trend context for the brief
