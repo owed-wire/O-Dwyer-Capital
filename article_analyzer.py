@@ -123,16 +123,57 @@ class ArticleAnalyzer:
         scores = {'Energy': energy_score, 'Technology': tech_score, 'Innovation': innovation_score}
         return max(scores, key=scores.get) if max(scores.values()) > 0 else 'Technology'
 
-    def generate_professional_excerpt(self, category: str, article_count: int) -> str:
-        """Generate a professional, analytical excerpt for the brief"""
-        # Professional, substantive descriptions for each category
-        descriptions = {
-            'Energy': "Strategic analysis of energy sector developments and market implications for investors",
-            'Technology': "Technology sector insights examining market trends and investment opportunities",
-            'Innovation': "Investment analysis of emerging innovations and their market potential"
+    def extract_key_themes(self, titles: List[str]) -> List[str]:
+        """Extract key themes from article titles"""
+        themes = []
+        all_text = ' '.join(titles).lower()
+
+        # Theme keywords by category
+        theme_keywords = {
+            'ai': 'artificial intelligence',
+            'quantum': 'quantum computing',
+            'battery': 'battery technology',
+            'renewable': 'renewable energy',
+            'solar': 'solar energy',
+            'wind': 'wind energy',
+            'storage': 'energy storage',
+            'semiconductor': 'semiconductor',
+            'chip': 'chip manufacturing',
+            'grid': 'power grid',
+            'electric': 'electrification',
+            'fusion': 'fusion energy',
+            'space': 'space technology',
+            'satellite': 'satellite technology'
         }
 
-        return descriptions.get(category, descriptions['Innovation'])
+        for keyword, theme in theme_keywords.items():
+            if keyword in all_text:
+                themes.append(theme)
+
+        return list(set(themes))[:3]  # Return up to 3 unique themes
+
+    def generate_professional_excerpt(self, category: str, titles: List[str]) -> str:
+        """Generate a professional summary based on actual article themes"""
+        themes = self.extract_key_themes(titles)
+
+        if not themes:
+            # Fallback descriptions if no themes found
+            defaults = {
+                'Energy': "Recent developments in renewable energy and grid infrastructure transforming market dynamics",
+                'Technology': "Emerging technology trends reshaping competitive landscapes and investor priorities",
+                'Innovation': "Breakthrough innovations creating new investment opportunities across sectors"
+            }
+            return defaults.get(category, defaults['Innovation'])
+
+        # Create professional summary from themes
+        theme_text = ' and '.join(themes)
+        summaries = {
+            'Energy': f"Explore how {theme_text} are reshaping the energy sector and creating investment opportunities",
+            'Technology': f"Discover key developments in {theme_text} and their implications for technology investments",
+            'Innovation': f"Learn about breakthrough progress in {theme_text} and emerging market opportunities"
+        }
+
+        return summaries.get(category, summaries['Innovation'])
 
     def create_brief(self, category: str, articles: List[Dict]) -> Dict:
         """Create an analytical brief from articles in a category"""
@@ -143,8 +184,8 @@ class ArticleAnalyzer:
         titles = [a.get('title', '') for a in articles[:5]]
         sources = [a.get('source', {}).get('name', '') for a in articles[:3]]
 
-        # Generate professional excerpt
-        excerpt = self.generate_professional_excerpt(category, len(articles))
+        # Generate professional excerpt based on actual themes
+        excerpt = self.generate_professional_excerpt(category, titles)
 
         brief = {
             "id": 119,
