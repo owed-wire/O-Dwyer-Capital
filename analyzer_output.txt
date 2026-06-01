@@ -3,21 +3,21 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T04:15:58.587070Z
-Fetched 183 articles
+Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T11:14:19.165302Z
+Fetched 185 articles
 
 2. Categorizing articles...
-   energy-transition: 24 articles
-   emerging-tech: 157 articles
+   energy-transition: 31 articles
+   emerging-tech: 152 articles
    materials: 2 articles
 
 3. Creating analytical briefs...
-   Skipped energy-transition: No new themes since last brief
+   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
    Skipped emerging-tech: No new themes since last brief
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 0 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
 Generated: energy-transition-2026-06-01.html
@@ -27,20 +27,20 @@ Generated: materials-2026-06-01.html
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 183
-Briefs created: 0
+Articles fetched: 185
+Briefs created: 1
 HTML files: energy-transition-2026-06-01.html, emerging-tech-2026-06-01.html, materials-2026-06-01.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 183,
-  "briefs_created": 0,
+  "articles_fetched": 185,
+  "briefs_created": 1,
   "html_files_created": 3,
   "files": [
     "energy-transition-2026-06-01.html",
     "emerging-tech-2026-06-01.html",
     "materials-2026-06-01.html"
   ],
-  "publication_date": "2026-06-01T04:15:59.375867",
+  "publication_date": "2026-06-01T11:14:20.027596",
   "status": "success"
 }
