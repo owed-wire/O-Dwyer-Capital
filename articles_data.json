@@ -39,44 +39,6 @@
   },
   {
     "id": 119,
-    "title": "Energy Investment Brief",
-    "slug": "energy-transition",
-    "date": "June 01, 2026",
-    "excerpt": "While China\u2019s push to modernize sparked a surge in burning coal, India is turning to increasingly cheap solar to meet its booming energy needs; AI is using a lot of electricity; You've been carrying a Windows 11 in your pocket and you didn't know it.",
-    "tags": [
-      "Energy"
-    ],
-    "source": "O'Dwyer Analysis",
-    "analysis_type": "analytical",
-    "themes": [
-      "power grid",
-      "artificial intelligence",
-      "solar energy"
-    ],
-    "investment_relevance": "high",
-    "article_count": 31,
-    "primary_sources": [
-      "MakeUseOf",
-      "Grist",
-      "Forbes"
-    ],
-    "trend_analysis": {
-      "new_themes": [
-        "power grid",
-        "artificial intelligence"
-      ],
-      "ongoing_themes": [
-        "solar energy"
-      ],
-      "accelerating_themes": [],
-      "historical_context": "Based on analysis of 2 historical briefs"
-    },
-    "trend_context": [
-      "New developments: power grid, artificial intelligence"
-    ]
-  },
-  {
-    "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
     "date": "June 01, 2026",
@@ -105,43 +67,6 @@
     },
     "trend_context": [
       "New developments: artificial intelligence"
-    ]
-  },
-  {
-    "id": 119,
-    "title": "Energy Investment Brief",
-    "slug": "energy-transition",
-    "date": "June 01, 2026",
-    "excerpt": "Explore how battery technology and wind energy and solar energy are reshaping the energy sector and creating investment opportunities",
-    "tags": [
-      "Energy"
-    ],
-    "source": "O'Dwyer Analysis",
-    "analysis_type": "analytical",
-    "themes": [
-      "battery technology",
-      "wind energy",
-      "solar energy"
-    ],
-    "investment_relevance": "high",
-    "article_count": 24,
-    "primary_sources": [
-      "MakeUseOf",
-      "Creative Bloq",
-      "Grist"
-    ],
-    "trend_analysis": {
-      "new_themes": [
-        "battery technology",
-        "wind energy",
-        "solar energy"
-      ],
-      "ongoing_themes": [],
-      "accelerating_themes": [],
-      "historical_context": "Based on analysis of 1 historical briefs"
-    },
-    "trend_context": [
-      "New developments: battery technology, wind energy, solar energy"
     ]
   },
   {

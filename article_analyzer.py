@@ -380,42 +380,288 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
             print(f"Error writing articles_data.json: {e}")
             return None
 
-    def generate_html_files(self, brief_slugs: List[str] = None) -> List[str]:
-        """Copy template HTML files with dated names - ONLY for categories with new briefs"""
-        if not brief_slugs:
+    def generate_html_files(self, briefs: List[Dict] = None) -> List[str]:
+        """Generate HTML files from brief data - ONLY for categories with new briefs"""
+        if not briefs:
             # No new briefs created, don't generate any HTML files
             return []
 
         generated_files = []
-        today = datetime.now().strftime("%Y-%m-%d")
-
-        template_map = {
-            'energy-transition': 'energy-transition.html',
-            'emerging-tech': 'emerging-tech.html',
-            'materials': 'materials.html'
-        }
-
         base_path = os.path.dirname(__file__)
 
-        # Only generate HTML for categories that had new briefs
-        for slug in brief_slugs:
-            if slug not in template_map:
+        for brief in briefs:
+            slug = brief.get('slug', '')
+            if not slug:
                 continue
 
-            template_file = template_map[slug]
-            src_path = os.path.join(base_path, template_file)
-            dst_file = f"{slug}-{today}.html"
+            # Extract date and format for filename
+            date_str = brief.get('date', '')
+            # Parse "June 01, 2026" to "2026-06-01"
+            try:
+                date_obj = datetime.strptime(date_str, "%B %d, %Y")
+                date_filename = date_obj.strftime("%Y-%m-%d")
+            except:
+                date_filename = datetime.now().strftime("%Y-%m-%d")
+
+            dst_file = f"{slug}-{date_filename}.html"
             dst_path = os.path.join(base_path, dst_file)
 
-            if os.path.exists(src_path):
-                try:
-                    shutil.copy2(src_path, dst_path)
-                    generated_files.append(dst_file)
-                    print(f"Generated: {dst_file}")
-                except Exception as e:
-                    print(f"Error generating {dst_file}: {e}")
+            try:
+                html_content = self.generate_html_from_brief(brief)
+                with open(dst_path, 'w', encoding='utf-8') as f:
+                    f.write(html_content)
+                generated_files.append(dst_file)
+                print(f"Generated: {dst_file}")
+            except Exception as e:
+                print(f"Error generating {dst_file}: {e}")
 
         return generated_files
+
+    def generate_html_from_brief(self, brief: Dict) -> str:
+        """Generate HTML content from brief data"""
+        title = brief.get('title', 'Investment Brief')
+        date = brief.get('date', '')
+        excerpt = brief.get('excerpt', '')
+        tags = brief.get('tags', [])
+        themes = brief.get('themes', [])
+
+        # Create tag HTML
+        tag_html = ''.join([f'<span class="tag">{tag}</span>' for tag in tags])
+        theme_html = ''.join([f'<span class="tag">{theme}</span>' for theme in themes])
+
+        html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title} - O'Dwyer Capital</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-32PXHG0656"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-32PXHG0656');
+    </script>
+    <style>
+        * {{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }}
+
+        :root {{
+            --primary-green: #1a4d2e;
+            --secondary-green: #2d6a4f;
+            --accent-gold: #d4a574;
+            --dark-gold: #c9965f;
+            --light-bg: #f9f8f6;
+            --white: #ffffff;
+            --text-dark: #333333;
+            --text-gray: #666666;
+        }}
+
+        body {{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--white);
+        }}
+
+        a {{
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s;
+        }}
+
+        a:hover {{
+            color: var(--dark-gold);
+        }}
+
+        header {{
+            background: var(--white);
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }}
+
+        .logo-container {{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }}
+
+        .logo-container img {{
+            height: 60px;
+            width: auto;
+        }}
+
+        nav {{
+            display: flex;
+            gap: 40px;
+            margin-left: auto;
+        }}
+
+        nav a {{
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 15px;
+        }}
+
+        .page-header {{
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            padding: 60px 50px;
+            color: var(--white);
+        }}
+
+        .page-header h1 {{
+            font-size: 48px;
+            margin-bottom: 15px;
+        }}
+
+        .page-header p {{
+            font-size: 18px;
+            color: var(--accent-gold);
+        }}
+
+        .content {{
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 50px;
+        }}
+
+        .article-meta {{
+            color: var(--text-gray);
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }}
+
+        .article-body {{
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }}
+
+        .article-body h2 {{
+            color: var(--primary-green);
+            font-size: 28px;
+            margin: 40px 0 20px 0;
+        }}
+
+        .article-body p {{
+            margin-bottom: 15px;
+        }}
+
+        .article-body strong {{
+            color: var(--primary-green);
+            font-weight: 600;
+        }}
+
+        .back-link {{
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--accent-gold);
+            font-weight: 500;
+        }}
+
+        .tags {{
+            display: flex;
+            gap: 8px;
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid #e0e0e0;
+            flex-wrap: wrap;
+        }}
+
+        .tag {{
+            background: var(--light-bg);
+            color: var(--primary-green);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid var(--accent-gold);
+        }}
+
+        footer {{
+            background: var(--primary-green);
+            color: var(--white);
+            padding: 50px;
+            text-align: center;
+            margin-top: 60px;
+        }}
+
+        footer p {{
+            margin-bottom: 10px;
+            font-size: 15px;
+        }}
+
+        footer p.tagline {{
+            color: var(--accent-gold);
+            font-style: italic;
+            font-weight: 500;
+        }}
+
+        footer p.copyright {{
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 20px;
+        }}
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="logo-container">
+            <img src="odwyer_capital_logo_primary.png" alt="O'Dwyer Capital">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="thoughts.html" class="active">Thoughts</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <h1>{title}</h1>
+        <p>Strategic analysis for family office allocation</p>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="content">
+        <a href="thoughts.html" class="back-link">← Back to Thoughts</a>
+
+        <div class="article-meta">
+            <strong>Date:</strong> {date} | <strong>Source:</strong> O'Dwyer Analysis
+        </div>
+
+        <div class="article-body">
+            <p>{excerpt}</p>
+
+            <div class="tags">
+                {tag_html}
+                {theme_html}
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 O'Dwyer Capital. All rights reserved.</p>
+        <p class="tagline">Invested in What Endures</p>
+        <p class="copyright">Private Family Office | Generational Wealth Stewardship</p>
+    </footer>
+</body>
+</html>"""
+        return html
 
     def run(self) -> Dict:
         """Execute the publishing pipeline"""
@@ -472,8 +718,7 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
 
         # Generate dated HTML files ONLY for categories with new briefs
         print("\n5. Generating dated HTML files...")
-        brief_slugs = [brief['slug'] for brief in briefs]
-        html_files = self.generate_html_files(brief_slugs)
+        html_files = self.generate_html_files(briefs)
 
         summary = {
             'articles_fetched': len(articles),
