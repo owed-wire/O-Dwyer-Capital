@@ -1,6 +1,103 @@
 [
   {
     "id": 119,
+    "title": "Innovation Investment Brief",
+    "slug": "materials",
+    "date": "June 01, 2026",
+    "excerpt": "Breakthrough innovations creating new investment opportunities across sectors",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "Growth"
+    ],
+    "investment_relevance": "high",
+    "article_count": 2,
+    "primary_sources": [
+      "Yanko Design",
+      "Digitimes"
+    ],
+    "trend_analysis": {
+      "new_themes": [],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 1 historical briefs"
+    },
+    "trend_context": []
+  },
+  {
+    "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
+    "date": "June 01, 2026",
+    "excerpt": "Discover key developments in artificial intelligence and their implications for technology investments",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 157,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "The Atlantic"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 1 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 01, 2026",
+    "excerpt": "Explore how battery technology and wind energy and solar energy are reshaping the energy sector and creating investment opportunities",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "wind energy",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 24,
+    "primary_sources": [
+      "MakeUseOf",
+      "Creative Bloq",
+      "Grist"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "wind energy",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 1 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, wind energy, solar energy"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
     "date": "May 30, 2026",

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emerging Tech Investment Brief - O'Dwyer Capital</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-32PXHG0656"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -14,327 +13,85 @@
       gtag('config', 'G-32PXHG0656');
     </script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
             --primary-green: #1a4d2e;
             --secondary-green: #2d6a4f;
             --accent-gold: #d4a574;
-            --dark-gold: #c9965f;
             --light-bg: #f9f8f6;
             --white: #ffffff;
             --text-dark: #333333;
             --text-gray: #666666;
         }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-dark);
-            background: var(--white);
-        }
-
-        a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        a:hover {
-            color: var(--dark-gold);
-        }
-
-        /* ===== HEADER ===== */
-        header {
-            background: var(--white);
-            padding: 15px 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #e0e0e0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .logo-container {
-            display: flex;
-            align-items: center;
-            flex-shrink: 0;
-        }
-
-        .logo-container img {
-            height: 60px;
-            width: auto;
-        }
-
-        nav {
-            display: flex;
-            gap: 40px;
-            margin-left: auto;
-            flex-shrink: 0;
-        }
-
-        nav a {
-            color: var(--text-dark);
-            font-weight: 500;
-            font-size: 15px;
-            position: relative;
-            white-space: nowrap;
-        }
-
-        nav a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--accent-gold);
-            transition: width 0.3s;
-        }
-
-        nav a:hover::after,
-        nav a.active::after {
-            width: 100%;
-        }
-
-        /* ===== PAGE HEADER ===== */
-        .page-header {
-            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
-            padding: 60px 50px;
-            color: var(--white);
-        }
-
-        .page-header h1 {
-            font-size: 48px;
-            margin-bottom: 15px;
-        }
-
-        .page-header p {
-            font-size: 18px;
-            color: var(--accent-gold);
-        }
-
-        /* ===== CONTENT ===== */
-        .content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 60px 50px;
-        }
-
-        .article-meta {
-            color: var(--text-gray);
-            font-size: 14px;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .article-body {
-            font-size: 16px;
-            line-height: 1.8;
-            color: var(--text-dark);
-        }
-
-        .article-body h2 {
-            color: var(--primary-green);
-            font-size: 28px;
-            margin: 40px 0 20px 0;
-        }
-
-        .article-body h3 {
-            color: var(--secondary-green);
-            font-size: 22px;
-            margin: 30px 0 15px 0;
-        }
-
-        .article-body p {
-            margin-bottom: 15px;
-            line-height: 1.8;
-        }
-
-        .article-body strong {
-            color: var(--primary-green);
-            font-weight: 600;
-        }
-
-        .article-body ul, .article-body ol {
-            margin: 20px 0 20px 40px;
-        }
-
-        .article-body li {
-            margin-bottom: 10px;
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 30px;
-            color: var(--accent-gold);
-            font-weight: 500;
-        }
-
-        .back-link:hover {
-            color: var(--dark-gold);
-        }
-
-        .tags {
-            display: flex;
-            gap: 8px;
-            margin-top: 40px;
-            padding-top: 40px;
-            border-top: 1px solid #e0e0e0;
-        }
-
-        .tag {
-            background: var(--light-bg);
-            color: var(--primary-green);
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 500;
-            border: 1px solid var(--accent-gold);
-        }
-
-        /* ===== FOOTER ===== */
-        footer {
-            background: var(--primary-green);
-            color: var(--white);
-            padding: 50px;
-            text-align: center;
-            margin-top: 60px;
-        }
-
-        footer p {
-            margin-bottom: 10px;
-            font-size: 15px;
-        }
-
-        footer p.tagline {
-            color: var(--accent-gold);
-            font-style: italic;
-            font-weight: 500;
-        }
-
-        footer p.copyright {
-            font-size: 13px;
-            color: rgba(255, 255, 255, 0.7);
-            margin-top: 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            padding-top: 20px;
-        }
-
-        /* ===== RESPONSIVE ===== */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text-dark); background: var(--white); }
+        a { color: var(--accent-gold); text-decoration: none; transition: color 0.3s; }
+        a:hover { color: #c9965f; }
+        header { background: var(--white); padding: 15px 50px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e0e0e0; position: sticky; top: 0; z-index: 100; }
+        .logo-container img { height: 60px; width: auto; }
+        nav { display: flex; gap: 40px; margin-left: auto; }
+        nav a { color: var(--text-dark); font-weight: 500; font-size: 15px; position: relative; }
+        .page-header { background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%); padding: 60px 50px; color: var(--white); }
+        .page-header h1 { font-size: 48px; margin-bottom: 15px; }
+        .page-header p { font-size: 18px; color: var(--accent-gold); }
+        .content { max-width: 900px; margin: 0 auto; padding: 60px 50px; }
+        .article-meta { color: var(--text-gray); font-size: 14px; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #e0e0e0; }
+        .article-body { font-size: 16px; line-height: 1.8; color: var(--text-dark); }
+        .article-body h2 { color: var(--primary-green); font-size: 28px; margin: 40px 0 20px 0; }
+        .article-body h3 { color: var(--secondary-green); font-size: 22px; margin: 30px 0 15px 0; }
+        .article-body p { margin-bottom: 15px; line-height: 1.8; }
+        .article-body ul { margin: 20px 0 20px 40px; }
+        .article-body li { margin-bottom: 10px; }
+        .back-link { display: inline-block; margin-bottom: 30px; color: var(--accent-gold); font-weight: 500; }
+        .tags { display: flex; gap: 8px; margin-top: 40px; padding-top: 40px; border-top: 1px solid #e0e0e0; }
+        .tag { background: var(--light-bg); color: var(--primary-green); padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 500; border: 1px solid var(--accent-gold); }
+        footer { background: var(--primary-green); color: var(--white); padding: 50px; text-align: center; margin-top: 60px; }
+        footer p { margin-bottom: 10px; font-size: 15px; }
+        footer p.tagline { color: var(--accent-gold); font-style: italic; font-weight: 500; }
         @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                gap: 15px;
-                padding: 15px 20px;
-            }
-
-            nav {
-                gap: 20px;
-                margin-left: 0;
-            }
-
-            .page-header {
-                padding: 40px 20px;
-            }
-
-            .page-header h1 {
-                font-size: 32px;
-            }
-
-            .content {
-                padding: 40px 20px;
-            }
-
-            footer {
-                padding: 30px 20px;
-            }
+            header { flex-direction: column; gap: 15px; padding: 15px 20px; }
+            .page-header { padding: 40px 20px; }
+            .page-header h1 { font-size: 32px; }
+            .content { padding: 40px 20px; }
         }
     </style>
 </head>
 <body>
-    <!-- HEADER -->
     <header>
-        <a href="index.html" class="logo-container">
-            <img src="odwyer_capital_logo_primary.png" alt="O'Dwyer Capital">
-        </a>
+        <a href="index.html" class="logo-container"><img src="odwyer_capital_logo_primary.png" alt="O'Dwyer Capital"></a>
         <nav>
             <a href="index.html">Home</a>
             <a href="thoughts.html" class="active">Thoughts</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-
-    <!-- PAGE HEADER -->
     <section class="page-header">
         <h1>Emerging Tech Investment Brief</h1>
         <p>Strategic analysis for family office allocation</p>
     </section>
-
-    <!-- MAIN CONTENT -->
     <section class="content">
         <a href="thoughts.html" class="back-link">← Back to Thoughts</a>
-
-        <div class="article-meta">
-            <strong>Date:</strong> May 30, 2026 | <strong>Source:</strong> O'Dwyer Analysis
-        </div>
-
+        <div class="article-meta"><strong>Source:</strong> O'Dwyer Analysis</div>
         <div class="article-body">
-            <h2>Space, AI, and Digital Assets: The Next Wave</h2>
-
-            <p>Three emerging technology sectors are converging right now. Space infrastructure is hitting an inflection point. Enterprise AI is moving from experimentation to real ROI. And digital asset markets are finally seeing institutional participation. Together, they represent over $90 billion in opportunity through 2035. The question for family offices isn't whether to allocate capital to these spaces. It's how to position for the companies that will dominate.</p>
-
-            <h2>Space Infrastructure Is Becoming Real</h2>
-
-            <p>Five years ago, space mining was science fiction. Today, it's a <a href="https://www.globenewswire.com/news-release/2026/05/25/3300515/0/en/Space-Mining-Market-Size-to-Hit-USD-16-09-Billion-by-2035-Research-by-SNS-Insider.html" target="_blank">$16.09 billion projected market by 2035</a>. <a href="https://www.globenewswire.com/news-release/2026/05/25/3300515/0/en/LEO-Satellite-Market-Size-to-Exceed-USD-74-54-Billion-by-2035-Research-by-SNS-Insider.html" target="_blank">Low Earth Orbit satellites are going to reach $74.54 billion</a>. These aren't speculative projections. They're backed by actual launch cadences, actual demand from telecom operators, and actual business models that are starting to work.</p>
-
-            <p>The inflection is happening because launch costs are dropping and demand for connectivity is exploding. Medium Earth Orbit satellites are solving latency problems that traditional infrastructure can't touch. This isn't competing with terrestrial networks. It's filling gaps that didn't exist five years ago.</p>
-
-            <p>The opportunity is real. The execution risk is also real. Space infrastructure requires flawless engineering across orbital mechanics, satellite manufacturing, and ground operations. Companies that can execute at scale win. Companies that can't disappear. Position accordingly.</p>
-
-            <h2>Enterprise AI Is Showing Actual Returns</h2>
-
-            <p>HubSpot achieved 94% employee AI adoption—not through mandate, but through measurement. Employees saw ROI on their own work and adopted tools because they made them more productive. That's not anecdotal. That's repeatable.</p>
-
-            <p>Meanwhile, <a href="https://fortune.com/2026/05/27/sanofi-snowflake-elementumai-data/" target="_blank">Sanofi is building proprietary AI ecosystems</a> instead of relying on third-party platforms. That's the signal you should care about. When Fortune 500 companies start building custom AI rather than buying generic tools, it means they believe AI is a competitive advantage, not a commodity. That's when real returns happen.</p>
-
-            <p>The companies winning here aren't the ones selling AI. They're the ones building customized implementations that create defensible advantages. Look for these kinds of implementations in your portfolio construction. They tend to trade at reasonable valuations despite superior competitive positioning.</p>
-
-            <h2>Digital Assets Are Attracting Serious Money</h2>
-
-            <p><a href="https://www.prnewswire.com/news-releases/htx-releases-april-performance-report-futures-trading-volume-nears-100-billion-htx-earn-strengthens-its-position-as-a-gateway-to-stable-yields-and-growth-across-business-lines-fuels-ecosystem-expansion-302778726.html" target="_blank">HTX is processing $100 billion in futures volume</a>. That's not retail activity. That's institutional capital moving into digital assets. The two-speed market is real. Traditional finance and digital finance are diverging. Smart investors are recognizing that bifurcation creates opportunities.</p>
-
-            <p>But here's the key difference from five years ago. These opportunities are in institutional-grade platforms with real volume and serious governance. Not in speculative retail instruments. The wild west is over. The institutional phase is beginning. That changes everything about how you allocate.</p>
-
-            <h2>How These Three Connect</h2>
-
-            <p>Space infrastructure creates demand for AI optimization. AI improves satellite operations and space mining logistics. Digital assets provide liquidity for emerging market participants. They're not separate bets. They're interconnected trends. Portfolio construction should exploit these connections rather than treating them as isolated sectors.</p>
-
-            <h2>The Positioning Question</h2>
-
-            <p>Timing-wise, you want to allocate before execution is proven. The sweet spot is after business models exist but before valuations fully reflect growth. That window is open right now for space infrastructure and enterprise AI. For digital assets, you're past the early adoption phase. Be more selective here.</p>
-
-            <p>Space infrastructure? Target 3-5% allocation across operators, specialists, and services providers. Enterprise AI? Identify companies building proprietary ecosystems where they can actually defend competitive advantages. Digital assets? Keep it to 2-3% focused on institutional platforms.</p>
-
-            <p>The timeline matters. Start with preliminary allocation. Then spend months on detailed manager diligence. Then phase deployment over a year. Rushing this is how you overpay. Patience is how you capture real returns.</p>
-
-            <p>These sectors represent structural shifts, not cyclical phenomena. The 109 articles we analyzed make that clear. There's consensus among institutional researchers and operators that these markets are real. Now it's about positioning your capital to benefit from that reality.</p>
-
+            <h2>Emerging Technology Investment Brief</h2>
+            <h3>Executive Summary</h3>
+            <p>The emerging technology sector continues to generate significant disruption across computing, communications, and materials science. Current developments span quantum computing advancement, artificial intelligence infrastructure expansion, commercial space technology maturation, and next-generation semiconductor manufacturing. These converging innovations create portfolio opportunities for investors positioned in foundational technologies and enabling infrastructure.</p>
+            <h2>Market Dynamics</h2>
+            <h3>Key Technology Themes</h3>
+            <ul>
+                <li><strong>Quantum Computing:</strong> Enterprise adoption accelerating with focus on cryptography and optimization applications</li>
+                <li><strong>AI Infrastructure:</strong> Massive capital deployment for computational capacity and data center expansion</li>
+                <li><strong>Space Technology:</strong> Commercial sector reaching inflection point with substantial market opportunity</li>
+                <li><strong>Advanced Semiconductors:</strong> Next-generation manufacturing driving competitive advantage</li>
+                <li><strong>Digital Infrastructure:</strong> Foundational technology buildout supporting digital transformation</li>
+            </ul>
+            <h2>Strategic Outlook</h2>
+            <p>The emerging technology landscape presents compelling portfolio opportunities for investors with disciplined investment processes. Strategic allocation to foundational technologies and enabling infrastructure offers exposure to secular growth trends with attractive risk-adjusted return profiles.</p>
             <div class="tags">
                 <span class="tag">Technology</span>
-                <span class="tag">Growth</span>
+                <span class="tag">Innovation</span>
             </div>
         </div>
     </section>
-
-    <!-- FOOTER -->
     <footer>
         <p>&copy; 2026 O'Dwyer Capital. All rights reserved.</p>
         <p class="tagline">Invested in What Endures</p>
@@ -342,4 +99,3 @@
     </footer>
 </body>
 </html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
