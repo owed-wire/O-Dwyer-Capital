@@ -181,12 +181,36 @@ class ArticleAnalyzer:
 
         return list(set(themes))[:3]  # Return up to 3 unique themes
 
-    def generate_professional_excerpt(self, category: str, titles: List[str]) -> str:
-        """Generate a professional summary based on actual article themes"""
-        themes = self.extract_key_themes(titles)
+    def extract_key_insights(self, articles: List[Dict]) -> List[str]:
+        """Extract key insights from actual article descriptions"""
+        insights = []
 
-        if not themes:
-            # Fallback descriptions if no themes found
+        for article in articles[:10]:  # Look at top 10 articles
+            description = article.get('description', '')
+
+            if description:
+                # Extract first sentence as key insight
+                sentences = description.split('.')
+                key_sentence = sentences[0].strip()
+
+                # Only include substantial insights (>15 chars, <200 chars to avoid truncation)
+                if 15 < len(key_sentence) < 200:
+                    insights.append(key_sentence)
+
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_insights = []
+        for insight in insights:
+            if insight not in seen:
+                seen.add(insight)
+                unique_insights.append(insight)
+
+        return unique_insights
+
+    def generate_professional_excerpt(self, category: str, articles: List[Dict]) -> str:
+        """Generate excerpt based on actual article content, not templates"""
+        if not articles:
+            # Fallback descriptions if no articles
             defaults = {
                 'Energy': "Recent developments in renewable energy and grid infrastructure transforming market dynamics",
                 'Technology': "Emerging technology trends reshaping competitive landscapes and investor priorities",
@@ -194,15 +218,34 @@ class ArticleAnalyzer:
             }
             return defaults.get(category, defaults['Innovation'])
 
-        # Create professional summary from themes
-        theme_text = ' and '.join(themes)
-        summaries = {
-            'Energy': f"Explore how {theme_text} are reshaping the energy sector and creating investment opportunities",
-            'Technology': f"Discover key developments in {theme_text} and their implications for technology investments",
-            'Innovation': f"Learn about breakthrough progress in {theme_text} and emerging market opportunities"
-        }
+        # Extract real insights from article descriptions
+        insights = self.extract_key_insights(articles)
 
-        return summaries.get(category, summaries['Innovation'])
+        if insights and len(insights) >= 2:
+            # Combine top 2-3 insights into a coherent excerpt
+            excerpt_parts = insights[:3]
+            excerpt = "; ".join(excerpt_parts)
+            # Capitalize first letter
+            excerpt = excerpt[0].upper() + excerpt[1:] if excerpt else ""
+            if not excerpt.endswith('.'):
+                excerpt += "."
+            return excerpt
+
+        # Fallback to theme-based if no good insights found
+        titles = [a.get('title', '') for a in articles[:5]]
+        themes = self.extract_key_themes(titles)
+
+        if themes:
+            theme_text = ' and '.join(themes)
+            summaries = {
+                'Energy': f"Key developments in {theme_text} reshaping the energy sector and creating investment opportunities",
+                'Technology': f"Important trends in {theme_text} impacting technology investments and competitive positioning",
+                'Innovation': f"Breakthrough progress in {theme_text} creating emerging market opportunities"
+            }
+            return summaries.get(category, summaries['Innovation'])
+
+        # Final fallback
+        return "Strategic market developments creating new investment opportunities"
 
     def analyze_historical_trends(self, category_slug: str, current_themes: List[str]) -> Dict:
         """Analyze trends from historical briefs in this category"""
@@ -247,8 +290,8 @@ class ArticleAnalyzer:
         # Analyze historical trends
         trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
 
-        # Generate professional excerpt based on actual themes
-        excerpt = self.generate_professional_excerpt(category, titles)
+        # Generate professional excerpt based on actual article content, not just titles
+        excerpt = self.generate_professional_excerpt(category, articles)
 
         # Build trend context for the brief
         trend_context = []
