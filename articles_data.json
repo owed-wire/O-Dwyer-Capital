@@ -4,7 +4,7 @@
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "June 01, 2026",
-    "excerpt": "India is rapidly scaling solar capacity as part of its industrial development strategy, while concurrent AI adoption poses both opportunities and grid stability risks\u2014a dynamic illustrated by NextEra Energy's recent analyst upgrade, reflecting investor confidence in renewable infrastructure plays amid growing power demand.",
+    "excerpt": "India is rapidly scaling solar capacity as part of its industrial development strategy, while concurrent AI adoption poses both opportunities and grid stability risks—a dynamic illustrated by NextEra Energy's recent analyst upgrade, reflecting investor confidence in renewable infrastructure plays amid growing power demand.",
     "tags": [
       "Energy"
     ],
@@ -34,76 +34,6 @@
     },
     "trend_context": [
       "New developments: power grid, artificial intelligence, solar energy"
-    ]
-  },
-  {
-    "id": 119,
-    "title": "Energy Investment Brief",
-    "slug": "energy-transition",
-    "date": "June 01, 2026",
-    "excerpt": "India is accelerating industrial solar deployment ahead of major developed economies, while grid operators face emerging AI-driven power demand risks that require optimization of electron efficiency. NextEra Energy's valuation support reflects investor confidence in utility-scale renewable infrastructure amid peak electrification cycles.",
-    "tags": [
-      "Energy"
-    ],
-    "source": "O'Dwyer Analysis",
-    "analysis_type": "analytical",
-    "themes": [
-      "solar energy",
-      "power grid",
-      "artificial intelligence"
-    ],
-    "investment_relevance": "high",
-    "article_count": 33,
-    "primary_sources": [
-      "MakeUseOf",
-      "Forbes",
-      "Grist"
-    ],
-    "trend_analysis": {
-      "new_themes": [
-        "power grid",
-        "artificial intelligence"
-      ],
-      "ongoing_themes": [
-        "solar energy"
-      ],
-      "accelerating_themes": [],
-      "historical_context": "Based on analysis of 3 historical briefs"
-    },
-    "trend_context": [
-      "New developments: power grid, artificial intelligence"
-    ]
-  },
-  {
-    "id": 119,
-    "title": "Technology Investment Brief",
-    "slug": "emerging-tech",
-    "date": "June 01, 2026",
-    "excerpt": "Discover key developments in artificial intelligence and their implications for technology investments",
-    "tags": [
-      "Technology"
-    ],
-    "source": "O'Dwyer Analysis",
-    "analysis_type": "analytical",
-    "themes": [
-      "artificial intelligence"
-    ],
-    "investment_relevance": "high",
-    "article_count": 157,
-    "primary_sources": [
-      "Yahoo Entertainment",
-      "The Atlantic"
-    ],
-    "trend_analysis": {
-      "new_themes": [
-        "artificial intelligence"
-      ],
-      "ongoing_themes": [],
-      "accelerating_themes": [],
-      "historical_context": "Based on analysis of 1 historical briefs"
-    },
-    "trend_context": [
-      "New developments: artificial intelligence"
     ]
   },
   {
