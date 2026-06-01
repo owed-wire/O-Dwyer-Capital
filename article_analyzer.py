@@ -207,7 +207,7 @@ class ArticleAnalyzer:
     def analyze_historical_trends(self, category_slug: str, current_themes: List[str]) -> Dict:
         """Analyze trends from historical briefs in this category"""
         historical_themes = {}
-        category_briefs = [b for b in self.existing_articles if category.lower() in b.get('slug', '').lower()]
+        category_briefs = [b for b in self.existing_articles if category_slug.lower() in b.get('slug', '').lower()]
 
         # Extract themes from historical briefs
         for brief in category_briefs[-10:]:  # Last 10 briefs
