@@ -11,10 +11,13 @@ import requests
 from datetime import datetime, timedelta
 from typing import List, Dict
 import re
+from anthropic import Anthropic
 
 class ArticleAnalyzer:
     def __init__(self, api_key: str = None, thoughts_file: str = "articles_data.json"):
         self.api_key = api_key or os.getenv('NEWSAPI_KEY')
+        self.anthropic_key = os.getenv('ANTHROPIC_API_KEY')
+        self.claude_client = Anthropic(api_key=self.anthropic_key) if self.anthropic_key else None
         self.thoughts_file = thoughts_file
         self.base_url = "https://newsapi.org/v2/everything"
         self.existing_articles = self.load_existing_articles()
@@ -181,6 +184,47 @@ class ArticleAnalyzer:
 
         return list(set(themes))[:3]  # Return up to 3 unique themes
 
+    def generate_ai_excerpt(self, category: str, themes: List[str], articles: List[Dict]) -> str:
+        """Generate a factual, concise excerpt using Claude AI based on brief content"""
+        if not self.claude_client:
+            return self.generate_professional_excerpt(category, articles)
+
+        try:
+            # Prepare article summaries for context
+            article_titles = [a.get('title', '') for a in articles[:5]]
+            article_summaries = "\n".join([f"- {title}" for title in article_titles])
+
+            prompt = f"""You are helping create investment briefing excerpts for O'Dwyer Capital.
+
+Based on this brief's themes and articles, generate a SHORT, FACTUAL excerpt (2-3 sentences max) that:
+1. States specific market trends or developments
+2. Includes concrete details (market size, growth %, timelines if available)
+3. Is written for investment professionals
+4. Feels like a headline summary, not a marketing tagline
+
+Category: {category}
+Themes: {', '.join(themes)}
+Articles:
+{article_summaries}
+
+Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
+
+            message = self.claude_client.messages.create(
+                model="claude-opus-4-6",
+                max_tokens=150,
+                messages=[
+                    {{"role": "user", "content": prompt}}
+                ]
+            )
+
+            excerpt = message.content[0].text.strip()
+            print(f"   Generated AI excerpt: {excerpt}")
+            return excerpt
+
+        except Exception as e:
+            print(f"   Error generating AI excerpt: {e}")
+            return self.generate_professional_excerpt(category, articles)
+
     def extract_key_insights(self, articles: List[Dict]) -> List[str]:
         """Extract key insights from actual article descriptions"""
         insights = []
@@ -290,8 +334,8 @@ class ArticleAnalyzer:
         # Analyze historical trends
         trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
 
-        # Generate professional excerpt based on actual article content, not just titles
-        excerpt = self.generate_professional_excerpt(category, articles)
+        # Generate AI excerpt based on brief content and themes
+        excerpt = self.generate_ai_excerpt(category, current_themes, articles)
 
         # Build trend context for the brief
         trend_context = []
