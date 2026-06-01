@@ -35,5 +35,53 @@
     "trend_context": [
       "New developments: power grid, artificial intelligence, solar energy"
     ]
+  },
+  {
+    "id": 119,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "May 30, 2026",
+    "excerpt": "Space infrastructure reaching inflection point with $74.54B LEO satellite market by 2035.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "Growth"
+    ],
+    "investment_relevance": "high"
+  },
+  {
+    "id": 119,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "May 30, 2026",
+    "excerpt": "Energy storage infrastructure becoming mission-critical with clear regulatory tailwinds.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "Growth"
+    ],
+    "investment_relevance": "high"
+  },
+  {
+    "id": 119,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "May 30, 2026",
+    "excerpt": "Graphene heating films market expanding 50% to $1.51 billion by 2030.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "Growth"
+    ],
+    "investment_relevance": "high"
   }
 ]
