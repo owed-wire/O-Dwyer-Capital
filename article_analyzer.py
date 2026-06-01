@@ -213,7 +213,7 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
                 model="claude-haiku-4-5-20251001",
                 max_tokens=150,
                 messages=[
-                    {{"role": "user", "content": prompt}}
+                    {"role": "user", "content": prompt}
                 ]
             )
 
