@@ -1,46 +1,17 @@
-============================================================
-Starting O'Dwyer Capital Article Analyzer...
-============================================================
-
-1. Fetching articles from NewsAPI...
-Fetching articles from 2026-05-29T17:00:00Z to 2026-06-01T11:14:19.165302Z
-Fetched 185 articles
-
-2. Categorizing articles...
-   energy-transition: 31 articles
-   emerging-tech: 152 articles
-   materials: 2 articles
-
-3. Creating analytical briefs...
-   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Skipped emerging-tech: No new themes since last brief
-   Skipped materials: No new themes since last brief
-
-4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
-
-5. Generating dated HTML files...
-Generated: energy-transition-2026-06-01.html
-Generated: emerging-tech-2026-06-01.html
-Generated: materials-2026-06-01.html
-
-============================================================
-PUBLICATION COMPLETE
-============================================================
-Articles fetched: 185
-Briefs created: 1
-HTML files: energy-transition-2026-06-01.html, emerging-tech-2026-06-01.html, materials-2026-06-01.html
-
-=== SUMMARY ===
-{
-  "articles_fetched": 185,
-  "briefs_created": 1,
-  "html_files_created": 3,
-  "files": [
-    "energy-transition-2026-06-01.html",
-    "emerging-tech-2026-06-01.html",
-    "materials-2026-06-01.html"
-  ],
-  "publication_date": "2026-06-01T11:14:20.027596",
-  "status": "success"
-}
+Traceback (most recent call last):
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 495, in <module>
+    main()
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 488, in main
+    analyzer = ArticleAnalyzer()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 20, in __init__
+    self.claude_client = Anthropic(api_key=self.anthropic_key) if self.anthropic_key else None
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/anthropic/_client.py", line 121, in __init__
+    super().__init__(
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/anthropic/_base_client.py", line 825, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/anthropic/_base_client.py", line 723, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
