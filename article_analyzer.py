@@ -380,8 +380,12 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
             print(f"Error writing articles_data.json: {e}")
             return None
 
-    def generate_html_files(self) -> List[str]:
-        """Copy template HTML files with dated names"""
+    def generate_html_files(self, brief_slugs: List[str] = None) -> List[str]:
+        """Copy template HTML files with dated names - ONLY for categories with new briefs"""
+        if not brief_slugs:
+            # No new briefs created, don't generate any HTML files
+            return []
+
         generated_files = []
         today = datetime.now().strftime("%Y-%m-%d")
 
@@ -393,7 +397,12 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
 
         base_path = os.path.dirname(__file__)
 
-        for slug, template_file in template_map.items():
+        # Only generate HTML for categories that had new briefs
+        for slug in brief_slugs:
+            if slug not in template_map:
+                continue
+
+            template_file = template_map[slug]
             src_path = os.path.join(base_path, template_file)
             dst_file = f"{slug}-{today}.html"
             dst_path = os.path.join(base_path, dst_file)
@@ -461,9 +470,10 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
         print("\n4. Updating articles_data.json...")
         json_path = self.update_articles_json(briefs)
 
-        # Generate dated HTML files
+        # Generate dated HTML files ONLY for categories with new briefs
         print("\n5. Generating dated HTML files...")
-        html_files = self.generate_html_files()
+        brief_slugs = [brief['slug'] for brief in briefs]
+        html_files = self.generate_html_files(brief_slugs)
 
         summary = {
             'articles_fetched': len(articles),
