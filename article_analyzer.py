@@ -265,10 +265,17 @@ class ArticleAnalyzer:
 
         # Categorize articles
         print("\n2. Categorizing articles...")
-        categorized = {'Energy': [], 'Technology': [], 'Innovation': []}
+        categorized = {'energy-transition': [], 'emerging-tech': [], 'materials': []}
+
         for article in articles:
             category = self.categorize_article(article)
-            categorized[category].append(article)
+            # Map Energy to energy-transition, Technology to emerging-tech, Innovation to materials
+            if category == 'Energy':
+                categorized['energy-transition'].append(article)
+            elif category == 'Technology':
+                categorized['emerging-tech'].append(article)
+            elif category == 'Innovation':
+                categorized['materials'].append(article)
 
         for cat, arts in categorized.items():
             print(f"   {cat}: {len(arts)} articles")
@@ -276,9 +283,12 @@ class ArticleAnalyzer:
         # Create briefs
         print("\n3. Creating analytical briefs...")
         briefs = []
+        category_names = {'energy-transition': 'Energy', 'emerging-tech': 'Technology', 'materials': 'Innovation'}
         for category, articles_list in categorized.items():
-            brief = self.create_brief(category, articles_list)
+            brief = self.create_brief(category_names[category], articles_list)
             if brief:
+                # Override slug with template-matching slug
+                brief['slug'] = category
                 briefs.append(brief)
                 print(f"   Created brief: {brief['title']}")
 
