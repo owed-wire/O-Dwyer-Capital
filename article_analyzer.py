@@ -359,10 +359,16 @@ class ArticleAnalyzer:
         for category, articles_list in categorized.items():
             brief = self.create_brief(category_names[category], articles_list)
             if brief:
-                # Override slug with template-matching slug
-                brief['slug'] = category
-                briefs.append(brief)
-                print(f"   Created brief: {brief['title']}")
+                # Only publish if there are NEW or ACCELERATING themes
+                has_new_content = (brief['trend_analysis']['new_themes'] or
+                                  brief['trend_analysis']['accelerating_themes'])
+                if has_new_content:
+                    # Override slug with template-matching slug
+                    brief['slug'] = category
+                    briefs.append(brief)
+                    print(f"   Created brief: {brief['title']} (NEW/ACCELERATING themes found)")
+                else:
+                    print(f"   Skipped {category}: No new themes since last brief")
 
         # Update JSON
         print("\n4. Updating articles_data.json...")
