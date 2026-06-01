@@ -175,7 +175,7 @@ class ArticleAnalyzer:
 
         return summaries.get(category, summaries['Innovation'])
 
-    def analyze_historical_trends(self, category: str, current_themes: List[str]) -> Dict:
+    def h(self, category_slug: str, current_themes: List[str]) -> Dict:
         """Analyze trends from historical briefs in this category"""
         historical_themes = {}
         category_briefs = [b for b in self.existing_articles if category.lower() in b.get('slug', '').lower()]
@@ -212,8 +212,11 @@ class ArticleAnalyzer:
         current_themes = self.extract_key_themes(titles)
 
         # Analyze historical trends
-        trend_analysis = self.analyze_historical_trends(category, current_themes)
+        trend_analysis = self.analyze_historical_trends(category_slug, current_themes)
 
+                # Map category name to slug for trend analysis
+                category_slug_map = {'Energy': 'energy-transition', 'Technology': 'emerging-tech', 'Innovation': 'materials'}
+                category_slug = category_slug_map.get(category, category.lower().replace(' ', '-'))hanalyze_historical_trends(category, current_themes)    
         # Generate professional excerpt based on actual themes
         excerpt = self.generate_professional_excerpt(category, titles)
 
