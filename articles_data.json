@@ -3,6 +3,77 @@
     "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
+    "date": "June 02, 2026",
+    "excerpt": "AI infrastructure costs are reaching critical inflection points, with reported monthly expenditures exceeding $500 million for enterprise Claude deployments, while European data center investment accelerates with SoftBank's \u20ac75 billion commitment to support large-scale AI compute capacity. Concurrently, electrification adoption is gaining momentum in mobility, reflected in consumer cost-benefit analyses favoring electric alternatives as fuel prices sustain elevated levels above $4 per gallon.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "electrification"
+    ],
+    "investment_relevance": "high",
+    "article_count": 142,
+    "primary_sources": [
+      "Business Insider",
+      "Windows Central",
+      "CNET"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "electrification"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 2 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, electrification"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 02, 2026",
+    "excerpt": "Geopolitical tensions in the Middle East are accelerating Gulf state capital reallocation toward renewable energy infrastructure, with multi-billion-dollar commitments now underway. Concurrently, European grid modernization continues to attract significant financing activity, as evidenced by sector consolidation including HDM Renewable Finance's rebrand to Maxwell Power.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "power grid",
+      "renewable energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 50,
+    "primary_sources": [
+      "Forbes",
+      "PRNewswire",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "power grid"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 3 historical briefs"
+    },
+    "trend_context": [
+      "New developments: power grid"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
     "date": "June 01, 2026",
     "excerpt": "AI infrastructure demands are straining data center economics, forcing enterprise software vendors to restructure pricing models as compute costs escalate; Snowflake's recent earnings suggest cloud platforms adopting consumption-based or tiered approaches are capturing AI workload spending more effectively than legacy licensing structures.",
     "tags": [
