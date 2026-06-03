@@ -3,45 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-01T08:00:00Z to 2026-06-02T17:52:12.520212Z
-Fetched 196 articles
+Fetching articles from 2026-06-02T08:00:00Z to 2026-06-03T18:07:29.213964Z
+Fetched 186 articles
 
 2. Categorizing articles...
-   energy-transition: 50 articles
-   emerging-tech: 142 articles
-   materials: 4 articles
+   energy-transition: 40 articles
+   emerging-tech: 145 articles
+   materials: 1 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Geopolitical tensions in the Middle East are accelerating Gulf state capital reallocation toward renewable energy infrastructure, with multi-billion-dollar commitments now underway. Concurrently, European grid modernization continues to attract significant financing activity, as evidenced by sector consolidation including HDM Renewable Finance's rebrand to Maxwell Power.
+   Generated AI excerpt: Australia's renewable energy storage market is attracting capital partnerships, with Recharge Power and Energy Decarb launching a joint venture targeting the country's photovoltaic and battery energy storage systems (BESS) sector. Utility-scale solar deployment continues expanding globally, evidenced by commissioning of 105 MWp plants in India and new large-scale facilities in Texas, alongside infrastructure development like India's Green Energy Corridor-II for power evacuation.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: AI infrastructure costs are reaching critical inflection points, with reported monthly expenditures exceeding $500 million for enterprise Claude deployments, while European data center investment accelerates with SoftBank's €75 billion commitment to support large-scale AI compute capacity. Concurrently, electrification adoption is gaining momentum in mobility, reflected in consumer cost-benefit analyses favoring electric alternatives as fuel prices sustain elevated levels above $4 per gallon.
-   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: The robotics and processor technology sectors are seeing accelerated commercialization, with companies like PUDU Robotics advancing industrial semi-humanoid platforms while semiconductor partners including Axiomtek deploy next-generation compute modules powered by Intel's latest Core Ultra architecture. Consolidation in industrial supply chains is concurrent, as evidenced by Nexans' acquisition of Republic Wire, signaling strategic vertical integration among tier-one manufacturers.
+   Generated AI excerpt: Ohio's suspension of data center tax incentives, following a $1.5 billion revenue loss, signals tightening fiscal discipline around large infrastructure subsidies despite grandfathering existing projects. Meanwhile, healthcare technology faces headwinds as UnitedHealth confronts Medicare reimbursement pressure and Fiserv contends with competitive threats from Clover's expansion in the primary care fintech space.
+   Skipped emerging-tech: No new themes since last brief
+   Generated AI excerpt: Canada's cloud infrastructure market faces structural inefficiencies that are constraining adoption and competitive positioning relative to U.S. counterparts. The fragmented vendor landscape and pricing disparities have prompted industry stakeholders to call for systemic reforms to unlock growth in the sector.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-02.html
-Generated: emerging-tech-2026-06-02.html
+Generated: energy-transition-2026-06-03.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 196
-Briefs created: 2
-HTML files: energy-transition-2026-06-02.html, emerging-tech-2026-06-02.html
+Articles fetched: 186
+Briefs created: 1
+HTML files: energy-transition-2026-06-03.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 196,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 186,
+  "briefs_created": 1,
+  "html_files_created": 1,
   "files": [
-    "energy-transition-2026-06-02.html",
-    "emerging-tech-2026-06-02.html"
+    "energy-transition-2026-06-03.html"
   ],
-  "publication_date": "2026-06-02T17:52:19.079311",
+  "publication_date": "2026-06-03T18:07:35.632882",
   "status": "success"
 }

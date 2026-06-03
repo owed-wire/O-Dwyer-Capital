@@ -1,6 +1,39 @@
 [
   {
     "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 03, 2026",
+    "excerpt": "Australia's renewable energy storage market is attracting capital partnerships, with Recharge Power and Energy Decarb launching a joint venture targeting the country's photovoltaic and battery energy storage systems (BESS) sector. Utility-scale solar deployment continues expanding globally, evidenced by commissioning of 105 MWp plants in India and new large-scale facilities in Texas, alongside infrastructure development like India's Green Energy Corridor-II for power evacuation.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 40,
+    "primary_sources": [
+      "CleanTechnica",
+      "autosport.com",
+      "The Gadgeteer"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 4 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
     "date": "June 02, 2026",
