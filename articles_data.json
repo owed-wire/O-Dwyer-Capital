@@ -3,6 +3,45 @@
     "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
+    "date": "June 04, 2026",
+    "excerpt": "Indian renewable energy manufacturer Suzlon plans \u20b92,500 crore in capital investment through FY31 to scale battery energy storage systems (BESS) capacity to 4 GW while targeting 10 GW in renewable energy sales and 3 GW in exports. Meanwhile, U.S.-based energy storage developer esVolta secured an upsized corporate credit facility to expand its portfolio, reflecting accelerating institutional capital deployment into grid-scale storage solutions driven by AI-driven demand for data center power and grid stabilization needs.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 34,
+    "primary_sources": [
+      "Al Jazeera English",
+      "BBC News",
+      "Android Authority"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 5 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
     "date": "June 03, 2026",
     "excerpt": "Australia's renewable energy storage market is attracting capital partnerships, with Recharge Power and Energy Decarb launching a joint venture targeting the country's photovoltaic and battery energy storage systems (BESS) sector. Utility-scale solar deployment continues expanding globally, evidenced by commissioning of 105 MWp plants in India and new large-scale facilities in Texas, alongside infrastructure development like India's Green Energy Corridor-II for power evacuation.",
     "tags": [
