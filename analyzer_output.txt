@@ -3,43 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-03T08:00:00Z to 2026-06-04T16:31:26.899584Z
-Fetched 182 articles
+Fetching articles from 2026-06-04T08:00:00Z to 2026-06-05T16:10:59.850881Z
+Fetched 185 articles
 
 2. Categorizing articles...
-   energy-transition: 34 articles
-   emerging-tech: 143 articles
-   materials: 5 articles
+   energy-transition: 39 articles
+   emerging-tech: 145 articles
+   materials: 1 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Indian renewable energy manufacturer Suzlon plans ₹2,500 crore in capital investment through FY31 to scale battery energy storage systems (BESS) capacity to 4 GW while targeting 10 GW in renewable energy sales and 3 GW in exports. Meanwhile, U.S.-based energy storage developer esVolta secured an upsized corporate credit facility to expand its portfolio, reflecting accelerating institutional capital deployment into grid-scale storage solutions driven by AI-driven demand for data center power and grid stabilization needs.
+   Generated AI excerpt: AI-driven optimization in energy infrastructure is accelerating demand for critical metals, with lithium, copper, and silver emerging as essential commodities for both EV transition and grid modernization. Major producers like Rio Tinto are positioning for sustained growth as AI applications in energy management and renewable infrastructure require significant mineral inputs, while regional energy security challenges—particularly in oil-dependent economies—are redirecting capital toward metal-intensive clean energy solutions.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Electric aviation is emerging as a viable commercial pathway, with the first electric plane now operational, signaling accelerating electrification across transportation sectors beyond automotive and establishing new capital requirements for specialized battery and propulsion technologies.
-   Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Lithium supply concentration remains a geopolitical vulnerability, with three countries controlling the market while new extraction technologies emerge to diversify sourcing. Meanwhile, manufacturing recovery is accelerating across industrial demand and freight, with concurrent capital deployment in infrastructure assets—JSW Steel's $20 billion India commitment and regional expansion plays like Barkman Concrete signal confidence in multi-year demand cycles.
+   Generated AI excerpt: Google's leadership signaled a strategic shift toward AI-driven search interfaces, potentially disrupting the traditional search market while intensifying competition in conversational AI applications. This development reflects broader enterprise momentum toward generative AI integration, though execution risks remain around user adoption and monetization models for AI-native search experiences.
+   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: The U.S. rare earth supply chain is experiencing significant restructuring as domestic production initiatives aim to reduce dependence on Chinese suppliers, which currently control approximately 85% of global rare earth processing. Strategic investments in domestic refining and separation capacity could establish a new competitive advantage in critical mineral supply chains essential for semiconductor, defense, and renewable energy manufacturing.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-04.html
+Generated: energy-transition-2026-06-05.html
+Generated: emerging-tech-2026-06-05.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 182
-Briefs created: 1
-HTML files: energy-transition-2026-06-04.html
+Articles fetched: 185
+Briefs created: 2
+HTML files: energy-transition-2026-06-05.html, emerging-tech-2026-06-05.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 182,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 185,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-06-04.html"
+    "energy-transition-2026-06-05.html",
+    "emerging-tech-2026-06-05.html"
   ],
-  "publication_date": "2026-06-04T16:31:32.700073",
+  "publication_date": "2026-06-05T16:11:05.186211",
   "status": "success"
 }

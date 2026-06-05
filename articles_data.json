@@ -1,6 +1,71 @@
 [
   {
     "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
+    "date": "June 05, 2026",
+    "excerpt": "Google's leadership signaled a strategic shift toward AI-driven search interfaces, potentially disrupting the traditional search market while intensifying competition in conversational AI applications. This development reflects broader enterprise momentum toward generative AI integration, though execution risks remain around user adoption and monetization models for AI-native search experiences.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 145,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Ritholtz.com",
+      "Gizmodo.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 3 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 05, 2026",
+    "excerpt": "AI-driven optimization in energy infrastructure is accelerating demand for critical metals, with lithium, copper, and silver emerging as essential commodities for both EV transition and grid modernization. Major producers like Rio Tinto are positioning for sustained growth as AI applications in energy management and renewable infrastructure require significant mineral inputs, while regional energy security challenges\u2014particularly in oil-dependent economies\u2014are redirecting capital toward metal-intensive clean energy solutions.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 39,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "DW (English)"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 6 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "June 04, 2026",
