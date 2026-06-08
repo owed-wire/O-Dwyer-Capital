@@ -1,6 +1,41 @@
 [
   {
     "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 08, 2026",
+    "excerpt": "The Trump administration's cancellation of wind energy projects has triggered significant business disruption in the renewable sector, while AI applications continue to reshape wind farm optimization and grid management capabilities across the industry.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 40,
+    "primary_sources": [
+      "Al Jazeera English",
+      "The Indian Express",
+      "Canonrumors.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 7 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, wind energy"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
     "date": "June 05, 2026",
