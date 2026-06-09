@@ -1,6 +1,72 @@
 [
   {
     "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
+    "date": "June 09, 2026",
+    "excerpt": "Enterprise AI adoption faces a critical ROI inflection point as organizations struggle to move beyond infrastructure investments into tangible business value, while competing narratives around AI's labor displacement impact\u2014from superintelligence claims to agent autonomy frameworks\u2014reflect underlying uncertainty about near-term commercialization outcomes.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 146,
+    "primary_sources": [
+      "The Verge",
+      "Android Police",
+      "Windows Central"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 4 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 09, 2026",
+    "excerpt": "Battery storage capacity deployment is accelerating with major manufacturers including Panasonic committing to US production by fiscal 2028, while solar equipment providers like Canadian Solar navigate near-term valuation pressures amid broader energy transition momentum. Institutional capital flows remain supportive, as evidenced by Legal & General's continued backing of the sector despite near-term volatility in energy infrastructure equities.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy",
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 37,
+    "primary_sources": [
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy",
+        "battery technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 8 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy, battery technology"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "June 08, 2026",

@@ -3,41 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-05T17:00:00Z to 2026-06-08T16:55:35.529825Z
-Fetched 190 articles
+Fetching articles from 2026-06-08T08:00:00Z to 2026-06-09T16:15:41.889613Z
+Fetched 186 articles
 
 2. Categorizing articles...
-   energy-transition: 40 articles
-   emerging-tech: 150 articles
-   materials: 0 articles
+   energy-transition: 37 articles
+   emerging-tech: 146 articles
+   materials: 3 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: The Trump administration's cancellation of wind energy projects has triggered significant business disruption in the renewable sector, while AI applications continue to reshape wind farm optimization and grid management capabilities across the industry.
+   Generated AI excerpt: Battery storage capacity deployment is accelerating with major manufacturers including Panasonic committing to US production by fiscal 2028, while solar equipment providers like Canadian Solar navigate near-term valuation pressures amid broader energy transition momentum. Institutional capital flows remain supportive, as evidenced by Legal & General's continued backing of the sector despite near-term volatility in energy infrastructure equities.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Apple's WWDC 2026 will introduce Gemini-powered Siri and iOS 27, signaling intensified competition in AI-integrated mobile operating systems as major tech platforms converge on agentic AI capabilities. The foldable smartphone market continues to mature with new flagship releases from Motorola and Samsung, indicating sustained consumer demand and technological refinement in the flexible display segment.
-   Skipped emerging-tech: No new themes since last brief
+   Generated AI excerpt: Enterprise AI adoption faces a critical ROI inflection point as organizations struggle to move beyond infrastructure investments into tangible business value, while competing narratives around AI's labor displacement impact—from superintelligence claims to agent autonomy frameworks—reflect underlying uncertainty about near-term commercialization outcomes.
+   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Japan's chemical sector faces supply chain pressures amid global competition, while specialized manufacturers like Shinsung Materials expand in high-performance personal care ingredients. Emerging biometric authentication technologies, including vein-recognition systems, represent new growth vectors in security and identity verification applications.
+   Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-08.html
+Generated: energy-transition-2026-06-09.html
+Generated: emerging-tech-2026-06-09.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 190
-Briefs created: 1
-HTML files: energy-transition-2026-06-08.html
+Articles fetched: 186
+Briefs created: 2
+HTML files: energy-transition-2026-06-09.html, emerging-tech-2026-06-09.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 190,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 186,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-06-08.html"
+    "energy-transition-2026-06-09.html",
+    "emerging-tech-2026-06-09.html"
   ],
-  "publication_date": "2026-06-08T16:55:39.323551",
+  "publication_date": "2026-06-09T16:15:48.274828",
   "status": "success"
 }
