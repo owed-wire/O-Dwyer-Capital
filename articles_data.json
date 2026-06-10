@@ -3,6 +3,78 @@
     "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
+    "date": "June 10, 2026",
+    "excerpt": "I cannot generate an excerpt for this request. The provided articles do not contain substantive information about artificial intelligence market trends, growth metrics, or technology developments. The articles instead focus on geopolitical commodity trade, political rhetoric, and business personalities\u2014none of which support a credible Technology/AI briefing excerpt for investment professionals.\n\nTo create an appropriate summary, please provide articles directly addressing AI market developments, adoption rates, investment flows, or technological advances.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 141,
+    "primary_sources": [
+      "Grist",
+      "ProPublica",
+      "RT"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 5 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 10, 2026",
+    "excerpt": "Global energy storage deployment is accelerating as AI workloads drive unprecedented electricity demand, with data centers now representing the fastest-growing power consumption segment. The convergence of grid-scale battery capacity expansion and AI infrastructure buildout is creating integrated storage-compute value chains that command premium valuations in enterprise technology financing.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 44,
+    "primary_sources": [
+      "TechRadar",
+      "iLounge",
+      "Project Syndicate"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 9 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
     "date": "June 09, 2026",
     "excerpt": "Enterprise AI adoption faces a critical ROI inflection point as organizations struggle to move beyond infrastructure investments into tangible business value, while competing narratives around AI's labor displacement impact\u2014from superintelligence claims to agent autonomy frameworks\u2014reflect underlying uncertainty about near-term commercialization outcomes.",
     "tags": [

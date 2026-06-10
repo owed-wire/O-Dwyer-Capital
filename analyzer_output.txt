@@ -3,35 +3,37 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-08T08:00:00Z to 2026-06-09T16:15:41.889613Z
+Fetching articles from 2026-06-09T08:00:00Z to 2026-06-10T16:46:04.321580Z
 Fetched 186 articles
 
 2. Categorizing articles...
-   energy-transition: 37 articles
-   emerging-tech: 146 articles
-   materials: 3 articles
+   energy-transition: 44 articles
+   emerging-tech: 141 articles
+   materials: 1 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Battery storage capacity deployment is accelerating with major manufacturers including Panasonic committing to US production by fiscal 2028, while solar equipment providers like Canadian Solar navigate near-term valuation pressures amid broader energy transition momentum. Institutional capital flows remain supportive, as evidenced by Legal & General's continued backing of the sector despite near-term volatility in energy infrastructure equities.
+   Generated AI excerpt: Global energy storage deployment is accelerating as AI workloads drive unprecedented electricity demand, with data centers now representing the fastest-growing power consumption segment. The convergence of grid-scale battery capacity expansion and AI infrastructure buildout is creating integrated storage-compute value chains that command premium valuations in enterprise technology financing.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Enterprise AI adoption faces a critical ROI inflection point as organizations struggle to move beyond infrastructure investments into tangible business value, while competing narratives around AI's labor displacement impact—from superintelligence claims to agent autonomy frameworks—reflect underlying uncertainty about near-term commercialization outcomes.
+   Generated AI excerpt: I cannot generate an excerpt for this request. The provided articles do not contain substantive information about artificial intelligence market trends, growth metrics, or technology developments. The articles instead focus on geopolitical commodity trade, political rhetoric, and business personalities—none of which support a credible Technology/AI briefing excerpt for investment professionals.
+
+To create an appropriate summary, please provide articles directly addressing AI market developments, adoption rates, investment flows, or technological advances.
    Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Japan's chemical sector faces supply chain pressures amid global competition, while specialized manufacturers like Shinsung Materials expand in high-performance personal care ingredients. Emerging biometric authentication technologies, including vein-recognition systems, represent new growth vectors in security and identity verification applications.
+   Generated AI excerpt: I don't have access to the article content about Applied Materials' cash dividend announcement. To generate an accurate, factual excerpt with specific market trends and concrete details as requested, I would need the article text itself. Could you provide the article content or key details from the announcement?
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-09.html
-Generated: emerging-tech-2026-06-09.html
+Generated: energy-transition-2026-06-10.html
+Generated: emerging-tech-2026-06-10.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
 Articles fetched: 186
 Briefs created: 2
-HTML files: energy-transition-2026-06-09.html, emerging-tech-2026-06-09.html
+HTML files: energy-transition-2026-06-10.html, emerging-tech-2026-06-10.html
 
 === SUMMARY ===
 {
@@ -39,9 +41,9 @@ HTML files: energy-transition-2026-06-09.html, emerging-tech-2026-06-09.html
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-06-09.html",
-    "emerging-tech-2026-06-09.html"
+    "energy-transition-2026-06-10.html",
+    "emerging-tech-2026-06-10.html"
   ],
-  "publication_date": "2026-06-09T16:15:48.274828",
+  "publication_date": "2026-06-10T16:46:11.574082",
   "status": "success"
 }
