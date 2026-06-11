@@ -1,6 +1,47 @@
 [
   {
     "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 11, 2026",
+    "excerpt": "AI-driven solar tracking systems are gaining market prominence, with GameChange Energy ranked #2 globally by Wood Mackenzie, while strategic partnerships like Mitsubishi HC Capital and Brookfield's renewable venture signal accelerating capital deployment into solar and broader clean energy infrastructure across emerging markets.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "renewable energy",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 34,
+    "primary_sources": [
+      "Power Technology",
+      "InfoQ.com",
+      "Hurriyet Daily News"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 10 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, solar energy",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
     "date": "June 10, 2026",

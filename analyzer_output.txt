@@ -3,47 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-09T08:00:00Z to 2026-06-10T16:46:04.321580Z
-Fetched 186 articles
+Fetching articles from 2026-06-10T08:00:00Z to 2026-06-11T17:04:28.133367Z
+Fetched 194 articles
 
 2. Categorizing articles...
-   energy-transition: 44 articles
-   emerging-tech: 141 articles
-   materials: 1 articles
+   energy-transition: 34 articles
+   emerging-tech: 156 articles
+   materials: 4 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Global energy storage deployment is accelerating as AI workloads drive unprecedented electricity demand, with data centers now representing the fastest-growing power consumption segment. The convergence of grid-scale battery capacity expansion and AI infrastructure buildout is creating integrated storage-compute value chains that command premium valuations in enterprise technology financing.
+   Generated AI excerpt: AI-driven solar tracking systems are gaining market prominence, with GameChange Energy ranked #2 globally by Wood Mackenzie, while strategic partnerships like Mitsubishi HC Capital and Brookfield's renewable venture signal accelerating capital deployment into solar and broader clean energy infrastructure across emerging markets.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: I cannot generate an excerpt for this request. The provided articles do not contain substantive information about artificial intelligence market trends, growth metrics, or technology developments. The articles instead focus on geopolitical commodity trade, political rhetoric, and business personalities—none of which support a credible Technology/AI briefing excerpt for investment professionals.
-
-To create an appropriate summary, please provide articles directly addressing AI market developments, adoption rates, investment flows, or technological advances.
-   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: I don't have access to the article content about Applied Materials' cash dividend announcement. To generate an accurate, factual excerpt with specific market trends and concrete details as requested, I would need the article text itself. Could you provide the article content or key details from the announcement?
+   Generated AI excerpt: AI monetization challenges continue to pressure enterprise software valuations, as evidenced by Microsoft's Q1 performance where revenue realization timelines for AI-integrated products faced investor scrutiny despite broader AI infrastructure investment momentum.
+   Skipped emerging-tech: No new themes since last brief
+   Generated AI excerpt: GPD's entry into the mini PC market is capturing investor attention as compact computing devices gain traction in portable workstation applications. Meanwhile, Vivakor's Houston remediation facility—targeting commercial operations in Q3 2026—represents infrastructure investment in environmental processing technology, signaling sector maturation beyond early-stage development.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-10.html
-Generated: emerging-tech-2026-06-10.html
+Generated: energy-transition-2026-06-11.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 186
-Briefs created: 2
-HTML files: energy-transition-2026-06-10.html, emerging-tech-2026-06-10.html
+Articles fetched: 194
+Briefs created: 1
+HTML files: energy-transition-2026-06-11.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 186,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 194,
+  "briefs_created": 1,
+  "html_files_created": 1,
   "files": [
-    "energy-transition-2026-06-10.html",
-    "emerging-tech-2026-06-10.html"
+    "energy-transition-2026-06-11.html"
   ],
-  "publication_date": "2026-06-10T16:46:11.574082",
+  "publication_date": "2026-06-11T17:04:34.100065",
   "status": "success"
 }
