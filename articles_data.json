@@ -1,6 +1,79 @@
 [
   {
     "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
+    "date": "June 12, 2026",
+    "excerpt": "SpaceX is positioning itself for a record-breaking IPO that could significantly reshape the commercial space sector's valuation landscape. Concurrently, the AI ecosystem continues fragmenting with alternatives like /e/OS 4.0 gaining traction as privacy-conscious users seek to reduce dependency on dominant tech platforms.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 155,
+    "primary_sources": [
+      "Yanko Design",
+      "NPR",
+      "Salon"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology"
+      ],
+      "ongoing_themes": [
+        "artificial intelligence"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 6 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 12, 2026",
+    "excerpt": "Grid-scale battery energy storage systems (BESS) are emerging as critical infrastructure assets, with late-stage projects like Renewable America's 31 MWh facility attracting strategic buyers amid accelerating renewable integration demands. China's advancement of grid-forming renewable technologies and geopolitical competition over energy dominance underscore the sector's shift toward AI-optimized grid management and battery stability solutions to address intermittency challenges.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "battery technology",
+      "power grid"
+    ],
+    "investment_relevance": "high",
+    "article_count": 22,
+    "primary_sources": [
+      "TheStreet",
+      "The Conversation Africa",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "battery technology",
+        "power grid"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 11 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, battery technology, power grid"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "June 11, 2026",

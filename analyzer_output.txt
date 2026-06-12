@@ -3,43 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-10T08:00:00Z to 2026-06-11T17:04:28.133367Z
-Fetched 194 articles
+Fetching articles from 2026-06-11T08:00:00Z to 2026-06-12T16:29:42.421810Z
+Fetched 180 articles
 
 2. Categorizing articles...
-   energy-transition: 34 articles
-   emerging-tech: 156 articles
-   materials: 4 articles
+   energy-transition: 22 articles
+   emerging-tech: 155 articles
+   materials: 3 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: AI-driven solar tracking systems are gaining market prominence, with GameChange Energy ranked #2 globally by Wood Mackenzie, while strategic partnerships like Mitsubishi HC Capital and Brookfield's renewable venture signal accelerating capital deployment into solar and broader clean energy infrastructure across emerging markets.
+   Generated AI excerpt: Grid-scale battery energy storage systems (BESS) are emerging as critical infrastructure assets, with late-stage projects like Renewable America's 31 MWh facility attracting strategic buyers amid accelerating renewable integration demands. China's advancement of grid-forming renewable technologies and geopolitical competition over energy dominance underscore the sector's shift toward AI-optimized grid management and battery stability solutions to address intermittency challenges.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: AI monetization challenges continue to pressure enterprise software valuations, as evidenced by Microsoft's Q1 performance where revenue realization timelines for AI-integrated products faced investor scrutiny despite broader AI infrastructure investment momentum.
-   Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: GPD's entry into the mini PC market is capturing investor attention as compact computing devices gain traction in portable workstation applications. Meanwhile, Vivakor's Houston remediation facility—targeting commercial operations in Q3 2026—represents infrastructure investment in environmental processing technology, signaling sector maturation beyond early-stage development.
+   Generated AI excerpt: SpaceX is positioning itself for a record-breaking IPO that could significantly reshape the commercial space sector's valuation landscape. Concurrently, the AI ecosystem continues fragmenting with alternatives like /e/OS 4.0 gaining traction as privacy-conscious users seek to reduce dependency on dominant tech platforms.
+   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Applied Materials' recent earnings mark a clear inflection in semiconductor capital equipment demand, while passage of the U.S. Dominance Act creates new equity investment and offtake mechanisms for critical minerals processing—positioning domestic producers like those in nickel-iron-cobalt alloys to capture value from reshored supply chains. Strategic additions to large-cap portfolios, including materials suppliers, reflect investor confidence in sustained infrastructure and technology spending cycles.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-11.html
+Generated: energy-transition-2026-06-12.html
+Generated: emerging-tech-2026-06-12.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 194
-Briefs created: 1
-HTML files: energy-transition-2026-06-11.html
+Articles fetched: 180
+Briefs created: 2
+HTML files: energy-transition-2026-06-12.html, emerging-tech-2026-06-12.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 194,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 180,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-06-11.html"
+    "energy-transition-2026-06-12.html",
+    "emerging-tech-2026-06-12.html"
   ],
-  "publication_date": "2026-06-11T17:04:34.100065",
+  "publication_date": "2026-06-12T16:29:48.181507",
   "status": "success"
 }
