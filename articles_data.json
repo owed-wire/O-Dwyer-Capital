@@ -3,6 +3,83 @@
     "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
+    "date": "June 15, 2026",
+    "excerpt": "SpaceX's anticipated IPO represents a potential multi-billion dollar catalyst in commercial space infrastructure, while AI-driven GPU demand continues to reshape enterprise hardware economics, with used workstations emerging as cost-efficient alternatives for compute-intensive applications. Concurrently, urban air mobility operators are targeting passenger operations within 12 months, signaling near-term commercialization across aerospace verticals.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 144,
+    "primary_sources": [
+      "Gizmodo.com",
+      "XDA Developers",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology"
+      ],
+      "ongoing_themes": [
+        "artificial intelligence"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 7 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 15, 2026",
+    "excerpt": "Utility-scale solar deployment is accelerating with players like SOLV Energy expanding portfolios beyond 4GW capacity, while vehicle-to-grid technology adoption\u2014exemplified by GM's firmware update to 250,000 EVs\u2014signals emerging demand flexibility assets. Rising power consumption and grid modernization investments are driving valuations in both renewable generation and grid-scale storage infrastructure, including emerging chemistries like sodium-ion batteries.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "power grid",
+      "renewable energy",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 42,
+    "primary_sources": [
+      "Designboom",
+      "Slashdot.org",
+      "Forbes"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "power grid",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 12 historical briefs"
+    },
+    "trend_context": [
+      "New developments: power grid, solar energy",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
     "date": "June 12, 2026",
     "excerpt": "SpaceX is positioning itself for a record-breaking IPO that could significantly reshape the commercial space sector's valuation landscape. Concurrently, the AI ecosystem continues fragmenting with alternatives like /e/OS 4.0 gaining traction as privacy-conscious users seek to reduce dependency on dominant tech platforms.",
     "tags": [

@@ -3,45 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-11T08:00:00Z to 2026-06-12T16:29:42.421810Z
-Fetched 180 articles
+Fetching articles from 2026-06-12T17:00:00Z to 2026-06-15T18:06:04.794339Z
+Fetched 188 articles
 
 2. Categorizing articles...
-   energy-transition: 22 articles
-   emerging-tech: 155 articles
-   materials: 3 articles
+   energy-transition: 42 articles
+   emerging-tech: 144 articles
+   materials: 2 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Grid-scale battery energy storage systems (BESS) are emerging as critical infrastructure assets, with late-stage projects like Renewable America's 31 MWh facility attracting strategic buyers amid accelerating renewable integration demands. China's advancement of grid-forming renewable technologies and geopolitical competition over energy dominance underscore the sector's shift toward AI-optimized grid management and battery stability solutions to address intermittency challenges.
+   Generated AI excerpt: Utility-scale solar deployment is accelerating with players like SOLV Energy expanding portfolios beyond 4GW capacity, while vehicle-to-grid technology adoption—exemplified by GM's firmware update to 250,000 EVs—signals emerging demand flexibility assets. Rising power consumption and grid modernization investments are driving valuations in both renewable generation and grid-scale storage infrastructure, including emerging chemistries like sodium-ion batteries.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: SpaceX is positioning itself for a record-breaking IPO that could significantly reshape the commercial space sector's valuation landscape. Concurrently, the AI ecosystem continues fragmenting with alternatives like /e/OS 4.0 gaining traction as privacy-conscious users seek to reduce dependency on dominant tech platforms.
+   Generated AI excerpt: SpaceX's anticipated IPO represents a potential multi-billion dollar catalyst in commercial space infrastructure, while AI-driven GPU demand continues to reshape enterprise hardware economics, with used workstations emerging as cost-efficient alternatives for compute-intensive applications. Concurrently, urban air mobility operators are targeting passenger operations within 12 months, signaling near-term commercialization across aerospace verticals.
    Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Applied Materials' recent earnings mark a clear inflection in semiconductor capital equipment demand, while passage of the U.S. Dominance Act creates new equity investment and offtake mechanisms for critical minerals processing—positioning domestic producers like those in nickel-iron-cobalt alloys to capture value from reshored supply chains. Strategic additions to large-cap portfolios, including materials suppliers, reflect investor confidence in sustained infrastructure and technology spending cycles.
+   Generated AI excerpt: Software and technology equity momentum indices have significantly outperformed broad market benchmarks, with SETM gaining 27% year-to-date and 150% annually, while cryptocurrency assets face renewed pressure from equity market volatility, with Bitcoin testing critical support levels near $60,000.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-12.html
-Generated: emerging-tech-2026-06-12.html
+Generated: energy-transition-2026-06-15.html
+Generated: emerging-tech-2026-06-15.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 180
+Articles fetched: 188
 Briefs created: 2
-HTML files: energy-transition-2026-06-12.html, emerging-tech-2026-06-12.html
+HTML files: energy-transition-2026-06-15.html, emerging-tech-2026-06-15.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 180,
+  "articles_fetched": 188,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-06-12.html",
-    "emerging-tech-2026-06-12.html"
+    "energy-transition-2026-06-15.html",
+    "emerging-tech-2026-06-15.html"
   ],
-  "publication_date": "2026-06-12T16:29:48.181507",
+  "publication_date": "2026-06-15T18:06:10.093091",
   "status": "success"
 }
