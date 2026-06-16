@@ -3,45 +3,20 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-12T17:00:00Z to 2026-06-15T18:06:04.794339Z
-Fetched 188 articles
+Fetching articles from 2026-06-15T08:00:00Z to 2026-06-16T18:13:18.061582Z
+Fetched 191 articles
 
 2. Categorizing articles...
-   energy-transition: 42 articles
-   emerging-tech: 144 articles
-   materials: 2 articles
-
-3. Creating analytical briefs...
-   Generated AI excerpt: Utility-scale solar deployment is accelerating with players like SOLV Energy expanding portfolios beyond 4GW capacity, while vehicle-to-grid technology adoption—exemplified by GM's firmware update to 250,000 EVs—signals emerging demand flexibility assets. Rising power consumption and grid modernization investments are driving valuations in both renewable generation and grid-scale storage infrastructure, including emerging chemistries like sodium-ion batteries.
-   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: SpaceX's anticipated IPO represents a potential multi-billion dollar catalyst in commercial space infrastructure, while AI-driven GPU demand continues to reshape enterprise hardware economics, with used workstations emerging as cost-efficient alternatives for compute-intensive applications. Concurrently, urban air mobility operators are targeting passenger operations within 12 months, signaling near-term commercialization across aerospace verticals.
-   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Software and technology equity momentum indices have significantly outperformed broad market benchmarks, with SETM gaining 27% year-to-date and 150% annually, while cryptocurrency assets face renewed pressure from equity market volatility, with Bitcoin testing critical support levels near $60,000.
-   Skipped materials: No new themes since last brief
-
-4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
-
-5. Generating dated HTML files...
-Generated: energy-transition-2026-06-15.html
-Generated: emerging-tech-2026-06-15.html
-
-============================================================
-PUBLICATION COMPLETE
-============================================================
-Articles fetched: 188
-Briefs created: 2
-HTML files: energy-transition-2026-06-15.html, emerging-tech-2026-06-15.html
-
-=== SUMMARY ===
-{
-  "articles_fetched": 188,
-  "briefs_created": 2,
-  "html_files_created": 2,
-  "files": [
-    "energy-transition-2026-06-15.html",
-    "emerging-tech-2026-06-15.html"
-  ],
-  "publication_date": "2026-06-15T18:06:10.093091",
-  "status": "success"
-}
+Traceback (most recent call last):
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 520, in <module>
+    main()
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 514, in main
+    summary = analyzer.run()
+              ^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 455, in run
+    category = self.categorize_article(article)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 144, in categorize_article
+    article.get('description', '').lower()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
