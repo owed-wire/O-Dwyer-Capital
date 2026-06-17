@@ -1,6 +1,72 @@
 [
   {
     "id": 119,
+    "title": "Innovation Investment Brief",
+    "slug": "materials",
+    "date": "June 17, 2026",
+    "excerpt": "The AI-driven ion exchange materials market has secured $73M in investment funding, reflecting accelerating digitization within the water treatment sector. This capital influx signals growing investor confidence in AI applications for optimizing chemical treatment processes and resource efficiency in industrial water management.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 1,
+    "primary_sources": [
+      "GlobeNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 1 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 17, 2026",
+    "excerpt": "Autonomous laboratory systems are enabling continuous 24/7 scientific operations, with applications extending into energy sector optimization and resource discovery, while AI-enhanced data management platforms are improving enterprise efficiency in capital-intensive industries including oil and gas exploration and development workflows.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 43,
+    "primary_sources": [
+      "Power Technology",
+      "Ikeahackers.net",
+      "Scientific American"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 13 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology, artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
     "date": "June 15, 2026",

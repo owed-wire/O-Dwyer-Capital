@@ -3,20 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-15T08:00:00Z to 2026-06-16T18:13:18.061582Z
-Fetched 191 articles
+Fetching articles from 2026-06-16T08:00:00Z to 2026-06-17T16:45:14.871201Z
+Fetched 190 articles
 
 2. Categorizing articles...
-Traceback (most recent call last):
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 520, in <module>
-    main()
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 514, in main
-    summary = analyzer.run()
-              ^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 455, in run
-    category = self.categorize_article(article)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 144, in categorize_article
-    article.get('description', '').lower()
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'lower'
+   energy-transition: 43 articles
+   emerging-tech: 146 articles
+   materials: 1 articles
+
+3. Creating analytical briefs...
+   Generated AI excerpt: Autonomous laboratory systems are enabling continuous 24/7 scientific operations, with applications extending into energy sector optimization and resource discovery, while AI-enhanced data management platforms are improving enterprise efficiency in capital-intensive industries including oil and gas exploration and development workflows.
+   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Hyperscalers are committing to multi-year infrastructure expansions with specialized hardware vendors, signaling sustained demand for agentic AI workloads that require Arm-powered, cloud-optimized data center architectures. EU regulatory frameworks like the Turnberry trade deal are reshaping competitive dynamics in semiconductor and cloud infrastructure procurement, with implementation timelines expected to create both compliance costs and market consolidation opportunities for vendors aligned with regional standards.
+   Skipped emerging-tech: No new themes since last brief
+   Generated AI excerpt: The AI-driven ion exchange materials market has secured $73M in investment funding, reflecting accelerating digitization within the water treatment sector. This capital influx signals growing investor confidence in AI applications for optimizing chemical treatment processes and resource efficiency in industrial water management.
+   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
+
+4. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+
+5. Generating dated HTML files...
+Generated: energy-transition-2026-06-17.html
+Generated: materials-2026-06-17.html
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 190
+Briefs created: 2
+HTML files: energy-transition-2026-06-17.html, materials-2026-06-17.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 190,
+  "briefs_created": 2,
+  "html_files_created": 2,
+  "files": [
+    "energy-transition-2026-06-17.html",
+    "materials-2026-06-17.html"
+  ],
+  "publication_date": "2026-06-17T16:45:20.184825",
+  "status": "success"
+}
