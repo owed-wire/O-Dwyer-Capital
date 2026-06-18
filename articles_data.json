@@ -1,6 +1,45 @@
 [
   {
     "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 18, 2026",
+    "excerpt": "The commercial battery storage sector is accelerating deployment, with Viridi and Budderfly scaling installations to 100 sites nationwide while FranklinWH's home systems now qualify for federal tax credits. Capital is flowing into the space as evidenced by AES Corporation's $1 billion debt offering, signaling institutional confidence in the energy storage market's growth trajectory despite regulatory headwinds in certain states.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 44,
+    "primary_sources": [
+      "PRNewswire",
+      "CleanTechnica",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 14 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Innovation Investment Brief",
     "slug": "materials",
     "date": "June 17, 2026",

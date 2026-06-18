@@ -3,45 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-16T08:00:00Z to 2026-06-17T16:45:14.871201Z
-Fetched 190 articles
+Fetching articles from 2026-06-17T08:00:00Z to 2026-06-18T16:44:26.662090Z
+Fetched 193 articles
 
 2. Categorizing articles...
-   energy-transition: 43 articles
-   emerging-tech: 146 articles
-   materials: 1 articles
+   energy-transition: 44 articles
+   emerging-tech: 147 articles
+   materials: 2 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Autonomous laboratory systems are enabling continuous 24/7 scientific operations, with applications extending into energy sector optimization and resource discovery, while AI-enhanced data management platforms are improving enterprise efficiency in capital-intensive industries including oil and gas exploration and development workflows.
+   Generated AI excerpt: The commercial battery storage sector is accelerating deployment, with Viridi and Budderfly scaling installations to 100 sites nationwide while FranklinWH's home systems now qualify for federal tax credits. Capital is flowing into the space as evidenced by AES Corporation's $1 billion debt offering, signaling institutional confidence in the energy storage market's growth trajectory despite regulatory headwinds in certain states.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Hyperscalers are committing to multi-year infrastructure expansions with specialized hardware vendors, signaling sustained demand for agentic AI workloads that require Arm-powered, cloud-optimized data center architectures. EU regulatory frameworks like the Turnberry trade deal are reshaping competitive dynamics in semiconductor and cloud infrastructure procurement, with implementation timelines expected to create both compliance costs and market consolidation opportunities for vendors aligned with regional standards.
+   Generated AI excerpt: Formula 1's sustainability initiatives have driven a 35% CO2 reduction, positioning the motorsport organization ahead of its 2030 net-zero targets through operational improvements in fuels and freight logistics. The advancement demonstrates measurable progress in decarbonization across the transportation and logistics sector, with potential implications for enterprise efficiency standards in capital-intensive industries.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: The AI-driven ion exchange materials market has secured $73M in investment funding, reflecting accelerating digitization within the water treatment sector. This capital influx signals growing investor confidence in AI applications for optimizing chemical treatment processes and resource efficiency in industrial water management.
-   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Blackstone's renewable energy utility project in New Mexico faces regulatory headwinds that could derail the transaction, while mid-market M&A activity in materials and infrastructure sectors remains robust, as evidenced by Madison Street Capital's recognition for sub-$1B deal execution in this space.
+   Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-17.html
-Generated: materials-2026-06-17.html
+Generated: energy-transition-2026-06-18.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 190
-Briefs created: 2
-HTML files: energy-transition-2026-06-17.html, materials-2026-06-17.html
+Articles fetched: 193
+Briefs created: 1
+HTML files: energy-transition-2026-06-18.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 190,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 193,
+  "briefs_created": 1,
+  "html_files_created": 1,
   "files": [
-    "energy-transition-2026-06-17.html",
-    "materials-2026-06-17.html"
+    "energy-transition-2026-06-18.html"
   ],
-  "publication_date": "2026-06-17T16:45:20.184825",
+  "publication_date": "2026-06-18T16:44:32.084985",
   "status": "success"
 }
