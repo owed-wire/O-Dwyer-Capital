@@ -3,43 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-17T08:00:00Z to 2026-06-18T16:44:26.662090Z
-Fetched 193 articles
+Fetching articles from 2026-06-18T08:00:00Z to 2026-06-19T16:17:28.514844Z
+Fetched 190 articles
 
 2. Categorizing articles...
-   energy-transition: 44 articles
+   energy-transition: 39 articles
    emerging-tech: 147 articles
-   materials: 2 articles
+   materials: 4 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: The commercial battery storage sector is accelerating deployment, with Viridi and Budderfly scaling installations to 100 sites nationwide while FranklinWH's home systems now qualify for federal tax credits. Capital is flowing into the space as evidenced by AES Corporation's $1 billion debt offering, signaling institutional confidence in the energy storage market's growth trajectory despite regulatory headwinds in certain states.
+   Generated AI excerpt: Distributed wind turbine deployment is expanding into off-grid and underserved regions as financing mechanisms accelerate, with the World Bank backing renewable projects while corporate capital commitments—including ORIGIS Energy's $900M facility—signal institutional confidence in decentralized energy infrastructure. Simultaneously, AI-driven grid optimization and repurposed industrial sites (including legacy oil field locations) are emerging as solutions to integrate renewable capacity while managing data center power demands, though global energy transition readiness metrics remain uneven with notable momentum in emerging markets like India.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Formula 1's sustainability initiatives have driven a 35% CO2 reduction, positioning the motorsport organization ahead of its 2030 net-zero targets through operational improvements in fuels and freight logistics. The advancement demonstrates measurable progress in decarbonization across the transportation and logistics sector, with potential implications for enterprise efficiency standards in capital-intensive industries.
+   Generated AI excerpt: Australia's data center sector is experiencing rapid expansion driven by AI infrastructure demand, creating tension between capacity growth and power grid sustainability. This development reflects broader global competition for AI compute resources, with implications for energy costs and supply chain positioning across the Asia-Pacific region.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Blackstone's renewable energy utility project in New Mexico faces regulatory headwinds that could derail the transaction, while mid-market M&A activity in materials and infrastructure sectors remains robust, as evidenced by Madison Street Capital's recognition for sub-$1B deal execution in this space.
-   Skipped materials: No new themes since last brief
+   Generated AI excerpt: Semiconductor capital equipment and materials consolidation is accelerating, with strategic M&A activity including Brewer Science's acquisition of Heraeus Epurio's chemical business line, while applied materials companies are launching products addressing next-generation manufacturing requirements. Domestic semiconductor supply chain resilience remains constrained by upstream material sourcing, with aluminium-based manufacturing capabilities cited as requiring tariff policy adjustment to support localized production.
+   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-18.html
+Generated: energy-transition-2026-06-19.html
+Generated: materials-2026-06-19.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 193
-Briefs created: 1
-HTML files: energy-transition-2026-06-18.html
+Articles fetched: 190
+Briefs created: 2
+HTML files: energy-transition-2026-06-19.html, materials-2026-06-19.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 193,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 190,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-06-18.html"
+    "energy-transition-2026-06-19.html",
+    "materials-2026-06-19.html"
   ],
-  "publication_date": "2026-06-18T16:44:32.084985",
+  "publication_date": "2026-06-19T16:17:35.067388",
   "status": "success"
 }
