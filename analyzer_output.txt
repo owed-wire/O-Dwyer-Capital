@@ -3,45 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-18T08:00:00Z to 2026-06-19T16:17:28.514844Z
-Fetched 190 articles
+Fetching articles from 2026-06-19T17:00:00Z to 2026-06-22T17:59:38.142487Z
+Fetched 191 articles
 
 2. Categorizing articles...
-   energy-transition: 39 articles
-   emerging-tech: 147 articles
-   materials: 4 articles
+   energy-transition: 48 articles
+   emerging-tech: 142 articles
+   materials: 1 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Distributed wind turbine deployment is expanding into off-grid and underserved regions as financing mechanisms accelerate, with the World Bank backing renewable projects while corporate capital commitments—including ORIGIS Energy's $900M facility—signal institutional confidence in decentralized energy infrastructure. Simultaneously, AI-driven grid optimization and repurposed industrial sites (including legacy oil field locations) are emerging as solutions to integrate renewable capacity while managing data center power demands, though global energy transition readiness metrics remain uneven with notable momentum in emerging markets like India.
+   Generated AI excerpt: The renewable energy sector is experiencing structural headwinds despite growth: solar surpassed coal in US electricity generation for the first time in May, yet India requires an immediate 10 GWh battery storage capacity to prevent clean power curtailment, while major oil companies are retreating from renewable investments amid policy and economic pressures in key markets like Tunisia and New England.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Australia's data center sector is experiencing rapid expansion driven by AI infrastructure demand, creating tension between capacity growth and power grid sustainability. This development reflects broader global competition for AI compute resources, with implications for energy costs and supply chain positioning across the Asia-Pacific region.
+   Generated AI excerpt: Google's Gemini AI is demonstrating practical advantages in smart home integration, addressing limitations in legacy voice assistant platforms. Meanwhile, workplace communication patterns show generational shifts away from synchronous voice interaction, indicating potential market opportunities in AI-driven asynchronous communication tools for professional environments.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Semiconductor capital equipment and materials consolidation is accelerating, with strategic M&A activity including Brewer Science's acquisition of Heraeus Epurio's chemical business line, while applied materials companies are launching products addressing next-generation manufacturing requirements. Domestic semiconductor supply chain resilience remains constrained by upstream material sourcing, with aluminium-based manufacturing capabilities cited as requiring tariff policy adjustment to support localized production.
-   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Evergy's stock performance has lagged the Nasdaq despite the utility sector's strategic pivot toward renewable energy infrastructure and grid modernization initiatives. Investors should monitor whether the company's capital allocation toward clean energy transition can offset historical underperformance against broader technology and growth-weighted indices.
+   Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-19.html
-Generated: materials-2026-06-19.html
+Generated: energy-transition-2026-06-22.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 190
-Briefs created: 2
-HTML files: energy-transition-2026-06-19.html, materials-2026-06-19.html
+Articles fetched: 191
+Briefs created: 1
+HTML files: energy-transition-2026-06-22.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 190,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 191,
+  "briefs_created": 1,
+  "html_files_created": 1,
   "files": [
-    "energy-transition-2026-06-19.html",
-    "materials-2026-06-19.html"
+    "energy-transition-2026-06-22.html"
   ],
-  "publication_date": "2026-06-19T16:17:35.067388",
+  "publication_date": "2026-06-22T17:59:43.892106",
   "status": "success"
 }

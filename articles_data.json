@@ -1,6 +1,48 @@
 [
   {
     "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 22, 2026",
+    "excerpt": "The renewable energy sector is experiencing structural headwinds despite growth: solar surpassed coal in US electricity generation for the first time in May, yet India requires an immediate 10 GWh battery storage capacity to prevent clean power curtailment, while major oil companies are retreating from renewable investments amid policy and economic pressures in key markets like Tunisia and New England.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy",
+      "energy storage",
+      "renewable energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 48,
+    "primary_sources": [
+      "Forbes",
+      "CleanTechnica",
+      "Al Jazeera English"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "energy storage",
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "energy storage",
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 16 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy",
+      "Accelerating trends: energy storage, renewable energy"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Innovation Investment Brief",
     "slug": "materials",
     "date": "June 19, 2026",
