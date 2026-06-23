@@ -1,6 +1,75 @@
 [
   {
     "id": 119,
+    "title": "Innovation Investment Brief",
+    "slug": "materials",
+    "date": "June 23, 2026",
+    "excerpt": "The AI in chemicals market is projected to reach $25.89 billion by 2035, driven by smart manufacturing and AI-driven process optimization, while thermal ceramics demand supports industrial expansion with the market forecast to hit $9.50 billion by 2030. NeoVolta's Georgia manufacturing facility is advancing toward FEOC compliance with commissioning scheduled for end of August, signaling progress in advanced battery production capability.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 4,
+    "primary_sources": [
+      "Designboom",
+      "GlobeNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 3 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 23, 2026",
+    "excerpt": "Global energy storage and renewable capacity are accelerating amid corporate power agreements\u2014Chevron's 20-year deal with Microsoft signals major offtake commitments for Texas wind and solar infrastructure, while storage solutions continue diversifying across distributed and grid-scale deployments to support data center demand.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 42,
+    "primary_sources": [
+      "Chevron.com",
+      "Android Police",
+      "Lifehack.org"
+    ],
+    "trend_analysis": {
+      "new_themes": [],
+      "ongoing_themes": [
+        "energy storage",
+        "wind energy"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 17 historical briefs"
+    },
+    "trend_context": [
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "June 22, 2026",

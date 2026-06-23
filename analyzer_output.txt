@@ -3,43 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-19T17:00:00Z to 2026-06-22T17:59:38.142487Z
-Fetched 191 articles
+Fetching articles from 2026-06-22T08:00:00Z to 2026-06-23T16:07:58.200603Z
+Fetched 186 articles
 
 2. Categorizing articles...
-   energy-transition: 48 articles
-   emerging-tech: 142 articles
-   materials: 1 articles
+   energy-transition: 42 articles
+   emerging-tech: 140 articles
+   materials: 4 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: The renewable energy sector is experiencing structural headwinds despite growth: solar surpassed coal in US electricity generation for the first time in May, yet India requires an immediate 10 GWh battery storage capacity to prevent clean power curtailment, while major oil companies are retreating from renewable investments amid policy and economic pressures in key markets like Tunisia and New England.
+   Generated AI excerpt: Global energy storage and renewable capacity are accelerating amid corporate power agreements—Chevron's 20-year deal with Microsoft signals major offtake commitments for Texas wind and solar infrastructure, while storage solutions continue diversifying across distributed and grid-scale deployments to support data center demand.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Google's Gemini AI is demonstrating practical advantages in smart home integration, addressing limitations in legacy voice assistant platforms. Meanwhile, workplace communication patterns show generational shifts away from synchronous voice interaction, indicating potential market opportunities in AI-driven asynchronous communication tools for professional environments.
+   Generated AI excerpt: Electric vehicle adoption is accelerating as major institutional capital redirects toward decarbonization infrastructure, evidenced by New York's $300 billion pension fund shifting allocation strategy for the first time in two decades while EV manufacturers like Lucid face street scrutiny on profitability timelines. Supporting supply chain development, Generation Mining secured $141 million in financing for critical mineral extraction, underscoring investor appetite for vertically integrated electrification ecosystems.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Evergy's stock performance has lagged the Nasdaq despite the utility sector's strategic pivot toward renewable energy infrastructure and grid modernization initiatives. Investors should monitor whether the company's capital allocation toward clean energy transition can offset historical underperformance against broader technology and growth-weighted indices.
-   Skipped materials: No new themes since last brief
+   Generated AI excerpt: The AI in chemicals market is projected to reach $25.89 billion by 2035, driven by smart manufacturing and AI-driven process optimization, while thermal ceramics demand supports industrial expansion with the market forecast to hit $9.50 billion by 2030. NeoVolta's Georgia manufacturing facility is advancing toward FEOC compliance with commissioning scheduled for end of August, signaling progress in advanced battery production capability.
+   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-22.html
+Generated: energy-transition-2026-06-23.html
+Generated: materials-2026-06-23.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 191
-Briefs created: 1
-HTML files: energy-transition-2026-06-22.html
+Articles fetched: 186
+Briefs created: 2
+HTML files: energy-transition-2026-06-23.html, materials-2026-06-23.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 191,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 186,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-06-22.html"
+    "energy-transition-2026-06-23.html",
+    "materials-2026-06-23.html"
   ],
-  "publication_date": "2026-06-22T17:59:43.892106",
+  "publication_date": "2026-06-23T16:08:06.068383",
   "status": "success"
 }
