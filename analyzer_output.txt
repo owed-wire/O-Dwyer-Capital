@@ -3,45 +3,20 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-22T08:00:00Z to 2026-06-23T16:07:58.200603Z
-Fetched 186 articles
+Fetching articles from 2026-06-23T08:00:00Z to 2026-06-24T15:40:27.756998Z
+Fetched 192 articles
 
 2. Categorizing articles...
-   energy-transition: 42 articles
-   emerging-tech: 140 articles
-   materials: 4 articles
-
-3. Creating analytical briefs...
-   Generated AI excerpt: Global energy storage and renewable capacity are accelerating amid corporate power agreements—Chevron's 20-year deal with Microsoft signals major offtake commitments for Texas wind and solar infrastructure, while storage solutions continue diversifying across distributed and grid-scale deployments to support data center demand.
-   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Electric vehicle adoption is accelerating as major institutional capital redirects toward decarbonization infrastructure, evidenced by New York's $300 billion pension fund shifting allocation strategy for the first time in two decades while EV manufacturers like Lucid face street scrutiny on profitability timelines. Supporting supply chain development, Generation Mining secured $141 million in financing for critical mineral extraction, underscoring investor appetite for vertically integrated electrification ecosystems.
-   Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: The AI in chemicals market is projected to reach $25.89 billion by 2035, driven by smart manufacturing and AI-driven process optimization, while thermal ceramics demand supports industrial expansion with the market forecast to hit $9.50 billion by 2030. NeoVolta's Georgia manufacturing facility is advancing toward FEOC compliance with commissioning scheduled for end of August, signaling progress in advanced battery production capability.
-   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
-
-4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
-
-5. Generating dated HTML files...
-Generated: energy-transition-2026-06-23.html
-Generated: materials-2026-06-23.html
-
-============================================================
-PUBLICATION COMPLETE
-============================================================
-Articles fetched: 186
-Briefs created: 2
-HTML files: energy-transition-2026-06-23.html, materials-2026-06-23.html
-
-=== SUMMARY ===
-{
-  "articles_fetched": 186,
-  "briefs_created": 2,
-  "html_files_created": 2,
-  "files": [
-    "energy-transition-2026-06-23.html",
-    "materials-2026-06-23.html"
-  ],
-  "publication_date": "2026-06-23T16:08:06.068383",
-  "status": "success"
-}
+Traceback (most recent call last):
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 520, in <module>
+    main()
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 514, in main
+    summary = analyzer.run()
+              ^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 455, in run
+    category = self.categorize_article(article)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 144, in categorize_article
+    article.get('description', '').lower()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
