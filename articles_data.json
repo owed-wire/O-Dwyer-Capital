@@ -3,6 +3,79 @@
     "id": 119,
     "title": "Innovation Investment Brief",
     "slug": "materials",
+    "date": "June 25, 2026",
+    "excerpt": "Global battery material supply is consolidating around advanced processing technologies, with First Atlantic Nickel & Cobalt achieving 71.9% nickel recovery using proprietary onshore extraction methods\u2014addressing critical EV battery supply chain dependencies as demand for high-grade alloy concentrates accelerates through the decade.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 4,
+    "primary_sources": [
+      "Israelnationalnews.com",
+      "GlobeNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 4 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 25, 2026",
+    "excerpt": "Global energy storage deployment is accelerating as AI-driven grid optimization becomes critical infrastructure, with major vendors showcasing next-generation solutions at industry conferences. The convergence of solar proliferation and intelligent grid management is creating new investment opportunities in emerging markets facing power deficits, particularly in regions like Nigeria and Pakistan.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "solar energy",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 45,
+    "primary_sources": [
+      "Project Syndicate",
+      "Forbes",
+      "Al Jazeera English"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 18 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy, artificial intelligence",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Innovation Investment Brief",
+    "slug": "materials",
     "date": "June 23, 2026",
     "excerpt": "The AI in chemicals market is projected to reach $25.89 billion by 2035, driven by smart manufacturing and AI-driven process optimization, while thermal ceramics demand supports industrial expansion with the market forecast to hit $9.50 billion by 2030. NeoVolta's Georgia manufacturing facility is advancing toward FEOC compliance with commissioning scheduled for end of August, signaling progress in advanced battery production capability.",
     "tags": [

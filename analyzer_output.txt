@@ -3,20 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-23T08:00:00Z to 2026-06-24T15:40:27.756998Z
-Fetched 192 articles
+Fetching articles from 2026-06-24T08:00:00Z to 2026-06-25T15:58:03.333487Z
+Fetched 187 articles
 
 2. Categorizing articles...
-Traceback (most recent call last):
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 520, in <module>
-    main()
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 514, in main
-    summary = analyzer.run()
-              ^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 455, in run
-    category = self.categorize_article(article)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 144, in categorize_article
-    article.get('description', '').lower()
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'lower'
+   energy-transition: 45 articles
+   emerging-tech: 138 articles
+   materials: 4 articles
+
+3. Creating analytical briefs...
+   Generated AI excerpt: Global energy storage deployment is accelerating as AI-driven grid optimization becomes critical infrastructure, with major vendors showcasing next-generation solutions at industry conferences. The convergence of solar proliferation and intelligent grid management is creating new investment opportunities in emerging markets facing power deficits, particularly in regions like Nigeria and Pakistan.
+   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: The proliferation of wearable smart eyewear devices continues to expand the consumer IoT market, while automotive electrification infrastructure is accelerating through bidirectional charging partnerships—exemplified by Nissan and Valeo's recent contract—positioning energy storage and vehicle-to-grid capabilities as emerging revenue streams for industrial players.
+   Skipped emerging-tech: No new themes since last brief
+   Generated AI excerpt: Global battery material supply is consolidating around advanced processing technologies, with First Atlantic Nickel & Cobalt achieving 71.9% nickel recovery using proprietary onshore extraction methods—addressing critical EV battery supply chain dependencies as demand for high-grade alloy concentrates accelerates through the decade.
+   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
+
+4. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+
+5. Generating dated HTML files...
+Generated: energy-transition-2026-06-25.html
+Generated: materials-2026-06-25.html
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 187
+Briefs created: 2
+HTML files: energy-transition-2026-06-25.html, materials-2026-06-25.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 187,
+  "briefs_created": 2,
+  "html_files_created": 2,
+  "files": [
+    "energy-transition-2026-06-25.html",
+    "materials-2026-06-25.html"
+  ],
+  "publication_date": "2026-06-25T15:58:08.408160",
+  "status": "success"
+}
