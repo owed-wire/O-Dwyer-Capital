@@ -3,8 +3,8 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-25T08:00:00Z to 2026-06-26T15:35:36.908412Z
-Fetched 188 articles
+Fetching articles from 2026-06-26T17:00:00Z to 2026-06-29T16:44:19.042257Z
+Fetched 191 articles
 
 2. Categorizing articles...
 Traceback (most recent call last):
