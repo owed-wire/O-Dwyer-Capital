@@ -1,6 +1,47 @@
 [
   {
     "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "June 30, 2026",
+    "excerpt": "Permitting delays are jeopardizing $121 billion in planned US wind and solar investments, while data center electrification demands continue to escalate utility infrastructure requirements. Meanwhile, battery energy storage systems are scaling rapidly in Europe\u2014evidenced by projects like the 1,600MWh Stadorf facility in Germany\u2014suggesting storage technology will become critical to renewable grid integration.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "electrification",
+      "wind energy",
+      "renewable energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 38,
+    "primary_sources": [
+      "Insurance Journal",
+      "9to5Mac",
+      "Forbes"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "electrification"
+      ],
+      "ongoing_themes": [
+        "wind energy",
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 19 historical briefs"
+    },
+    "trend_context": [
+      "New developments: electrification",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Innovation Investment Brief",
     "slug": "materials",
     "date": "June 25, 2026",

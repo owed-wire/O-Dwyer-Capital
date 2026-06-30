@@ -3,20 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-26T17:00:00Z to 2026-06-29T16:44:19.042257Z
-Fetched 191 articles
+Fetching articles from 2026-06-29T08:00:00Z to 2026-06-30T15:45:19.623434Z
+Fetched 189 articles
 
 2. Categorizing articles...
-Traceback (most recent call last):
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 520, in <module>
-    main()
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 514, in main
-    summary = analyzer.run()
-              ^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 455, in run
-    category = self.categorize_article(article)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 144, in categorize_article
-    article.get('description', '').lower()
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'lower'
+   energy-transition: 38 articles
+   emerging-tech: 147 articles
+   materials: 4 articles
+
+3. Creating analytical briefs...
+   Generated AI excerpt: Permitting delays are jeopardizing $121 billion in planned US wind and solar investments, while data center electrification demands continue to escalate utility infrastructure requirements. Meanwhile, battery energy storage systems are scaling rapidly in Europe—evidenced by projects like the 1,600MWh Stadorf facility in Germany—suggesting storage technology will become critical to renewable grid integration.
+   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Samsung's $1.72 trillion infrastructure investment signals accelerating AI capital expenditure cycles, while concurrent electrification infrastructure buildouts—exemplified by charging networks like Octopus EV—are reshaping power demand patterns. The convergence of AI deployment and EV adoption is creating divergent tailwinds for semiconductor and energy infrastructure sectors, despite near-term macroeconomic headwinds affecting broad equity valuations.
+   Skipped emerging-tech: No new themes since last brief
+   Generated AI excerpt: Advanced materials innovation is accelerating across industrial sectors, with companies like Amcor and ECS Composites developing next-generation barrier materials and carbon fiber composites to address durability and performance demands in packaging and defense applications, while data analytics adoption in construction is measurably reducing project delays and improving operational efficiency.
+   Skipped materials: No new themes since last brief
+
+4. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+
+5. Generating dated HTML files...
+Generated: energy-transition-2026-06-30.html
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 189
+Briefs created: 1
+HTML files: energy-transition-2026-06-30.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 189,
+  "briefs_created": 1,
+  "html_files_created": 1,
+  "files": [
+    "energy-transition-2026-06-30.html"
+  ],
+  "publication_date": "2026-06-30T15:45:25.789873",
+  "status": "success"
+}
