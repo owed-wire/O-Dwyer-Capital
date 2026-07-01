@@ -3,6 +3,47 @@
     "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
+    "date": "July 01, 2026",
+    "excerpt": "Advanced battery technology is accelerating commercialization, with Stellantis and Factorial launching North American road tests for solid-state battery vehicles while major utilities like EDF expand energy storage deployments through strategic partnerships in emerging markets. Concurrent developments in nuclear (Antares' Mark-0 reactor criticality) and AI-driven energy demand underscore mounting pressure on global power infrastructure to diversify generation and storage capacity ahead of intensifying computational loads.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "renewable energy",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 43,
+    "primary_sources": [
+      "Antaresindustries.com",
+      "Forbes"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology"
+      ],
+      "ongoing_themes": [
+        "renewable energy",
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "renewable energy",
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 20 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology",
+      "Accelerating trends: renewable energy, energy storage"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
     "date": "June 30, 2026",
     "excerpt": "Permitting delays are jeopardizing $121 billion in planned US wind and solar investments, while data center electrification demands continue to escalate utility infrastructure requirements. Meanwhile, battery energy storage systems are scaling rapidly in Europe\u2014evidenced by projects like the 1,600MWh Stadorf facility in Germany\u2014suggesting storage technology will become critical to renewable grid integration.",
     "tags": [

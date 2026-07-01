@@ -3,43 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-29T08:00:00Z to 2026-06-30T15:45:19.623434Z
-Fetched 189 articles
+Fetching articles from 2026-06-30T08:00:00Z to 2026-07-01T16:00:49.253525Z
+Fetched 186 articles
 
 2. Categorizing articles...
-   energy-transition: 38 articles
-   emerging-tech: 147 articles
-   materials: 4 articles
+   energy-transition: 43 articles
+   emerging-tech: 142 articles
+   materials: 1 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Permitting delays are jeopardizing $121 billion in planned US wind and solar investments, while data center electrification demands continue to escalate utility infrastructure requirements. Meanwhile, battery energy storage systems are scaling rapidly in Europe—evidenced by projects like the 1,600MWh Stadorf facility in Germany—suggesting storage technology will become critical to renewable grid integration.
+   Generated AI excerpt: Advanced battery technology is accelerating commercialization, with Stellantis and Factorial launching North American road tests for solid-state battery vehicles while major utilities like EDF expand energy storage deployments through strategic partnerships in emerging markets. Concurrent developments in nuclear (Antares' Mark-0 reactor criticality) and AI-driven energy demand underscore mounting pressure on global power infrastructure to diversify generation and storage capacity ahead of intensifying computational loads.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Samsung's $1.72 trillion infrastructure investment signals accelerating AI capital expenditure cycles, while concurrent electrification infrastructure buildouts—exemplified by charging networks like Octopus EV—are reshaping power demand patterns. The convergence of AI deployment and EV adoption is creating divergent tailwinds for semiconductor and energy infrastructure sectors, despite near-term macroeconomic headwinds affecting broad equity valuations.
+   Generated AI excerpt: The provided articles lack sufficient quantitative market data or technology sector-specific trends necessary to generate a factual investment briefing excerpt. The content covers lifestyle narratives, hardware durability commentary, sports acquisition, and individual company performance rather than cohesive technology market developments with concrete metrics.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Advanced materials innovation is accelerating across industrial sectors, with companies like Amcor and ECS Composites developing next-generation barrier materials and carbon fiber composites to address durability and performance demands in packaging and defense applications, while data analytics adoption in construction is measurably reducing project delays and improving operational efficiency.
+   Generated AI excerpt: 3M's partnership with Cadillac Formula 1 Team as Official Material Science Partner underscores accelerating corporate investment in motorsports technology innovation. The collaboration leverages material science advancements to enhance racing performance, reflecting broader industry trends of leveraging competitive environments to develop next-generation materials with potential commercial applications across automotive, aerospace, and industrial sectors.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-06-30.html
+Generated: energy-transition-2026-07-01.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 189
+Articles fetched: 186
 Briefs created: 1
-HTML files: energy-transition-2026-06-30.html
+HTML files: energy-transition-2026-07-01.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 189,
+  "articles_fetched": 186,
   "briefs_created": 1,
   "html_files_created": 1,
   "files": [
-    "energy-transition-2026-06-30.html"
+    "energy-transition-2026-07-01.html"
   ],
-  "publication_date": "2026-06-30T15:45:25.789873",
+  "publication_date": "2026-07-01T16:00:55.137390",
   "status": "success"
 }
