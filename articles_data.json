@@ -3,6 +3,41 @@
     "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
+    "date": "July 02, 2026",
+    "excerpt": "Global energy demand growth outpaced renewable capacity additions in 2025, while distributed battery storage systems are capturing market share from traditional grid infrastructure\u2014driven by consumer adoption of home battery solutions and geopolitical supply chain realignment following regional conflicts. The convergence of rising electricity demand, grid modernization investments, and declining battery costs is accelerating the shift toward decentralized power systems.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "power grid",
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 52,
+    "primary_sources": [
+      "Forbes",
+      "Al Jazeera English",
+      "Yale.edu"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "power grid",
+        "battery technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 21 historical briefs"
+    },
+    "trend_context": [
+      "New developments: power grid, battery technology"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
     "date": "July 01, 2026",
     "excerpt": "Advanced battery technology is accelerating commercialization, with Stellantis and Factorial launching North American road tests for solid-state battery vehicles while major utilities like EDF expand energy storage deployments through strategic partnerships in emerging markets. Concurrent developments in nuclear (Antares' Mark-0 reactor criticality) and AI-driven energy demand underscore mounting pressure on global power infrastructure to diversify generation and storage capacity ahead of intensifying computational loads.",
     "tags": [

@@ -3,34 +3,34 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-06-30T08:00:00Z to 2026-07-01T16:00:49.253525Z
+Fetching articles from 2026-07-01T08:00:00Z to 2026-07-02T15:37:43.862030Z
 Fetched 186 articles
 
 2. Categorizing articles...
-   energy-transition: 43 articles
-   emerging-tech: 142 articles
-   materials: 1 articles
+   energy-transition: 52 articles
+   emerging-tech: 129 articles
+   materials: 5 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Advanced battery technology is accelerating commercialization, with Stellantis and Factorial launching North American road tests for solid-state battery vehicles while major utilities like EDF expand energy storage deployments through strategic partnerships in emerging markets. Concurrent developments in nuclear (Antares' Mark-0 reactor criticality) and AI-driven energy demand underscore mounting pressure on global power infrastructure to diversify generation and storage capacity ahead of intensifying computational loads.
+   Generated AI excerpt: Global energy demand growth outpaced renewable capacity additions in 2025, while distributed battery storage systems are capturing market share from traditional grid infrastructure—driven by consumer adoption of home battery solutions and geopolitical supply chain realignment following regional conflicts. The convergence of rising electricity demand, grid modernization investments, and declining battery costs is accelerating the shift toward decentralized power systems.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: The provided articles lack sufficient quantitative market data or technology sector-specific trends necessary to generate a factual investment briefing excerpt. The content covers lifestyle narratives, hardware durability commentary, sports acquisition, and individual company performance rather than cohesive technology market developments with concrete metrics.
+   Generated AI excerpt: European technology competitiveness faces structural headwinds amid US-China competition, with strategic implications for AI infrastructure investment and deployment across the continent. Capital allocation decisions increasingly reflect geopolitical positioning rather than pure technical merit, constraining European firms' ability to compete in high-stakes AI development.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: 3M's partnership with Cadillac Formula 1 Team as Official Material Science Partner underscores accelerating corporate investment in motorsports technology innovation. The collaboration leverages material science advancements to enhance racing performance, reflecting broader industry trends of leveraging competitive environments to develop next-generation materials with potential commercial applications across automotive, aerospace, and industrial sectors.
+   Generated AI excerpt: Alpha & Omega Semiconductor's launch of multiphase controllers for next-generation Intel processors addresses growing demand for advanced power management solutions in high-performance computing architectures. The development reflects broader semiconductor industry momentum toward specialized components that enhance processor efficiency and thermal performance as chip complexity accelerates.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-07-01.html
+Generated: energy-transition-2026-07-02.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
 Articles fetched: 186
 Briefs created: 1
-HTML files: energy-transition-2026-07-01.html
+HTML files: energy-transition-2026-07-02.html
 
 === SUMMARY ===
 {
@@ -38,8 +38,8 @@ HTML files: energy-transition-2026-07-01.html
   "briefs_created": 1,
   "html_files_created": 1,
   "files": [
-    "energy-transition-2026-07-01.html"
+    "energy-transition-2026-07-02.html"
   ],
-  "publication_date": "2026-07-01T16:00:55.137390",
+  "publication_date": "2026-07-02T15:37:48.991662",
   "status": "success"
 }
