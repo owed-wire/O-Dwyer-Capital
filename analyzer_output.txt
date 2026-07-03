@@ -3,43 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-01T08:00:00Z to 2026-07-02T15:37:43.862030Z
-Fetched 186 articles
+Fetching articles from 2026-07-02T08:00:00Z to 2026-07-03T15:32:14.357954Z
+Fetched 184 articles
 
 2. Categorizing articles...
-   energy-transition: 52 articles
-   emerging-tech: 129 articles
-   materials: 5 articles
+   energy-transition: 49 articles
+   emerging-tech: 134 articles
+   materials: 1 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Global energy demand growth outpaced renewable capacity additions in 2025, while distributed battery storage systems are capturing market share from traditional grid infrastructure—driven by consumer adoption of home battery solutions and geopolitical supply chain realignment following regional conflicts. The convergence of rising electricity demand, grid modernization investments, and declining battery costs is accelerating the shift toward decentralized power systems.
+   Generated AI excerpt: The battery technology sector is experiencing significant operational expansion, evidenced by Moment Energy's launch of a major EV battery repurposing facility in British Columbia, while leadership transitions at major investors like Freestone Grove's $6.5 billion fund signal ongoing capital reallocation within the energy transition infrastructure market.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: European technology competitiveness faces structural headwinds amid US-China competition, with strategic implications for AI infrastructure investment and deployment across the continent. Capital allocation decisions increasingly reflect geopolitical positioning rather than pure technical merit, constraining European firms' ability to compete in high-stakes AI development.
-   Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Alpha & Omega Semiconductor's launch of multiphase controllers for next-generation Intel processors addresses growing demand for advanced power management solutions in high-performance computing architectures. The development reflects broader semiconductor industry momentum toward specialized components that enhance processor efficiency and thermal performance as chip complexity accelerates.
+   Generated AI excerpt: Amazon is reportedly developing proprietary chips for next-generation Kindle and Fire TV devices, following Apple's vertical integration strategy that has yielded significant margin expansion. This move reflects broader industry consolidation in semiconductor design, where major tech companies are reducing reliance on third-party chip suppliers to capture value currently flowing to fabless and foundry operators.
+   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Arclin has launched the Fabric of America Fund to commemorate the nation's 250th anniversary, positioning itself as a corporate contributor to civic infrastructure initiatives. The initiative reflects growing corporate investment in community-focused programs tied to national milestones and social infrastructure development.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-07-02.html
+Generated: energy-transition-2026-07-03.html
+Generated: emerging-tech-2026-07-03.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 186
-Briefs created: 1
-HTML files: energy-transition-2026-07-02.html
+Articles fetched: 184
+Briefs created: 2
+HTML files: energy-transition-2026-07-03.html, emerging-tech-2026-07-03.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 186,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 184,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-07-02.html"
+    "energy-transition-2026-07-03.html",
+    "emerging-tech-2026-07-03.html"
   ],
-  "publication_date": "2026-07-02T15:37:48.991662",
+  "publication_date": "2026-07-03T15:32:19.064411",
   "status": "success"
 }

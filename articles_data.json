@@ -1,6 +1,75 @@
 [
   {
     "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 03, 2026",
+    "excerpt": "Amazon is reportedly developing proprietary chips for next-generation Kindle and Fire TV devices, following Apple's vertical integration strategy that has yielded significant margin expansion. This move reflects broader industry consolidation in semiconductor design, where major tech companies are reducing reliance on third-party chip suppliers to capture value currently flowing to fabless and foundry operators.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "chip manufacturing"
+    ],
+    "investment_relevance": "high",
+    "article_count": 134,
+    "primary_sources": [
+      "Android Authority",
+      "ProPublica",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "chip manufacturing"
+      ],
+      "ongoing_themes": [
+        "artificial intelligence"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 8 historical briefs"
+    },
+    "trend_context": [
+      "New developments: chip manufacturing"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 03, 2026",
+    "excerpt": "The battery technology sector is experiencing significant operational expansion, evidenced by Moment Energy's launch of a major EV battery repurposing facility in British Columbia, while leadership transitions at major investors like Freestone Grove's $6.5 billion fund signal ongoing capital reallocation within the energy transition infrastructure market.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 49,
+    "primary_sources": [
+      "Daily Hive",
+      "Europa.eu",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 22 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "July 02, 2026",
