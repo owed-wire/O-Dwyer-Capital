@@ -3,45 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-02T08:00:00Z to 2026-07-03T15:32:14.357954Z
-Fetched 184 articles
+Fetching articles from 2026-07-03T17:00:00Z to 2026-07-06T16:34:04.474610Z
+Fetched 187 articles
 
 2. Categorizing articles...
-   energy-transition: 49 articles
-   emerging-tech: 134 articles
+   energy-transition: 31 articles
+   emerging-tech: 155 articles
    materials: 1 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: The battery technology sector is experiencing significant operational expansion, evidenced by Moment Energy's launch of a major EV battery repurposing facility in British Columbia, while leadership transitions at major investors like Freestone Grove's $6.5 billion fund signal ongoing capital reallocation within the energy transition infrastructure market.
+   Generated AI excerpt: U.S. power infrastructure spending on coal and gas is poised to exceed China's levels, driven by an estimated $50 billion investment wave tied to AI data center demand, while federal wind and solar subsidies have ended, signaling a potential market consolidation in renewable energy sectors.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Amazon is reportedly developing proprietary chips for next-generation Kindle and Fire TV devices, following Apple's vertical integration strategy that has yielded significant margin expansion. This move reflects broader industry consolidation in semiconductor design, where major tech companies are reducing reliance on third-party chip suppliers to capture value currently flowing to fabless and foundry operators.
-   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Arclin has launched the Fabric of America Fund to commemorate the nation's 250th anniversary, positioning itself as a corporate contributor to civic infrastructure initiatives. The initiative reflects growing corporate investment in community-focused programs tied to national milestones and social infrastructure development.
+   Generated AI excerpt: Canada's nuclear expansion initiative aims to develop up to 10 new facilities, positioning pension funds as potential major capital providers for energy infrastructure modernization. Concurrent global emissions growth and U.S. rebound trends are intensifying institutional focus on clean energy transitions, creating significant investment opportunities in both nuclear and adjacent climate technology sectors.
+   Skipped emerging-tech: No new themes since last brief
+   Generated AI excerpt: Unusual Machines (UMAC) is expanding manufacturing capacity with a new Orlando facility, signaling scaling ambitions in the advanced manufacturing sector. The facility expansion represents the company's continued investment in operational infrastructure to support growth in its core product lines.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-07-03.html
-Generated: emerging-tech-2026-07-03.html
+Generated: energy-transition-2026-07-06.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 184
-Briefs created: 2
-HTML files: energy-transition-2026-07-03.html, emerging-tech-2026-07-03.html
+Articles fetched: 187
+Briefs created: 1
+HTML files: energy-transition-2026-07-06.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 184,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 187,
+  "briefs_created": 1,
+  "html_files_created": 1,
   "files": [
-    "energy-transition-2026-07-03.html",
-    "emerging-tech-2026-07-03.html"
+    "energy-transition-2026-07-06.html"
   ],
-  "publication_date": "2026-07-03T15:32:19.064411",
+  "publication_date": "2026-07-06T16:34:09.818543",
   "status": "success"
 }

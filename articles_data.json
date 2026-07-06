@@ -1,6 +1,44 @@
 [
   {
     "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 06, 2026",
+    "excerpt": "U.S. power infrastructure spending on coal and gas is poised to exceed China's levels, driven by an estimated $50 billion investment wave tied to AI data center demand, while federal wind and solar subsidies have ended, signaling a potential market consolidation in renewable energy sectors.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy",
+      "wind energy",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 31,
+    "primary_sources": [
+      "Canonrumors.com",
+      "Economictimes.com",
+      "Al Jazeera English"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "wind energy"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 23 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy, artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Technology Investment Brief",
     "slug": "emerging-tech",
     "date": "July 03, 2026",
