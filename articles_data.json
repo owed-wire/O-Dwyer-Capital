@@ -3,6 +3,47 @@
     "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
+    "date": "July 07, 2026",
+    "excerpt": "European solar asset consolidation continues with institutional capital deployment, exemplified by Qualitas Energy's \u20ac197M acquisition of Italian PV portfolios. Meanwhile, battery energy storage systems (BESS) are scaling rapidly in the UK market, with projects like Envision Energy's 310 MWh facility demonstrating institutional momentum toward grid-scale storage infrastructure to support renewable integration.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "artificial intelligence",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 37,
+    "primary_sources": [
+      "Business Insider",
+      "Power Technology",
+      "Offshore Technology"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 24 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, solar energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
     "date": "July 06, 2026",
     "excerpt": "U.S. power infrastructure spending on coal and gas is poised to exceed China's levels, driven by an estimated $50 billion investment wave tied to AI data center demand, while federal wind and solar subsidies have ended, signaling a potential market consolidation in renewable energy sectors.",
     "tags": [

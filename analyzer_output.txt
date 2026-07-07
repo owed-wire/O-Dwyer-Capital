@@ -3,43 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-03T17:00:00Z to 2026-07-06T16:34:04.474610Z
-Fetched 187 articles
+Fetching articles from 2026-07-06T08:00:00Z to 2026-07-07T15:59:18.427210Z
+Fetched 178 articles
 
 2. Categorizing articles...
-   energy-transition: 31 articles
-   emerging-tech: 155 articles
-   materials: 1 articles
+   energy-transition: 37 articles
+   emerging-tech: 131 articles
+   materials: 10 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: U.S. power infrastructure spending on coal and gas is poised to exceed China's levels, driven by an estimated $50 billion investment wave tied to AI data center demand, while federal wind and solar subsidies have ended, signaling a potential market consolidation in renewable energy sectors.
+   Generated AI excerpt: European solar asset consolidation continues with institutional capital deployment, exemplified by Qualitas Energy's €197M acquisition of Italian PV portfolios. Meanwhile, battery energy storage systems (BESS) are scaling rapidly in the UK market, with projects like Envision Energy's 310 MWh facility demonstrating institutional momentum toward grid-scale storage infrastructure to support renewable integration.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Canada's nuclear expansion initiative aims to develop up to 10 new facilities, positioning pension funds as potential major capital providers for energy infrastructure modernization. Concurrent global emissions growth and U.S. rebound trends are intensifying institutional focus on clean energy transitions, creating significant investment opportunities in both nuclear and adjacent climate technology sectors.
+   Generated AI excerpt: Microsoft's workforce reduction of 4,800 employees reflects broader tech sector rationalization as AI investment priorities shift, while concurrent industry uncertainty around AI adoption ROI persists as evidenced by analyst scrutiny of major platform operators like S&P Global navigating valuation pressures amid AI deployment cycles.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Unusual Machines (UMAC) is expanding manufacturing capacity with a new Orlando facility, signaling scaling ambitions in the advanced manufacturing sector. The facility expansion represents the company's continued investment in operational infrastructure to support growth in its core product lines.
+   Generated AI excerpt: Applied Materials advanced 33% in Q1 amid semiconductor equipment demand, while industrial automation investments are driving screw conveyor market expansion toward $1.7B by 2036. Simultaneously, defense aerospace and automotive sectors are accelerating innovation cycles—Kratos is expanding drone manufacturing capacity and Mahindra has outlined 26 vehicle launches through 2031—signaling sustained capital deployment across capital equipment and advanced manufacturing.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-07-06.html
+Generated: energy-transition-2026-07-07.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 187
+Articles fetched: 178
 Briefs created: 1
-HTML files: energy-transition-2026-07-06.html
+HTML files: energy-transition-2026-07-07.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 187,
+  "articles_fetched": 178,
   "briefs_created": 1,
   "html_files_created": 1,
   "files": [
-    "energy-transition-2026-07-06.html"
+    "energy-transition-2026-07-07.html"
   ],
-  "publication_date": "2026-07-06T16:34:09.818543",
+  "publication_date": "2026-07-07T15:59:24.077314",
   "status": "success"
 }
