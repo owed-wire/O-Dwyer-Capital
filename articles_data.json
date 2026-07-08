@@ -1,6 +1,76 @@
 [
   {
     "id": 119,
+    "title": "Innovation Investment Brief",
+    "slug": "materials",
+    "date": "July 08, 2026",
+    "excerpt": "The automotive composites market is projected to reach $19.35 billion by 2031, while advanced manufacturing applications are accelerating with NTT DATA and Hyster-Yale's deployment of physical AI solutions. Specialized materials markets, including PTFE-based copper clad laminates, are expanding to $0.65 billion by 2031, reflecting broader infrastructure demands across high-performance industrial sectors.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 4,
+    "primary_sources": [
+      "PRNewswire",
+      "Music Ally",
+      "Financial Post"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 5 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 08, 2026",
+    "excerpt": "European battery manufacturing is accelerating as Eni Storage Systems constructs an LFP production facility in Italy while Offgrid Energy pilots zinc-gel technology in the UK, signaling diversification beyond lithium-ion chemistry as grid operators prioritize long-duration and cost-competitive storage solutions to support renewable integration.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "power grid",
+      "battery technology",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 44,
+    "primary_sources": [
+      "Energymonitor.ai",
+      "PRNewswire",
+      "BusinessLine"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "power grid",
+        "battery technology",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 25 historical briefs"
+    },
+    "trend_context": [
+      "New developments: power grid, battery technology, solar energy"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "July 07, 2026",

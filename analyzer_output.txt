@@ -3,43 +3,45 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-06T08:00:00Z to 2026-07-07T15:59:18.427210Z
-Fetched 178 articles
+Fetching articles from 2026-07-07T08:00:00Z to 2026-07-08T15:39:26.518373Z
+Fetched 192 articles
 
 2. Categorizing articles...
-   energy-transition: 37 articles
-   emerging-tech: 131 articles
-   materials: 10 articles
+   energy-transition: 44 articles
+   emerging-tech: 144 articles
+   materials: 4 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: European solar asset consolidation continues with institutional capital deployment, exemplified by Qualitas Energy's €197M acquisition of Italian PV portfolios. Meanwhile, battery energy storage systems (BESS) are scaling rapidly in the UK market, with projects like Envision Energy's 310 MWh facility demonstrating institutional momentum toward grid-scale storage infrastructure to support renewable integration.
+   Generated AI excerpt: European battery manufacturing is accelerating as Eni Storage Systems constructs an LFP production facility in Italy while Offgrid Energy pilots zinc-gel technology in the UK, signaling diversification beyond lithium-ion chemistry as grid operators prioritize long-duration and cost-competitive storage solutions to support renewable integration.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Microsoft's workforce reduction of 4,800 employees reflects broader tech sector rationalization as AI investment priorities shift, while concurrent industry uncertainty around AI adoption ROI persists as evidenced by analyst scrutiny of major platform operators like S&P Global navigating valuation pressures amid AI deployment cycles.
+   Generated AI excerpt: AI-enabled consumer hardware proliferation is driving privacy-by-design product features, exemplified by physical camera shutters on smart eyewear, as manufacturers respond to escalating consumer skepticism around data collection. Meanwhile, industrial AI adoption—supported by renewed government policy focus—is emerging as a primary growth vector for technology companies, potentially overshadowing traditional consumer device cycles.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Applied Materials advanced 33% in Q1 amid semiconductor equipment demand, while industrial automation investments are driving screw conveyor market expansion toward $1.7B by 2036. Simultaneously, defense aerospace and automotive sectors are accelerating innovation cycles—Kratos is expanding drone manufacturing capacity and Mahindra has outlined 26 vehicle launches through 2031—signaling sustained capital deployment across capital equipment and advanced manufacturing.
-   Skipped materials: No new themes since last brief
+   Generated AI excerpt: The automotive composites market is projected to reach $19.35 billion by 2031, while advanced manufacturing applications are accelerating with NTT DATA and Hyster-Yale's deployment of physical AI solutions. Specialized materials markets, including PTFE-based copper clad laminates, are expanding to $0.65 billion by 2031, reflecting broader infrastructure demands across high-performance industrial sectors.
+   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-07-07.html
+Generated: energy-transition-2026-07-08.html
+Generated: materials-2026-07-08.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 178
-Briefs created: 1
-HTML files: energy-transition-2026-07-07.html
+Articles fetched: 192
+Briefs created: 2
+HTML files: energy-transition-2026-07-08.html, materials-2026-07-08.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 178,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 192,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-07-07.html"
+    "energy-transition-2026-07-08.html",
+    "materials-2026-07-08.html"
   ],
-  "publication_date": "2026-07-07T15:59:24.077314",
+  "publication_date": "2026-07-08T15:39:33.963252",
   "status": "success"
 }
