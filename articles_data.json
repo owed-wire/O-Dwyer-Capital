@@ -1,6 +1,47 @@
 [
   {
     "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 09, 2026",
+    "excerpt": "India's energy storage capacity is projected to surge nearly 900x from current levels to 888 GWh by 2035-36, driving demand for next-generation battery technologies beyond lithium-ion chemistry. Concurrent AI infrastructure expansion is intensifying data storage constraints, creating downstream opportunities across energy storage and power management systems required to support computational workloads.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "energy storage",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 41,
+    "primary_sources": [
+      "Theregister.com",
+      "9to5Mac",
+      "Offshore Technology"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 26 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, artificial intelligence",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Innovation Investment Brief",
     "slug": "materials",
     "date": "July 08, 2026",

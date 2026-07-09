@@ -3,45 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-07T08:00:00Z to 2026-07-08T15:39:26.518373Z
-Fetched 192 articles
+Fetching articles from 2026-07-08T08:00:00Z to 2026-07-09T16:11:15.351734Z
+Fetched 184 articles
 
 2. Categorizing articles...
-   energy-transition: 44 articles
-   emerging-tech: 144 articles
-   materials: 4 articles
+   energy-transition: 41 articles
+   emerging-tech: 141 articles
+   materials: 2 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: European battery manufacturing is accelerating as Eni Storage Systems constructs an LFP production facility in Italy while Offgrid Energy pilots zinc-gel technology in the UK, signaling diversification beyond lithium-ion chemistry as grid operators prioritize long-duration and cost-competitive storage solutions to support renewable integration.
+   Generated AI excerpt: India's energy storage capacity is projected to surge nearly 900x from current levels to 888 GWh by 2035-36, driving demand for next-generation battery technologies beyond lithium-ion chemistry. Concurrent AI infrastructure expansion is intensifying data storage constraints, creating downstream opportunities across energy storage and power management systems required to support computational workloads.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: AI-enabled consumer hardware proliferation is driving privacy-by-design product features, exemplified by physical camera shutters on smart eyewear, as manufacturers respond to escalating consumer skepticism around data collection. Meanwhile, industrial AI adoption—supported by renewed government policy focus—is emerging as a primary growth vector for technology companies, potentially overshadowing traditional consumer device cycles.
+   Generated AI excerpt: Backblaze's $335 million AI infrastructure deal signals accelerating demand for enterprise storage solutions supporting large language model deployments, while Apple's sunsetting of encrypted Mac OS Extended drives creates near-term operational transitions for professional users managing AI workloads on legacy systems.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: The automotive composites market is projected to reach $19.35 billion by 2031, while advanced manufacturing applications are accelerating with NTT DATA and Hyster-Yale's deployment of physical AI solutions. Specialized materials markets, including PTFE-based copper clad laminates, are expanding to $0.65 billion by 2031, reflecting broader infrastructure demands across high-performance industrial sectors.
-   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: Nigeria's upstream sector is advancing infrastructure development with UTM securing a gas sales agreement for the Yoho FLNG project involving Seplat and NNPC, while the government is expanding downstream incentive mechanisms through the Food Processing Ministry's consultation on scheme extensions, signaling continued capital deployment across the energy and agribusiness value chains.
+   Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-07-08.html
-Generated: materials-2026-07-08.html
+Generated: energy-transition-2026-07-09.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 192
-Briefs created: 2
-HTML files: energy-transition-2026-07-08.html, materials-2026-07-08.html
+Articles fetched: 184
+Briefs created: 1
+HTML files: energy-transition-2026-07-09.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 192,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 184,
+  "briefs_created": 1,
+  "html_files_created": 1,
   "files": [
-    "energy-transition-2026-07-08.html",
-    "materials-2026-07-08.html"
+    "energy-transition-2026-07-09.html"
   ],
-  "publication_date": "2026-07-08T15:39:33.963252",
+  "publication_date": "2026-07-09T16:11:23.880384",
   "status": "success"
 }
