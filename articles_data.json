@@ -3,6 +3,41 @@
     "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
+    "date": "July 10, 2026",
+    "excerpt": "Global energy infrastructure is undergoing accelerated transition, with India securing JBIC financing for high-voltage direct current expansion while battery storage capacity\u2014exemplified by emerging 120+ GWh home EV systems\u2014increasingly functions as distributed grid stabilization assets. Geopolitical pressures, including Iran tensions, are reinforcing clean energy adoption across multiple regions, though grid digitization and remote control capabilities remain critical implementation challenges.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "power grid"
+    ],
+    "investment_relevance": "high",
+    "article_count": 36,
+    "primary_sources": [
+      "BusinessLine",
+      "NPR",
+      "Forbes"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "power grid"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 27 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, power grid"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
     "date": "July 09, 2026",
     "excerpt": "India's energy storage capacity is projected to surge nearly 900x from current levels to 888 GWh by 2035-36, driving demand for next-generation battery technologies beyond lithium-ion chemistry. Concurrent AI infrastructure expansion is intensifying data storage constraints, creating downstream opportunities across energy storage and power management systems required to support computational workloads.",
     "tags": [
