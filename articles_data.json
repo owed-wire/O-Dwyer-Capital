@@ -3,6 +3,47 @@
     "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
+    "date": "July 13, 2026",
+    "excerpt": "AI infrastructure demands are accelerating renewable energy adoption across developed markets, while institutional capacity constraints in Africa present both barriers and investment opportunities in grid modernization. Political headwinds in the U.S. are intensifying around utility-scale wind and solar development, creating regional disparities in renewable deployment rates and potential valuation impacts on clean energy project pipelines.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy",
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 36,
+    "primary_sources": [
+      "Gizmodo.com",
+      "Al Jazeera English",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "renewable energy",
+        "wind energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 28 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
     "date": "July 10, 2026",
     "excerpt": "Global energy infrastructure is undergoing accelerated transition, with India securing JBIC financing for high-voltage direct current expansion while battery storage capacity\u2014exemplified by emerging 120+ GWh home EV systems\u2014increasingly functions as distributed grid stabilization assets. Geopolitical pressures, including Iran tensions, are reinforcing clean energy adoption across multiple regions, though grid digitization and remote control capabilities remain critical implementation challenges.",
     "tags": [

@@ -3,43 +3,43 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-09T08:00:00Z to 2026-07-10T15:42:54.325799Z
-Fetched 187 articles
+Fetching articles from 2026-07-10T17:00:00Z to 2026-07-13T16:01:33.684862Z
+Fetched 192 articles
 
 2. Categorizing articles...
    energy-transition: 36 articles
-   emerging-tech: 147 articles
+   emerging-tech: 152 articles
    materials: 4 articles
 
 3. Creating analytical briefs...
-   Generated AI excerpt: Global energy infrastructure is undergoing accelerated transition, with India securing JBIC financing for high-voltage direct current expansion while battery storage capacity—exemplified by emerging 120+ GWh home EV systems—increasingly functions as distributed grid stabilization assets. Geopolitical pressures, including Iran tensions, are reinforcing clean energy adoption across multiple regions, though grid digitization and remote control capabilities remain critical implementation challenges.
+   Generated AI excerpt: AI infrastructure demands are accelerating renewable energy adoption across developed markets, while institutional capacity constraints in Africa present both barriers and investment opportunities in grid modernization. Political headwinds in the U.S. are intensifying around utility-scale wind and solar development, creating regional disparities in renewable deployment rates and potential valuation impacts on clean energy project pipelines.
    Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Micron Technology is positioned to benefit from accelerating AI infrastructure investment, as major technology firms including Meta expand data center deployments across new geographies. Semiconductor demand for AI applications continues to drive capacity expansion timelines, with foundational infrastructure spending expected to sustain elevated capital allocation cycles through 2024-2025.
+   Generated AI excerpt: The GPU infrastructure market is experiencing accelerated consolidation, with specialized providers like CoreWeave and Nebius securing significant capital to compete against incumbent cloud providers in AI compute allocation. Concurrent concerns around AI reliability and vendor lock-in—evidenced by user friction with Google's services—suggest enterprise adoption may face headwinds despite robust underlying infrastructure investment.
    Skipped emerging-tech: No new themes since last brief
-   Generated AI excerpt: Micron's $3 billion strategic investment underscores continued domestic semiconductor capacity expansion, while the IVD raw materials market is projected to grow 45% from $30.16B (2026) to $43.76B (2030), indicating sustained demand for specialized manufacturing inputs across the semiconductor and diagnostics sectors.
+   Generated AI excerpt: The materials science sector is advancing eco-friendly alternatives through nanocomposite innovations, with CMC/ZnO films demonstrating tunable optical and UV-blocking properties that could address demand in protective coatings and packaging applications. Concurrently, foldable smartphone technology continues iterating toward mainstream adoption, evidenced by Samsung's Galaxy Z Fold 8 development cycle, signaling sustained capital allocation in flexible display and advanced materials engineering.
    Skipped materials: No new themes since last brief
 
 4. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 5. Generating dated HTML files...
-Generated: energy-transition-2026-07-10.html
+Generated: energy-transition-2026-07-13.html
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 187
+Articles fetched: 192
 Briefs created: 1
-HTML files: energy-transition-2026-07-10.html
+HTML files: energy-transition-2026-07-13.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 187,
+  "articles_fetched": 192,
   "briefs_created": 1,
   "html_files_created": 1,
   "files": [
-    "energy-transition-2026-07-10.html"
+    "energy-transition-2026-07-13.html"
   ],
-  "publication_date": "2026-07-10T15:42:59.754720",
+  "publication_date": "2026-07-13T16:01:40.040289",
   "status": "success"
 }
