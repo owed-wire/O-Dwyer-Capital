@@ -3,6 +3,43 @@
     "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
+    "date": "July 14, 2026",
+    "excerpt": "Utility-scale solar-plus-battery deployments are accelerating globally, exemplified by Masdar's $5.1B megaproject, while corporate offtakers\u2014including Walmart's nuclear procurement and data center operators in Malaysia\u2014are increasingly secured through direct power agreements rather than grid sourcing, reflecting structural shifts in energy procurement driven by AI infrastructure demands and decarbonization mandates.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "artificial intelligence",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 43,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "SoyaCincau.com",
+      "Al Jazeera English"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 29 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, artificial intelligence, solar energy"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
     "date": "July 13, 2026",
     "excerpt": "AI infrastructure demands are accelerating renewable energy adoption across developed markets, while institutional capacity constraints in Africa present both barriers and investment opportunities in grid modernization. Political headwinds in the U.S. are intensifying around utility-scale wind and solar development, creating regional disparities in renewable deployment rates and potential valuation impacts on clean energy project pipelines.",
     "tags": [
