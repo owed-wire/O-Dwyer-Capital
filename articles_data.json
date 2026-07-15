@@ -1,6 +1,84 @@
 [
   {
     "id": 119,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 15, 2026",
+    "excerpt": "Ford's planned $30,000 EV truck launch in 2027 signals accelerating price-point competition in light-duty electric vehicles, while emerging battery technologies\u2014including iron-air fast-charging systems\u2014are addressing cost and charging infrastructure constraints that have historically limited EV adoption rates.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "artificial intelligence",
+      "electrification"
+    ],
+    "investment_relevance": "high",
+    "article_count": 144,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology"
+      ],
+      "ongoing_themes": [
+        "artificial intelligence",
+        "electrification"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 9 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 15, 2026",
+    "excerpt": "Major renewables infrastructure consolidation is accelerating in emerging markets, exemplified by Shell's $1.8bn divestment of Sprng Energy to India's Aditya Birla, while breakthrough battery technologies\u2014particularly iron-air chemistries validated by independent testing\u2014are addressing grid-scale storage constraints critical for 24/7 renewable deployment. Concurrently, AI-driven hardware demand is reshaping capital allocation within traditional computing sectors, signaling potential capital redeployment toward energy infrastructure supporting compute-intensive workloads.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy",
+      "artificial intelligence",
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 43,
+    "primary_sources": [
+      "Theregister.com",
+      "Power Technology",
+      "Al Jazeera English"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "battery technology"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 30 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, battery technology",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
+    "id": 119,
     "title": "Energy Investment Brief",
     "slug": "energy-transition",
     "date": "July 14, 2026",
