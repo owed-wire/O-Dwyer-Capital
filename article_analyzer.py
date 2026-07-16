@@ -291,6 +291,141 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
         # Final fallback
         return "Strategic market developments creating new investment opportunities"
 
+    def next_id(self) -> int:
+        """Return a unique incrementing id (accounts for multiple briefs in one run)"""
+        existing_ids = [a.get('id', 0) for a in self.existing_articles if isinstance(a.get('id'), int)]
+        base = max(existing_ids) if existing_ids else 0
+        self._ids_assigned_this_run = getattr(self, '_ids_assigned_this_run', 0) + 1
+        return base + self._ids_assigned_this_run
+
+    def find_related_briefs(self, slug: str, themes: List[str], limit: int = 3) -> List[Dict]:
+        """Find prior briefs in the same category or with overlapping themes, newest first"""
+        related = []
+        theme_set = {t.lower() for t in (themes or [])}
+
+        for brief in self.existing_articles:
+            b_slug = brief.get('slug', '')
+            b_themes = {t.lower() for t in brief.get('themes', [])}
+            if b_slug == slug or (theme_set & b_themes):
+                url = brief.get('url')
+                if not url:
+                    # Reconstruct the dated filename from the brief's date
+                    try:
+                        d = datetime.strptime(brief.get('date', ''), "%B %d, %Y")
+                        url = f"{b_slug}-{d.strftime('%Y-%m-%d')}.html"
+                    except Exception:
+                        continue
+                related.append({
+                    'title': brief.get('title', ''),
+                    'date': brief.get('date', ''),
+                    'excerpt': brief.get('excerpt', ''),
+                    'url': url
+                })
+            if len(related) >= limit:
+                break
+
+        return related
+
+    def generate_article_body(self, category: str, themes: List[str], articles: List[Dict],
+                              trend_analysis: Dict, related_briefs: List[Dict]) -> str:
+        """Generate the FULL article body HTML using Claude, based on today's news.
+
+        This is the core fix for duplicate articles: previously only the excerpt was
+        AI-generated and the article page was a copy of a static template. Now the
+        entire body is written fresh from the day's fetched articles.
+        """
+        if not self.claude_client:
+            print("   WARNING: No ANTHROPIC_API_KEY - falling back to insight-based body")
+            return self.generate_fallback_body(category, articles)
+
+        # Today's source material: title, description, source, url
+        source_lines = []
+        for a in articles[:12]:
+            title = a.get('title', '')
+            desc = (a.get('description') or '')[:300]
+            src = a.get('source', {}).get('name', 'Unknown')
+            url = a.get('url', '')
+            source_lines.append(f"- TITLE: {title}\n  SOURCE: {src}\n  URL: {url}\n  SUMMARY: {desc}")
+        source_material = "\n".join(source_lines)
+
+        # Prior coverage so the model writes what's NEW, not a rehash
+        prior_lines = []
+        for rb in related_briefs:
+            prior_lines.append(f"- \"{rb['title']}\" ({rb['date']}): {rb['excerpt']}")
+        prior_coverage = "\n".join(prior_lines) if prior_lines else "None - this is the first brief in this category."
+
+        today_str = datetime.now().strftime("%B %d, %Y")
+
+        prompt = f"""You are the research analyst for O'Dwyer Capital, a private family investment office. Write today's ({today_str}) {category} investment brief as an HTML fragment.
+
+TODAY'S NEWS (your ONLY source material - every claim must come from these):
+{source_material}
+
+CURRENT THEMES: {', '.join(themes) if themes else 'n/a'}
+NEW THEMES vs prior briefs: {', '.join(trend_analysis.get('new_themes', [])) or 'none'}
+ACCELERATING THEMES: {', '.join(trend_analysis.get('accelerating_themes', [])) or 'none'}
+
+PRIOR O'DWYER COVERAGE (do NOT repeat this analysis - focus on what has CHANGED or emerged since):
+{prior_coverage}
+
+REQUIREMENTS:
+1. 500-800 words, written for investment professionals. Factual, specific, no marketing fluff.
+2. Structure with these tags only: <h2>, <h3>, <p>, <strong>, <a>. No <html>, <head>, <body>, or <div> wrappers.
+3. Sections: an opening <h2> headline specific to today's developments (NOT a generic category name), <h3>Executive Summary</h3>, <h2>Key Developments</h2> (2-4 subsections), <h2>Investment Implications</h2> including risk factors.
+4. Link claims to sources inline: <a href="URL" target="_blank">anchor text</a> using the URLs provided above. Only use provided URLs.
+5. Include concrete figures (market sizes, growth rates, timelines) ONLY when they appear in the source material. Never invent numbers.
+6. Where prior coverage exists, add one short paragraph noting how today's developments extend or diverge from it.
+
+Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
+
+        try:
+            message = self.claude_client.messages.create(
+                model=os.getenv('ARTICLE_MODEL', 'claude-haiku-4-5-20251001'),
+                max_tokens=3000,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            body = message.content[0].text.strip()
+            # Strip accidental code fences
+            body = re.sub(r'^```(?:html)?\s*|\s*```$', '', body).strip()
+            print(f"   Generated AI article body ({len(body)} chars)")
+            return body
+        except Exception as e:
+            print(f"   Error generating AI article body: {e}")
+            return self.generate_fallback_body(category, articles)
+
+    def generate_fallback_body(self, category: str, articles: List[Dict]) -> str:
+        """Non-AI fallback: build a body from today's actual articles so content is still unique per day"""
+        today_str = datetime.now().strftime("%B %d, %Y")
+        parts = [f"<h2>{category} Investment Brief &mdash; {today_str}</h2>",
+                 "<h3>Today's Developments</h3>"]
+        for a in articles[:8]:
+            title = a.get('title', '')
+            desc = (a.get('description') or '').strip()
+            url = a.get('url', '')
+            src = a.get('source', {}).get('name', '')
+            if title and url:
+                parts.append(f'<p><strong><a href="{url}" target="_blank">{title}</a></strong> ({src})</p>')
+                if desc:
+                    parts.append(f"<p>{desc}</p>")
+        return "\n".join(parts)
+
+    def build_related_section(self, related_briefs: List[Dict]) -> str:
+        """Build the Related Coverage HTML section linking to earlier briefs"""
+        if not related_briefs:
+            return ""
+        items = "\n".join(
+            f'                <li><a href="{rb["url"]}">{rb["title"]} &mdash; {rb["date"]}</a></li>'
+            for rb in related_briefs
+        )
+        return f"""
+            <div class="related-briefs">
+                <h2>Related Coverage</h2>
+                <p>Earlier O'Dwyer briefs on similar themes:</p>
+                <ul>
+{items}
+                </ul>
+            </div>"""
+
     def analyze_historical_trends(self, category_slug: str, current_themes: List[str]) -> Dict:
         """Analyze trends from historical briefs in this category"""
         historical_themes = {}
@@ -337,6 +472,13 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
         # Generate AI excerpt based on brief content and themes
         excerpt = self.generate_ai_excerpt(category, current_themes, articles)
 
+        # Find related prior briefs (used for linking + so the body focuses on what's new)
+        related_briefs = self.find_related_briefs(category_slug, current_themes)
+
+        # Generate the FULL article body from today's news
+        body_html = self.generate_article_body(category, current_themes, articles,
+                                               trend_analysis, related_briefs)
+
         # Build trend context for the brief
         trend_context = []
         if trend_analysis['new_themes']:
@@ -344,12 +486,17 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
         if trend_analysis['accelerating_themes']:
             trend_context.append(f"Accelerating trends: {', '.join(trend_analysis['accelerating_themes'])}")
 
+        today_iso = datetime.now().strftime("%Y-%m-%d")
+
         brief = {
-            "id": 119,
+            "id": self.next_id(),
             "title": f"{category} Investment Brief",
             "slug": category.lower().replace(' ', '-'),
             "date": datetime.now().strftime("%B %d, %Y"),
+            "url": f"{category_slug}-{today_iso}.html",
             "excerpt": excerpt,
+            "body_html": body_html,
+            "related_briefs": related_briefs,
             "tags": [category],
             "source": "O'Dwyer Analysis",
             "analysis_type": "analytical",
@@ -364,10 +511,11 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
         return brief
 
     def update_articles_json(self, briefs: List[Dict]) -> str:
-        """Update articles_data.json with new briefs"""
+        """Update articles_data.json with new briefs (body_html lives in the HTML file, not the JSON)"""
         for brief in briefs:
             if brief:
-                self.existing_articles.insert(0, brief)
+                entry = {k: v for k, v in brief.items() if k not in ('body_html', 'related_briefs')}
+                self.existing_articles.insert(0, entry)
 
         output_path = os.path.join(os.path.dirname(__file__), self.thoughts_file)
 
@@ -413,16 +561,59 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
 
             if os.path.exists(src_path):
                 try:
-                    # Read template
-                    with open(src_path, 'r', encoding='utf-8') as f:
+                    # Read template (only used for page chrome: header, nav, styles, footer)
+                    with open(src_path, 'r', encoding='utf-8', errors='replace') as f:
                         html_content = f.read()
 
-                    # Update date in the HTML
+                    # 1. Update date - matches ANY existing date, not a hardcoded one.
+                    #    If the template has no Date line, inject one into article-meta.
                     brief_date = brief.get('date', '')
-                    old_date_pattern = r'<strong>Date:</strong>\s*May 30, 2026'
-                    html_content = re.sub(old_date_pattern, f'<strong>Date:</strong> {brief_date}', html_content)
+                    if re.search(r'<strong>Date:</strong>', html_content):
+                        html_content = re.sub(
+                            r'(<strong>Date:</strong>\s*)[A-Za-z]+ \d{1,2}, \d{4}',
+                            lambda m: m.group(1) + brief_date,
+                            html_content
+                        )
+                    else:
+                        html_content = html_content.replace(
+                            '<div class="article-meta">',
+                            f'<div class="article-meta"><strong>Date:</strong> {brief_date} | ',
+                            1
+                        )
 
-                    # Write to dated file
+                    # 2. Replace the ENTIRE article body with today's AI-generated content.
+                    #    This is the duplicate-article fix: previously the old body was
+                    #    copied verbatim, so every "new" article had identical content.
+                    body_html = brief.get('body_html', '')
+                    if body_html:
+                        tags_html = "".join(
+                            f'<span class="tag">{t}</span>'
+                            for t in (brief.get('tags', []) + brief.get('themes', []))
+                        )
+                        related_html = self.build_related_section(brief.get('related_briefs', []))
+                        new_body = (
+                            f'<div class="article-body">\n{body_html}\n'
+                            f'{related_html}\n'
+                            f'            <div class="tags">{tags_html}</div>\n'
+                            f'        </div>'
+                        )
+                        html_content, n = re.subn(
+                            r'<div class="article-body">.*?</div>\s*(?=</section>)',
+                            lambda m: new_body,
+                            html_content,
+                            count=1,
+                            flags=re.DOTALL
+                        )
+                        if n == 0:
+                            print(f"WARNING: could not locate article-body in {template_file}; "
+                                  f"skipping {dst_file} to avoid publishing a duplicate")
+                            continue
+                    else:
+                        print(f"WARNING: no body generated for {slug}; "
+                              f"skipping {dst_file} to avoid publishing a duplicate")
+                        continue
+
+                    # Write the dated article file
                     with open(dst_path, 'w', encoding='utf-8') as f:
                         f.write(html_content)
 
@@ -482,17 +673,18 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
                 else:
                     print(f"   Skipped {category}: No new themes since last brief")
 
-        # Update JSON
-        print("\n4. Updating articles_data.json...")
-        json_path = self.update_articles_json(briefs)
-
-        # Generate dated HTML files ONLY for categories with new briefs
-        print("\n5. Generating dated HTML files...")
+        # Generate dated HTML files FIRST, so the JSON only lists articles that actually exist
+        print("\n4. Generating dated HTML files...")
         html_files = self.generate_html_files(briefs)
+        published_briefs = [b for b in briefs if b.get('url') in html_files]
+
+        # Update JSON only for successfully generated articles
+        print("\n5. Updating articles_data.json...")
+        json_path = self.update_articles_json(published_briefs)
 
         summary = {
             'articles_fetched': len(articles),
-            'briefs_created': len(briefs),
+            'briefs_created': len(published_briefs),
             'html_files_created': len(html_files),
             'files': html_files,
             'publication_date': datetime.now().isoformat(),
@@ -503,7 +695,7 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
         print("PUBLICATION COMPLETE")
         print("=" * 60)
         print(f"Articles fetched: {len(articles)}")
-        print(f"Briefs created: {len(briefs)}")
+        print(f"Briefs created: {len(published_briefs)}")
         print(f"HTML files: {', '.join(html_files)}")
 
         return summary

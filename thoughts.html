@@ -691,9 +691,13 @@
             }
 
             container.innerHTML = filtered.map(article => {
+                // Prefer the explicit url written by the publisher; fall back to
+                // rebuilding it from the date WITHOUT timezone shifting (toISOString
+                // converts to UTC and can point at the wrong day for some visitors)
                 const dateObj = new Date(article.date);
-                const dateStr = dateObj.toISOString().split('T')[0];
-                const articleUrl = `${article.slug}-${dateStr}.html`;
+                const pad = n => String(n).padStart(2, '0');
+                const dateStr = `${dateObj.getFullYear()}-${pad(dateObj.getMonth() + 1)}-${pad(dateObj.getDate())}`;
+                const articleUrl = article.url || `${article.slug}-${dateStr}.html`;
 
                 const tagHTML = article.tags ? article.tags.map(tag =>
                     `<span class="tag">${tag}</span>`
