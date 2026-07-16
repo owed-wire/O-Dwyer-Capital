@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.odwyercapital.com/index.html</loc>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.odwyercapital.com/</loc>
+    <lastmod>2026-07-15</lastmod>
   </url>
   <url>
     <loc>https://www.odwyercapital.com/thoughts.html</loc>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.odwyercapital.com/emerging-tech-2026-05-30.html</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.odwyercapital.com/energy-transition-2026-05-30.html</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.odwyercapital.com/materials-2026-05-30.html</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-07-15</lastmod>
   </url>
   <url>
     <loc>https://www.odwyercapital.com/contact.html</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
+    <loc>https://www.odwyercapital.com/emerging-tech-2026-05-30.html</loc>
+    <lastmod>2026-05-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.odwyercapital.com/energy-transition-2026-05-30.html</loc>
+    <lastmod>2026-05-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.odwyercapital.com/materials-2026-05-30.html</loc>
+    <lastmod>2026-05-30</lastmod>
   </url>
 </urlset>

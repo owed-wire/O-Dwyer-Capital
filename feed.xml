@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>O'Dwyer Capital — Investment Briefs</title>
+    <link>https://www.odwyercapital.com/thoughts.html</link>
+    <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
+    <language>en-us</language>
+    <item>
+      <title>Emerging Tech Investment Brief — May 30, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-05-30.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-05-30.html</guid>
+      <pubDate>Sat, 30 May 2026 13:30:00 GMT</pubDate>
+      <description>Space infrastructure reaching inflection point with $74.54B LEO satellite market by 2035.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — May 30, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-05-30.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-05-30.html</guid>
+      <pubDate>Sat, 30 May 2026 13:30:00 GMT</pubDate>
+      <description>Energy storage infrastructure becoming mission-critical with clear regulatory tailwinds.</description>
+    </item>
+    <item>
+      <title>Materials Investment Brief — May 30, 2026</title>
+      <link>https://www.odwyercapital.com/materials-2026-05-30.html</link>
+      <guid>https://www.odwyercapital.com/materials-2026-05-30.html</guid>
+      <pubDate>Sat, 30 May 2026 13:30:00 GMT</pubDate>
+      <description>Graphene heating films market expanding 50% to $1.51 billion by 2030.</description>
+    </item>
+  </channel>
+</rss>

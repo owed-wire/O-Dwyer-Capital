@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thoughts - O'Dwyer Capital</title>
+    <meta name="description" content="Daily investment briefs from O'Dwyer Capital analyzing emerging developments in energy transition, technology, and strategic materials.">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="alternate" type="application/rss+xml" title="O'Dwyer Capital Briefs" href="https://www.odwyercapital.com/feed.xml">
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-32PXHG0656"></script>
     <script>
@@ -479,7 +481,7 @@
     <!-- HEADER -->
     <header>
         <a href="index.html" class="logo-container">
-            <img src="odwyer_capital_logo_primary.png" alt="O'Dwyer Capital">
+            <img src="odwyer_capital_logo_primary.webp" alt="O'Dwyer Capital">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -714,16 +716,4 @@
                         <div class="article-excerpt">${article.excerpt}</div>
                         <div class="article-tags">
                             ${tagHTML}
-                            ${themeHTML}
-                        </div>
-                        <a href="${articleUrl}" class="read-more">Read Brief →</a>
-                    </article>
-                `;
-            }).join('');
-        }
-
-        // Load articles on page load
-        document.addEventListener('DOMContentLoaded', loadArticles);
-    </script>
-</body>
-</html>
+            

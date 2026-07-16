@@ -426,6 +426,124 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
                 </ul>
             </div>"""
 
+    SITE_URL = "https://www.odwyercapital.com"
+
+    def extract_headline(self, body_html: str, fallback: str) -> str:
+        """Pull the article's unique opening <h2> headline for use as page title"""
+        m = re.search(r'<h2[^>]*>(.*?)</h2>', body_html or '', re.DOTALL)
+        if m:
+            text = re.sub(r'<[^>]+>', '', m.group(1)).strip()
+            if text:
+                return text
+        return fallback
+
+    def inject_seo(self, html_content: str, brief: Dict) -> str:
+        """Give each article a unique <title>, meta description, canonical URL and Article schema"""
+        headline = self.extract_headline(
+            brief.get('body_html', ''),
+            f"{brief.get('title', '')} - {brief.get('date', '')}"
+        )
+        excerpt = (brief.get('excerpt') or '').strip()
+        page_url = f"{self.SITE_URL}/{brief.get('url', '')}"
+
+        try:
+            iso_date = datetime.strptime(brief.get('date', ''), "%B %d, %Y").strftime("%Y-%m-%d")
+        except Exception:
+            iso_date = datetime.now().strftime("%Y-%m-%d")
+
+        # Unique <title> (use lambda so special chars in headline can't break the regex)
+        new_title = f"{headline} | O'Dwyer Capital"
+        html_content = re.sub(r'<title>.*?</title>', lambda m: f'<title>{new_title}</title>',
+                              html_content, count=1, flags=re.DOTALL)
+
+        schema = {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": headline,
+            "description": excerpt,
+            "datePublished": iso_date,
+            "author": {"@type": "Organization", "name": "O'Dwyer Capital"},
+            "publisher": {"@type": "Organization", "name": "O'Dwyer Capital", "url": self.SITE_URL},
+            "mainEntityOfPage": page_url
+        }
+        meta_desc = excerpt.replace('"', '&quot;')
+        head_extra = (
+            f'    <meta name="description" content="{meta_desc}">\n'
+            f'    <link rel="canonical" href="{page_url}">\n'
+            f'    <script type="application/ld+json">{json.dumps(schema)}</script>\n'
+        )
+        return html_content.replace('</head>', head_extra + '</head>', 1)
+
+    def generate_sitemap(self) -> str:
+        """Regenerate sitemap.xml including every published article"""
+        today = datetime.now().strftime("%Y-%m-%d")
+        entries = [(f"{self.SITE_URL}/", today),
+                   (f"{self.SITE_URL}/thoughts.html", today),
+                   (f"{self.SITE_URL}/contact.html", today)]
+        for a in self.existing_articles:
+            u = a.get('url')
+            if not u:
+                continue
+            try:
+                lastmod = datetime.strptime(a.get('date', ''), "%B %d, %Y").strftime("%Y-%m-%d")
+            except Exception:
+                lastmod = today
+            entries.append((f"{self.SITE_URL}/{u}", lastmod))
+
+        urls = "\n".join(
+            f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n  </url>"
+            for loc, lastmod in entries
+        )
+        xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+               f'{urls}\n</urlset>\n')
+        path = os.path.join(os.path.dirname(__file__), 'sitemap.xml')
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(xml)
+        print(f"Generated sitemap.xml with {len(entries)} URLs")
+        return path
+
+    def generate_feed(self) -> str:
+        """Regenerate RSS feed (feed.xml) from the most recent published briefs"""
+        def esc(s):
+            return (s or '').replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
+        items = []
+        for a in self.existing_articles[:20]:
+            u = a.get('url')
+            if not u:
+                continue
+            try:
+                pub = datetime.strptime(a.get('date', ''), "%B %d, %Y").strftime("%a, %d %b %Y 13:30:00 GMT")
+            except Exception:
+                continue
+            link = f"{self.SITE_URL}/{u}"
+            items.append(
+                f"    <item>\n"
+                f"      <title>{esc(a.get('title', ''))} — {esc(a.get('date', ''))}</title>\n"
+                f"      <link>{link}</link>\n"
+                f"      <guid>{link}</guid>\n"
+                f"      <pubDate>{pub}</pubDate>\n"
+                f"      <description>{esc(a.get('excerpt', ''))}</description>\n"
+                f"    </item>"
+            )
+
+        feed = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<rss version="2.0">\n'
+                '  <channel>\n'
+                "    <title>O'Dwyer Capital — Investment Briefs</title>\n"
+                f'    <link>{self.SITE_URL}/thoughts.html</link>\n'
+                "    <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>\n"
+                '    <language>en-us</language>\n'
+                + "\n".join(items) + "\n"
+                '  </channel>\n'
+                '</rss>\n')
+        path = os.path.join(os.path.dirname(__file__), 'feed.xml')
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(feed)
+        print(f"Generated feed.xml with {len(items)} items")
+        return path
+
     def analyze_historical_trends(self, category_slug: str, current_themes: List[str]) -> Dict:
         """Analyze trends from historical briefs in this category"""
         historical_themes = {}
@@ -613,6 +731,9 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
                               f"skipping {dst_file} to avoid publishing a duplicate")
                         continue
 
+                    # 3. Unique title, meta description, canonical URL, Article schema
+                    html_content = self.inject_seo(html_content, brief)
+
                     # Write the dated article file
                     with open(dst_path, 'w', encoding='utf-8') as f:
                         f.write(html_content)
@@ -681,6 +802,11 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
         # Update JSON only for successfully generated articles
         print("\n5. Updating articles_data.json...")
         json_path = self.update_articles_json(published_briefs)
+
+        # Keep search engines and feed readers up to date
+        print("\n6. Regenerating sitemap.xml and feed.xml...")
+        self.generate_sitemap()
+        self.generate_feed()
 
         summary = {
             'articles_fetched': len(articles),
