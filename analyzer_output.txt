@@ -3,45 +3,12 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-14T08:00:00Z to 2026-07-15T15:05:31.982075Z
-Fetched 191 articles
-
-2. Categorizing articles...
-   energy-transition: 43 articles
-   emerging-tech: 144 articles
-   materials: 4 articles
-
-3. Creating analytical briefs...
-   Generated AI excerpt: Major renewables infrastructure consolidation is accelerating in emerging markets, exemplified by Shell's $1.8bn divestment of Sprng Energy to India's Aditya Birla, while breakthrough battery technologies—particularly iron-air chemistries validated by independent testing—are addressing grid-scale storage constraints critical for 24/7 renewable deployment. Concurrently, AI-driven hardware demand is reshaping capital allocation within traditional computing sectors, signaling potential capital redeployment toward energy infrastructure supporting compute-intensive workloads.
-   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: Ford's planned $30,000 EV truck launch in 2027 signals accelerating price-point competition in light-duty electric vehicles, while emerging battery technologies—including iron-air fast-charging systems—are addressing cost and charging infrastructure constraints that have historically limited EV adoption rates.
-   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
-   Generated AI excerpt: The Middle East & Africa data center construction market is experiencing accelerated modernization investments through 2031 to support expanding data processing demands, while deep learning technologies are reshaping advertising and marketing efficiency across sectors. Enterprise software solutions targeting operational optimization continue gaining market validation, as demonstrated by infrastructure software vendors capturing industry recognition for cloud-based platforms.
-   Skipped materials: No new themes since last brief
-
-4. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
-
-5. Generating dated HTML files...
-Generated: energy-transition-2026-07-15.html
-Generated: emerging-tech-2026-07-15.html
-
-============================================================
-PUBLICATION COMPLETE
-============================================================
-Articles fetched: 191
-Briefs created: 2
-HTML files: energy-transition-2026-07-15.html, emerging-tech-2026-07-15.html
+Fetching articles from 2026-07-15T08:00:00Z to 2026-07-16T02:41:22.560780Z
+Fetched 0 articles
+No articles fetched. Skipping brief generation.
 
 === SUMMARY ===
 {
-  "articles_fetched": 191,
-  "briefs_created": 2,
-  "html_files_created": 2,
-  "files": [
-    "energy-transition-2026-07-15.html",
-    "emerging-tech-2026-07-15.html"
-  ],
-  "publication_date": "2026-07-15T15:05:40.632552",
-  "status": "success"
+  "status": "no_articles",
+  "publication_date": "2026-07-16T02:41:23.075905"
 }
