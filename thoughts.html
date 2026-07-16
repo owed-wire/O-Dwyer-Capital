@@ -718,4 +718,16 @@
                         <div class="article-excerpt">${article.excerpt}</div>
                         <div class="article-tags">
                             ${tagHTML}
-            
+                                        ${themeHTML}
+                        </div>
+                        <a href="${articleUrl}" class="read-more">Read Brief →</a>
+                    </article>
+                `;
+            }).join('');
+        }
+
+        // Load articles on page load
+        document.addEventListener('DOMContentLoaded', loadArticles);
+    </script>
+</body>
+</html>
