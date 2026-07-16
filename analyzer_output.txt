@@ -3,12 +3,54 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-15T08:00:00Z to 2026-07-16T02:41:22.560780Z
-Fetched 0 articles
-No articles fetched. Skipping brief generation.
+Fetching articles from 2026-07-15T08:00:00Z to 2026-07-16T15:15:59.371938Z
+Fetched 191 articles
+
+2. Categorizing articles...
+   energy-transition: 41 articles
+   emerging-tech: 148 articles
+   materials: 2 articles
+
+3. Creating analytical briefs...
+   Generated AI excerpt: Data center operators are increasingly prioritizing renewable energy sources to power AI infrastructure, with major projects like the Cypress Creek-Google solar development—America's largest—addressing the substantial power demands of computational workloads. Concurrently, automotive manufacturers are exploring renewable fuel alternatives for internal combustion engines, signaling diversified approaches to decarbonization across energy-intensive sectors.
+   Generated AI article body (5784 chars)
+   Created brief: Energy Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: ON Semiconductor is benefiting from surging global power demand, positioning the semiconductor sector to capture growth from expanding data center and AI infrastructure investments. While China's Q2 GDP growth of 4.3%—the slowest pace since late 2022—may signal near-term headwinds in a key market, US-based semiconductor plays are increasingly insulated by domestic capacity expansions and strategic energy infrastructure projects like FPUSA's Texas battery storage facility.
+   Generated AI article body (4693 chars)
+   Created brief: Technology Investment Brief (NEW/ACCELERATING themes found)
+   Generated AI excerpt: The thermal interface material (TIM) market is projected to reach USD 6.2 billion by 2036, driven by accelerating demand from semiconductor manufacturing, electric vehicle production, and data center expansion. This growth reflects structural capacity increases across high-compute infrastructure segments requiring advanced thermal management solutions.
+   Generated AI article body (5298 chars)
+   Created brief: Innovation Investment Brief (NEW/ACCELERATING themes found)
+
+4. Generating dated HTML files...
+Generated: energy-transition-2026-07-16.html
+Generated: emerging-tech-2026-07-16.html
+Generated: materials-2026-07-16.html
+
+5. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
+
+6. Regenerating sitemap.xml and feed.xml...
+Generated sitemap.xml with 9 URLs
+Generated feed.xml with 6 items
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 191
+Briefs created: 3
+HTML files: energy-transition-2026-07-16.html, emerging-tech-2026-07-16.html, materials-2026-07-16.html
 
 === SUMMARY ===
 {
-  "status": "no_articles",
-  "publication_date": "2026-07-16T02:41:23.075905"
+  "articles_fetched": 191,
+  "briefs_created": 3,
+  "html_files_created": 3,
+  "files": [
+    "energy-transition-2026-07-16.html",
+    "emerging-tech-2026-07-16.html",
+    "materials-2026-07-16.html"
+  ],
+  "publication_date": "2026-07-16T15:16:45.287903",
+  "status": "success"
 }

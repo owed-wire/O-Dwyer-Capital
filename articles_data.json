@@ -1,5 +1,110 @@
 [
   {
+    "id": 6,
+    "title": "Innovation Investment Brief",
+    "slug": "materials",
+    "date": "July 16, 2026",
+    "url": "materials-2026-07-16.html",
+    "excerpt": "The thermal interface material (TIM) market is projected to reach USD 6.2 billion by 2036, driven by accelerating demand from semiconductor manufacturing, electric vehicle production, and data center expansion. This growth reflects structural capacity increases across high-compute infrastructure segments requiring advanced thermal management solutions.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "semiconductor"
+    ],
+    "investment_relevance": "high",
+    "article_count": 2,
+    "primary_sources": [
+      "PRNewswire",
+      "Biztoc.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "semiconductor"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 1 historical briefs"
+    },
+    "trend_context": [
+      "New developments: semiconductor"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Technology Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 16, 2026",
+    "url": "emerging-tech-2026-07-16.html",
+    "excerpt": "ON Semiconductor is benefiting from surging global power demand, positioning the semiconductor sector to capture growth from expanding data center and AI infrastructure investments. While China's Q2 GDP growth of 4.3%\u2014the slowest pace since late 2022\u2014may signal near-term headwinds in a key market, US-based semiconductor plays are increasingly insulated by domestic capacity expansions and strategic energy infrastructure projects like FPUSA's Texas battery storage facility.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "semiconductor"
+    ],
+    "investment_relevance": "high",
+    "article_count": 148,
+    "primary_sources": [
+      "NPR",
+      "BBC News",
+      "Power Technology"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "semiconductor"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 1 historical briefs"
+    },
+    "trend_context": [
+      "New developments: semiconductor"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Energy Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 16, 2026",
+    "url": "energy-transition-2026-07-16.html",
+    "excerpt": "Data center operators are increasingly prioritizing renewable energy sources to power AI infrastructure, with major projects like the Cypress Creek-Google solar development\u2014America's largest\u2014addressing the substantial power demands of computational workloads. Concurrently, automotive manufacturers are exploring renewable fuel alternatives for internal combustion engines, signaling diversified approaches to decarbonization across energy-intensive sectors.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy",
+      "artificial intelligence",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 41,
+    "primary_sources": [
+      "Forbes",
+      "Gothamist",
+      "BMWBLOG"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "renewable energy",
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 1 historical briefs"
+    },
+    "trend_context": [
+      "New developments: renewable energy, artificial intelligence, solar energy"
+    ]
+  },
+  {
     "id": 3,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
