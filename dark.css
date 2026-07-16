@@ -1,0 +1,103 @@
+/* O'Dwyer Capital - dark mode.
+   Activated by adding class "dark" to <html> (see theme.js).
+   Follows the visitor's system preference by default; toggle overrides. */
+
+html.dark {
+    --light-bg: #1d221e;
+    --text-dark: #e9e6df;
+    --text-gray: #b3afa6;
+    color-scheme: dark;
+}
+
+html.dark body,
+html.dark header {
+    background: #141815;
+}
+
+html.dark header {
+    border-bottom: 1px solid #2b312c;
+}
+
+/* Surfaces that were white in light mode */
+html.dark .feature-card,
+html.dark .about,
+html.dark .contact-form,
+html.dark .month-item:hover,
+html.dark .month-item.active,
+html.dark .tag-btn,
+html.dark .theme-btn,
+html.dark .tag {
+    background: #20261f;
+}
+
+/* Dark-green text is unreadable on dark backgrounds - lift headings to a lighter green.
+   Excludes green-background areas (page header, hero, footer) where white text stays. */
+html.dark h1:where(:not(.page-header *):not(.hero *):not(footer *)),
+html.dark h2:where(:not(.page-header *):not(.hero *):not(footer *)),
+html.dark h3:where(:not(.page-header *):not(.hero *):not(footer *)) {
+    color: #8fcca9;
+}
+
+html.dark .tag-btn,
+html.dark .month-item.active {
+    color: #8fcca9;
+}
+
+html.dark .tag-btn:hover,
+html.dark .tag-btn.active {
+    background: var(--accent-gold);
+    color: #141815;
+}
+
+html.dark .theme-btn {
+    color: #8fcca9;
+    border-color: #8fcca9;
+}
+
+html.dark .theme-btn:hover,
+html.dark .theme-btn.active {
+    background: #2d6a4f;
+    color: #e9e6df;
+}
+
+html.dark .tag {
+    color: var(--accent-gold);
+}
+
+/* Disclaimer box (light amber in light mode) */
+html.dark .disclaimer {
+    background: #2a2416;
+    border-color: #8a6d1f;
+}
+
+html.dark .disclaimer p {
+    color: #c9c2b4;
+}
+
+/* Borders that were hardcoded light gray */
+html.dark .article-meta {
+    border-bottom-color: #2b312c;
+}
+
+html.dark .article {
+    border-bottom-color: #2b312c;
+}
+
+/* Form fields (contact page) */
+html.dark input,
+html.dark textarea,
+html.dark select {
+    background: #20261f;
+    color: var(--text-dark);
+    border-color: #3a423b;
+}
+
+/* Theme toggle button (both modes) */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 4px;
+    line-height: 1;
+}
