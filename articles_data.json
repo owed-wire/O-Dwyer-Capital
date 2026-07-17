@@ -1,5 +1,43 @@
 [
   {
+    "id": 7,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 17, 2026",
+    "url": "energy-transition-2026-07-17.html",
+    "excerpt": "Global energy storage capacity is accelerating across multiple geographies, with recent deployments including a 150 MW project in Italy, a 5.15 GWh battery manufacturing facility in India, and major grid infrastructure investments such as National Grid's $1.75B Joulent commitment to address rising US power demand, signaling institutional conviction in battery and storage solutions as critical grid modernization assets.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "artificial intelligence",
+      "power grid"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "BusinessLine",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "power grid"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 2 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, power grid"
+    ]
+  },
+  {
     "id": 6,
     "title": "Materials Investment Brief",
     "slug": "materials",
