@@ -98,11 +98,13 @@ class ArticleAnalyzer:
 
         print(f"Fetching articles from {from_str} to {to_str}")
 
-        # Optimized for free tier: 2 queries instead of 3
-        # Uses AND/OR operators to combine keywords efficiently
+        # Three queries, one per category focus (free tier allows 100 requests/day).
+        # The materials query is dedicated - it was chronically starved (1-4 articles/day)
+        # when piggybacking on the tech query, producing single-source briefs.
         queries = [
             "(renewable OR energy OR battery OR storage) AND (transition OR investment)",
-            "(AI OR space OR technology OR materials) AND (innovation OR emerging)"
+            "(AI OR space OR technology OR semiconductor) AND (innovation OR emerging)",
+            "(\"advanced materials\" OR composites OR graphene OR lithium OR \"rare earth\" OR mining OR alloy) AND (market OR manufacturing OR \"supply chain\")"
         ]
 
         all_articles = []
@@ -139,6 +141,10 @@ class ArticleAnalyzer:
 
     # Ephemeral aggregators whose links rot within days - never cite these
     BLOCKED_DOMAINS = {'biztoc.com', 'news.google.com', 'slickdeals.net'}
+
+    # Don't publish a brief built on fewer live sources than this - a one-source
+    # "brief" is just a reprint of that source, not analysis
+    MIN_LIVE_SOURCES = 3
 
     def is_blocked_source(self, url: str) -> bool:
         try:
@@ -634,8 +640,9 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
         total = len(articles)
         articles = self.filter_live_articles(articles)
         print(f"   Source validation: {len(articles)} live of {total} fetched")
-        if not articles:
-            print(f"   Skipped {category}: no live source links after validation")
+        if len(articles) < self.MIN_LIVE_SOURCES:
+            print(f"   Skipped {category}: only {len(articles)} live sources "
+                  f"(minimum {self.MIN_LIVE_SOURCES} required for a credible brief)")
             return None
 
         # Summarize key themes
