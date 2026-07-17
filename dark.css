@@ -101,3 +101,18 @@ html.dark select {
     padding: 4px;
     line-height: 1;
 }
+
+/* Trademark mark beside the header wordmark */
+.logo-tm {
+    align-self: flex-start;
+    margin-top: 6px;
+    margin-left: 3px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--primary-green);
+}
+
+html.dark .logo-tm {
+    color: #8fcca9;
+}
