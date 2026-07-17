@@ -10,6 +10,7 @@ import shutil
 import requests
 from datetime import datetime, timedelta
 from typing import List, Dict
+from urllib.parse import urlparse
 import re
 from anthropic import Anthropic
 
@@ -125,7 +126,7 @@ class ArticleAnalyzer:
                     articles = response.json().get('articles', [])
                     for article in articles:
                         url = article.get('url', '')
-                        if url not in seen_urls:
+                        if url and url not in seen_urls and not self.is_blocked_source(url):
                             all_articles.append(article)
                             seen_urls.add(url)
                 else:
@@ -135,6 +136,46 @@ class ArticleAnalyzer:
 
         print(f"Fetched {len(all_articles)} articles")
         return all_articles
+
+    # Ephemeral aggregators whose links rot within days - never cite these
+    BLOCKED_DOMAINS = {'biztoc.com', 'news.google.com', 'slickdeals.net'}
+
+    def is_blocked_source(self, url: str) -> bool:
+        try:
+            domain = urlparse(url).netloc.lower()
+            domain = domain[4:] if domain.startswith('www.') else domain
+            return domain in self.BLOCKED_DOMAINS
+        except Exception:
+            return True
+
+    def verify_url(self, url: str, timeout: int = 6) -> bool:
+        """Check that a source URL actually resolves before we cite it"""
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; ODwyerBot/1.0)'}
+        try:
+            r = requests.head(url, timeout=timeout, allow_redirects=True, headers=headers)
+            if r.status_code in (405, 501):  # HEAD not allowed - retry with GET
+                r = requests.get(url, timeout=timeout, stream=True, headers=headers)
+            # 403 usually means bot-blocking, not a dead page - treat as alive
+            return r.status_code < 400 or r.status_code == 403
+        except Exception:
+            return False
+
+    def filter_live_articles(self, articles: List[Dict], limit: int = 15) -> List[Dict]:
+        """Keep only articles whose links are verified live (checks up to `limit`)"""
+        live = []
+        checked = 0
+        for a in articles:
+            if len(live) >= limit or checked >= limit * 2:
+                break
+            url = a.get('url', '')
+            if not url or self.is_blocked_source(url):
+                continue
+            checked += 1
+            if self.verify_url(url):
+                live.append(a)
+            else:
+                print(f"   Dropping dead/unreachable source: {url[:90]}")
+        return live
 
     def categorize_article(self, article: Dict) -> str:
         """Categorize article into Technology, Energy, or Innovation"""
@@ -338,14 +379,15 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
             print("   WARNING: No ANTHROPIC_API_KEY - falling back to insight-based body")
             return self.generate_fallback_body(category, articles)
 
-        # Today's source material: title, description, source, url
+        # Today's source material, numbered. The model cites by NUMBER, never by URL -
+        # models mis-transcribe long URLs (a one-digit typo = dead link on the site).
+        cited = articles[:12]
         source_lines = []
-        for a in articles[:12]:
+        for i, a in enumerate(cited, 1):
             title = a.get('title', '')
             desc = (a.get('description') or '')[:300]
             src = a.get('source', {}).get('name', 'Unknown')
-            url = a.get('url', '')
-            source_lines.append(f"- TITLE: {title}\n  SOURCE: {src}\n  URL: {url}\n  SUMMARY: {desc}")
+            source_lines.append(f"[{i}] TITLE: {title}\n    SOURCE: {src}\n    SUMMARY: {desc}")
         source_material = "\n".join(source_lines)
 
         # Prior coverage so the model writes what's NEW, not a rehash
@@ -372,7 +414,7 @@ REQUIREMENTS:
 1. 500-800 words, written for investment professionals. Factual, specific, no marketing fluff.
 2. Structure with these tags only: <h2>, <h3>, <p>, <strong>, <a>. No <html>, <head>, <body>, or <div> wrappers.
 3. Sections: an opening <h2> headline specific to today's developments (NOT a generic category name), <h3>Executive Summary</h3>, <h2>Key Developments</h2> (2-4 subsections), <h2>Investment Implications</h2> including risk factors.
-4. Link claims to sources inline: <a href="URL" target="_blank">anchor text</a> using the URLs provided above. Only use provided URLs.
+4. Link claims to sources inline by NUMBER: <a href="[N]" target="_blank">anchor text</a> where N is the source number above (e.g. <a href="[3]" target="_blank">the report</a>). NEVER write out a URL - use only the bracketed number as the href.
 5. Include concrete figures (market sizes, growth rates, timelines) ONLY when they appear in the source material. Never invent numbers.
 6. Where prior coverage exists, add one short paragraph noting how today's developments extend or diverge from it.
 
@@ -387,6 +429,20 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
             body = message.content[0].text.strip()
             # Strip accidental code fences
             body = re.sub(r'^```(?:html)?\s*|\s*```$', '', body).strip()
+
+            # Substitute numbered tokens with the EXACT source URLs (byte-for-byte)
+            for i, a in enumerate(cited, 1):
+                url = a.get('url', '')
+                body = body.replace(f'href="[{i}]"', f'href="{url}"')
+                body = body.replace(f"href='[{i}]'", f'href="{url}"')
+
+            # Safety net: any anchor whose href is not one of our verified URLs
+            # (a hallucinated or leftover link) is unwrapped to plain text.
+            allowed = {a.get('url', '') for a in cited}
+            def _scrub(m):
+                return m.group(0) if m.group(1) in allowed else m.group(2)
+            body = re.sub(r'<a\s+[^>]*href="([^"]*)"[^>]*>(.*?)</a>', _scrub, body, flags=re.DOTALL)
+
             print(f"   Generated AI article body ({len(body)} chars)")
             return body
         except Exception as e:
@@ -573,6 +629,15 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
         if not articles:
             return None
 
+        # Drop blocked aggregators and verify every candidate link is live
+        # BEFORE anything cites it - dead links never reach the site.
+        total = len(articles)
+        articles = self.filter_live_articles(articles)
+        print(f"   Source validation: {len(articles)} live of {total} fetched")
+        if not articles:
+            print(f"   Skipped {category}: no live source links after validation")
+            return None
+
         # Summarize key themes
         titles = [a.get('title', '') for a in articles[:5]]
         sources = [a.get('source', {}).get('name', '') for a in articles[:3]]
@@ -606,9 +671,13 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
 
         today_iso = datetime.now().strftime("%Y-%m-%d")
 
+        # Display names matching the article page templates, so the listing title
+        # and the page header agree (was: "Innovation" listing vs "Materials" page)
+        display_map = {'Energy': 'Energy Transition', 'Technology': 'Emerging Tech', 'Innovation': 'Materials'}
+
         brief = {
             "id": self.next_id(),
-            "title": f"{category} Investment Brief",
+            "title": f"{display_map.get(category, category)} Investment Brief",
             "slug": category.lower().replace(' ', '-'),
             "date": datetime.now().strftime("%B %d, %Y"),
             "url": f"{category_slug}-{today_iso}.html",
