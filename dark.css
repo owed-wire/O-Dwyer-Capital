@@ -102,31 +102,4 @@ html.dark select {
     line-height: 1;
 }
 
-/* Trademark mark beside the header wordmark */
-.logo-tm {
-    align-self: flex-start;
-    margin-top: 6px;
-    margin-left: 3px;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 1;
-    color: var(--primary-green);
-}
 
-html.dark .logo-tm {
-    color: #8fcca9;
-}
-
-/* Trademark mark on the large hero logo (homepage).
-   width:0 keeps the logo optically centered; the mark overflows to the right. */
-.hero-logo-tm {
-    align-self: flex-start;
-    width: 0;
-    overflow: visible;
-    white-space: nowrap;
-    margin-top: 22px;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 1;
-    color: var(--accent-gold);
-}
