@@ -1,7 +1,7 @@
 [
   {
     "id": 6,
-    "title": "Innovation Investment Brief",
+    "title": "Materials Investment Brief",
     "slug": "materials",
     "date": "July 16, 2026",
     "url": "materials-2026-07-16.html",
@@ -34,7 +34,7 @@
   },
   {
     "id": 5,
-    "title": "Technology Investment Brief",
+    "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
     "date": "July 16, 2026",
     "url": "emerging-tech-2026-07-16.html",
@@ -68,7 +68,7 @@
   },
   {
     "id": 4,
-    "title": "Energy Investment Brief",
+    "title": "Energy Transition Investment Brief",
     "slug": "energy-transition",
     "date": "July 16, 2026",
     "url": "energy-transition-2026-07-16.html",
