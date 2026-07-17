@@ -1,9 +1,11 @@
 name: Daily Article Publisher
 
-# Runs Monday through Friday at 8am UTC
+# Runs Monday through Friday. Scheduled early and on an odd minute to reduce
+# GitHub's scheduled-run queue lag (jobs on :00/:30 wait the longest). The job
+# still typically lands 30 min - 2 hrs later than the cron time under load.
 on:
   schedule:
-    - cron: '30 13 * * 1-5'  # Monday-Friday at 8:30 AM EST (1:30 PM UTC)
+    - cron: '17 12 * * 1-5'  # 12:17 UTC = ~8:17 AM EDT / 7:17 AM EST, Mon-Fri
   workflow_dispatch:  # Allow manual triggers
 
 # Grant write permissions to the workflow
