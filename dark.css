@@ -116,3 +116,17 @@ html.dark select {
 html.dark .logo-tm {
     color: #8fcca9;
 }
+
+/* Trademark mark on the large hero logo (homepage).
+   width:0 keeps the logo optically centered; the mark overflows to the right. */
+.hero-logo-tm {
+    align-self: flex-start;
+    width: 0;
+    overflow: visible;
+    white-space: nowrap;
+    margin-top: 22px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--accent-gold);
+}
