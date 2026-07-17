@@ -103,3 +103,20 @@ html.dark select {
 }
 
 
+
+/* Mobile: when the header stacks vertically, center the logo and nav.
+   (.logo-container has a 200px min-width on some pages, which left-aligned
+   the small logo inside a centered box.) */
+@media (max-width: 768px) {
+    header .logo-container {
+        min-width: 0;
+        width: auto;
+        justify-content: center;
+    }
+
+    header nav {
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
