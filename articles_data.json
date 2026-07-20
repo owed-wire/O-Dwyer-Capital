@@ -1,5 +1,42 @@
 [
   {
+    "id": 8,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 20, 2026",
+    "url": "energy-transition-2026-07-20.html",
+    "excerpt": "Data center power demands from AI workloads are straining grid infrastructure, driving accelerated adoption of distributed battery storage and grid-optimization AI technologies. The residential backup power market is expanding rapidly as enterprises and consumers seek resilience solutions, while emerging opportunities exist in agricultural biogas monetization and grid services, with some farm operations generating 10x traditional grid income through alternative energy revenue streams.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "power grid",
+      "artificial intelligence",
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Entrepreneur"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "power grid",
+        "artificial intelligence",
+        "battery technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 3 historical briefs"
+    },
+    "trend_context": [
+      "New developments: power grid, artificial intelligence, battery technology"
+    ]
+  },
+  {
     "id": 7,
     "title": "Energy Transition Investment Brief",
     "slug": "energy-transition",

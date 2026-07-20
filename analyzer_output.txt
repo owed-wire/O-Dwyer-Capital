@@ -3,54 +3,53 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-16T08:00:00Z to 2026-07-17T14:04:36.919850Z
-Fetched 225 articles
+Fetching articles from 2026-07-17T17:00:00Z to 2026-07-20T14:34:22.321225Z
+Fetched 239 articles
 
 2. Categorizing articles...
-   energy-transition: 36 articles
-   emerging-tech: 185 articles
-   materials: 4 articles
+   energy-transition: 38 articles
+   emerging-tech: 196 articles
+   materials: 5 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://www.npr.org/2026/07/16/nx-s1-5845818/oil-prices-windfall-tax-iran-war
-   Source validation: 15 live of 36 fetched
-   Generated AI excerpt: Global energy storage capacity is accelerating across multiple geographies, with recent deployments including a 150 MW project in Italy, a 5.15 GWh battery manufacturing facility in India, and major grid infrastructure investments such as National Grid's $1.75B Joulent commitment to address rising US power demand, signaling institutional conviction in battery and storage solutions as critical grid modernization assets.
-   Generated AI article body (7210 chars)
+   Source validation: 15 live of 38 fetched
+   Generated AI excerpt: Data center power demands from AI workloads are straining grid infrastructure, driving accelerated adoption of distributed battery storage and grid-optimization AI technologies. The residential backup power market is expanding rapidly as enterprises and consumers seek resilience solutions, while emerging opportunities exist in agricultural biogas monetization and grid services, with some farm operations generating 10x traditional grid income through alternative energy revenue streams.
+   Generated AI article body (6168 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 185 fetched
-   Generated AI excerpt: Menlo Ventures' early-stage Anthropic investment has appreciated to an estimated $14 billion in valuation, demonstrating significant AI infrastructure allocation trends among tier-one VCs. The AI foundation model sector continues to attract concentrated capital despite broader venture market volatility, with major investors positioning for extended development cycles and high customer acquisition costs characteristic of enterprise AI deployments.
-   Generated AI article body (5569 chars)
+   Source validation: 15 live of 196 fetched
+   Generated AI excerpt: The EU's newly enforced ban on destruction of unsold textiles and footwear is reshaping product lifecycle economics for apparel manufacturers, forcing supply chain recalibration toward resale platforms and inventory management technologies. This regulatory shift creates operational headwinds for fast-fashion models while potentially catalyzing growth in secondary market infrastructure and reverse-logistics software solutions.
+   Generated AI article body (5100 chars)
    Skipped emerging-tech: No new themes since last brief
-   Source validation: 4 live of 4 fetched
-   Generated AI excerpt: Australian manufacturing faces structural headwinds as major smelter closures accelerate job losses, while innovation in biotech materials—demonstrated by novel metallurgical properties in marine organisms—signals emerging opportunities in advanced materials science that could reshape industrial production capabilities.
-   Generated AI article body (5653 chars)
+   Source validation: 5 live of 5 fetched
+   Generated AI excerpt: In-situ resource utilization achieved a significant milestone in July 2025 when researchers successfully extracted water from lunar soil and converted it to oxygen and fuel via solar energy, potentially reducing Earth launch costs by eliminating the $83,000-per-gallon water transport requirement. Meanwhile, secondary markets for enterprise compute infrastructure are emerging, with GPU exchanges now trading used Nvidia H100 and A100 processors, signaling both capital efficiency opportunities and potential margin pressures in semiconductor deployment cycles.
+   Generated AI article body (5358 chars)
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-07-17.html
+Generated: energy-transition-2026-07-20.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 10 URLs
-Generated feed.xml with 7 items
+Generated sitemap.xml with 11 URLs
+Generated feed.xml with 8 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 225
+Articles fetched: 239
 Briefs created: 1
-HTML files: energy-transition-2026-07-17.html
+HTML files: energy-transition-2026-07-20.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 225,
+  "articles_fetched": 239,
   "briefs_created": 1,
   "html_files_created": 1,
   "files": [
-    "energy-transition-2026-07-17.html"
+    "energy-transition-2026-07-20.html"
   ],
-  "publication_date": "2026-07-17T14:05:34.113955",
+  "publication_date": "2026-07-20T14:35:18.438787",
   "status": "success"
 }
