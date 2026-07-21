@@ -3,53 +3,53 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-17T17:00:00Z to 2026-07-20T14:34:22.321225Z
-Fetched 239 articles
+Fetching articles from 2026-07-20T08:00:00Z to 2026-07-21T14:24:06.795964Z
+Fetched 241 articles
 
 2. Categorizing articles...
    energy-transition: 38 articles
-   emerging-tech: 196 articles
-   materials: 5 articles
+   emerging-tech: 202 articles
+   materials: 1 articles
 
 3. Creating analytical briefs...
    Source validation: 15 live of 38 fetched
-   Generated AI excerpt: Data center power demands from AI workloads are straining grid infrastructure, driving accelerated adoption of distributed battery storage and grid-optimization AI technologies. The residential backup power market is expanding rapidly as enterprises and consumers seek resilience solutions, while emerging opportunities exist in agricultural biogas monetization and grid services, with some farm operations generating 10x traditional grid income through alternative energy revenue streams.
-   Generated AI article body (6168 chars)
+   Generated AI excerpt: The convergence of AI infrastructure and clean energy is driving significant M&A activity in the sector, with data center-powered energy deals accelerating as computational demands surge. UK policymakers identify energy supply as a critical constraint on AI economy expansion, while project-level capital deployment continues through ventures like Fidra Energy's 500MW West Burton C development, signaling sustained investment momentum despite commodity market volatility.
+   Generated AI article body (6190 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 196 fetched
-   Generated AI excerpt: The EU's newly enforced ban on destruction of unsold textiles and footwear is reshaping product lifecycle economics for apparel manufacturers, forcing supply chain recalibration toward resale platforms and inventory management technologies. This regulatory shift creates operational headwinds for fast-fashion models while potentially catalyzing growth in secondary market infrastructure and reverse-logistics software solutions.
-   Generated AI article body (5100 chars)
+   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/ottawa/government-tip-off-prompted-spy-agency-to-look-into-
+   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/32178/five-market-events-investors-shou
+   Source validation: 15 live of 202 fetched
+   Generated AI excerpt: Apple briefly reclaimed the title of world's most valuable company from Nvidia, signaling continued valuation volatility in the technology sector amid competing narratives around AI infrastructure dominance and traditional tech giants' sustained market positioning.
+   Generated AI article body (5702 chars)
    Skipped emerging-tech: No new themes since last brief
-   Source validation: 5 live of 5 fetched
-   Generated AI excerpt: In-situ resource utilization achieved a significant milestone in July 2025 when researchers successfully extracted water from lunar soil and converted it to oxygen and fuel via solar energy, potentially reducing Earth launch costs by eliminating the $83,000-per-gallon water transport requirement. Meanwhile, secondary markets for enterprise compute infrastructure are emerging, with GPU exchanges now trading used Nvidia H100 and A100 processors, signaling both capital efficiency opportunities and potential margin pressures in semiconductor deployment cycles.
-   Generated AI article body (5358 chars)
-   Skipped materials: No new themes since last brief
+   Source validation: 1 live of 1 fetched
+   Skipped Innovation: only 1 live sources (minimum 3 required for a credible brief)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-07-20.html
+Generated: energy-transition-2026-07-21.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 11 URLs
-Generated feed.xml with 8 items
+Generated sitemap.xml with 12 URLs
+Generated feed.xml with 9 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 239
+Articles fetched: 241
 Briefs created: 1
-HTML files: energy-transition-2026-07-20.html
+HTML files: energy-transition-2026-07-21.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 239,
+  "articles_fetched": 241,
   "briefs_created": 1,
   "html_files_created": 1,
   "files": [
-    "energy-transition-2026-07-20.html"
+    "energy-transition-2026-07-21.html"
   ],
-  "publication_date": "2026-07-20T14:35:18.438787",
+  "publication_date": "2026-07-21T14:24:56.784844",
   "status": "success"
 }

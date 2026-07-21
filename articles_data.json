@@ -1,5 +1,39 @@
 [
   {
+    "id": 9,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 21, 2026",
+    "url": "energy-transition-2026-07-21.html",
+    "excerpt": "The convergence of AI infrastructure and clean energy is driving significant M&A activity in the sector, with data center-powered energy deals accelerating as computational demands surge. UK policymakers identify energy supply as a critical constraint on AI economy expansion, while project-level capital deployment continues through ventures like Fidra Energy's 500MW West Burton C development, signaling sustained investment momentum despite commodity market volatility.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Power Technology",
+      "PCWorld",
+      "TechRadar"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 4 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
     "id": 8,
     "title": "Energy Transition Investment Brief",
     "slug": "energy-transition",
