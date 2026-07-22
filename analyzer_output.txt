@@ -3,53 +3,20 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-20T08:00:00Z to 2026-07-21T14:24:06.795964Z
-Fetched 241 articles
+Fetching articles from 2026-07-21T08:00:00Z to 2026-07-22T14:23:46.074831Z
+Fetched 238 articles
 
 2. Categorizing articles...
-   energy-transition: 38 articles
-   emerging-tech: 202 articles
-   materials: 1 articles
-
-3. Creating analytical briefs...
-   Source validation: 15 live of 38 fetched
-   Generated AI excerpt: The convergence of AI infrastructure and clean energy is driving significant M&A activity in the sector, with data center-powered energy deals accelerating as computational demands surge. UK policymakers identify energy supply as a critical constraint on AI economy expansion, while project-level capital deployment continues through ventures like Fidra Energy's 500MW West Burton C development, signaling sustained investment momentum despite commodity market volatility.
-   Generated AI article body (6190 chars)
-   Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/ottawa/government-tip-off-prompted-spy-agency-to-look-into-
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/32178/five-market-events-investors-shou
-   Source validation: 15 live of 202 fetched
-   Generated AI excerpt: Apple briefly reclaimed the title of world's most valuable company from Nvidia, signaling continued valuation volatility in the technology sector amid competing narratives around AI infrastructure dominance and traditional tech giants' sustained market positioning.
-   Generated AI article body (5702 chars)
-   Skipped emerging-tech: No new themes since last brief
-   Source validation: 1 live of 1 fetched
-   Skipped Innovation: only 1 live sources (minimum 3 required for a credible brief)
-
-4. Generating dated HTML files...
-Generated: energy-transition-2026-07-21.html
-
-5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
-
-6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 12 URLs
-Generated feed.xml with 9 items
-
-============================================================
-PUBLICATION COMPLETE
-============================================================
-Articles fetched: 241
-Briefs created: 1
-HTML files: energy-transition-2026-07-21.html
-
-=== SUMMARY ===
-{
-  "articles_fetched": 241,
-  "briefs_created": 1,
-  "html_files_created": 1,
-  "files": [
-    "energy-transition-2026-07-21.html"
-  ],
-  "publication_date": "2026-07-21T14:24:56.784844",
-  "status": "success"
-}
+Traceback (most recent call last):
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 914, in <module>
+    main()
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 908, in main
+    summary = analyzer.run()
+              ^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 843, in run
+    category = self.categorize_article(article)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 191, in categorize_article
+    article.get('description', '').lower()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
