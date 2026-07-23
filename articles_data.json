@@ -1,5 +1,112 @@
 [
   {
+    "id": 12,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "July 23, 2026",
+    "url": "materials-2026-07-23.html",
+    "excerpt": "The automotive wiring harness market is projected to reach $49.29 billion by 2033, driven by vehicle electrification and zonal architecture adoption, while India's space sector aims to reduce launch costs and expand domestic manufacturing to capture third-largest economy status globally. Concurrent critical minerals investments\u2014including rare earth magnet facilities and domestic graphite supply chains\u2014are positioning North America and Asia to secure supply chains essential for EV and aerospace technology production.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 5,
+    "primary_sources": [
+      "Hubspot.com",
+      "GlobeNewswire",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 2 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology, artificial intelligence"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 23, 2026",
+    "url": "emerging-tech-2026-07-23.html",
+    "excerpt": "The provided articles lack substantive coverage of fusion energy and artificial intelligence developments, preventing generation of a credible investment briefing excerpt with concrete market data and specific trends. The article selection\u2014focused on Samsung foldables, political primaries, and geopolitical commentary\u2014does not support the stated Technology category themes.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "fusion energy",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "The Verge",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "fusion energy",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 2 historical briefs"
+    },
+    "trend_context": [
+      "New developments: fusion energy, artificial intelligence"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 23, 2026",
+    "url": "energy-transition-2026-07-23.html",
+    "excerpt": "Energy storage ventures are gaining momentum through strategic partnerships, as evidenced by Highway Holdings' letter of intent to establish a majority-owned storage venture and increased state-level deployment of climate funding. The sector is benefiting from dual tailwinds of energy security imperatives and climate investment policies, creating near-term commercialization opportunities across battery and alternative storage technologies.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Realclearinvestigations.com",
+      "Internationalaccountingbulletin.com",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 5 historical briefs"
+    },
+    "trend_context": [
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 9,
     "title": "Energy Transition Investment Brief",
     "slug": "energy-transition",

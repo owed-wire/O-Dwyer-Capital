@@ -3,20 +3,57 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-21T08:00:00Z to 2026-07-22T14:23:46.074831Z
-Fetched 238 articles
+Fetching articles from 2026-07-22T08:00:00Z to 2026-07-23T14:33:42.824128Z
+Fetched 222 articles
 
 2. Categorizing articles...
-Traceback (most recent call last):
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 914, in <module>
-    main()
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 908, in main
-    summary = analyzer.run()
-              ^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 843, in run
-    category = self.categorize_article(article)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 191, in categorize_article
-    article.get('description', '').lower()
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'lower'
+   energy-transition: 32 articles
+   emerging-tech: 185 articles
+   materials: 5 articles
+
+3. Creating analytical briefs...
+   Source validation: 15 live of 32 fetched
+   Generated AI excerpt: Energy storage ventures are gaining momentum through strategic partnerships, as evidenced by Highway Holdings' letter of intent to establish a majority-owned storage venture and increased state-level deployment of climate funding. The sector is benefiting from dual tailwinds of energy security imperatives and climate investment policies, creating near-term commercialization opportunities across battery and alternative storage technologies.
+   Generated AI article body (6405 chars)
+   Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
+   Source validation: 15 live of 185 fetched
+   Generated AI excerpt: The provided articles lack substantive coverage of fusion energy and artificial intelligence developments, preventing generation of a credible investment briefing excerpt with concrete market data and specific trends. The article selection—focused on Samsung foldables, political primaries, and geopolitical commentary—does not support the stated Technology category themes.
+   Generated AI article body (5648 chars)
+   Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
+   Source validation: 5 live of 5 fetched
+   Generated AI excerpt: The automotive wiring harness market is projected to reach $49.29 billion by 2033, driven by vehicle electrification and zonal architecture adoption, while India's space sector aims to reduce launch costs and expand domestic manufacturing to capture third-largest economy status globally. Concurrent critical minerals investments—including rare earth magnet facilities and domestic graphite supply chains—are positioning North America and Asia to secure supply chains essential for EV and aerospace technology production.
+   Generated AI article body (6055 chars)
+   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
+
+4. Generating dated HTML files...
+Generated: energy-transition-2026-07-23.html
+Generated: emerging-tech-2026-07-23.html
+Generated: materials-2026-07-23.html
+
+5. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
+
+6. Regenerating sitemap.xml and feed.xml...
+Generated sitemap.xml with 15 URLs
+Generated feed.xml with 12 items
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 222
+Briefs created: 3
+HTML files: energy-transition-2026-07-23.html, emerging-tech-2026-07-23.html, materials-2026-07-23.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 222,
+  "briefs_created": 3,
+  "html_files_created": 3,
+  "files": [
+    "energy-transition-2026-07-23.html",
+    "emerging-tech-2026-07-23.html",
+    "materials-2026-07-23.html"
+  ],
+  "publication_date": "2026-07-23T14:34:39.669635",
+  "status": "success"
+}
