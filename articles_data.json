@@ -16,9 +16,8 @@
       "artificial intelligence"
     ],
     "investment_relevance": "high",
-    "article_count": 5,
+    "article_count": 4,
     "primary_sources": [
-      "Hubspot.com",
       "GlobeNewswire",
       "PRNewswire"
     ],
@@ -33,41 +32,6 @@
     },
     "trend_context": [
       "New developments: space technology, artificial intelligence"
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Emerging Tech Investment Brief",
-    "slug": "emerging-tech",
-    "date": "July 23, 2026",
-    "url": "emerging-tech-2026-07-23.html",
-    "excerpt": "The provided articles lack substantive coverage of fusion energy and artificial intelligence developments, preventing generation of a credible investment briefing excerpt with concrete market data and specific trends. The article selection\u2014focused on Samsung foldables, political primaries, and geopolitical commentary\u2014does not support the stated Technology category themes.",
-    "tags": [
-      "Technology"
-    ],
-    "source": "O'Dwyer Analysis",
-    "analysis_type": "analytical",
-    "themes": [
-      "fusion energy",
-      "artificial intelligence"
-    ],
-    "investment_relevance": "high",
-    "article_count": 15,
-    "primary_sources": [
-      "The Verge",
-      "Yahoo Entertainment"
-    ],
-    "trend_analysis": {
-      "new_themes": [
-        "fusion energy",
-        "artificial intelligence"
-      ],
-      "ongoing_themes": [],
-      "accelerating_themes": [],
-      "historical_context": "Based on analysis of 2 historical briefs"
-    },
-    "trend_context": [
-      "New developments: fusion energy, artificial intelligence"
     ]
   },
   {

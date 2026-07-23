@@ -104,7 +104,7 @@ class ArticleAnalyzer:
         queries = [
             "(renewable OR energy OR battery OR storage) AND (transition OR investment)",
             "(AI OR space OR technology OR semiconductor) AND (innovation OR emerging)",
-            "(\"advanced materials\" OR composites OR graphene OR lithium OR \"rare earth\" OR mining OR alloy) AND (market OR manufacturing OR \"supply chain\")"
+            "(\"advanced materials\" OR composites OR graphene OR lithium OR \"rare earth\" OR mining OR alloy) AND (market OR manufacturing OR \"supply chain\") AND NOT (bitcoin OR crypto OR \"data mining\" OR \"sales content\" OR marketing)"
         ]
 
         all_articles = []
@@ -191,16 +191,31 @@ class ArticleAnalyzer:
             article.get('description', '').lower()
         ).lower()
 
-        energy_keywords = ['energy', 'battery', 'storage', 'renewable', 'solar', 'wind', 'grid', 'transition']
-        tech_keywords = ['ai', 'space', 'satellite', 'digital', 'technology', 'quantum', 'chip']
-        innovation_keywords = ['material', 'graphene', 'composite', 'manufacturing', 'process']
+        # All lists use word-boundary regexes. Substring matching caused miscategorization:
+        # "ai" matched inside "chain"/"said", "wind" inside "window", and bare
+        # "material(s)" matched junk like "sales materials" / "marketing materials".
+        energy_patterns = [
+            r'\benergy\b', r'\bbatter(y|ies)\b', r'\bstorage\b', r'renewable', r'\bsolar\b',
+            r'\bwind\b', r'\bgrid\b', r'\btransition\b'
+        ]
+        tech_patterns = [
+            r'\bai\b', r'space', r'satellite', r'digital', r'technolog', r'quantum',
+            r'\bchips?\b', r'semiconductor'
+        ]
+        innovation_patterns = [
+            r'advanced material', r'raw material', r'battery material', r'nanomaterial',
+            r'critical mineral', r'graphene', r'composite', r'\balloy\b', r'rare earth',
+            r'metallurg', r'\bpolymer\b', r'\bceramic\b', r'\blithium\b',
+            r'(?<!data )(?<!bitcoin )(?<!crypto )mining', r'manufacturing'
+        ]
 
-        energy_score = sum(1 for kw in energy_keywords if kw in text)
-        tech_score = sum(1 for kw in tech_keywords if kw in text)
-        innovation_score = sum(1 for kw in innovation_keywords if kw in text)
+        energy_score = sum(1 for p in energy_patterns if re.search(p, text))
+        tech_score = sum(1 for p in tech_patterns if re.search(p, text))
+        innovation_score = sum(1 for p in innovation_patterns if re.search(p, text))
 
         scores = {'Energy': energy_score, 'Technology': tech_score, 'Innovation': innovation_score}
-        return max(scores, key=scores.get) if max(scores.values()) > 0 else 'Technology'
+        # No keyword match at all -> not our beat; drop it rather than polluting a category
+        return max(scores, key=scores.get) if max(scores.values()) > 0 else None
 
     def extract_key_themes(self, titles: List[str]) -> List[str]:
         """Extract key themes from article titles"""
@@ -661,6 +676,15 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
 
         # Generate AI excerpt based on brief content and themes
         excerpt = self.generate_ai_excerpt(category, current_themes, articles)
+
+        # If the model balked at the source material (meta-commentary instead of an
+        # excerpt), the day's sources were junk - skip rather than publish the refusal
+        refusal_markers = ['provided articles', 'cannot generate', 'unable to generate',
+                           'article selection', 'lack substantive', 'does not support',
+                           'do not contain', 'i cannot', 'not enough information']
+        if any(m in excerpt.lower() for m in refusal_markers):
+            print(f"   Skipped {category}: excerpt generation rejected the source material")
+            return None
 
         # Find related prior briefs (used for linking + so the body focuses on what's new)
         related_briefs = self.find_related_briefs(category_slug, current_themes)
