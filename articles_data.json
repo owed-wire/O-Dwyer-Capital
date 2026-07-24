@@ -1,5 +1,113 @@
 [
   {
+    "id": 15,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "July 24, 2026",
+    "url": "materials-2026-07-24.html",
+    "excerpt": "Global EV supply chain localization is accelerating as automakers establish regional production partnerships to secure critical mineral access and reduce dependence on centralized manufacturing, with geopolitical tensions in rare earth mining regions intensifying competitive pressure for domestic sourcing capabilities across Asia and Europe.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 5,
+    "primary_sources": [
+      "Paul Tan's Automotive News",
+      "Grist",
+      "GlobeNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 3 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 24, 2026",
+    "url": "emerging-tech-2026-07-24.html",
+    "excerpt": "AI infrastructure demand is driving semiconductor valuations to record levels, with SanDisk up 574% YTD as data center operators compete for advanced memory solutions to support large language model deployment. Concurrently, aerospace consolidation narratives are gaining traction as SpaceX and Tesla explore strategic integration to capture synergies in satellite connectivity and AI compute distribution, signaling institutional investor appetite for vertically-integrated space-to-ground technology platforms.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Forbes",
+      "24/7 Wall St."
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 2 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 24, 2026",
+    "url": "energy-transition-2026-07-24.html",
+    "excerpt": "Grid modernization projects face infrastructure bottlenecks as New York's major transmission expansion encounters delays, while the biomethane sector is projected to reach $32.6 billion by 2035 driven by renewable gas adoption and circular economy strategies. Solar deployment continues accelerating globally, with strategic partnerships like Navitas Solar and Caelux advancing India's renewable capacity targets alongside yield-focused infrastructure plays offering 6.7% distributions in the energy transition space.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy",
+      "solar energy",
+      "power grid"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "MIT Technology Review",
+      "PRNewswire",
+      "Investor's Business Daily"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy",
+        "power grid"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 6 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy, power grid"
+    ]
+  },
+  {
     "id": 12,
     "title": "Materials Investment Brief",
     "slug": "materials",

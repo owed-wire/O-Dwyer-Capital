@@ -3,57 +3,63 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-22T08:00:00Z to 2026-07-23T14:33:42.824128Z
-Fetched 222 articles
+Fetching articles from 2026-07-23T08:00:00Z to 2026-07-24T14:13:58.355942Z
+Fetched 210 articles
 
 2. Categorizing articles...
-   energy-transition: 32 articles
-   emerging-tech: 185 articles
-   materials: 5 articles
+   energy-transition: 30 articles
+   emerging-tech: 72 articles
+   materials: 8 articles
 
 3. Creating analytical briefs...
-   Source validation: 15 live of 32 fetched
-   Generated AI excerpt: Energy storage ventures are gaining momentum through strategic partnerships, as evidenced by Highway Holdings' letter of intent to establish a majority-owned storage venture and increased state-level deployment of climate funding. The sector is benefiting from dual tailwinds of energy security imperatives and climate investment policies, creating near-term commercialization opportunities across battery and alternative storage technologies.
-   Generated AI article body (6405 chars)
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/23/3332063/0/en/UMeWorld-Advances-Proje
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/23/3332318/0/en/ISN-Celebrates-Mileston
+   Source validation: 15 live of 30 fetched
+   Generated AI excerpt: Grid modernization projects face infrastructure bottlenecks as New York's major transmission expansion encounters delays, while the biomethane sector is projected to reach $32.6 billion by 2035 driven by renewable gas adoption and circular economy strategies. Solar deployment continues accelerating globally, with strategic partnerships like Navitas Solar and Caelux advancing India's renewable capacity targets alongside yield-focused infrastructure plays offering 6.7% distributions in the energy transition space.
+   Generated AI article body (6958 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 185 fetched
-   Generated AI excerpt: The provided articles lack substantive coverage of fusion energy and artificial intelligence developments, preventing generation of a credible investment briefing excerpt with concrete market data and specific trends. The article selection—focused on Samsung foldables, political primaries, and geopolitical commentary—does not support the stated Technology category themes.
-   Generated AI article body (5648 chars)
+   Dropping dead/unreachable source: https://www.geeky-gadgets.com/build-24-7-ai-employee/
+   Source validation: 15 live of 72 fetched
+   Generated AI excerpt: AI infrastructure demand is driving semiconductor valuations to record levels, with SanDisk up 574% YTD as data center operators compete for advanced memory solutions to support large language model deployment. Concurrently, aerospace consolidation narratives are gaining traction as SpaceX and Tesla explore strategic integration to capture synergies in satellite connectivity and AI compute distribution, signaling institutional investor appetite for vertically-integrated space-to-ground technology platforms.
+   Generated AI article body (6829 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 5 live of 5 fetched
-   Generated AI excerpt: The automotive wiring harness market is projected to reach $49.29 billion by 2033, driven by vehicle electrification and zonal architecture adoption, while India's space sector aims to reduce launch costs and expand domestic manufacturing to capture third-largest economy status globally. Concurrent critical minerals investments—including rare earth magnet facilities and domestic graphite supply chains—are positioning North America and Asia to secure supply chains essential for EV and aerospace technology production.
-   Generated AI article body (6055 chars)
+   Dropping dead/unreachable source: https://cryptobriefing.com/kazakhstan-bitcoin-mining-rules-reserve/
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/23/3332226/0/en/Critical-Metals-Corp-Ad
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/23/3331964/0/en/Next10-Inc-Announces-Ap
+   Source validation: 5 live of 8 fetched
+   Generated AI excerpt: Global EV supply chain localization is accelerating as automakers establish regional production partnerships to secure critical mineral access and reduce dependence on centralized manufacturing, with geopolitical tensions in rare earth mining regions intensifying competitive pressure for domestic sourcing capabilities across Asia and Europe.
+   Generated AI article body (6068 chars)
    Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-07-23.html
-Generated: emerging-tech-2026-07-23.html
-Generated: materials-2026-07-23.html
+Generated: energy-transition-2026-07-24.html
+Generated: emerging-tech-2026-07-24.html
+Generated: materials-2026-07-24.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 15 URLs
-Generated feed.xml with 12 items
+Generated sitemap.xml with 17 URLs
+Generated feed.xml with 14 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 222
+Articles fetched: 210
 Briefs created: 3
-HTML files: energy-transition-2026-07-23.html, emerging-tech-2026-07-23.html, materials-2026-07-23.html
+HTML files: energy-transition-2026-07-24.html, emerging-tech-2026-07-24.html, materials-2026-07-24.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 222,
+  "articles_fetched": 210,
   "briefs_created": 3,
   "html_files_created": 3,
   "files": [
-    "energy-transition-2026-07-23.html",
-    "emerging-tech-2026-07-23.html",
-    "materials-2026-07-23.html"
+    "energy-transition-2026-07-24.html",
+    "emerging-tech-2026-07-24.html",
+    "materials-2026-07-24.html"
   ],
-  "publication_date": "2026-07-23T14:34:39.669635",
+  "publication_date": "2026-07-24T14:15:23.924223",
   "status": "success"
 }
