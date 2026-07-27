@@ -1,5 +1,109 @@
 [
   {
+    "id": 18,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "July 27, 2026",
+    "url": "materials-2026-07-27.html",
+    "excerpt": "Global automotive manufacturers are accelerating electrification investments across emerging markets, with Mitsubishi committing \u00a516bn to Thailand's EV transition through 2030, while industrial IoT adoption is enabling manufacturers to optimize production efficiency amid supply chain constraints in critical materials like rare earths.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 7,
+    "primary_sources": [
+      "Smartdatacollective.com",
+      "Just-auto.com",
+      "The Times of India"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 4 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 27, 2026",
+    "url": "emerging-tech-2026-07-27.html",
+    "excerpt": "Rising energy demands from AI infrastructure buildouts are driving renewed investment in nuclear power generation, while storage providers like Seagate face near-term earnings scrutiny as data center capex cycles accelerate through 2026.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Nakedcapitalism.com",
+      "Barchart.com",
+      "Forbes"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 3 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 27, 2026",
+    "url": "energy-transition-2026-07-27.html",
+    "excerpt": "AI-driven optimization of wind farm operations is gaining traction amid broader clean energy investment volatility, with China committing to a 50% increase in green energy capacity by 2030 while U.S. funding faces geopolitical allocation pressures. Despite policy headwinds, global coal consumption reached record levels in 2025 even as coal-fired power generation declined, underscoring the complexity of energy transition dynamics.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "The Atlantic",
+      "Jezebel",
+      "ABC News (AU)"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 7 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, wind energy"
+    ]
+  },
+  {
     "id": 15,
     "title": "Materials Investment Brief",
     "slug": "materials",

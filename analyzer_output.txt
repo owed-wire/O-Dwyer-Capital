@@ -3,63 +3,57 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-23T08:00:00Z to 2026-07-24T14:13:58.355942Z
-Fetched 210 articles
+Fetching articles from 2026-07-24T17:00:00Z to 2026-07-27T15:15:18.583292Z
+Fetched 235 articles
 
 2. Categorizing articles...
-   energy-transition: 30 articles
-   emerging-tech: 72 articles
-   materials: 8 articles
+   energy-transition: 43 articles
+   emerging-tech: 85 articles
+   materials: 7 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/23/3332063/0/en/UMeWorld-Advances-Proje
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/23/3332318/0/en/ISN-Celebrates-Mileston
-   Source validation: 15 live of 30 fetched
-   Generated AI excerpt: Grid modernization projects face infrastructure bottlenecks as New York's major transmission expansion encounters delays, while the biomethane sector is projected to reach $32.6 billion by 2035 driven by renewable gas adoption and circular economy strategies. Solar deployment continues accelerating globally, with strategic partnerships like Navitas Solar and Caelux advancing India's renewable capacity targets alongside yield-focused infrastructure plays offering 6.7% distributions in the energy transition space.
-   Generated AI article body (6958 chars)
+   Source validation: 15 live of 43 fetched
+   Generated AI excerpt: AI-driven optimization of wind farm operations is gaining traction amid broader clean energy investment volatility, with China committing to a 50% increase in green energy capacity by 2030 while U.S. funding faces geopolitical allocation pressures. Despite policy headwinds, global coal consumption reached record levels in 2025 even as coal-fired power generation declined, underscoring the complexity of energy transition dynamics.
+   Generated AI article body (6436 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.geeky-gadgets.com/build-24-7-ai-employee/
-   Source validation: 15 live of 72 fetched
-   Generated AI excerpt: AI infrastructure demand is driving semiconductor valuations to record levels, with SanDisk up 574% YTD as data center operators compete for advanced memory solutions to support large language model deployment. Concurrently, aerospace consolidation narratives are gaining traction as SpaceX and Tesla explore strategic integration to capture synergies in satellite connectivity and AI compute distribution, signaling institutional investor appetite for vertically-integrated space-to-ground technology platforms.
-   Generated AI article body (6829 chars)
+   Source validation: 15 live of 85 fetched
+   Generated AI excerpt: Rising energy demands from AI infrastructure buildouts are driving renewed investment in nuclear power generation, while storage providers like Seagate face near-term earnings scrutiny as data center capex cycles accelerate through 2026.
+   Generated AI article body (6512 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://cryptobriefing.com/kazakhstan-bitcoin-mining-rules-reserve/
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/23/3332226/0/en/Critical-Metals-Corp-Ad
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/23/3331964/0/en/Next10-Inc-Announces-Ap
-   Source validation: 5 live of 8 fetched
-   Generated AI excerpt: Global EV supply chain localization is accelerating as automakers establish regional production partnerships to secure critical mineral access and reduce dependence on centralized manufacturing, with geopolitical tensions in rare earth mining regions intensifying competitive pressure for domestic sourcing capabilities across Asia and Europe.
-   Generated AI article body (6068 chars)
+   Source validation: 7 live of 7 fetched
+   Generated AI excerpt: Global automotive manufacturers are accelerating electrification investments across emerging markets, with Mitsubishi committing ¥16bn to Thailand's EV transition through 2030, while industrial IoT adoption is enabling manufacturers to optimize production efficiency amid supply chain constraints in critical materials like rare earths.
+   Generated AI article body (5613 chars)
    Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-07-24.html
-Generated: emerging-tech-2026-07-24.html
-Generated: materials-2026-07-24.html
+Generated: energy-transition-2026-07-27.html
+Generated: emerging-tech-2026-07-27.html
+Generated: materials-2026-07-27.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 17 URLs
-Generated feed.xml with 14 items
+Generated sitemap.xml with 20 URLs
+Generated feed.xml with 17 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 210
+Articles fetched: 235
 Briefs created: 3
-HTML files: energy-transition-2026-07-24.html, emerging-tech-2026-07-24.html, materials-2026-07-24.html
+HTML files: energy-transition-2026-07-27.html, emerging-tech-2026-07-27.html, materials-2026-07-27.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 210,
+  "articles_fetched": 235,
   "briefs_created": 3,
   "html_files_created": 3,
   "files": [
-    "energy-transition-2026-07-24.html",
-    "emerging-tech-2026-07-24.html",
-    "materials-2026-07-24.html"
+    "energy-transition-2026-07-27.html",
+    "emerging-tech-2026-07-27.html",
+    "materials-2026-07-27.html"
   ],
-  "publication_date": "2026-07-24T14:15:23.924223",
+  "publication_date": "2026-07-27T15:16:23.772560",
   "status": "success"
 }
