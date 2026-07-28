@@ -1,5 +1,76 @@
 [
   {
+    "id": 20,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 28, 2026",
+    "url": "emerging-tech-2026-07-28.html",
+    "excerpt": "AI infrastructure demand is driving disproportionate gains in semiconductor and data center equipment suppliers, with Flex Ltd. exceeding small-cap benchmarks on strength in AI-related capital expenditures. Cloud service providers including Alphabet are capitalizing on enterprise AI adoption while managing search monetization risks, indicating sustained infrastructure buildout cycles across the sector.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "BeInCrypto"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 4 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 28, 2026",
+    "url": "energy-transition-2026-07-28.html",
+    "excerpt": "Global battery infrastructure is experiencing significant capital deployment and capacity expansion, with the African Development Bank committing $114m to Morocco's battery manufacturing facility while data center battery demand is projected to reach $10.47 billion by 2035, driven by AI infrastructure buildout consuming an estimated 26.3 GW of electricity by FY32. Simultaneously, the biogas market is forecast to grow to $109.62 billion by 2036, supported by renewable energy mandates and methane reduction policies, positioning energy storage and alternative fuel technologies as critical investment vectors in the electrification transition.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "electrification",
+      "battery technology",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "BusinessLine",
+      "Power Technology",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "electrification",
+        "battery technology",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 8 historical briefs"
+    },
+    "trend_context": [
+      "New developments: electrification, battery technology, artificial intelligence"
+    ]
+  },
+  {
     "id": 18,
     "title": "Materials Investment Brief",
     "slug": "materials",
