@@ -1,5 +1,80 @@
 [
   {
+    "id": 22,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 29, 2026",
+    "url": "emerging-tech-2026-07-29.html",
+    "excerpt": "AI-driven data center infrastructure is generating significant capital allocation, with major institutional investors like BlackRock acquiring controlling stakes in utility-scale facilities and storage vendors benefiting from accelerated demand. However, credit rating agencies are flagging elevated valuation risk, as markets increasingly demand tangible AI revenue contributions from legacy industrials beyond speculative positioning.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Forbes",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 5 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 29, 2026",
+    "url": "energy-transition-2026-07-29.html",
+    "excerpt": "Europe's energy storage capacity continues expanding with large-scale deployments\u2014Envision Energy and Kallista Energy recently completed a 386 MWh project in France\u2014while U.S. solar-plus-storage integration accelerates as Tesla secures power from a KKR-backed Arizona facility combining both technologies.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "energy storage",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Geeky Gadgets",
+      "PRNewswire",
+      "Crypto Briefing"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 9 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, solar energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 20,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",

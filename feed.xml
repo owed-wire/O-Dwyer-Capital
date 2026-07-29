@@ -6,6 +6,20 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — July 29, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-07-29.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-07-29.html</guid>
+      <pubDate>Wed, 29 Jul 2026 13:30:00 GMT</pubDate>
+      <description>AI-driven data center infrastructure is generating significant capital allocation, with major institutional investors like BlackRock acquiring controlling stakes in utility-scale facilities and storage vendors benefiting from accelerated demand. However, credit rating agencies are flagging elevated valuation risk, as markets increasingly demand tangible AI revenue contributions from legacy industrials beyond speculative positioning.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — July 29, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-07-29.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-07-29.html</guid>
+      <pubDate>Wed, 29 Jul 2026 13:30:00 GMT</pubDate>
+      <description>Europe's energy storage capacity continues expanding with large-scale deployments—Envision Energy and Kallista Energy recently completed a 386 MWh project in France—while U.S. solar-plus-storage integration accelerates as Tesla secures power from a KKR-backed Arizona facility combining both technologies.</description>
+    </item>
+    <item>
       <title>Emerging Tech Investment Brief — July 28, 2026</title>
       <link>https://www.odwyercapital.com/emerging-tech-2026-07-28.html</link>
       <guid>https://www.odwyercapital.com/emerging-tech-2026-07-28.html</guid>
@@ -130,13 +144,6 @@
       <guid>https://www.odwyercapital.com/energy-transition-2026-05-30.html</guid>
       <pubDate>Sat, 30 May 2026 13:30:00 GMT</pubDate>
       <description>Energy storage infrastructure becoming mission-critical with clear regulatory tailwinds.</description>
-    </item>
-    <item>
-      <title>Materials Investment Brief — May 30, 2026</title>
-      <link>https://www.odwyercapital.com/materials-2026-05-30.html</link>
-      <guid>https://www.odwyercapital.com/materials-2026-05-30.html</guid>
-      <pubDate>Sat, 30 May 2026 13:30:00 GMT</pubDate>
-      <description>Graphene heating films market expanding 50% to $1.51 billion by 2030.</description>
     </item>
   </channel>
 </rss>

@@ -3,56 +3,58 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-27T08:00:00Z to 2026-07-28T14:39:22.380487Z
-Fetched 214 articles
+Fetching articles from 2026-07-28T08:00:00Z to 2026-07-29T14:32:45.461560Z
+Fetched 229 articles
 
 2. Categorizing articles...
-   energy-transition: 33 articles
-   emerging-tech: 72 articles
-   materials: 7 articles
+   energy-transition: 32 articles
+   emerging-tech: 85 articles
+   materials: 8 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/32664/an-energy-company-growing-product
-   Source validation: 15 live of 33 fetched
-   Generated AI excerpt: Global battery infrastructure is experiencing significant capital deployment and capacity expansion, with the African Development Bank committing $114m to Morocco's battery manufacturing facility while data center battery demand is projected to reach $10.47 billion by 2035, driven by AI infrastructure buildout consuming an estimated 26.3 GW of electricity by FY32. Simultaneously, the biogas market is forecast to grow to $109.62 billion by 2036, supported by renewable energy mandates and methane reduction policies, positioning energy storage and alternative fuel technologies as critical investment vectors in the electrification transition.
-   Generated AI article body (6955 chars)
+   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/edmonton/alta-renewable-energy-9.7286101
+   Source validation: 15 live of 32 fetched
+   Generated AI excerpt: Europe's energy storage capacity continues expanding with large-scale deployments—Envision Energy and Kallista Energy recently completed a 386 MWh project in France—while U.S. solar-plus-storage integration accelerates as Tesla secures power from a KKR-backed Arizona facility combining both technologies.
+   Generated AI article body (6142 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 72 fetched
-   Generated AI excerpt: AI infrastructure demand is driving disproportionate gains in semiconductor and data center equipment suppliers, with Flex Ltd. exceeding small-cap benchmarks on strength in AI-related capital expenditures. Cloud service providers including Alphabet are capitalizing on enterprise AI adoption while managing search monetization risks, indicating sustained infrastructure buildout cycles across the sector.
-   Generated AI article body (5656 chars)
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/28/3334463/0/en/Data-Center-Semiconduct
+   Source validation: 15 live of 85 fetched
+   Generated AI excerpt: AI-driven data center infrastructure is generating significant capital allocation, with major institutional investors like BlackRock acquiring controlling stakes in utility-scale facilities and storage vendors benefiting from accelerated demand. However, credit rating agencies are flagging elevated valuation risk, as markets increasingly demand tangible AI revenue contributions from legacy industrials beyond speculative positioning.
+   Generated AI article body (5953 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/27/3333526/0/en/Blue-Gold-Shareholders-
-   Source validation: 6 live of 7 fetched
-   Generated AI excerpt: The provided articles do not contain substantive information on artificial intelligence market trends, growth metrics, or concrete developments necessary for an investment briefing excerpt. The article collection focuses on tariffs, infrastructure, mining impacts, defense manufacturing, and water policy—none of which directly address AI innovation developments or market data.
-   Skipped Innovation: excerpt generation rejected the source material
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/28/3334437/0/en/Capital-Composites-and-
+   Source validation: 7 live of 8 fetched
+   Generated AI excerpt: India's industrial output expanded 7.3% year-over-year in June driven by manufacturing strength, while commodity markets show renewed interest in polymetallic assets as Arctic mining operations unlock previously marginal by-products like germanium and sulphur alongside primary silver recovery.
+   Generated AI article body (5582 chars)
+   Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-07-28.html
-Generated: emerging-tech-2026-07-28.html
+Generated: energy-transition-2026-07-29.html
+Generated: emerging-tech-2026-07-29.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 22 URLs
-Generated feed.xml with 19 items
+Generated sitemap.xml with 24 URLs
+Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 214
+Articles fetched: 229
 Briefs created: 2
-HTML files: energy-transition-2026-07-28.html, emerging-tech-2026-07-28.html
+HTML files: energy-transition-2026-07-29.html, emerging-tech-2026-07-29.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 214,
+  "articles_fetched": 229,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-07-28.html",
-    "emerging-tech-2026-07-28.html"
+    "energy-transition-2026-07-29.html",
+    "emerging-tech-2026-07-29.html"
   ],
-  "publication_date": "2026-07-28T14:40:23.408167",
+  "publication_date": "2026-07-29T14:34:09.983026",
   "status": "success"
 }
