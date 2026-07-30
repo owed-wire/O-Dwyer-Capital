@@ -6,6 +6,20 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — July 30, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-07-30.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-07-30.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:30:00 GMT</pubDate>
+      <description>U.S. data center infrastructure expansion is driving renewed coal consumption as AI deployment accelerates, while Chinese manufacturers including Lenovo are establishing domestic production capacity to address surging demand for AI servers. This infrastructure build-out underscores the capital-intensive nature of AI adoption and the energy-critical dependencies emerging across the technology supply chain.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — July 30, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-07-30.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-07-30.html</guid>
+      <pubDate>Thu, 30 Jul 2026 13:30:00 GMT</pubDate>
+      <description>China's solar overcapacity has driven module prices down 90% since 2011, yet the country continues expanding production capacity while simultaneously advancing quantum battery research for faster energy storage scaling. Meanwhile, major utilities including NextEra and Brookfield are redirecting nuclear and renewable assets toward $100 billion data center infrastructure, signaling a structural shift in how energy majors monetize low-carbon generation capacity amid AI-driven electricity demand growth.</description>
+    </item>
+    <item>
       <title>Emerging Tech Investment Brief — July 29, 2026</title>
       <link>https://www.odwyercapital.com/emerging-tech-2026-07-29.html</link>
       <guid>https://www.odwyercapital.com/emerging-tech-2026-07-29.html</guid>
@@ -130,20 +144,6 @@
       <guid>https://www.odwyercapital.com/energy-transition-2026-07-16.html</guid>
       <pubDate>Thu, 16 Jul 2026 13:30:00 GMT</pubDate>
       <description>Data center operators are increasingly prioritizing renewable energy sources to power AI infrastructure, with major projects like the Cypress Creek-Google solar development—America's largest—addressing the substantial power demands of computational workloads. Concurrently, automotive manufacturers are exploring renewable fuel alternatives for internal combustion engines, signaling diversified approaches to decarbonization across energy-intensive sectors.</description>
-    </item>
-    <item>
-      <title>Emerging Tech Investment Brief — May 30, 2026</title>
-      <link>https://www.odwyercapital.com/emerging-tech-2026-05-30.html</link>
-      <guid>https://www.odwyercapital.com/emerging-tech-2026-05-30.html</guid>
-      <pubDate>Sat, 30 May 2026 13:30:00 GMT</pubDate>
-      <description>Space infrastructure reaching inflection point with $74.54B LEO satellite market by 2035.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — May 30, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-05-30.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-05-30.html</guid>
-      <pubDate>Sat, 30 May 2026 13:30:00 GMT</pubDate>
-      <description>Energy storage infrastructure becoming mission-critical with clear regulatory tailwinds.</description>
     </item>
   </channel>
 </rss>

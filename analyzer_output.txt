@@ -3,58 +3,55 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-28T08:00:00Z to 2026-07-29T14:32:45.461560Z
-Fetched 229 articles
+Fetching articles from 2026-07-29T08:00:00Z to 2026-07-30T14:33:20.111207Z
+Fetched 220 articles
 
 2. Categorizing articles...
-   energy-transition: 32 articles
-   emerging-tech: 85 articles
-   materials: 8 articles
+   energy-transition: 36 articles
+   emerging-tech: 83 articles
+   materials: 7 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/edmonton/alta-renewable-energy-9.7286101
-   Source validation: 15 live of 32 fetched
-   Generated AI excerpt: Europe's energy storage capacity continues expanding with large-scale deployments—Envision Energy and Kallista Energy recently completed a 386 MWh project in France—while U.S. solar-plus-storage integration accelerates as Tesla secures power from a KKR-backed Arizona facility combining both technologies.
-   Generated AI article body (6142 chars)
+   Source validation: 15 live of 36 fetched
+   Generated AI excerpt: China's solar overcapacity has driven module prices down 90% since 2011, yet the country continues expanding production capacity while simultaneously advancing quantum battery research for faster energy storage scaling. Meanwhile, major utilities including NextEra and Brookfield are redirecting nuclear and renewable assets toward $100 billion data center infrastructure, signaling a structural shift in how energy majors monetize low-carbon generation capacity amid AI-driven electricity demand growth.
+   Generated AI article body (6926 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/28/3334463/0/en/Data-Center-Semiconduct
-   Source validation: 15 live of 85 fetched
-   Generated AI excerpt: AI-driven data center infrastructure is generating significant capital allocation, with major institutional investors like BlackRock acquiring controlling stakes in utility-scale facilities and storage vendors benefiting from accelerated demand. However, credit rating agencies are flagging elevated valuation risk, as markets increasingly demand tangible AI revenue contributions from legacy industrials beyond speculative positioning.
-   Generated AI article body (5953 chars)
+   Source validation: 15 live of 83 fetched
+   Generated AI excerpt: U.S. data center infrastructure expansion is driving renewed coal consumption as AI deployment accelerates, while Chinese manufacturers including Lenovo are establishing domestic production capacity to address surging demand for AI servers. This infrastructure build-out underscores the capital-intensive nature of AI adoption and the energy-critical dependencies emerging across the technology supply chain.
+   Generated AI article body (6358 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/07/28/3334437/0/en/Capital-Composites-and-
-   Source validation: 7 live of 8 fetched
-   Generated AI excerpt: India's industrial output expanded 7.3% year-over-year in June driven by manufacturing strength, while commodity markets show renewed interest in polymetallic assets as Arctic mining operations unlock previously marginal by-products like germanium and sulphur alongside primary silver recovery.
-   Generated AI article body (5582 chars)
+   Source validation: 7 live of 7 fetched
+   Generated AI excerpt: Tesla's market capitalization now exceeds the combined valuation of 37 traditional automakers, reflecting accelerating investor confidence in EV and autonomous technology platforms. Simultaneously, supply chain dynamics are shifting as China implements new rare earth export controls, while strategic partnerships like Meteoric and POSCO's Brazil project signal efforts to establish alternative sourcing for critical EV battery materials.
+   Generated AI article body (6227 chars)
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-07-29.html
-Generated: emerging-tech-2026-07-29.html
+Generated: energy-transition-2026-07-30.html
+Generated: emerging-tech-2026-07-30.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 24 URLs
+Generated sitemap.xml with 26 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 229
+Articles fetched: 220
 Briefs created: 2
-HTML files: energy-transition-2026-07-29.html, emerging-tech-2026-07-29.html
+HTML files: energy-transition-2026-07-30.html, emerging-tech-2026-07-30.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 229,
+  "articles_fetched": 220,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-07-29.html",
-    "emerging-tech-2026-07-29.html"
+    "energy-transition-2026-07-30.html",
+    "emerging-tech-2026-07-30.html"
   ],
-  "publication_date": "2026-07-29T14:34:09.983026",
+  "publication_date": "2026-07-30T14:34:34.810419",
   "status": "success"
 }

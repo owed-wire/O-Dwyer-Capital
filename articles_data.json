@@ -1,5 +1,81 @@
 [
   {
+    "id": 24,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 30, 2026",
+    "url": "emerging-tech-2026-07-30.html",
+    "excerpt": "U.S. data center infrastructure expansion is driving renewed coal consumption as AI deployment accelerates, while Chinese manufacturers including Lenovo are establishing domestic production capacity to address surging demand for AI servers. This infrastructure build-out underscores the capital-intensive nature of AI adoption and the energy-critical dependencies emerging across the technology supply chain.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Energymonitor.ai",
+      "Grist"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 6 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 30, 2026",
+    "url": "energy-transition-2026-07-30.html",
+    "excerpt": "China's solar overcapacity has driven module prices down 90% since 2011, yet the country continues expanding production capacity while simultaneously advancing quantum battery research for faster energy storage scaling. Meanwhile, major utilities including NextEra and Brookfield are redirecting nuclear and renewable assets toward $100 billion data center infrastructure, signaling a structural shift in how energy majors monetize low-carbon generation capacity amid AI-driven electricity demand growth.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "quantum computing",
+      "solar energy",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Geeky Gadgets",
+      "Grist"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "quantum computing",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 10 historical briefs"
+    },
+    "trend_context": [
+      "New developments: quantum computing, solar energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 22,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
