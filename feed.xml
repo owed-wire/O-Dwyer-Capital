@@ -6,6 +6,20 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — July 31, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-07-31.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-07-31.html</guid>
+      <pubDate>Fri, 31 Jul 2026 13:30:00 GMT</pubDate>
+      <description>AI infrastructure buildout is driving accelerating capital expenditure cycles, with power accessibility emerging as a critical competitive differentiator for data center operators. This dynamic is creating substantial tailwinds across semiconductor and thermal management vendors, though recent performance dispersion highlights the execution risks inherent in supply chain concentration within memory and specialized component segments.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — July 31, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-07-31.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-07-31.html</guid>
+      <pubDate>Fri, 31 Jul 2026 13:30:00 GMT</pubDate>
+      <description>AI-driven optimization of renewable energy infrastructure is accelerating deployment economics, while distributed solar adoption gains regulatory momentum in key markets—evidenced by plug-in solar panel legalization and Brookfield's $600 million India renewable platform expansion. Silicon photonics advances are enabling data center efficiency gains, positioning AI-energy integration as a material cost reduction vector for large-scale renewable deployments over the next three to five-year period.</description>
+    </item>
+    <item>
       <title>Emerging Tech Investment Brief — July 30, 2026</title>
       <link>https://www.odwyercapital.com/emerging-tech-2026-07-30.html</link>
       <guid>https://www.odwyercapital.com/emerging-tech-2026-07-30.html</guid>
@@ -130,20 +144,6 @@
       <guid>https://www.odwyercapital.com/materials-2026-07-16.html</guid>
       <pubDate>Thu, 16 Jul 2026 13:30:00 GMT</pubDate>
       <description>The thermal interface material (TIM) market is projected to reach USD 6.2 billion by 2036, driven by accelerating demand from semiconductor manufacturing, electric vehicle production, and data center expansion. This growth reflects structural capacity increases across high-compute infrastructure segments requiring advanced thermal management solutions.</description>
-    </item>
-    <item>
-      <title>Emerging Tech Investment Brief — July 16, 2026</title>
-      <link>https://www.odwyercapital.com/emerging-tech-2026-07-16.html</link>
-      <guid>https://www.odwyercapital.com/emerging-tech-2026-07-16.html</guid>
-      <pubDate>Thu, 16 Jul 2026 13:30:00 GMT</pubDate>
-      <description>ON Semiconductor is benefiting from surging global power demand, positioning the semiconductor sector to capture growth from expanding data center and AI infrastructure investments. While China's Q2 GDP growth of 4.3%—the slowest pace since late 2022—may signal near-term headwinds in a key market, US-based semiconductor plays are increasingly insulated by domestic capacity expansions and strategic energy infrastructure projects like FPUSA's Texas battery storage facility.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — July 16, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-07-16.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-07-16.html</guid>
-      <pubDate>Thu, 16 Jul 2026 13:30:00 GMT</pubDate>
-      <description>Data center operators are increasingly prioritizing renewable energy sources to power AI infrastructure, with major projects like the Cypress Creek-Google solar development—America's largest—addressing the substantial power demands of computational workloads. Concurrently, automotive manufacturers are exploring renewable fuel alternatives for internal combustion engines, signaling diversified approaches to decarbonization across energy-intensive sectors.</description>
     </item>
   </channel>
 </rss>

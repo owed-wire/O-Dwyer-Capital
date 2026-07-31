@@ -1,5 +1,81 @@
 [
   {
+    "id": 26,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "July 31, 2026",
+    "url": "emerging-tech-2026-07-31.html",
+    "excerpt": "AI infrastructure buildout is driving accelerating capital expenditure cycles, with power accessibility emerging as a critical competitive differentiator for data center operators. This dynamic is creating substantial tailwinds across semiconductor and thermal management vendors, though recent performance dispersion highlights the execution risks inherent in supply chain concentration within memory and specialized component segments.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 7 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, wind energy"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "July 31, 2026",
+    "url": "energy-transition-2026-07-31.html",
+    "excerpt": "AI-driven optimization of renewable energy infrastructure is accelerating deployment economics, while distributed solar adoption gains regulatory momentum in key markets\u2014evidenced by plug-in solar panel legalization and Brookfield's $600 million India renewable platform expansion. Silicon photonics advances are enabling data center efficiency gains, positioning AI-energy integration as a material cost reduction vector for large-scale renewable deployments over the next three to five-year period.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "renewable energy",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Livemint"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 11 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, solar energy",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
     "id": 24,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",

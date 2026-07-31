@@ -3,55 +3,56 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-29T08:00:00Z to 2026-07-30T14:33:20.111207Z
-Fetched 220 articles
+Fetching articles from 2026-07-30T08:00:00Z to 2026-07-31T14:37:04.751832Z
+Fetched 228 articles
 
 2. Categorizing articles...
-   energy-transition: 36 articles
-   emerging-tech: 83 articles
-   materials: 7 articles
+   energy-transition: 34 articles
+   emerging-tech: 90 articles
+   materials: 4 articles
 
 3. Creating analytical briefs...
-   Source validation: 15 live of 36 fetched
-   Generated AI excerpt: China's solar overcapacity has driven module prices down 90% since 2011, yet the country continues expanding production capacity while simultaneously advancing quantum battery research for faster energy storage scaling. Meanwhile, major utilities including NextEra and Brookfield are redirecting nuclear and renewable assets toward $100 billion data center infrastructure, signaling a structural shift in how energy majors monetize low-carbon generation capacity amid AI-driven electricity demand growth.
-   Generated AI article body (6926 chars)
+   Dropping dead/unreachable source: https://www.thehindubusinessline.com/companies/tamil-nadu-can-lead-next-phase-of-growth-in
+   Source validation: 15 live of 34 fetched
+   Generated AI excerpt: AI-driven optimization of renewable energy infrastructure is accelerating deployment economics, while distributed solar adoption gains regulatory momentum in key markets—evidenced by plug-in solar panel legalization and Brookfield's $600 million India renewable platform expansion. Silicon photonics advances are enabling data center efficiency gains, positioning AI-energy integration as a material cost reduction vector for large-scale renewable deployments over the next three to five-year period.
+   Generated AI article body (6252 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 83 fetched
-   Generated AI excerpt: U.S. data center infrastructure expansion is driving renewed coal consumption as AI deployment accelerates, while Chinese manufacturers including Lenovo are establishing domestic production capacity to address surging demand for AI servers. This infrastructure build-out underscores the capital-intensive nature of AI adoption and the energy-critical dependencies emerging across the technology supply chain.
-   Generated AI article body (6358 chars)
+   Source validation: 15 live of 90 fetched
+   Generated AI excerpt: AI infrastructure buildout is driving accelerating capital expenditure cycles, with power accessibility emerging as a critical competitive differentiator for data center operators. This dynamic is creating substantial tailwinds across semiconductor and thermal management vendors, though recent performance dispersion highlights the execution risks inherent in supply chain concentration within memory and specialized component segments.
+   Generated AI article body (6075 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 7 live of 7 fetched
-   Generated AI excerpt: Tesla's market capitalization now exceeds the combined valuation of 37 traditional automakers, reflecting accelerating investor confidence in EV and autonomous technology platforms. Simultaneously, supply chain dynamics are shifting as China implements new rare earth export controls, while strategic partnerships like Meteoric and POSCO's Brazil project signal efforts to establish alternative sourcing for critical EV battery materials.
-   Generated AI article body (6227 chars)
+   Source validation: 4 live of 4 fetched
+   Generated AI excerpt: The critical minerals sector is experiencing accelerated domestic production initiatives, with partnerships spanning government, national laboratories, and private operators—evidenced by the U.S. Army and Idaho National Laboratory's collaboration on antimony trisulfide production and multiple rare earth and advanced materials companies advancing commercialization timelines toward public markets.
+   Generated AI article body (6111 chars)
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-07-30.html
-Generated: emerging-tech-2026-07-30.html
+Generated: energy-transition-2026-07-31.html
+Generated: emerging-tech-2026-07-31.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 26 URLs
+Generated sitemap.xml with 28 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 220
+Articles fetched: 228
 Briefs created: 2
-HTML files: energy-transition-2026-07-30.html, emerging-tech-2026-07-30.html
+HTML files: energy-transition-2026-07-31.html, emerging-tech-2026-07-31.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 220,
+  "articles_fetched": 228,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-07-30.html",
-    "emerging-tech-2026-07-30.html"
+    "energy-transition-2026-07-31.html",
+    "emerging-tech-2026-07-31.html"
   ],
-  "publication_date": "2026-07-30T14:34:34.810419",
+  "publication_date": "2026-07-31T14:38:07.066829",
   "status": "success"
 }
