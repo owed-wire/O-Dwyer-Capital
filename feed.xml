@@ -6,6 +6,20 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — August 03, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-08-03.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-08-03.html</guid>
+      <pubDate>Mon, 03 Aug 2026 13:30:00 GMT</pubDate>
+      <description>Global semiconductor and AI infrastructure capex cycles are accelerating, with major investors signaling sustained multi-year commitments despite elevated capital requirements. Meanwhile, electrification trends—spanning EVs, sustainable fuels, and power infrastructure—are attracting significant project financing, evidenced by a $135M close for advanced biofuel production capacity in Ontario.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — August 03, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-08-03.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-08-03.html</guid>
+      <pubDate>Mon, 03 Aug 2026 13:30:00 GMT</pubDate>
+      <description>A 1.2GW solar installation converting a shuttered Texas coal mine signals accelerating renewable capacity deployment in the US, while growing funding availability for renewable projects across Asia and Africa presents expansion opportunities in higher-growth emerging markets.</description>
+    </item>
+    <item>
       <title>Emerging Tech Investment Brief — July 31, 2026</title>
       <link>https://www.odwyercapital.com/emerging-tech-2026-07-31.html</link>
       <guid>https://www.odwyercapital.com/emerging-tech-2026-07-31.html</guid>
@@ -130,20 +144,6 @@
       <guid>https://www.odwyercapital.com/energy-transition-2026-07-20.html</guid>
       <pubDate>Mon, 20 Jul 2026 13:30:00 GMT</pubDate>
       <description>Data center power demands from AI workloads are straining grid infrastructure, driving accelerated adoption of distributed battery storage and grid-optimization AI technologies. The residential backup power market is expanding rapidly as enterprises and consumers seek resilience solutions, while emerging opportunities exist in agricultural biogas monetization and grid services, with some farm operations generating 10x traditional grid income through alternative energy revenue streams.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — July 17, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-07-17.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-07-17.html</guid>
-      <pubDate>Fri, 17 Jul 2026 13:30:00 GMT</pubDate>
-      <description>Global energy storage capacity is accelerating across multiple geographies, with recent deployments including a 150 MW project in Italy, a 5.15 GWh battery manufacturing facility in India, and major grid infrastructure investments such as National Grid's $1.75B Joulent commitment to address rising US power demand, signaling institutional conviction in battery and storage solutions as critical grid modernization assets.</description>
-    </item>
-    <item>
-      <title>Materials Investment Brief — July 16, 2026</title>
-      <link>https://www.odwyercapital.com/materials-2026-07-16.html</link>
-      <guid>https://www.odwyercapital.com/materials-2026-07-16.html</guid>
-      <pubDate>Thu, 16 Jul 2026 13:30:00 GMT</pubDate>
-      <description>The thermal interface material (TIM) market is projected to reach USD 6.2 billion by 2036, driven by accelerating demand from semiconductor manufacturing, electric vehicle production, and data center expansion. This growth reflects structural capacity increases across high-compute infrastructure segments requiring advanced thermal management solutions.</description>
     </item>
   </channel>
 </rss>

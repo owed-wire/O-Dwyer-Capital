@@ -3,56 +3,55 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-30T08:00:00Z to 2026-07-31T14:37:04.751832Z
-Fetched 228 articles
+Fetching articles from 2026-07-31T17:00:00Z to 2026-08-03T15:17:58.289854Z
+Fetched 256 articles
 
 2. Categorizing articles...
-   energy-transition: 34 articles
-   emerging-tech: 90 articles
-   materials: 4 articles
+   energy-transition: 44 articles
+   emerging-tech: 71 articles
+   materials: 10 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://www.thehindubusinessline.com/companies/tamil-nadu-can-lead-next-phase-of-growth-in
-   Source validation: 15 live of 34 fetched
-   Generated AI excerpt: AI-driven optimization of renewable energy infrastructure is accelerating deployment economics, while distributed solar adoption gains regulatory momentum in key markets—evidenced by plug-in solar panel legalization and Brookfield's $600 million India renewable platform expansion. Silicon photonics advances are enabling data center efficiency gains, positioning AI-energy integration as a material cost reduction vector for large-scale renewable deployments over the next three to five-year period.
-   Generated AI article body (6252 chars)
+   Source validation: 15 live of 44 fetched
+   Generated AI excerpt: A 1.2GW solar installation converting a shuttered Texas coal mine signals accelerating renewable capacity deployment in the US, while growing funding availability for renewable projects across Asia and Africa presents expansion opportunities in higher-growth emerging markets.
+   Generated AI article body (5846 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 90 fetched
-   Generated AI excerpt: AI infrastructure buildout is driving accelerating capital expenditure cycles, with power accessibility emerging as a critical competitive differentiator for data center operators. This dynamic is creating substantial tailwinds across semiconductor and thermal management vendors, though recent performance dispersion highlights the execution risks inherent in supply chain concentration within memory and specialized component segments.
-   Generated AI article body (6075 chars)
+   Source validation: 15 live of 71 fetched
+   Generated AI excerpt: Global semiconductor and AI infrastructure capex cycles are accelerating, with major investors signaling sustained multi-year commitments despite elevated capital requirements. Meanwhile, electrification trends—spanning EVs, sustainable fuels, and power infrastructure—are attracting significant project financing, evidenced by a $135M close for advanced biofuel production capacity in Ontario.
+   Generated AI article body (6261 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 4 live of 4 fetched
-   Generated AI excerpt: The critical minerals sector is experiencing accelerated domestic production initiatives, with partnerships spanning government, national laboratories, and private operators—evidenced by the U.S. Army and Idaho National Laboratory's collaboration on antimony trisulfide production and multiple rare earth and advanced materials companies advancing commercialization timelines toward public markets.
-   Generated AI article body (6111 chars)
+   Source validation: 10 live of 10 fetched
+   Generated AI excerpt: Global critical mineral demand is projected to surge through 2040 driven by energy transition infrastructure, though the IEA warns persistent supply gaps will constrain availability. This structural imbalance presents both operational challenges and pricing opportunities for mining and materials producers navigating the transition to net-zero technologies.
+   Generated AI article body (6299 chars)
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-07-31.html
-Generated: emerging-tech-2026-07-31.html
+Generated: energy-transition-2026-08-03.html
+Generated: emerging-tech-2026-08-03.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 28 URLs
+Generated sitemap.xml with 30 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 228
+Articles fetched: 256
 Briefs created: 2
-HTML files: energy-transition-2026-07-31.html, emerging-tech-2026-07-31.html
+HTML files: energy-transition-2026-08-03.html, emerging-tech-2026-08-03.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 228,
+  "articles_fetched": 256,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-07-31.html",
-    "emerging-tech-2026-07-31.html"
+    "energy-transition-2026-08-03.html",
+    "emerging-tech-2026-08-03.html"
   ],
-  "publication_date": "2026-07-31T14:38:07.066829",
+  "publication_date": "2026-08-03T15:18:56.582736",
   "status": "success"
 }

@@ -1,5 +1,85 @@
 [
   {
+    "id": 28,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 03, 2026",
+    "url": "emerging-tech-2026-08-03.html",
+    "excerpt": "Global semiconductor and AI infrastructure capex cycles are accelerating, with major investors signaling sustained multi-year commitments despite elevated capital requirements. Meanwhile, electrification trends\u2014spanning EVs, sustainable fuels, and power infrastructure\u2014are attracting significant project financing, evidenced by a $135M close for advanced biofuel production capacity in Ontario.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "electrification",
+      "semiconductor",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Nakedcapitalism.com",
+      "MarketBeat",
+      "TechRadar"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "electrification",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "semiconductor"
+      ],
+      "accelerating_themes": [
+        "semiconductor"
+      ],
+      "historical_context": "Based on analysis of 8 historical briefs"
+    },
+    "trend_context": [
+      "New developments: electrification, artificial intelligence",
+      "Accelerating trends: semiconductor"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 03, 2026",
+    "url": "energy-transition-2026-08-03.html",
+    "excerpt": "A 1.2GW solar installation converting a shuttered Texas coal mine signals accelerating renewable capacity deployment in the US, while growing funding availability for renewable projects across Asia and Africa presents expansion opportunities in higher-growth emerging markets.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy",
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Grist",
+      "MakeUseOf",
+      "MarketBeat"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy",
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 12 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy, artificial intelligence, wind energy"
+    ]
+  },
+  {
     "id": 26,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
