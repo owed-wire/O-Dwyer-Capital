@@ -1,5 +1,74 @@
 [
   {
+    "id": 30,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 04, 2026",
+    "url": "emerging-tech-2026-08-04.html",
+    "excerpt": "Enterprise AI adoption is accelerating across software and services sectors, though selective pressure persists on lower-margin SaaS platforms facing AI-driven displacement. Major software vendors like Accenture are attracting renewed institutional interest post-selloff, while pure-play consumer software faces valuation compression amid competitive disruption, exemplified by portfolio exits in companies like Wix amid weak fundamentals and AI headwinds.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 9 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 04, 2026",
+    "url": "energy-transition-2026-08-04.html",
+    "excerpt": "European renewable capacity is consolidating rapidly, with wind and solar surpassing fossil fuels in Germany's energy mix while major oil majors like TotalEnergies acquire utility-scale renewable assets, signaling accelerated portfolio realignment across developed markets. Concurrent capital mobilization in emerging economies\u2014particularly India\u2014and data center-adjacent clean energy projects reflect expanding institutional investment theses beyond traditional utility generation.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "wind energy",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "The Conversation Africa",
+      "Intellinews.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 13 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy, solar energy"
+    ]
+  },
+  {
     "id": 28,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",

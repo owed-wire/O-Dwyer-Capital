@@ -3,55 +3,58 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-07-31T17:00:00Z to 2026-08-03T15:17:58.289854Z
-Fetched 256 articles
+Fetching articles from 2026-08-03T08:00:00Z to 2026-08-04T14:40:39.480339Z
+Fetched 221 articles
 
 2. Categorizing articles...
-   energy-transition: 44 articles
-   emerging-tech: 71 articles
-   materials: 10 articles
+   energy-transition: 37 articles
+   emerging-tech: 79 articles
+   materials: 11 articles
 
 3. Creating analytical briefs...
-   Source validation: 15 live of 44 fetched
-   Generated AI excerpt: A 1.2GW solar installation converting a shuttered Texas coal mine signals accelerating renewable capacity deployment in the US, while growing funding availability for renewable projects across Asia and Africa presents expansion opportunities in higher-growth emerging markets.
-   Generated AI article body (5846 chars)
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/03/3337494/0/en/Zeo-Energy-Reports-Incr
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/03/3337287/0/en/Active-Network-Manageme
+   Source validation: 15 live of 37 fetched
+   Generated AI excerpt: European renewable capacity is consolidating rapidly, with wind and solar surpassing fossil fuels in Germany's energy mix while major oil majors like TotalEnergies acquire utility-scale renewable assets, signaling accelerated portfolio realignment across developed markets. Concurrent capital mobilization in emerging economies—particularly India—and data center-adjacent clean energy projects reflect expanding institutional investment theses beyond traditional utility generation.
+   Generated AI article body (6205 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 71 fetched
-   Generated AI excerpt: Global semiconductor and AI infrastructure capex cycles are accelerating, with major investors signaling sustained multi-year commitments despite elevated capital requirements. Meanwhile, electrification trends—spanning EVs, sustainable fuels, and power infrastructure—are attracting significant project financing, evidenced by a $135M close for advanced biofuel production capacity in Ontario.
-   Generated AI article body (6261 chars)
+   Source validation: 15 live of 79 fetched
+   Generated AI excerpt: Enterprise AI adoption is accelerating across software and services sectors, though selective pressure persists on lower-margin SaaS platforms facing AI-driven displacement. Major software vendors like Accenture are attracting renewed institutional interest post-selloff, while pure-play consumer software faces valuation compression amid competitive disruption, exemplified by portfolio exits in companies like Wix amid weak fundamentals and AI headwinds.
+   Generated AI article body (5727 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 10 live of 10 fetched
-   Generated AI excerpt: Global critical mineral demand is projected to surge through 2040 driven by energy transition infrastructure, though the IEA warns persistent supply gaps will constrain availability. This structural imbalance presents both operational challenges and pricing opportunities for mining and materials producers navigating the transition to net-zero technologies.
-   Generated AI article body (6299 chars)
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/03/3337351/0/en/Smartkem-Inc-and-Ferrox
+   Source validation: 10 live of 11 fetched
+   Generated AI excerpt: The rare earth supply chain is undergoing significant structural realignment, with the US targeting 120-tonne annual refining capacity by 2025 (up from 200 kg currently) and actively diversifying sourcing through new trade agreements with nations like Uzbekistan and emerging extraction technologies including ocean mining. This transition is being driven by national security imperatives in defense manufacturing and represents a critical infrastructure buildout estimated at $500 million in initial capital deployment.
+   Generated AI article body (6629 chars)
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-08-03.html
-Generated: emerging-tech-2026-08-03.html
+Generated: energy-transition-2026-08-04.html
+Generated: emerging-tech-2026-08-04.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 30 URLs
+Generated sitemap.xml with 32 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 256
+Articles fetched: 221
 Briefs created: 2
-HTML files: energy-transition-2026-08-03.html, emerging-tech-2026-08-03.html
+HTML files: energy-transition-2026-08-04.html, emerging-tech-2026-08-04.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 256,
+  "articles_fetched": 221,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-08-03.html",
-    "emerging-tech-2026-08-03.html"
+    "energy-transition-2026-08-04.html",
+    "emerging-tech-2026-08-04.html"
   ],
-  "publication_date": "2026-08-03T15:18:56.582736",
+  "publication_date": "2026-08-04T14:42:00.925833",
   "status": "success"
 }

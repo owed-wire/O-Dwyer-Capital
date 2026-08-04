@@ -6,6 +6,20 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — August 04, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-08-04.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-08-04.html</guid>
+      <pubDate>Tue, 04 Aug 2026 13:30:00 GMT</pubDate>
+      <description>Enterprise AI adoption is accelerating across software and services sectors, though selective pressure persists on lower-margin SaaS platforms facing AI-driven displacement. Major software vendors like Accenture are attracting renewed institutional interest post-selloff, while pure-play consumer software faces valuation compression amid competitive disruption, exemplified by portfolio exits in companies like Wix amid weak fundamentals and AI headwinds.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — August 04, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-08-04.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-08-04.html</guid>
+      <pubDate>Tue, 04 Aug 2026 13:30:00 GMT</pubDate>
+      <description>European renewable capacity is consolidating rapidly, with wind and solar surpassing fossil fuels in Germany's energy mix while major oil majors like TotalEnergies acquire utility-scale renewable assets, signaling accelerated portfolio realignment across developed markets. Concurrent capital mobilization in emerging economies—particularly India—and data center-adjacent clean energy projects reflect expanding institutional investment theses beyond traditional utility generation.</description>
+    </item>
+    <item>
       <title>Emerging Tech Investment Brief — August 03, 2026</title>
       <link>https://www.odwyercapital.com/emerging-tech-2026-08-03.html</link>
       <guid>https://www.odwyercapital.com/emerging-tech-2026-08-03.html</guid>
@@ -130,20 +144,6 @@
       <guid>https://www.odwyercapital.com/energy-transition-2026-07-23.html</guid>
       <pubDate>Thu, 23 Jul 2026 13:30:00 GMT</pubDate>
       <description>Energy storage ventures are gaining momentum through strategic partnerships, as evidenced by Highway Holdings' letter of intent to establish a majority-owned storage venture and increased state-level deployment of climate funding. The sector is benefiting from dual tailwinds of energy security imperatives and climate investment policies, creating near-term commercialization opportunities across battery and alternative storage technologies.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — July 21, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-07-21.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-07-21.html</guid>
-      <pubDate>Tue, 21 Jul 2026 13:30:00 GMT</pubDate>
-      <description>The convergence of AI infrastructure and clean energy is driving significant M&amp;A activity in the sector, with data center-powered energy deals accelerating as computational demands surge. UK policymakers identify energy supply as a critical constraint on AI economy expansion, while project-level capital deployment continues through ventures like Fidra Energy's 500MW West Burton C development, signaling sustained investment momentum despite commodity market volatility.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — July 20, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-07-20.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-07-20.html</guid>
-      <pubDate>Mon, 20 Jul 2026 13:30:00 GMT</pubDate>
-      <description>Data center power demands from AI workloads are straining grid infrastructure, driving accelerated adoption of distributed battery storage and grid-optimization AI technologies. The residential backup power market is expanding rapidly as enterprises and consumers seek resilience solutions, while emerging opportunities exist in agricultural biogas monetization and grid services, with some farm operations generating 10x traditional grid income through alternative energy revenue streams.</description>
     </item>
   </channel>
 </rss>
