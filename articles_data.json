@@ -1,5 +1,118 @@
 [
   {
+    "id": 33,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 05, 2026",
+    "url": "materials-2026-08-05.html",
+    "excerpt": "AI infrastructure buildout is driving demand for critical minerals and manufacturing capacity, with India positioning itself as a $5.1 trillion economy by FY29 while actively securing rare earth supply chains through partnerships like its Uzbekistan initiative, and U.S.-based manufacturers like Tellus Power scaling domestic production to support commercial deployment timelines.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 9,
+    "primary_sources": [
+      "GlobeNewswire",
+      "RT",
+      "BusinessLine"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 5 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 05, 2026",
+    "url": "emerging-tech-2026-08-05.html",
+    "excerpt": "The convergence of AI infrastructure buildout and quantum computing advancement is driving significant capital allocation shifts, with Caterpillar raising 2026 sales guidance on AI-driven demand and enterprise investment in quantum-ready systems accelerating across IT operations. Smart home automation platforms are emerging as a key application vector for AI deployment, creating new revenue streams in residential data management and control systems.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "quantum computing",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Cisco.com",
+      "Forbes",
+      "MarketBeat"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "quantum computing",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 10 historical briefs"
+    },
+    "trend_context": [
+      "New developments: quantum computing, artificial intelligence"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 05, 2026",
+    "url": "energy-transition-2026-08-05.html",
+    "excerpt": "Energy storage deployment accelerated in Q2 with strategic project acquisitions expanding pipeline capacity, while government incentive expansion targeting commercial rooftop solar adoption signals sustained policy support for distributed generation infrastructure. Grid-connected storage and solar deployment remain critical execution priorities as renewable capacity additions compete for capital allocation across utility-scale and commercial segments.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy",
+      "renewable energy",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Financial Post",
+      "BusinessLine",
+      "MarketBeat"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "renewable energy",
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "renewable energy",
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 14 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy",
+      "Accelerating trends: renewable energy, energy storage"
+    ]
+  },
+  {
     "id": 30,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
