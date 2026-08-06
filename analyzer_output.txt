@@ -3,58 +3,58 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-04T08:00:00Z to 2026-08-05T14:34:32.815485Z
-Fetched 226 articles
+Fetching articles from 2026-08-05T08:00:00Z to 2026-08-06T14:35:48.288795Z
+Fetched 243 articles
 
 2. Categorizing articles...
-   energy-transition: 32 articles
-   emerging-tech: 83 articles
-   materials: 10 articles
+   energy-transition: 34 articles
+   emerging-tech: 76 articles
+   materials: 11 articles
 
 3. Creating analytical briefs...
-   Source validation: 15 live of 32 fetched
-   Generated AI excerpt: Energy storage deployment accelerated in Q2 with strategic project acquisitions expanding pipeline capacity, while government incentive expansion targeting commercial rooftop solar adoption signals sustained policy support for distributed generation infrastructure. Grid-connected storage and solar deployment remain critical execution priorities as renewable capacity additions compete for capital allocation across utility-scale and commercial segments.
-   Generated AI article body (6766 chars)
+   Source validation: 15 live of 34 fetched
+   Generated AI excerpt: Grid modernization and clean energy infrastructure projects are accelerating across multiple geographies, with recent developments including a DOE loan to strengthen Puerto Rico's grid infrastructure and ORLEN's 216MW hybrid energy acquisition in Poland. Concurrent advances in green hydrogen production and rare earth magnet technology signal broadening decarbonization pathways beyond traditional electrification, with potential implications for supply chain resilience in critical energy components.
+   Generated AI article body (6955 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 83 fetched
-   Generated AI excerpt: The convergence of AI infrastructure buildout and quantum computing advancement is driving significant capital allocation shifts, with Caterpillar raising 2026 sales guidance on AI-driven demand and enterprise investment in quantum-ready systems accelerating across IT operations. Smart home automation platforms are emerging as a key application vector for AI deployment, creating new revenue streams in residential data management and control systems.
-   Generated AI article body (6143 chars)
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/05/3339313/0/en/Brookfield-Asset-Manage
+   Source validation: 15 live of 76 fetched
+   Generated AI excerpt: St. Louis is deploying $25 billion in data center infrastructure to establish itself as a regional AI hub, reflecting intensifying competition among U.S. metros for compute capacity. Media sentiment toward AI adoption is shifting positively, though community resistance to data center siting—evidenced by rising NIMBY opposition—may constrain near-term expansion capacity in certain markets.
+   Generated AI article body (6349 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/04/3338432/0/en/Ecuador-s-Mining-Reset-
-   Source validation: 9 live of 10 fetched
-   Generated AI excerpt: AI infrastructure buildout is driving demand for critical minerals and manufacturing capacity, with India positioning itself as a $5.1 trillion economy by FY29 while actively securing rare earth supply chains through partnerships like its Uzbekistan initiative, and U.S.-based manufacturers like Tellus Power scaling domestic production to support commercial deployment timelines.
-   Generated AI article body (6163 chars)
+   Source validation: 11 live of 11 fetched
+   Generated AI excerpt: US automotive manufacturers GM and Ford are redirecting billions toward domestic factory expansion, signaling renewed capital deployment in advanced manufacturing infrastructure amid reshoring trends. Concurrently, emerging markets are accelerating mineral and materials sourcing—critical inputs for AI hardware production—with Uzbekistan actively recruiting Indian mining partnerships and specialized materials firms like SuperCritical securing leadership to address supply chain dependencies.
+   Generated AI article body (6708 chars)
    Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-08-05.html
-Generated: emerging-tech-2026-08-05.html
-Generated: materials-2026-08-05.html
+Generated: energy-transition-2026-08-06.html
+Generated: emerging-tech-2026-08-06.html
+Generated: materials-2026-08-06.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 35 URLs
+Generated sitemap.xml with 38 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 226
+Articles fetched: 243
 Briefs created: 3
-HTML files: energy-transition-2026-08-05.html, emerging-tech-2026-08-05.html, materials-2026-08-05.html
+HTML files: energy-transition-2026-08-06.html, emerging-tech-2026-08-06.html, materials-2026-08-06.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 226,
+  "articles_fetched": 243,
   "briefs_created": 3,
   "html_files_created": 3,
   "files": [
-    "energy-transition-2026-08-05.html",
-    "emerging-tech-2026-08-05.html",
-    "materials-2026-08-05.html"
+    "energy-transition-2026-08-06.html",
+    "emerging-tech-2026-08-06.html",
+    "materials-2026-08-06.html"
   ],
-  "publication_date": "2026-08-05T14:35:50.929000",
+  "publication_date": "2026-08-06T14:37:08.163404",
   "status": "success"
 }

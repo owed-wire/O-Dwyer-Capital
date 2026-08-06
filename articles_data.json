@@ -1,5 +1,109 @@
 [
   {
+    "id": 36,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 06, 2026",
+    "url": "materials-2026-08-06.html",
+    "excerpt": "US automotive manufacturers GM and Ford are redirecting billions toward domestic factory expansion, signaling renewed capital deployment in advanced manufacturing infrastructure amid reshoring trends. Concurrently, emerging markets are accelerating mineral and materials sourcing\u2014critical inputs for AI hardware production\u2014with Uzbekistan actively recruiting Indian mining partnerships and specialized materials firms like SuperCritical securing leadership to address supply chain dependencies.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 11,
+    "primary_sources": [
+      "Livemint",
+      "The Times of India",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 6 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 06, 2026",
+    "url": "emerging-tech-2026-08-06.html",
+    "excerpt": "St. Louis is deploying $25 billion in data center infrastructure to establish itself as a regional AI hub, reflecting intensifying competition among U.S. metros for compute capacity. Media sentiment toward AI adoption is shifting positively, though community resistance to data center siting\u2014evidenced by rising NIMBY opposition\u2014may constrain near-term expansion capacity in certain markets.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Jasmi.news",
+      "Yahoo Entertainment",
+      "Forbes"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 11 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 06, 2026",
+    "url": "energy-transition-2026-08-06.html",
+    "excerpt": "Grid modernization and clean energy infrastructure projects are accelerating across multiple geographies, with recent developments including a DOE loan to strengthen Puerto Rico's grid infrastructure and ORLEN's 216MW hybrid energy acquisition in Poland. Concurrent advances in green hydrogen production and rare earth magnet technology signal broadening decarbonization pathways beyond traditional electrification, with potential implications for supply chain resilience in critical energy components.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "power grid",
+      "electrification"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Power Technology",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "power grid"
+      ],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 15 historical briefs"
+    },
+    "trend_context": [
+      "New developments: power grid"
+    ]
+  },
+  {
     "id": 33,
     "title": "Materials Investment Brief",
     "slug": "materials",

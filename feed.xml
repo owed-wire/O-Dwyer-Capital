@@ -6,6 +6,27 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Materials Investment Brief — August 06, 2026</title>
+      <link>https://www.odwyercapital.com/materials-2026-08-06.html</link>
+      <guid>https://www.odwyercapital.com/materials-2026-08-06.html</guid>
+      <pubDate>Thu, 06 Aug 2026 13:30:00 GMT</pubDate>
+      <description>US automotive manufacturers GM and Ford are redirecting billions toward domestic factory expansion, signaling renewed capital deployment in advanced manufacturing infrastructure amid reshoring trends. Concurrently, emerging markets are accelerating mineral and materials sourcing—critical inputs for AI hardware production—with Uzbekistan actively recruiting Indian mining partnerships and specialized materials firms like SuperCritical securing leadership to address supply chain dependencies.</description>
+    </item>
+    <item>
+      <title>Emerging Tech Investment Brief — August 06, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-08-06.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-08-06.html</guid>
+      <pubDate>Thu, 06 Aug 2026 13:30:00 GMT</pubDate>
+      <description>St. Louis is deploying $25 billion in data center infrastructure to establish itself as a regional AI hub, reflecting intensifying competition among U.S. metros for compute capacity. Media sentiment toward AI adoption is shifting positively, though community resistance to data center siting—evidenced by rising NIMBY opposition—may constrain near-term expansion capacity in certain markets.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — August 06, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-08-06.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-08-06.html</guid>
+      <pubDate>Thu, 06 Aug 2026 13:30:00 GMT</pubDate>
+      <description>Grid modernization and clean energy infrastructure projects are accelerating across multiple geographies, with recent developments including a DOE loan to strengthen Puerto Rico's grid infrastructure and ORLEN's 216MW hybrid energy acquisition in Poland. Concurrent advances in green hydrogen production and rare earth magnet technology signal broadening decarbonization pathways beyond traditional electrification, with potential implications for supply chain resilience in critical energy components.</description>
+    </item>
+    <item>
       <title>Materials Investment Brief — August 05, 2026</title>
       <link>https://www.odwyercapital.com/materials-2026-08-05.html</link>
       <guid>https://www.odwyercapital.com/materials-2026-08-05.html</guid>
@@ -123,27 +144,6 @@
       <guid>https://www.odwyercapital.com/emerging-tech-2026-07-27.html</guid>
       <pubDate>Mon, 27 Jul 2026 13:30:00 GMT</pubDate>
       <description>Rising energy demands from AI infrastructure buildouts are driving renewed investment in nuclear power generation, while storage providers like Seagate face near-term earnings scrutiny as data center capex cycles accelerate through 2026.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — July 27, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-07-27.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-07-27.html</guid>
-      <pubDate>Mon, 27 Jul 2026 13:30:00 GMT</pubDate>
-      <description>AI-driven optimization of wind farm operations is gaining traction amid broader clean energy investment volatility, with China committing to a 50% increase in green energy capacity by 2030 while U.S. funding faces geopolitical allocation pressures. Despite policy headwinds, global coal consumption reached record levels in 2025 even as coal-fired power generation declined, underscoring the complexity of energy transition dynamics.</description>
-    </item>
-    <item>
-      <title>Materials Investment Brief — July 24, 2026</title>
-      <link>https://www.odwyercapital.com/materials-2026-07-24.html</link>
-      <guid>https://www.odwyercapital.com/materials-2026-07-24.html</guid>
-      <pubDate>Fri, 24 Jul 2026 13:30:00 GMT</pubDate>
-      <description>Global EV supply chain localization is accelerating as automakers establish regional production partnerships to secure critical mineral access and reduce dependence on centralized manufacturing, with geopolitical tensions in rare earth mining regions intensifying competitive pressure for domestic sourcing capabilities across Asia and Europe.</description>
-    </item>
-    <item>
-      <title>Emerging Tech Investment Brief — July 24, 2026</title>
-      <link>https://www.odwyercapital.com/emerging-tech-2026-07-24.html</link>
-      <guid>https://www.odwyercapital.com/emerging-tech-2026-07-24.html</guid>
-      <pubDate>Fri, 24 Jul 2026 13:30:00 GMT</pubDate>
-      <description>AI infrastructure demand is driving semiconductor valuations to record levels, with SanDisk up 574% YTD as data center operators compete for advanced memory solutions to support large language model deployment. Concurrently, aerospace consolidation narratives are gaining traction as SpaceX and Tesla explore strategic integration to capture synergies in satellite connectivity and AI compute distribution, signaling institutional investor appetite for vertically-integrated space-to-ground technology platforms.</description>
     </item>
   </channel>
 </rss>
