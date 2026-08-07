@@ -3,58 +3,58 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-05T08:00:00Z to 2026-08-06T14:35:48.288795Z
-Fetched 243 articles
+Fetching articles from 2026-08-06T08:00:00Z to 2026-08-07T13:40:37.065602Z
+Fetched 209 articles
 
 2. Categorizing articles...
-   energy-transition: 34 articles
-   emerging-tech: 76 articles
-   materials: 11 articles
+   energy-transition: 27 articles
+   emerging-tech: 77 articles
+   materials: 8 articles
 
 3. Creating analytical briefs...
-   Source validation: 15 live of 34 fetched
-   Generated AI excerpt: Grid modernization and clean energy infrastructure projects are accelerating across multiple geographies, with recent developments including a DOE loan to strengthen Puerto Rico's grid infrastructure and ORLEN's 216MW hybrid energy acquisition in Poland. Concurrent advances in green hydrogen production and rare earth magnet technology signal broadening decarbonization pathways beyond traditional electrification, with potential implications for supply chain resilience in critical energy components.
-   Generated AI article body (6955 chars)
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/06/3340393/0/en/ABB-invests-in-LevelTen
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/06/3339981/0/en/Copenhagen-Infrastructu
+   Source validation: 15 live of 27 fetched
+   Generated AI excerpt: China's pursuit of carbon neutrality by 2060 is accelerating battery manufacturing capacity, while India's residential solar installations have surged to 16,300 units daily under the PM Surya Ghar scheme, signaling structural shifts in clean energy production and deployment across Asia. Concurrent geopolitical pressures are reshaping energy resilience strategies, with both nations prioritizing domestic renewable technology manufacturing capabilities.
+   Generated AI article body (6364 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/05/3339313/0/en/Brookfield-Asset-Manage
-   Source validation: 15 live of 76 fetched
-   Generated AI excerpt: St. Louis is deploying $25 billion in data center infrastructure to establish itself as a regional AI hub, reflecting intensifying competition among U.S. metros for compute capacity. Media sentiment toward AI adoption is shifting positively, though community resistance to data center siting—evidenced by rising NIMBY opposition—may constrain near-term expansion capacity in certain markets.
-   Generated AI article body (6349 chars)
+   Dropping dead/unreachable source: https://www.trefis.com/articles/610336/spacexs-300-billion-mobile-opportunity-is-harder-th
+   Source validation: 15 live of 77 fetched
+   Generated AI excerpt: Major cloud infrastructure operators are undertaking significant capital reallocation toward AI data center capacity, while competitive pressures from open-weight models are accelerating enterprise adoption of local AI infrastructure—creating operational complexity around cost optimization and migration decisions across analytics platforms.
+   Generated AI article body (6207 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 11 live of 11 fetched
-   Generated AI excerpt: US automotive manufacturers GM and Ford are redirecting billions toward domestic factory expansion, signaling renewed capital deployment in advanced manufacturing infrastructure amid reshoring trends. Concurrently, emerging markets are accelerating mineral and materials sourcing—critical inputs for AI hardware production—with Uzbekistan actively recruiting Indian mining partnerships and specialized materials firms like SuperCritical securing leadership to address supply chain dependencies.
-   Generated AI article body (6708 chars)
-   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
+   Source validation: 8 live of 8 fetched
+   Generated AI excerpt: Lithium Americas secured $175 million in financing ahead of Thacker Pass peak construction, while India's legislative amendments targeting foreign investment in electronics manufacturing and Coal India's expansion into iron ore mining signal accelerating commodity sector consolidation and capital allocation toward domestic resource development.
+   Generated AI article body (7378 chars)
+   Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-08-06.html
-Generated: emerging-tech-2026-08-06.html
-Generated: materials-2026-08-06.html
+Generated: energy-transition-2026-08-07.html
+Generated: emerging-tech-2026-08-07.html
 
 5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 38 URLs
+Generated sitemap.xml with 40 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 243
-Briefs created: 3
-HTML files: energy-transition-2026-08-06.html, emerging-tech-2026-08-06.html, materials-2026-08-06.html
+Articles fetched: 209
+Briefs created: 2
+HTML files: energy-transition-2026-08-07.html, emerging-tech-2026-08-07.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 243,
-  "briefs_created": 3,
-  "html_files_created": 3,
+  "articles_fetched": 209,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-08-06.html",
-    "emerging-tech-2026-08-06.html",
-    "materials-2026-08-06.html"
+    "energy-transition-2026-08-07.html",
+    "emerging-tech-2026-08-07.html"
   ],
-  "publication_date": "2026-08-06T14:37:08.163404",
+  "publication_date": "2026-08-07T13:41:48.512892",
   "status": "success"
 }

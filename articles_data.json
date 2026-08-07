@@ -1,5 +1,77 @@
 [
   {
+    "id": 38,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 07, 2026",
+    "url": "emerging-tech-2026-08-07.html",
+    "excerpt": "Major cloud infrastructure operators are undertaking significant capital reallocation toward AI data center capacity, while competitive pressures from open-weight models are accelerating enterprise adoption of local AI infrastructure\u2014creating operational complexity around cost optimization and migration decisions across analytics platforms.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Business Insider",
+      "TechRadar",
+      "XDA Developers"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 12 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 07, 2026",
+    "url": "energy-transition-2026-08-07.html",
+    "excerpt": "China's pursuit of carbon neutrality by 2060 is accelerating battery manufacturing capacity, while India's residential solar installations have surged to 16,300 units daily under the PM Surya Ghar scheme, signaling structural shifts in clean energy production and deployment across Asia. Concurrent geopolitical pressures are reshaping energy resilience strategies, with both nations prioritizing domestic renewable technology manufacturing capabilities.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "artificial intelligence",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Geeky Gadgets",
+      "Offshore Technology",
+      "BusinessLine"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 16 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, artificial intelligence, solar energy"
+    ]
+  },
+  {
     "id": 36,
     "title": "Materials Investment Brief",
     "slug": "materials",
