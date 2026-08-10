@@ -3,58 +3,59 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-06T08:00:00Z to 2026-08-07T13:40:37.065602Z
-Fetched 209 articles
+Fetching articles from 2026-08-07T17:00:00Z to 2026-08-10T13:45:31.282418Z
+Fetched 265 articles
 
 2. Categorizing articles...
-   energy-transition: 27 articles
-   emerging-tech: 77 articles
-   materials: 8 articles
+   energy-transition: 50 articles
+   emerging-tech: 67 articles
+   materials: 15 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/06/3340393/0/en/ABB-invests-in-LevelTen
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/06/3339981/0/en/Copenhagen-Infrastructu
-   Source validation: 15 live of 27 fetched
-   Generated AI excerpt: China's pursuit of carbon neutrality by 2060 is accelerating battery manufacturing capacity, while India's residential solar installations have surged to 16,300 units daily under the PM Surya Ghar scheme, signaling structural shifts in clean energy production and deployment across Asia. Concurrent geopolitical pressures are reshaping energy resilience strategies, with both nations prioritizing domestic renewable technology manufacturing capabilities.
-   Generated AI article body (6364 chars)
+   Dropping dead/unreachable source: https://sputnikglobe.com/20260808/eu-facing-self-inflicted-energy-crisis---russian-special
+   Source validation: 15 live of 50 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAnEFemKsEtxsACRBhk'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAnF9jA2qtNZZ1vFYsG'}
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.trefis.com/articles/610336/spacexs-300-billion-mobile-opportunity-is-harder-th
-   Source validation: 15 live of 77 fetched
-   Generated AI excerpt: Major cloud infrastructure operators are undertaking significant capital reallocation toward AI data center capacity, while competitive pressures from open-weight models are accelerating enterprise adoption of local AI infrastructure—creating operational complexity around cost optimization and migration decisions across analytics platforms.
-   Generated AI article body (6207 chars)
+   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/33781/uk-stocks-could-prove-more-resili
+   Source validation: 15 live of 67 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAnUFXKBa91a4371JET'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAnUyBKww3TbrMDkXSz'}
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 8 live of 8 fetched
-   Generated AI excerpt: Lithium Americas secured $175 million in financing ahead of Thacker Pass peak construction, while India's legislative amendments targeting foreign investment in electronics manufacturing and Coal India's expansion into iron ore mining signal accelerating commodity sector consolidation and capital allocation toward domestic resource development.
-   Generated AI article body (7378 chars)
+   Dropping dead/unreachable source: https://assetstore.unity.com/packages/2d/industrial-materials-mining-metals-ores-crafting-
+   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/08/3341456/0/en/marquis-holdings-appoin
+   Source validation: 13 live of 15 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAoGkFdYPXfPKyAHfkq'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAoJuENijXoAoYfAwjR'}
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-08-07.html
-Generated: emerging-tech-2026-08-07.html
+Generated: energy-transition-2026-08-10.html
+Generated: emerging-tech-2026-08-10.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 40 URLs
+Generated sitemap.xml with 42 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 209
+Articles fetched: 265
 Briefs created: 2
-HTML files: energy-transition-2026-08-07.html, emerging-tech-2026-08-07.html
+HTML files: energy-transition-2026-08-10.html, emerging-tech-2026-08-10.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 209,
+  "articles_fetched": 265,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-08-07.html",
-    "emerging-tech-2026-08-07.html"
+    "energy-transition-2026-08-10.html",
+    "emerging-tech-2026-08-10.html"
   ],
-  "publication_date": "2026-08-07T13:41:48.512892",
+  "publication_date": "2026-08-10T13:45:53.550514",
   "status": "success"
 }

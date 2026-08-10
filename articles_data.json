@@ -1,5 +1,80 @@
 [
   {
+    "id": 40,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 10, 2026",
+    "url": "emerging-tech-2026-08-10.html",
+    "excerpt": "Communities say AI is draining their water supplies, but the tech industry begs to differ; SpaceX will build natural gas power plants and large battery systems to supply electricity for the chip factory it is developing with Tesla in Grimes County, Te\nThank you for being a Ghacks reader; Atmospheric CO2 levels, East Asian demographic exhaustion, and the AI capital race are converging on different clocks.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology",
+      "battery technology",
+      "chip manufacturing"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Gizmodo.com",
+      "Bytepith.com",
+      "Ghacks Technology News"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology",
+        "battery technology",
+        "chip manufacturing"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 13 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology, battery technology, chip manufacturing"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 10, 2026",
+    "url": "energy-transition-2026-08-10.html",
+    "excerpt": "Colombian President Abelardo de la Espriella on Friday pledged to revive the country\u2019s oil and gas sector, restore state-owned energy company Ecopetrol and s; By Jarrett Renshaw and Ernest Scheyder WASHINGTON, Aug 7 (Reuters) - The U; An anonymous reader quotes a report from the BBC: German energy company RWE has said it will abandon its offshore wind projects in the U.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Slashdot.org"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 17 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, artificial intelligence, wind energy"
+    ]
+  },
+  {
     "id": 38,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
