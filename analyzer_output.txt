@@ -3,59 +3,58 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-07T17:00:00Z to 2026-08-10T13:45:31.282418Z
-Fetched 265 articles
+Fetching articles from 2026-08-10T08:00:00Z to 2026-08-11T13:43:41.278958Z
+Fetched 213 articles
 
 2. Categorizing articles...
-   energy-transition: 50 articles
-   emerging-tech: 67 articles
-   materials: 15 articles
+   energy-transition: 32 articles
+   emerging-tech: 78 articles
+   materials: 12 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://sputnikglobe.com/20260808/eu-facing-self-inflicted-energy-crisis---russian-special
-   Source validation: 15 live of 50 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAnEFemKsEtxsACRBhk'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAnF9jA2qtNZZ1vFYsG'}
+   Source validation: 15 live of 32 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Cdw4Ss1jpMfnzDkZWumFe'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Cdw4Ssxo6TgtkfFp7pDfd'}
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/33781/uk-stocks-could-prove-more-resili
-   Source validation: 15 live of 67 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAnUFXKBa91a4371JET'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAnUyBKww3TbrMDkXSz'}
+   Source validation: 15 live of 78 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Cdw4THdLXf88CDEMmWkkh'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Cdw4TJAaYJAfEpd4rQLhz'}
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://assetstore.unity.com/packages/2d/industrial-materials-mining-metals-ores-crafting-
-   Dropping dead/unreachable source: https://www.globenewswire.com/news-release/2026/08/08/3341456/0/en/marquis-holdings-appoin
-   Source validation: 13 live of 15 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAoGkFdYPXfPKyAHfkq'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CduAoJuENijXoAoYfAwjR'}
-   Skipped materials: No new themes since last brief
+   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/newfoundland-labrador/n-l-wildfires-impeding-day-to-day-geo
+   Source validation: 11 live of 12 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Cdw4U45HJC7JWQx9reaCf'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Cdw4U4pgCCSm8JMYS7ghG'}
+   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-08-10.html
-Generated: emerging-tech-2026-08-10.html
+Generated: energy-transition-2026-08-11.html
+Generated: emerging-tech-2026-08-11.html
+Generated: materials-2026-08-11.html
 
 5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 42 URLs
+Generated sitemap.xml with 45 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 265
-Briefs created: 2
-HTML files: energy-transition-2026-08-10.html, emerging-tech-2026-08-10.html
+Articles fetched: 213
+Briefs created: 3
+HTML files: energy-transition-2026-08-11.html, emerging-tech-2026-08-11.html, materials-2026-08-11.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 265,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 213,
+  "briefs_created": 3,
+  "html_files_created": 3,
   "files": [
-    "energy-transition-2026-08-10.html",
-    "emerging-tech-2026-08-10.html"
+    "energy-transition-2026-08-11.html",
+    "emerging-tech-2026-08-11.html",
+    "materials-2026-08-11.html"
   ],
-  "publication_date": "2026-08-10T13:45:53.550514",
+  "publication_date": "2026-08-11T13:44:02.909308",
   "status": "success"
 }

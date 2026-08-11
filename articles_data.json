@@ -1,5 +1,117 @@
 [
   {
+    "id": 43,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 11, 2026",
+    "url": "materials-2026-08-11.html",
+    "excerpt": "XCMG's Electric Mining Push Featured in The Australian Financial Review; Opportunities center on recyclable thermoplastics, lightweight automotive parts, sustainable thermoset composites and kraft lignin feedstocks; Near the end of the first century AD, in the highlands of northern Spain, the Roman governor, philosopher, and naturalist Pliny the Elder watched as mining cleaved a landscape.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "electrification"
+    ],
+    "investment_relevance": "high",
+    "article_count": 11,
+    "primary_sources": [
+      "GlobeNewswire",
+      "BusinessLine",
+      "Financial Post"
+    ],
+    "trend_analysis": {
+      "new_themes": [],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [
+        "electrification"
+      ],
+      "historical_context": "Based on analysis of 7 historical briefs"
+    },
+    "trend_context": [
+      "Accelerating trends: electrification"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 11, 2026",
+    "url": "emerging-tech-2026-08-11.html",
+    "excerpt": "The anti-data center movement is bipartisan, and that's worrying some local politicians in red states around the country; Read Mark Zuckerberg\u2019s piece on our values for building superintelligence for everyone; Brown Advisory, an investment management company, released its \u201cBrown Advisory Global Leaders Strategy\u201d for the second quarter of 2026 investor letter.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "chip manufacturing",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Meta.com",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "chip manufacturing",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 14 historical briefs"
+    },
+    "trend_context": [
+      "New developments: chip manufacturing, artificial intelligence"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 11, 2026",
+    "url": "energy-transition-2026-08-11.html",
+    "excerpt": "This week\u2019s Current Climate newsletter also looks at who gets electricity when the grid is under strain and boom times for clean energy investment; PHILADELPHIA, Aug; Solar energy has been a critical part of the renewable energy transition, but its implementation often faces challenges related to land use and efficiency.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Geeky Gadgets",
+      "Forbes",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 18 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
     "id": 40,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
