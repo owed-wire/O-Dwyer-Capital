@@ -1,5 +1,111 @@
 [
   {
+    "id": 46,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 12, 2026",
+    "url": "materials-2026-08-12.html",
+    "excerpt": "Coal India considers acquiring Wealth Minerals' Chile lithium unit to secure vital overseas lithium resources for electric vehicles; AUSTIN, Texas, Aug; Vancouver, British Columbia, Aug.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 7,
+    "primary_sources": [
+      "Financial Post",
+      "BusinessLine",
+      "Paul Tan's Automotive News"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 8 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 12, 2026",
+    "url": "emerging-tech-2026-08-12.html",
+    "excerpt": "The AI boom is soaking up investor capital, shoring up economic growth, and showing signs of strain, David Rosenberg says; Satellite internet can close digital divide, but Global South must not trade access for dependence on foreign firms; Trump Media & Technology Group, founded by U.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Business Insider",
+      "Al Jazeera English",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 15 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 12, 2026",
+    "url": "energy-transition-2026-08-12.html",
+    "excerpt": "States can lower PJM electricity costs by reforming renewable portfolio standards, opening credit markets and eliminating policies that create artificial scarcity; Project expected to power the equivalent of approximately 640 homes TORONTO, Aug; Zach Dell, who turns 30 this month, has built a home battery and tech business, successfully fundraising on a $13 billion valuation.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "electrification",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "PRNewswire",
+      "Forbes"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 19 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, solar energy"
+    ]
+  },
+  {
     "id": 43,
     "title": "Materials Investment Brief",
     "slug": "materials",
