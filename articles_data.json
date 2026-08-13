@@ -1,5 +1,119 @@
 [
   {
+    "id": 49,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 13, 2026",
+    "url": "materials-2026-08-13.html",
+    "excerpt": "The State Investment Promotion Board approved over two lakh crore rupees in investments; The Lok Sabha passed a bill to amend mining regulations; Code Provenance Intelligence \u2014 verify who really wrote your code.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 6,
+    "primary_sources": [
+      "The Times of India",
+      "Financial Post"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 9 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 13, 2026",
+    "url": "emerging-tech-2026-08-13.html",
+    "excerpt": "NEW YORK, Aug 12 : Bank of America said on Wednesday it plans to deploy $250 billion by July 2027 to support U; The phantom project issue in US AI electricity expansion risks misallocation of resources, leading to potential overbuilding and delayed real projects; AUSTIN, Texas, Aug.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "satellite technology",
+      "electrification",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "CNA",
+      "Financial Post",
+      "Crypto Briefing"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "satellite technology",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 16 historical briefs"
+    },
+    "trend_context": [
+      "New developments: satellite technology, artificial intelligence"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 13, 2026",
+    "url": "energy-transition-2026-08-13.html",
+    "excerpt": "Aquifer Thermal Energy Storage (ATES) is a new approach to energy management that uses natural underground aquifers to store thermal energy for seasonal heating and cooling; Baron Capital, an investment management company, released its Q2 2026 investor letter for the \u201cBaron Discovery Fund\u201d; The bank's Critical Infrastructure Finance Initiative targets digital, energy, and core infrastructure projects through July 4, 2027.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy",
+      "electrification",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Geeky Gadgets",
+      "Forbes",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "electrification",
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 20 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 46,
     "title": "Materials Investment Brief",
     "slug": "materials",

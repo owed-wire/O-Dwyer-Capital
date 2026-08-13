@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Investment Brief &mdash; August 13, 2026 | O'Dwyer Capital</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="dark.css">
+    <script src="theme.js"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-32PXHG0656"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-32PXHG0656');
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-green: #1a4d2e;
+            --secondary-green: #2d6a4f;
+            --accent-gold: #d4a574;
+            --dark-gold: #c9965f;
+            --light-bg: #f9f8f6;
+            --white: #ffffff;
+            --text-dark: #333333;
+            --text-gray: #666666;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--white);
+        }
+
+        a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: var(--dark-gold);
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: var(--white);
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .logo-container img {
+            height: 60px;
+            width: auto;
+        }
+
+        nav {
+            display: flex;
+            gap: 40px;
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+
+        nav a {
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 15px;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-gold);
+            transition: width 0.3s;
+        }
+
+        nav a:hover::after,
+        nav a.active::after {
+            width: 100%;
+        }
+
+        /* ===== PAGE HEADER ===== */
+        .page-header {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            padding: 60px 50px;
+            color: var(--white);
+        }
+
+        .page-header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .page-header p {
+            font-size: 18px;
+            color: var(--accent-gold);
+        }
+
+        /* ===== CONTENT ===== */
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 50px;
+        }
+
+        .article-meta {
+            color: var(--text-gray);
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .article-body {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .article-body h2 {
+            color: var(--primary-green);
+            font-size: 28px;
+            margin: 40px 0 20px 0;
+        }
+
+        .article-body h3 {
+            color: var(--secondary-green);
+            font-size: 22px;
+            margin: 30px 0 15px 0;
+        }
+
+        .article-body p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .article-body strong {
+            color: var(--primary-green);
+            font-weight: 600;
+        }
+
+        .article-body ul, .article-body ol {
+            margin: 20px 0 20px 40px;
+        }
+
+        .article-body li {
+            margin-bottom: 10px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--accent-gold);
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            color: var(--dark-gold);
+        }
+
+        .tags {
+            display: flex;
+            gap: 8px;
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .tag {
+            background: var(--light-bg);
+            color: var(--primary-green);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid var(--accent-gold);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--primary-green);
+            color: var(--white);
+            padding: 50px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        footer p.tagline {
+            color: var(--accent-gold);
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        footer p.copyright {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 20px;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+                padding: 15px 20px;
+            }
+
+            nav {
+                gap: 20px;
+                margin-left: 0;
+            }
+
+            .page-header {
+                padding: 40px 20px;
+            }
+
+            .page-header h1 {
+                font-size: 32px;
+            }
+
+            .content {
+                padding: 40px 20px;
+            }
+
+            footer {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+    <meta name="description" content="Aquifer Thermal Energy Storage (ATES) is a new approach to energy management that uses natural underground aquifers to store thermal energy for seasonal heating and cooling; Baron Capital, an investment management company, released its Q2 2026 investor letter for the “Baron Discovery Fund”; The bank's Critical Infrastructure Finance Initiative targets digital, energy, and core infrastructure projects through July 4, 2027.">
+    <link rel="canonical" href="https://www.odwyercapital.com/energy-transition-2026-08-13.html">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Energy Investment Brief &mdash; August 13, 2026", "description": "Aquifer Thermal Energy Storage (ATES) is a new approach to energy management that uses natural underground aquifers to store thermal energy for seasonal heating and cooling; Baron Capital, an investment management company, released its Q2 2026 investor letter for the \u201cBaron Discovery Fund\u201d; The bank's Critical Infrastructure Finance Initiative targets digital, energy, and core infrastructure projects through July 4, 2027.", "datePublished": "2026-08-13", "author": {"@type": "Organization", "name": "O'Dwyer Capital"}, "publisher": {"@type": "Organization", "name": "O'Dwyer Capital", "url": "https://www.odwyercapital.com"}, "mainEntityOfPage": "https://www.odwyercapital.com/energy-transition-2026-08-13.html"}</script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="logo-container">
+            <img src="odwyer_capital_logo_primary.webp" alt="O'Dwyer Capital">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="thoughts.html" class="active">Thoughts</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <h1>Energy Transition Investment Brief</h1>
+        <p>Strategic analysis for family office allocation</p>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="content">
+        <a href="thoughts.html" class="back-link">← Back to Thoughts</a>
+
+        <div class="article-meta">
+            <strong>Date:</strong> August 13, 2026 | <strong>Source:</strong> O'Dwyer Analysis
+        </div>
+
+        <div class="article-body">
+<h2>Energy Investment Brief &mdash; August 13, 2026</h2>
+<h3>Today's Developments</h3>
+<p><strong><a href="https://www.forbes.com/sites/kensilverstein/2026/08/12/the-solar-dilemma-build-local-or-buy-cheap-from-overseas/" target="_blank">The Solar Dilemma: Build Local Or Buy Cheap From Overseas?</a></strong> (Forbes)</p>
+<p>Should the U.S. buy cheap imported solar panels to power the AI boom or reshore manufacturing? Washington faces a trade-off between energy security and affordable power.</p>
+<p><strong><a href="https://www.prnewswire.com/news-releases/recurrent-energy-powers-up-carwarp-energy-park-in-australia-under-long-term-microsoft-ppa-302849435.html" target="_blank">Recurrent Energy Powers Up Carwarp Energy Park in Australia Under Long-Term Microsoft PPA</a></strong> (PRNewswire)</p>
+<p>The 150 MWac solar facility near Mildura will generate enough renewable energy to power approximately 65,000 Australian households annually and includes a dedicated fund to support community-led sustainability initiatives KITCHENER, ON, Aug. 12, 2026 /PRNewsw…</p>
+<p><strong><a href="https://www.geeky-gadgets.com/aquifer-thermal-energy-storage/" target="_blank">Aquifer Thermal Energy Storage (ATES) Cooling Beats Traditional AC Efficiency by 10 Times</a></strong> (Geeky Gadgets)</p>
+<p>Aquifer Thermal Energy Storage (ATES) is a new approach to energy management that uses natural underground aquifers to store thermal energy for seasonal heating and cooling. As explained by Undecided with Matt Ferrell, this system captures excess heat during …</p>
+<p><strong><a href="https://finance.yahoo.com/markets/stocks/articles/baron-discovery-fund-trimmed-advanced-130313405.html" target="_blank">Baron Discovery Fund Trimmed Advanced Energy Industries (AEIS) on Valuation and Position Size</a></strong> (Yahoo Entertainment)</p>
+<p>Baron Capital, an investment management company, released its Q2 2026 investor letter for the “Baron Discovery Fund”. A copy of the letter is available to do...</p>
+<p><strong><a href="https://www.prnewswire.com/news-releases/south-africa-china-electricity-and-energy-investment-conference-opens-at-powerchina-headquarters-to-advance-long-term-energy-partnerships-302849747.html" target="_blank">South Africa-China Electricity and Energy Investment Conference Opens at POWERCHINA Headquarters to Advance Long-Term Energy Partnerships</a></strong> (PRNewswire)</p>
+<p>BEIJING, Aug. 12, 2026 /PRNewswire/ -- POWERCHINA highlighted its long-standing role in South Africa's energy and infrastructure development as the two-day South Africa-China Electricity and Energy Investment Conference opened at its Beijing headquarters on A…</p>
+<p><strong><a href="https://www.prnewswire.com/news-releases/south-africa-china-electricity-and-energy-investment-conference-opens-at-powerchina-headquarters-to-advance-long-term-energy-partnerships-302849717.html" target="_blank">South Africa-China Electricity and Energy Investment Conference Opens at POWERCHINA Headquarters to Advance Long-Term Energy Partnerships</a></strong> (PRNewswire)</p>
+<p>BEIJING, Aug. 12, 2026 /PRNewswire/ -- POWERCHINA highlighted its long-standing role in South Africa's energy and infrastructure development as the two-day South Africa-China Electricity and Energy Investment Conference opened at its Beijing headquarters on A…</p>
+<p><strong><a href="https://qz.com/bank-of-america-250-billion-infrastructure-finance-initiative-081226" target="_blank">Bank of America launches $250 billion infrastructure finance initiative</a></strong> (Quartz India)</p>
+<p>The bank's Critical Infrastructure Finance Initiative targets digital, energy, and core infrastructure projects through July 4, 2027</p>
+<p><strong><a href="https://www.prnewswire.com/news-releases/jackie-chambers-named-president-of-new-energy-equity-bill-francis-assumes-role-of-vice-president-of-development-302849087.html" target="_blank">Jackie Chambers Named President of New Energy Equity; Bill Francis Assumes Role of Vice President of Development</a></strong> (PRNewswire)</p>
+<p>Industry veterans take on new roles to help power the company's next phase of growth. ANNAPOLIS, Md., Aug. 12, 2026 /PRNewswire/ -- New Energy Equity, a wholly owned subsidiary of ALLETE, today announced the promotion of Jackie Chambers to President and the t…</p>
+
+            <div class="related-briefs">
+                <h2>Related Coverage</h2>
+                <p>Earlier O'Dwyer briefs on similar themes:</p>
+                <ul>
+                <li><a href="energy-transition-2026-08-12.html">Energy Transition Investment Brief &mdash; August 12, 2026</a></li>
+                <li><a href="materials-2026-08-11.html">Materials Investment Brief &mdash; August 11, 2026</a></li>
+                <li><a href="energy-transition-2026-08-11.html">Energy Transition Investment Brief &mdash; August 11, 2026</a></li>
+                </ul>
+            </div>
+            <div class="tags"><span class="tag">Energy</span><span class="tag">solar energy</span><span class="tag">electrification</span><span class="tag">energy storage</span></div>
+        </div></section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 O'Dwyer Capital. All rights reserved.</p>
+        <p class="tagline">Invested in What Endures</p>
+        <p class="copyright">Private Family Office | Generational Wealth Stewardship</p>
+    </footer>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
