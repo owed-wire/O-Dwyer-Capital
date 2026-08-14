@@ -1,5 +1,80 @@
 [
   {
+    "id": 51,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 14, 2026",
+    "url": "emerging-tech-2026-08-14.html",
+    "excerpt": "Boards should treat AI like any major investment, balancing costs with measurable business returns; The Samsung Galaxy Z Fold 8 redefines the boundaries of smartphone design with its innovative foldable form factor, advanced multitasking capabilities, and premium build quality; VANCOUVER, British Columbia, Aug.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Geeky Gadgets",
+      "Financial Post",
+      "TechRadar"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "energy storage",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 17 historical briefs"
+    },
+    "trend_context": [
+      "New developments: energy storage, artificial intelligence"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 14, 2026",
+    "url": "energy-transition-2026-08-14.html",
+    "excerpt": "The CEO of the company behind the project said on a podcast that it received \"hundreds of calls\" about not disrupting the house elf's resting place; Cobalt Solar is fully permitted and under construction; KITCHENER, ON, Aug.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "PRNewswire",
+      "Snopes.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 21 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 49,
     "title": "Materials Investment Brief",
     "slug": "materials",
