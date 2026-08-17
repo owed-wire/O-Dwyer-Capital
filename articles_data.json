@@ -1,5 +1,40 @@
 [
   {
+    "id": 53,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 17, 2026",
+    "url": "emerging-tech-2026-08-17.html",
+    "excerpt": "The companies that win the AI era will be the ones willing to eliminate assumptions built for a world where intelligence was scarce and action was slow; If the nation tops $6 trillion in trade this year, computer imports, hich includes the servers so vital to AI data centers, will be the true standout among all imports; Just when you think the climate alarm industry could not possibly get any more absurd than it has already become, they go and prove you wrong again.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Forbes"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 18 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology, artificial intelligence"
+    ]
+  },
+  {
     "id": 51,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
