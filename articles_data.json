@@ -1,5 +1,78 @@
 [
   {
+    "id": 55,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 18, 2026",
+    "url": "emerging-tech-2026-08-18.html",
+    "excerpt": "By Nailia Bagirova BAKU, Aug 17 (Reuters) - Long reliant on oil and gas exports, Azerbaijan is courting foreign investment in its small but growing technolog; Long reliant on oil and gas exports, Azerbaijan is courting foreign investment in its small but growing technology sector with a \u200cseries of reforms aimed at; HIVE's strategic shift to GPU cloud services diversifies revenue streams, enhancing financial stability and reducing reliance on volatile markets.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "satellite technology",
+      "chip manufacturing"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Crypto Briefing"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "satellite technology",
+        "chip manufacturing"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 19 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, satellite technology, chip manufacturing"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 18, 2026",
+    "url": "energy-transition-2026-08-18.html",
+    "excerpt": "Today's Iran war news: New shoes look set to drop as the MOU expires and the Gulf supply chokehold remains in place; Sacrilege or \"vital green energy project\"?; NINGDE, China, Aug.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Nakedcapitalism.com",
+      "PRNewswire",
+      "Christiantoday.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 22 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, wind energy"
+    ]
+  },
+  {
     "id": 53,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",

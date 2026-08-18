@@ -3,53 +3,57 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-14T17:00:00Z to 2026-08-17T13:07:20.479777Z
-Fetched 247 articles
+Fetching articles from 2026-08-17T08:00:00Z to 2026-08-18T13:09:02.338350Z
+Fetched 200 articles
 
 2. Categorizing articles...
-   energy-transition: 32 articles
-   emerging-tech: 76 articles
-   materials: 5 articles
+   energy-transition: 19 articles
+   emerging-tech: 69 articles
+   materials: 6 articles
 
 3. Creating analytical briefs...
-   Source validation: 15 live of 32 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Ce8NXjgVUtSghRMiwjtXE'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Ce8NXkSdWjACT8yHxgN57'}
-   Skipped energy-transition: No new themes since last brief
-   Source validation: 15 live of 76 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Ce8NYFFEifvPZNbqVPAdb'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Ce8NYFpxxsoNTXbvuREaq'}
+   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/newfoundland-labrador/new-churchill-falls-deal-announced-wa
+   Source validation: 15 live of 19 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGUZJ8gjtae4Qg4DHeg'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGUa33HtZKsxSqncNpZ'}
+   Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
+   Dropping dead/unreachable source: https://247wallst.com/investing/2026/08/17/4-well-known-high-yielding-stocks-to-load-the-b
+   Source validation: 15 live of 69 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGUy8M3GLXduZxwwnT6'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGUyvE4DNbPhWX5eJPt'}
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 5 live of 5 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Ce8NYPhVCYQysrN34E94r'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011Ce8NYQGDkEZgxymdaMmtt'}
+   Source validation: 6 live of 6 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGV75q3iDJhqei8MfkJ'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGV7eZaEPxuEUFXHW9u'}
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: emerging-tech-2026-08-17.html
+Generated: energy-transition-2026-08-18.html
+Generated: emerging-tech-2026-08-18.html
 
 5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 54 URLs
+Generated sitemap.xml with 56 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 247
-Briefs created: 1
-HTML files: emerging-tech-2026-08-17.html
+Articles fetched: 200
+Briefs created: 2
+HTML files: energy-transition-2026-08-18.html, emerging-tech-2026-08-18.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 247,
-  "briefs_created": 1,
-  "html_files_created": 1,
+  "articles_fetched": 200,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "emerging-tech-2026-08-17.html"
+    "energy-transition-2026-08-18.html",
+    "emerging-tech-2026-08-18.html"
   ],
-  "publication_date": "2026-08-17T13:07:36.617414",
+  "publication_date": "2026-08-18T13:09:22.398606",
   "status": "success"
 }
