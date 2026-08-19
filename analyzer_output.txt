@@ -3,57 +3,56 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-17T08:00:00Z to 2026-08-18T13:09:02.338350Z
-Fetched 200 articles
+Fetching articles from 2026-08-18T08:00:00Z to 2026-08-19T13:09:54.519328Z
+Fetched 210 articles
 
 2. Categorizing articles...
-   energy-transition: 19 articles
-   emerging-tech: 69 articles
-   materials: 6 articles
+   energy-transition: 26 articles
+   emerging-tech: 68 articles
+   materials: 5 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/newfoundland-labrador/new-churchill-falls-deal-announced-wa
-   Source validation: 15 live of 19 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGUZJ8gjtae4Qg4DHeg'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGUa33HtZKsxSqncNpZ'}
+   Source validation: 15 live of 26 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeCALeHcJWG24F6cZuRfU'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeCALeuKDXYzhP2hKCUUr'}
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://247wallst.com/investing/2026/08/17/4-well-known-high-yielding-stocks-to-load-the-b
-   Source validation: 15 live of 69 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGUy8M3GLXduZxwwnT6'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGUyvE4DNbPhWX5eJPt'}
-   Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 6 live of 6 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGV75q3iDJhqei8MfkJ'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeAGV7eZaEPxuEUFXHW9u'}
-   Skipped materials: No new themes since last brief
+   Dropping dead/unreachable source: https://thenextweb.com/news/family-offices-ai-investment
+   Source validation: 15 live of 68 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeCALs6HumJGBv1o8eU4S'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeCALstv6xN3VcgCias7z'}
+   Skipped emerging-tech: No new themes since last brief
+   Source validation: 5 live of 5 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeCAM5H2FUmE1T8te7KHj'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeCAM5rVoJg6SMPvY2n1p'}
+   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-08-18.html
-Generated: emerging-tech-2026-08-18.html
+Generated: energy-transition-2026-08-19.html
+Generated: materials-2026-08-19.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 56 URLs
+Generated sitemap.xml with 58 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 200
+Articles fetched: 210
 Briefs created: 2
-HTML files: energy-transition-2026-08-18.html, emerging-tech-2026-08-18.html
+HTML files: energy-transition-2026-08-19.html, materials-2026-08-19.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 200,
+  "articles_fetched": 210,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-08-18.html",
-    "emerging-tech-2026-08-18.html"
+    "energy-transition-2026-08-19.html",
+    "materials-2026-08-19.html"
   ],
-  "publication_date": "2026-08-18T13:09:22.398606",
+  "publication_date": "2026-08-19T13:10:03.843240",
   "status": "success"
 }

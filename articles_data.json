@@ -1,5 +1,76 @@
 [
   {
+    "id": 58,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 19, 2026",
+    "url": "materials-2026-08-19.html",
+    "excerpt": "Morocco's King Mohammed VI is backing a $750 million expansion of Managem Group's gold mining operations across Africa; Acetylene Black is a critical conductive material used in lithium-ion batteries and various advanced industrial applications; Indonesian state-owned mining holding company, MIND ID, stated a national mineral stockpile would secure industrial raw material supply and strengthen the.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 5,
+    "primary_sources": [
+      "Financial Post",
+      "The Times of India",
+      "Business Standard"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 10 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 19, 2026",
+    "url": "energy-transition-2026-08-19.html",
+    "excerpt": "As utilities switch to renewables, you'll get paid to send battery power back into the system, making it stronger and cheaper for everyone; Biden\u2019s incentives gave Qcells a leg up; The partnership intends to support the stabilisation of power prices in the Nordic region.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy",
+      "artificial intelligence",
+      "power grid"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Grist",
+      "Power Technology"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy",
+        "artificial intelligence",
+        "power grid"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 23 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy, artificial intelligence, power grid"
+    ]
+  },
+  {
     "id": 55,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
