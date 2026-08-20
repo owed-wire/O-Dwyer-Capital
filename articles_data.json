@@ -1,5 +1,81 @@
 [
   {
+    "id": 60,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 20, 2026",
+    "url": "emerging-tech-2026-08-20.html",
+    "excerpt": "Andr\u00e9a Mallard is leaving Microsoft's AI unit after around six months in the role, Business Insider has learned; DataVita secures funding to expand datacenter capacity, while Dell brings some desks; Appendix A of the 24-page document rewrites the federal Critical and Emerging Technologies list for the first time since February 2024.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "quantum computing",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Theregister.com",
+      "Tom's Hardware UK",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "quantum computing",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 20 historical briefs"
+    },
+    "trend_context": [
+      "New developments: quantum computing, artificial intelligence"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 20, 2026",
+    "url": "energy-transition-2026-08-20.html",
+    "excerpt": "Ithaca Energy (LON:ITH) reported record quarterly production in the second quarter of 2026 and raised its full-year dividend guidance, citing lower operating; Osun State Governor Ademola Adeleke receives a Green Leadership Award for his administration\u2019s impactful renewable energy policies and climate action initi\n\nRead More: https://punchng; PHDCCI says West Bengal can accelerate industrial growth through manufacturing clusters, electronics, engineering, renewable energy and exports.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy",
+      "quantum computing"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "MarketBeat",
+      "Science Daily",
+      "Project Syndicate"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "quantum computing"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 24 historical briefs"
+    },
+    "trend_context": [
+      "New developments: quantum computing",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
     "id": 58,
     "title": "Materials Investment Brief",
     "slug": "materials",

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Investment Brief &mdash; August 20, 2026 | O'Dwyer Capital</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="dark.css">
+    <script src="theme.js"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-32PXHG0656"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-32PXHG0656');
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-green: #1a4d2e;
+            --secondary-green: #2d6a4f;
+            --accent-gold: #d4a574;
+            --dark-gold: #c9965f;
+            --light-bg: #f9f8f6;
+            --white: #ffffff;
+            --text-dark: #333333;
+            --text-gray: #666666;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--white);
+        }
+
+        a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: var(--dark-gold);
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: var(--white);
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .logo-container img {
+            height: 60px;
+            width: auto;
+        }
+
+        nav {
+            display: flex;
+            gap: 40px;
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+
+        nav a {
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 15px;
+            position: relative;
+            white-space: nowrap;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-gold);
+            transition: width 0.3s;
+        }
+
+        nav a:hover::after,
+        nav a.active::after {
+            width: 100%;
+        }
+
+        /* ===== PAGE HEADER ===== */
+        .page-header {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            padding: 60px 50px;
+            color: var(--white);
+        }
+
+        .page-header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .page-header p {
+            font-size: 18px;
+            color: var(--accent-gold);
+        }
+
+        /* ===== CONTENT ===== */
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 50px;
+        }
+
+        .article-meta {
+            color: var(--text-gray);
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .article-body {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .article-body h2 {
+            color: var(--primary-green);
+            font-size: 28px;
+            margin: 40px 0 20px 0;
+        }
+
+        .article-body h3 {
+            color: var(--secondary-green);
+            font-size: 22px;
+            margin: 30px 0 15px 0;
+        }
+
+        .article-body p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .article-body strong {
+            color: var(--primary-green);
+            font-weight: 600;
+        }
+
+        .article-body ul, .article-body ol {
+            margin: 20px 0 20px 40px;
+        }
+
+        .article-body li {
+            margin-bottom: 10px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--accent-gold);
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            color: var(--dark-gold);
+        }
+
+        .tags {
+            display: flex;
+            gap: 8px;
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .tag {
+            background: var(--light-bg);
+            color: var(--primary-green);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid var(--accent-gold);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--primary-green);
+            color: var(--white);
+            padding: 50px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        footer p.tagline {
+            color: var(--accent-gold);
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        footer p.copyright {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 20px;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+                padding: 15px 20px;
+            }
+
+            nav {
+                gap: 20px;
+                margin-left: 0;
+            }
+
+            .page-header {
+                padding: 40px 20px;
+            }
+
+            .page-header h1 {
+                font-size: 32px;
+            }
+
+            .content {
+                padding: 40px 20px;
+            }
+
+            footer {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+    <meta name="description" content="Ithaca Energy (LON:ITH) reported record quarterly production in the second quarter of 2026 and raised its full-year dividend guidance, citing lower operating; Osun State Governor Ademola Adeleke receives a Green Leadership Award for his administration’s impactful renewable energy policies and climate action initi
+
+Read More: https://punchng; PHDCCI says West Bengal can accelerate industrial growth through manufacturing clusters, electronics, engineering, renewable energy and exports.">
+    <link rel="canonical" href="https://www.odwyercapital.com/energy-transition-2026-08-20.html">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Energy Investment Brief &mdash; August 20, 2026", "description": "Ithaca Energy (LON:ITH) reported record quarterly production in the second quarter of 2026 and raised its full-year dividend guidance, citing lower operating; Osun State Governor Ademola Adeleke receives a Green Leadership Award for his administration\u2019s impactful renewable energy policies and climate action initi\n\nRead More: https://punchng; PHDCCI says West Bengal can accelerate industrial growth through manufacturing clusters, electronics, engineering, renewable energy and exports.", "datePublished": "2026-08-20", "author": {"@type": "Organization", "name": "O'Dwyer Capital"}, "publisher": {"@type": "Organization", "name": "O'Dwyer Capital", "url": "https://www.odwyercapital.com"}, "mainEntityOfPage": "https://www.odwyercapital.com/energy-transition-2026-08-20.html"}</script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="logo-container">
+            <img src="odwyer_capital_logo_primary.webp" alt="O'Dwyer Capital">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="thoughts.html" class="active">Thoughts</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <h1>Energy Transition Investment Brief</h1>
+        <p>Strategic analysis for family office allocation</p>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="content">
+        <a href="thoughts.html" class="back-link">← Back to Thoughts</a>
+
+        <div class="article-meta">
+            <strong>Date:</strong> August 20, 2026 | <strong>Source:</strong> O'Dwyer Analysis
+        </div>
+
+        <div class="article-body">
+<h2>Energy Investment Brief &mdash; August 20, 2026</h2>
+<h3>Today's Developments</h3>
+<p><strong><a href="https://www.sciencedaily.com/releases/2026/08/260819041222.htm" target="_blank">Tiny quantum engines reveal useful energy hiding in “waste heat”</a></strong> (Science Daily)</p>
+<p>A tiny machine made from just an atom and particles of light may sound impossibly simple, but it raises a surprisingly difficult question: what counts as heat, and what energy can still do useful work? University of Basel researchers have developed a theoreti…</p>
+<p><strong><a href="https://www.project-syndicate.org/commentary/institutions-that-promoted-casa-1000-must-take-responsibility-for-collapse-of-economic-logic-by-djoomart-otorbaev-2026-08" target="_blank">When a Big Energy Project Turns Bad</a></strong> (Project Syndicate)</p>
+<p>After hundreds of millions of dollars were invested by developing-country governments, and before a single watt of energy was transferred, the CASA-1000 infrastructure project in Central Asia has effectively failed. The international institutions that conceiv…</p>
+<p><strong><a href="https://www.marketbeat.com/instant-alerts/ithaca-energy-h1-earnings-call-highlights-2026-08-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance" target="_blank">Ithaca Energy H1 Earnings Call Highlights</a></strong> (MarketBeat)</p>
+<p>Ithaca Energy (LON:ITH) reported record quarterly production in the second quarter of 2026 and raised its full-year dividend guidance, citing lower operating...</p>
+<p><strong><a href="https://punchng.com/osuns-renewable-energy-policies-earn-adeleke-top-award/" target="_blank">Osun’s renewable energy policies earn Adeleke top award</a></strong> (The Punch)</p>
+<p>Osun State Governor Ademola Adeleke receives a Green Leadership Award for his administration’s impactful renewable energy policies and climate action initi
+
+Read More: https://punchng.com/osuns-renewable-energy-policies-earn-adeleke-top-award/</p>
+<p><strong><a href="https://www.thehindubusinessline.com/news/national/west-bengal-poised-for-industrial-expansion-with-cluster-led-strategy-phdcci/article71364153.ece" target="_blank">West Bengal poised for industrial expansion with cluster-led strategy: PHDCCI</a></strong> (BusinessLine)</p>
+<p>PHDCCI says West Bengal can accelerate industrial growth through manufacturing clusters, electronics, engineering, renewable energy and exports.</p>
+<p><strong><a href="https://www.business-standard.com/companies/news/vedanta-invests-over-1-billion-in-net-zero-transition-initiatives-in-fy26-126081900639_1.html" target="_blank">Vedanta invests over $1 billion in net-zero transition initiatives in FY26</a></strong> (Business Standard)</p>
+<p>Mining major Vedanta on Wednesday said it invested more than USD 1 billion in net-zero transition initiatives in FY26, with renewable energy, lower-carbon fuels, energy efficiency and technology-led interventions driving its decarbonisation efforts.
+As part o…</p>
+<p><strong><a href="https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/vedantas-1-billion-investment-in-net-zero-transition-a-major-step-towards-renewable-energy-by-2030/articleshow/133344269.cms" target="_blank">Vedanta invests over $1 bn in net-zero transition in FY26</a></strong> (The Times of India)</p>
+<p>Vedanta invested over one billion dollars in net-zero transition initiatives during FY26.  Renewable energy use increased by fifty-two percent, reaching four billion units.  The company now has nearly two thousand megawatts of renewable energy capacity.  Thes…</p>
+<p><strong><a href="https://ahouseinthehills.com/extra-garden-chairs-without-the-year-round-clutter/" target="_blank">Extra Garden Chairs Without the Year Round Clutter</a></strong> (Ahouseinthehills.com)</p>
+<p>With outdoor gatherings becoming more popular, many of us are seeking ways to make our gardens accommodating for guests without turning our garden space into a cluttered storage area during the off-peak months. One effective solution is to invest in folding t…</p>
+
+            <div class="related-briefs">
+                <h2>Related Coverage</h2>
+                <p>Earlier O'Dwyer briefs on similar themes:</p>
+                <ul>
+                <li><a href="energy-transition-2026-08-19.html">Energy Transition Investment Brief &mdash; August 19, 2026</a></li>
+                <li><a href="energy-transition-2026-08-18.html">Energy Transition Investment Brief &mdash; August 18, 2026</a></li>
+                <li><a href="energy-transition-2026-08-14.html">Energy Transition Investment Brief &mdash; August 14, 2026</a></li>
+                </ul>
+            </div>
+            <div class="tags"><span class="tag">Energy</span><span class="tag">renewable energy</span><span class="tag">quantum computing</span></div>
+        </div></section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 O'Dwyer Capital. All rights reserved.</p>
+        <p class="tagline">Invested in What Endures</p>
+        <p class="copyright">Private Family Office | Generational Wealth Stewardship</p>
+    </footer>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
