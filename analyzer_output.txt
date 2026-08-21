@@ -3,56 +3,55 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-19T08:00:00Z to 2026-08-20T13:11:49.924596Z
-Fetched 203 articles
+Fetching articles from 2026-08-20T08:00:00Z to 2026-08-21T13:11:42.546334Z
+Fetched 201 articles
 
 2. Categorizing articles...
-   energy-transition: 21 articles
-   emerging-tech: 74 articles
-   materials: 10 articles
+   energy-transition: 22 articles
+   emerging-tech: 65 articles
+   materials: 6 articles
 
 3. Creating analytical briefs...
-   Source validation: 15 live of 21 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeE4JTx1FnckMYHPBPRAN'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeE4JUhuG97zf85dLwfXT'}
+   Source validation: 15 live of 22 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeFx6Vm8ErzyAaPYx613h'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeFx6WTYmyCa6Vw7if8TG'}
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://thenextweb.com/news/velaura-ai-110m-series-a-low-power-chip
-   Source validation: 15 live of 74 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeE4Js834WoY5C7c2D22v'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeE4JshFyhJn2H1VzUfoX'}
+   Source validation: 15 live of 65 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeFx6hjTVJMPfhb998ihw'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeFx6iKBRqSbQCy1Uhx2Z'}
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 10 live of 10 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeE4K6j6KxYjA4v99SDHe'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeE4K7JZe7eMQYpBbBhAJ'}
+   Source validation: 6 live of 6 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeFx6odQf3p3VXPSUDxAN'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeFx6pQYcRfftbu357QSx'}
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-08-20.html
-Generated: emerging-tech-2026-08-20.html
+Generated: energy-transition-2026-08-21.html
+Generated: emerging-tech-2026-08-21.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 60 URLs
+Generated sitemap.xml with 62 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 203
+Articles fetched: 201
 Briefs created: 2
-HTML files: energy-transition-2026-08-20.html, emerging-tech-2026-08-20.html
+HTML files: energy-transition-2026-08-21.html, emerging-tech-2026-08-21.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 203,
+  "articles_fetched": 201,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-08-20.html",
-    "emerging-tech-2026-08-20.html"
+    "energy-transition-2026-08-21.html",
+    "emerging-tech-2026-08-21.html"
   ],
-  "publication_date": "2026-08-20T13:12:07.400134",
+  "publication_date": "2026-08-21T13:11:51.022425",
   "status": "success"
 }

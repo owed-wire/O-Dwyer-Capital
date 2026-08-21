@@ -1,5 +1,81 @@
 [
   {
+    "id": 62,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 21, 2026",
+    "url": "emerging-tech-2026-08-21.html",
+    "excerpt": "Our daily links, including Israel marks Palestinian prisoners with numbers, Russia warns UK, Flock's new AI tool, and the obsession with Natalie; Military analysts are captivated by how the material nature of war is transforming in Ukraine; Official says industry should use FTAs to expand market access, attract investment and technology, diversify supply chains, and build manufacturing ecosystems that can withstand global shocks.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Nakedcapitalism.com",
+      "War on the Rocks",
+      "Storagereview.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 21 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 21, 2026",
+    "url": "energy-transition-2026-08-21.html",
+    "excerpt": "CATL, the world\u2019s largest battery manufacturer, is shifting its focus beyond solid-state batteries to explore the possibilities of lithium-air technology; The Saudi state-owned companies signed an agreement to create a joint venture to explore and mine copper and other energy transition minerals at home; India is aiming for 100GW of nuclear capacity by 2047 but the electricity tariffs of these plants are unlikely to be competitive in the face of cheap renewable energy options.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "battery technology",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Geeky Gadgets",
+      "Livemint",
+      "Rigzone"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 25 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, artificial intelligence",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 60,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
