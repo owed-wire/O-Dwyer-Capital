@@ -1,5 +1,109 @@
 [
   {
+    "id": 65,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 24, 2026",
+    "url": "materials-2026-08-24.html",
+    "excerpt": "The new island, modelled on Jurong Island's development, could house advanced manufacturing and future power infrastructure; Scientists have developed an ultrathin coating that could dramatically improve how efficiently heat is transferred during condensation; Foreign investors are cautiously returning to Indian equities, but a durable FPI reallocation remains unconfirmed.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 10,
+    "primary_sources": [
+      "Science Daily",
+      "The Times of India",
+      "CNA"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 11 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 24, 2026",
+    "url": "emerging-tech-2026-08-24.html",
+    "excerpt": "Economists studying the region are worried that AI\u2019s gains won\u2019t be evenly shared across Asia; OpenAI has imposed a two-week pause on frontier-model development after internal signals indicated that an upcoming system known as Astra could reach a \"Crit; President Donald Trump repeated his commitment to secure U.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 22 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 24, 2026",
+    "url": "energy-transition-2026-08-24.html",
+    "excerpt": "Falling prices have made grid-scale storage batteries more attractive, reports Bloomberg; With plug-in solar soon to be legal in the UK, you may be investing \u2014 and these batteries let you store your generated power; Heart Aerospace\u2019s X1 demonstrator flew for 27 minutes on August 12 from Plattsburgh International Airport, powered entirely by batteries.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology",
+      "power grid"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Slashdot.org",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology",
+        "power grid"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 26 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology, power grid"
+    ]
+  },
+  {
     "id": 62,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
