@@ -3,58 +3,56 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-21T17:00:00Z to 2026-08-24T13:13:54.362843Z
-Fetched 236 articles
+Fetching articles from 2026-08-24T08:00:00Z to 2026-08-25T13:12:09.868706Z
+Fetched 196 articles
 
 2. Categorizing articles...
-   energy-transition: 40 articles
-   emerging-tech: 71 articles
-   materials: 10 articles
+   energy-transition: 25 articles
+   emerging-tech: 53 articles
+   materials: 5 articles
 
 3. Creating analytical briefs...
-   Source validation: 15 live of 40 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeMdgyMZZqoGgi6p2SE8R'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeMdgz5UGV4BY9MMRKtWN'}
+   Source validation: 15 live of 25 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CePXNKJe6cTneQ1UjkYFS'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CePXNPA4u5Espmyy5Yxx8'}
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/34830/when-will-ai-begin-delivering-mea
-   Source validation: 15 live of 71 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeMdhMqQwguogJisCVznK'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeMdhNWbGjcvZXmGdsQXA'}
+   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/34860/ai-trade-in-focus-as-nvidia-earni
+   Source validation: 15 live of 53 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CePXNq1paUNEV8u5nf2ca'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CePXNqVbZLUY2MMpxRCCm'}
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 10 live of 10 fetched
-   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeMdhe1FmcbPqdwWtVaLq'}
-   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CeMdhidZaYtVY15Fo1itD'}
-   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
+   Source validation: 5 live of 5 fetched
+   Error generating AI excerpt: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CePXNvRFsbipWXNSbf8GZ'}
+   Error generating AI article body: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. You will regain access on 2026-09-01 at 00:00 UTC.'}, 'request_id': 'req_011CePXNvwGPAhoFXocdXLih'}
+   Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-08-24.html
-Generated: emerging-tech-2026-08-24.html
-Generated: materials-2026-08-24.html
+Generated: energy-transition-2026-08-25.html
+Generated: emerging-tech-2026-08-25.html
 
 5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 65 URLs
+Generated sitemap.xml with 67 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 236
-Briefs created: 3
-HTML files: energy-transition-2026-08-24.html, emerging-tech-2026-08-24.html, materials-2026-08-24.html
+Articles fetched: 196
+Briefs created: 2
+HTML files: energy-transition-2026-08-25.html, emerging-tech-2026-08-25.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 236,
-  "briefs_created": 3,
-  "html_files_created": 3,
+  "articles_fetched": 196,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-08-24.html",
-    "emerging-tech-2026-08-24.html",
-    "materials-2026-08-24.html"
+    "energy-transition-2026-08-25.html",
+    "emerging-tech-2026-08-25.html"
   ],
-  "publication_date": "2026-08-24T13:14:08.765412",
+  "publication_date": "2026-08-25T13:12:24.265816",
   "status": "success"
 }

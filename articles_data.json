@@ -1,5 +1,78 @@
 [
   {
+    "id": 67,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 25, 2026",
+    "url": "emerging-tech-2026-08-25.html",
+    "excerpt": "Guinness Global Innovators, an investment management company, recently released its Q2 2026 quarterly investor update for its \u201cGuinness Global Innovators Fun; Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups; Peter Thiel's firm just filed a strikingly focused $418 million portfolio that ignores chips entirely and bets everything on a single constraint choking the.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "chip manufacturing",
+      "wind energy",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Internet",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "chip manufacturing",
+        "wind energy",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 23 historical briefs"
+    },
+    "trend_context": [
+      "New developments: chip manufacturing, wind energy, artificial intelligence"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 25, 2026",
+    "url": "energy-transition-2026-08-25.html",
+    "excerpt": "The South Korean battery maker aims to free up capital for future growth businesses; Saudi crown prince and French president are set to sign several agreements on health, transport and energy; The funding supports the acquisition of Shell\u2019s Sprng Energy portfolio, expanding ABRen\u2019s total renewable capacity in India to 9.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Energymonitor.ai",
+      "Al Jazeera English",
+      "Just-auto.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 27 historical briefs"
+    },
+    "trend_context": [
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
     "id": 65,
     "title": "Materials Investment Brief",
     "slug": "materials",
