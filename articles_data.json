@@ -1,5 +1,116 @@
 [
   {
+    "id": 70,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 26, 2026",
+    "url": "materials-2026-08-26.html",
+    "excerpt": "GRAND FALLS-WINDSOR, Newfoundland and Labrador, Aug; Canada is preparing targeted retaliatory tariffs after trade talks with the United States collapsed and President Donald Trump threatened 50% duties on Canadian autos, auto parts and steel; VANCOUVER, British Columbia, Aug.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "electrification"
+    ],
+    "investment_relevance": "high",
+    "article_count": 4,
+    "primary_sources": [
+      "Financial Post",
+      "The Times of India"
+    ],
+    "trend_analysis": {
+      "new_themes": [],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [
+        "electrification"
+      ],
+      "historical_context": "Based on analysis of 12 historical briefs"
+    },
+    "trend_context": [
+      "Accelerating trends: electrification"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 26, 2026",
+    "url": "emerging-tech-2026-08-26.html",
+    "excerpt": "The Apple Watch Ultra 4 is poised to deliver significant advancements in smartwatch technology; India leads Asia-Pacific data centre growth, with capacity quadrupling and substantial future projects underway; India\u2019s data centre footprint is projected to exceed 101 million sq ft and capacity 6.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Socialmediaexaminer.com",
+      "Geeky Gadgets",
+      "BusinessLine"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 24 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 26, 2026",
+    "url": "energy-transition-2026-08-26.html",
+    "excerpt": "The Department of Energy\u2019s moonshot funding program is working; Norwegian energy minister vows to keep drilling in Arctic, rejecting the long-standing idea of his country as Europe\u2019s \u2018green battery\u2019 Read Full Article at RT; The tax equity investment marks the latest stage of financing for Aratina 2, which is currently under construction.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "solar energy",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "RT",
+      "Energymonitor.ai",
+      "Grist"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 28 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy, artificial intelligence",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 67,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
