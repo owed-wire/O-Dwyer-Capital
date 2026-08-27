@@ -1,5 +1,78 @@
 [
   {
+    "id": 72,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 27, 2026",
+    "url": "emerging-tech-2026-08-27.html",
+    "excerpt": "AI and robots are advancing faster than you think, and we're not prepared for a world where the majority may be out of work; NOVVA Group and Mongolia's MDDIC sign MOU on clean-powered AI infrastructure, supporting Mongolia's \"Sovereign by Design\" green AI data centre initiative; While investors chase flashy AI chip stocks, a quiet storage giant has been compounding record revenues and locking in hyperscaler contracts through 2027.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Theregister.com",
+      "BusinessLine",
+      "24/7 Wall St."
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 25 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 27, 2026",
+    "url": "energy-transition-2026-08-27.html",
+    "excerpt": "Users have a little more time to migrate from Azure storage to OneDrive; Energy storage is the key to the clean energy transition; Emerson Electric makes automation systems, and has grown into an international leader with more than 125,000 customers worldwide.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "electrification",
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Theregister.com",
+      "CleanTechnica",
+      "Investor's Business Daily"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 29 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, wind energy"
+    ]
+  },
+  {
     "id": 70,
     "title": "Materials Investment Brief",
     "slug": "materials",
