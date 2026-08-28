@@ -1,5 +1,109 @@
 [
   {
+    "id": 75,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 28, 2026",
+    "url": "materials-2026-08-28.html",
+    "excerpt": "Critical minerals are still flowing out of conflict zones, but accountability is harder than ever; Board of Directors Authorizes $500 Million Share Repurchase Program Company Affirms Third Quarter and Full-Year 2026 Guidance MORRIS PLAINS, N; VANCOUVER, BC, Aug.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 8,
+    "primary_sources": [
+      "PRNewswire",
+      "ABC News (AU)",
+      "Foreign Policy"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 13 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 28, 2026",
+    "url": "emerging-tech-2026-08-28.html",
+    "excerpt": "Nicolas Sauvage, founder and president of TDK Ventures, said product managers will provide judgement and taste; Proposed US tariffs on semiconductor-powered devices could soon drive up prices on smartphones, laptops, and everyday tech; OpenAI says its new Jalape\u00f1o AI chip could significantly reduce the cost of running artificial intelligence by delivering substantially higher efficiency and.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "chip manufacturing",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Business Insider",
+      "Android Authority",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "chip manufacturing",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 26 historical briefs"
+    },
+    "trend_context": [
+      "New developments: chip manufacturing, artificial intelligence"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 28, 2026",
+    "url": "energy-transition-2026-08-28.html",
+    "excerpt": "The Trump administration's latest deal to cancel offshore wind projects and boost fossil fuel energy development instead is generating a huge payday for one; Everpure stock is sliding despite the enterprise data storage company handily beating Q2 earnings expectations; EPC firm's latest credentials support accelerated growth in 30+ states with consistent project delivery STUART, Fla.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "PRNewswire",
+      "Investor's Business Daily",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 30 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy"
+    ]
+  },
+  {
     "id": 72,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
