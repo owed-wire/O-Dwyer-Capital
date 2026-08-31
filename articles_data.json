@@ -1,5 +1,114 @@
 [
   {
+    "id": 78,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 31, 2026",
+    "url": "materials-2026-08-31.html",
+    "excerpt": "In a strategic appeal, Finance Minister Nirmala Sitharaman encouraged global investors to set up manufacturing and innovation centers in India; Solstice Advanced Materials (NASDAQ:SOLS) jumped by 12; Rare Earth Metal and Alloy Production Added to Emerging Western Mine-to-Magnet Champion DENVER, Aug.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 10,
+    "primary_sources": [
+      "PRNewswire",
+      "The Times of India",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 14 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 31, 2026",
+    "url": "emerging-tech-2026-08-31.html",
+    "excerpt": "Wealth advisors say tech workers are getting anxious about the market turning, and are looking for advice on how to position for the AI bubble bursting; On Wednesday, Nvidia Corp CEO Jensen Huang brushed off OpenAI\u2019s new Jalape\u00f1o chip, saying he remains confident in Nvidia\u2019s technology and ability to supply t; Nvidia Corp CEO Jensen Huang said the company is benefiting from the rapid rise of both open and closed AI models, arguing that the success of either approac.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "chip manufacturing",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Business Insider",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "chip manufacturing",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 27 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, chip manufacturing, space technology"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 31, 2026",
+    "url": "energy-transition-2026-08-31.html",
+    "excerpt": "Aug 28 (Reuters) - California on Friday sued the Trump administration and an offshore wind developer over a deal that canceled a planned project off the stat; With the era of Plug-in solar coming to the UK, what does this mean for those with increasing electricity bills?; Solar now requires no more upfront capital than coal or gas to produce the same annual electricity, reversing a disadvantage that was as large as five-to-one.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "wind energy",
+      "solar energy",
+      "electrification"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 31 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy, solar energy"
+    ]
+  },
+  {
     "id": 75,
     "title": "Materials Investment Brief",
     "slug": "materials",
