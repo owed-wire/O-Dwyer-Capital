@@ -3,20 +3,55 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-08-31T08:00:00Z to 2026-09-01T16:41:36.805263Z
-Fetched 245 articles
+Fetching articles from 2026-09-01T08:00:00Z to 2026-09-02T16:36:04.634379Z
+Fetched 214 articles
 
 2. Categorizing articles...
-Traceback (most recent call last):
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 938, in <module>
-    main()
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 932, in main
-    summary = analyzer.run()
-              ^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 867, in run
-    category = self.categorize_article(article)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 191, in categorize_article
-    article.get('description', '').lower()
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'lower'
+   energy-transition: 42 articles
+   emerging-tech: 71 articles
+   materials: 6 articles
+
+3. Creating analytical briefs...
+   Dropping dead/unreachable source: https://thenextweb.com/news/fervo-google-geothermal-utah-eu-capacity-geretsried-strategy
+   Source validation: 15 live of 42 fetched
+   Generated AI excerpt: Global energy storage and wind assets are consolidating amid accelerating deployment cycles, with strategic acquisitions including Sanmar's majority stake in AltEons Energy and CIP's purchase of the Gawara Baya hybrid wind-plus-battery project in Australia signaling institutional confidence despite near-term policy headwinds in key markets like the EU.
+   Generated AI article body (5574 chars)
+   Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
+   Dropping dead/unreachable source: https://thenextweb.com/news/us-g20-hands-off-ai-regulation
+   Source validation: 15 live of 71 fetched
+   Generated AI excerpt: Data center infrastructure operators are positioning power management and efficiency as critical competitive differentiators, with digital transformation driving demand for specialized monitoring and filtration solutions across mission-critical facilities. NetScout Systems and Ideal Power are among beneficiaries capturing market share as enterprises accelerate cloud migration and edge computing deployments, though supply chain and energy infrastructure constraints remain near-term headwinds for equipment manufacturers.
+   Generated AI article body (6993 chars)
+   Skipped emerging-tech: No new themes since last brief
+   Source validation: 6 live of 6 fetched
+   Generated AI excerpt: The recycled plastics market is projected to reach $11.71 billion by 2031, while India's chemical sector is accelerating with Nalco's ₹30,000 crore expansion and Chhattisgarh's revival of corundum mining after a 25-year hiatus, signaling renewed investment in domestic materials processing and manufacturing infrastructure.
+   Generated AI article body (5647 chars)
+   Skipped materials: No new themes since last brief
+
+4. Generating dated HTML files...
+Generated: energy-transition-2026-09-02.html
+
+5. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 1 new briefs
+
+6. Regenerating sitemap.xml and feed.xml...
+Generated sitemap.xml with 79 URLs
+Generated feed.xml with 20 items
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 214
+Briefs created: 1
+HTML files: energy-transition-2026-09-02.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 214,
+  "briefs_created": 1,
+  "html_files_created": 1,
+  "files": [
+    "energy-transition-2026-09-02.html"
+  ],
+  "publication_date": "2026-09-02T16:37:02.695770",
+  "status": "success"
+}

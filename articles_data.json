@@ -1,5 +1,45 @@
 [
   {
+    "id": 79,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 02, 2026",
+    "url": "energy-transition-2026-09-02.html",
+    "excerpt": "Global energy storage and wind assets are consolidating amid accelerating deployment cycles, with strategic acquisitions including Sanmar's majority stake in AltEons Energy and CIP's purchase of the Gawara Baya hybrid wind-plus-battery project in Australia signaling institutional confidence despite near-term policy headwinds in key markets like the EU.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Al Jazeera English",
+      "MarketBeat",
+      "Power Technology"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 32 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 78,
     "title": "Materials Investment Brief",
     "slug": "materials",
