@@ -3,20 +3,58 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-02T08:00:00Z to 2026-09-03T16:27:00.205786Z
-Fetched 224 articles
+Fetching articles from 2026-09-03T08:00:00Z to 2026-09-04T16:22:50.381545Z
+Fetched 221 articles
 
 2. Categorizing articles...
-Traceback (most recent call last):
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 938, in <module>
-    main()
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 932, in main
-    summary = analyzer.run()
-              ^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 867, in run
-    category = self.categorize_article(article)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 191, in categorize_article
-    article.get('description', '').lower()
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'lower'
+   energy-transition: 36 articles
+   emerging-tech: 64 articles
+   materials: 6 articles
+
+3. Creating analytical briefs...
+   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/35648/powerbank-wins-nypa-contract-for-
+   Dropping dead/unreachable source: https://sputnikglobe.com/20260903/making-russias-far-east-a-pacific-hub-is-key-pillar-of-p
+   Source validation: 15 live of 36 fetched
+   Generated AI excerpt: Global energy markets are consolidating around AI-optimized renewable infrastructure, with major developers like PowerChina expanding wind and storage capacity in emerging markets to address grid stability. Geopolitical supply chain diversification—driven by Middle East volatility and Eastern European energy transitions—is accelerating investment in distributed energy resources and battery storage technologies as strategic alternatives to traditional fossil fuel dependencies.
+   Generated AI article body (7208 chars)
+   Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
+   Dropping dead/unreachable source: https://sputnikglobe.com/20260903/russias-far-east-to-turn-into-full-fledged-asian-pacific
+   Source validation: 15 live of 64 fetched
+   Generated AI excerpt: Memory and semiconductor manufacturers are increasingly central to AI infrastructure scaling, with Micron Technology positioning itself as a critical supplier amid elevated chip demand. Commercial aerospace recovery, evidenced by Ducommun's defense and space exposure, signals renewed capital allocation toward space technology alongside semiconductor consolidation in the AI supply chain.
+   Generated AI article body (5290 chars)
+   Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
+   Source validation: 6 live of 6 fetched
+   Generated AI excerpt: Critical minerals infrastructure is consolidating around institutional partnerships, with American Resources joining the Critical Minerals Institute as its inaugural Platinum member, while Hindustan Zinc's rare earth element mining lease acquisition in Karnataka signals accelerating supply chain positioning in high-demand mineral segments.
+   Generated AI article body (6162 chars)
+   Skipped materials: No new themes since last brief
+
+4. Generating dated HTML files...
+Generated: energy-transition-2026-09-04.html
+Generated: emerging-tech-2026-09-04.html
+
+5. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+
+6. Regenerating sitemap.xml and feed.xml...
+Generated sitemap.xml with 81 URLs
+Generated feed.xml with 20 items
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 221
+Briefs created: 2
+HTML files: energy-transition-2026-09-04.html, emerging-tech-2026-09-04.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 221,
+  "briefs_created": 2,
+  "html_files_created": 2,
+  "files": [
+    "energy-transition-2026-09-04.html",
+    "emerging-tech-2026-09-04.html"
+  ],
+  "publication_date": "2026-09-04T16:23:58.155339",
+  "status": "success"
+}

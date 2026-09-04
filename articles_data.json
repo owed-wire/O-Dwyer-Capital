@@ -1,5 +1,83 @@
 [
   {
+    "id": 81,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 04, 2026",
+    "url": "emerging-tech-2026-09-04.html",
+    "excerpt": "Memory and semiconductor manufacturers are increasingly central to AI infrastructure scaling, with Micron Technology positioning itself as a critical supplier amid elevated chip demand. Commercial aerospace recovery, evidenced by Ducommun's defense and space exposure, signals renewed capital allocation toward space technology alongside semiconductor consolidation in the AI supply chain.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "The Verge",
+      "Windows Central"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 28 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 04, 2026",
+    "url": "energy-transition-2026-09-04.html",
+    "excerpt": "Global energy markets are consolidating around AI-optimized renewable infrastructure, with major developers like PowerChina expanding wind and storage capacity in emerging markets to address grid stability. Geopolitical supply chain diversification\u2014driven by Middle East volatility and Eastern European energy transitions\u2014is accelerating investment in distributed energy resources and battery storage technologies as strategic alternatives to traditional fossil fuel dependencies.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "wind energy",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Al Jazeera English",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 33 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, wind energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 79,
     "title": "Energy Transition Investment Brief",
     "slug": "energy-transition",

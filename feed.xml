@@ -6,6 +6,20 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — September 04, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-09-04.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-09-04.html</guid>
+      <pubDate>Fri, 04 Sep 2026 13:30:00 GMT</pubDate>
+      <description>Memory and semiconductor manufacturers are increasingly central to AI infrastructure scaling, with Micron Technology positioning itself as a critical supplier amid elevated chip demand. Commercial aerospace recovery, evidenced by Ducommun's defense and space exposure, signals renewed capital allocation toward space technology alongside semiconductor consolidation in the AI supply chain.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — September 04, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-09-04.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-09-04.html</guid>
+      <pubDate>Fri, 04 Sep 2026 13:30:00 GMT</pubDate>
+      <description>Global energy markets are consolidating around AI-optimized renewable infrastructure, with major developers like PowerChina expanding wind and storage capacity in emerging markets to address grid stability. Geopolitical supply chain diversification—driven by Middle East volatility and Eastern European energy transitions—is accelerating investment in distributed energy resources and battery storage technologies as strategic alternatives to traditional fossil fuel dependencies.</description>
+    </item>
+    <item>
       <title>Energy Transition Investment Brief — September 02, 2026</title>
       <link>https://www.odwyercapital.com/energy-transition-2026-09-02.html</link>
       <guid>https://www.odwyercapital.com/energy-transition-2026-09-02.html</guid>
@@ -130,20 +144,6 @@
       <guid>https://www.odwyercapital.com/emerging-tech-2026-08-21.html</guid>
       <pubDate>Fri, 21 Aug 2026 13:30:00 GMT</pubDate>
       <description>Our daily links, including Israel marks Palestinian prisoners with numbers, Russia warns UK, Flock's new AI tool, and the obsession with Natalie; Military analysts are captivated by how the material nature of war is transforming in Ukraine; Official says industry should use FTAs to expand market access, attract investment and technology, diversify supply chains, and build manufacturing ecosystems that can withstand global shocks.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — August 21, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-08-21.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-08-21.html</guid>
-      <pubDate>Fri, 21 Aug 2026 13:30:00 GMT</pubDate>
-      <description>CATL, the world’s largest battery manufacturer, is shifting its focus beyond solid-state batteries to explore the possibilities of lithium-air technology; The Saudi state-owned companies signed an agreement to create a joint venture to explore and mine copper and other energy transition minerals at home; India is aiming for 100GW of nuclear capacity by 2047 but the electricity tariffs of these plants are unlikely to be competitive in the face of cheap renewable energy options.</description>
-    </item>
-    <item>
-      <title>Emerging Tech Investment Brief — August 20, 2026</title>
-      <link>https://www.odwyercapital.com/emerging-tech-2026-08-20.html</link>
-      <guid>https://www.odwyercapital.com/emerging-tech-2026-08-20.html</guid>
-      <pubDate>Thu, 20 Aug 2026 13:30:00 GMT</pubDate>
-      <description>Andréa Mallard is leaving Microsoft's AI unit after around six months in the role, Business Insider has learned; DataVita secures funding to expand datacenter capacity, while Dell brings some desks; Appendix A of the 24-page document rewrites the federal Critical and Emerging Technologies list for the first time since February 2024.</description>
     </item>
   </channel>
 </rss>
