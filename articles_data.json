@@ -1,5 +1,73 @@
 [
   {
+    "id": 83,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 07, 2026",
+    "url": "emerging-tech-2026-09-07.html",
+    "excerpt": "The AI infrastructure buildout is creating acute semiconductor and component supply constraints, with hardware vendors reporting sustained scrambling for scarce parts to meet demand. Simultaneously, competitive positioning is shifting as space and hardware companies\u2014including SpaceX's recent $60 billion move into AI through Anthropic\u2014challenge traditional software incumbents, while data platforms and edge computing devices emerge as primary value capture points over conventional SaaS models.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Kotaku",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 29 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 07, 2026",
+    "url": "energy-transition-2026-09-07.html",
+    "excerpt": "AI-driven hydropower optimization faces resilience challenges as climate volatility increases, exemplified by Nepal's concentrated renewable infrastructure exposure during recent flooding. Decentralized energy systems paired with predictive analytics are emerging as alternative risk-mitigation strategies, though hydrogen fuel standardization and nuclear policy uncertainty continue to fragment investment in alternative baseload capacity.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Abcnews.com",
+      "BBC News"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 34 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
     "id": 81,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",

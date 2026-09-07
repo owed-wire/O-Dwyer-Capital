@@ -3,58 +3,60 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-03T08:00:00Z to 2026-09-04T16:22:50.381545Z
-Fetched 221 articles
+Fetching articles from 2026-09-04T17:00:00Z to 2026-09-07T17:45:02.192414Z
+Fetched 267 articles
 
 2. Categorizing articles...
-   energy-transition: 36 articles
-   emerging-tech: 64 articles
-   materials: 6 articles
+   energy-transition: 38 articles
+   emerging-tech: 66 articles
+   materials: 14 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/35648/powerbank-wins-nypa-contract-for-
-   Dropping dead/unreachable source: https://sputnikglobe.com/20260903/making-russias-far-east-a-pacific-hub-is-key-pillar-of-p
-   Source validation: 15 live of 36 fetched
-   Generated AI excerpt: Global energy markets are consolidating around AI-optimized renewable infrastructure, with major developers like PowerChina expanding wind and storage capacity in emerging markets to address grid stability. Geopolitical supply chain diversification—driven by Middle East volatility and Eastern European energy transitions—is accelerating investment in distributed energy resources and battery storage technologies as strategic alternatives to traditional fossil fuel dependencies.
-   Generated AI article body (7208 chars)
+   Source validation: 15 live of 38 fetched
+   Generated AI excerpt: AI-driven hydropower optimization faces resilience challenges as climate volatility increases, exemplified by Nepal's concentrated renewable infrastructure exposure during recent flooding. Decentralized energy systems paired with predictive analytics are emerging as alternative risk-mitigation strategies, though hydrogen fuel standardization and nuclear policy uncertainty continue to fragment investment in alternative baseload capacity.
+   Generated AI article body (6050 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://sputnikglobe.com/20260903/russias-far-east-to-turn-into-full-fledged-asian-pacific
-   Source validation: 15 live of 64 fetched
-   Generated AI excerpt: Memory and semiconductor manufacturers are increasingly central to AI infrastructure scaling, with Micron Technology positioning itself as a critical supplier amid elevated chip demand. Commercial aerospace recovery, evidenced by Ducommun's defense and space exposure, signals renewed capital allocation toward space technology alongside semiconductor consolidation in the AI supply chain.
-   Generated AI article body (5290 chars)
+   Dropping dead/unreachable source: https://thenextweb.com/news/japan-550-billion-us-investment-pact-ai-chips-third-tranche-eu
+   Dropping dead/unreachable source: https://gimletlabs.ai/blog/blog/announcing-series-b
+   Dropping dead/unreachable source: https://thenextweb.com/news/virkkunen-us-guardrails-inevitable
+   Dropping dead/unreachable source: https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending
+   Dropping dead/unreachable source: https://thenextweb.com/news/every-binding-ai-review-washington-has-proposed-has-come-back-
+   Source validation: 15 live of 66 fetched
+   Generated AI excerpt: The AI infrastructure buildout is creating acute semiconductor and component supply constraints, with hardware vendors reporting sustained scrambling for scarce parts to meet demand. Simultaneously, competitive positioning is shifting as space and hardware companies—including SpaceX's recent $60 billion move into AI through Anthropic—challenge traditional software incumbents, while data platforms and edge computing devices emerge as primary value capture points over conventional SaaS models.
+   Generated AI article body (6882 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 6 live of 6 fetched
-   Generated AI excerpt: Critical minerals infrastructure is consolidating around institutional partnerships, with American Resources joining the Critical Minerals Institute as its inaugural Platinum member, while Hindustan Zinc's rare earth element mining lease acquisition in Karnataka signals accelerating supply chain positioning in high-demand mineral segments.
-   Generated AI article body (6162 chars)
+   Source validation: 14 live of 14 fetched
+   Generated AI excerpt: Tesla's rare-earth-free motor development for the Cybercab signals accelerating competition in autonomous vehicle powertrains, though market reception remains uncertain following the initial launch. Meanwhile, critical mineral supply dynamics are reshaping with Albemarle facing significant lithium price exposure (±$250M per dollar swing), while regulatory tailwinds on waste reduction and domestic manufacturing expansion—including GE's $1B Louisville investment—are reshaping capital allocation in industrials and EV supply chains.
+   Generated AI article body (6716 chars)
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-09-04.html
-Generated: emerging-tech-2026-09-04.html
+Generated: energy-transition-2026-09-07.html
+Generated: emerging-tech-2026-09-07.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 81 URLs
+Generated sitemap.xml with 83 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 221
+Articles fetched: 267
 Briefs created: 2
-HTML files: energy-transition-2026-09-04.html, emerging-tech-2026-09-04.html
+HTML files: energy-transition-2026-09-07.html, emerging-tech-2026-09-07.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 221,
+  "articles_fetched": 267,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-09-04.html",
-    "emerging-tech-2026-09-04.html"
+    "energy-transition-2026-09-07.html",
+    "emerging-tech-2026-09-07.html"
   ],
-  "publication_date": "2026-09-04T16:23:58.155339",
+  "publication_date": "2026-09-07T17:46:19.836406",
   "status": "success"
 }

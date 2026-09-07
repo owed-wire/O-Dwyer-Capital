@@ -6,6 +6,20 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — September 07, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-09-07.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-09-07.html</guid>
+      <pubDate>Mon, 07 Sep 2026 13:30:00 GMT</pubDate>
+      <description>The AI infrastructure buildout is creating acute semiconductor and component supply constraints, with hardware vendors reporting sustained scrambling for scarce parts to meet demand. Simultaneously, competitive positioning is shifting as space and hardware companies—including SpaceX's recent $60 billion move into AI through Anthropic—challenge traditional software incumbents, while data platforms and edge computing devices emerge as primary value capture points over conventional SaaS models.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — September 07, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-09-07.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-09-07.html</guid>
+      <pubDate>Mon, 07 Sep 2026 13:30:00 GMT</pubDate>
+      <description>AI-driven hydropower optimization faces resilience challenges as climate volatility increases, exemplified by Nepal's concentrated renewable infrastructure exposure during recent flooding. Decentralized energy systems paired with predictive analytics are emerging as alternative risk-mitigation strategies, though hydrogen fuel standardization and nuclear policy uncertainty continue to fragment investment in alternative baseload capacity.</description>
+    </item>
+    <item>
       <title>Emerging Tech Investment Brief — September 04, 2026</title>
       <link>https://www.odwyercapital.com/emerging-tech-2026-09-04.html</link>
       <guid>https://www.odwyercapital.com/emerging-tech-2026-09-04.html</guid>
@@ -130,20 +144,6 @@
       <guid>https://www.odwyercapital.com/emerging-tech-2026-08-24.html</guid>
       <pubDate>Mon, 24 Aug 2026 13:30:00 GMT</pubDate>
       <description>Economists studying the region are worried that AI’s gains won’t be evenly shared across Asia; OpenAI has imposed a two-week pause on frontier-model development after internal signals indicated that an upcoming system known as Astra could reach a "Crit; President Donald Trump repeated his commitment to secure U.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — August 24, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-08-24.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-08-24.html</guid>
-      <pubDate>Mon, 24 Aug 2026 13:30:00 GMT</pubDate>
-      <description>Falling prices have made grid-scale storage batteries more attractive, reports Bloomberg; With plug-in solar soon to be legal in the UK, you may be investing — and these batteries let you store your generated power; Heart Aerospace’s X1 demonstrator flew for 27 minutes on August 12 from Plattsburgh International Airport, powered entirely by batteries.</description>
-    </item>
-    <item>
-      <title>Emerging Tech Investment Brief — August 21, 2026</title>
-      <link>https://www.odwyercapital.com/emerging-tech-2026-08-21.html</link>
-      <guid>https://www.odwyercapital.com/emerging-tech-2026-08-21.html</guid>
-      <pubDate>Fri, 21 Aug 2026 13:30:00 GMT</pubDate>
-      <description>Our daily links, including Israel marks Palestinian prisoners with numbers, Russia warns UK, Flock's new AI tool, and the obsession with Natalie; Military analysts are captivated by how the material nature of war is transforming in Ukraine; Official says industry should use FTAs to expand market access, attract investment and technology, diversify supply chains, and build manufacturing ecosystems that can withstand global shocks.</description>
     </item>
   </channel>
 </rss>
