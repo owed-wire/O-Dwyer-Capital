@@ -6,6 +6,20 @@
     <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — September 09, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-09-09.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-09-09.html</guid>
+      <pubDate>Wed, 09 Sep 2026 13:30:00 GMT</pubDate>
+      <description>AI infrastructure buildout is driving elevated demand for high-bandwidth memory chips, with Micron Technology benefiting from the acceleration. Semiconductor manufacturers including TSMC and ASML are advancing next-generation lithography capabilities to enable smaller node production, while concurrent policy shifts are expanding data center deployment capacity across U.S. jurisdictions.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — September 09, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-09-09.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-09-09.html</guid>
+      <pubDate>Wed, 09 Sep 2026 13:30:00 GMT</pubDate>
+      <description>Global energy storage capacity deployment is accelerating as CATL and other manufacturers address industry catch-up requirements, while distributed solar generation expanded significantly with projects like Torrent Green Energy's 322MWp Indian commissioning. Residential electrification trends are emerging as a secondary growth vector in mature markets like Europe, potentially creating new demand streams beyond utility-scale battery and solar installations.</description>
+    </item>
+    <item>
       <title>Emerging Tech Investment Brief — September 07, 2026</title>
       <link>https://www.odwyercapital.com/emerging-tech-2026-09-07.html</link>
       <guid>https://www.odwyercapital.com/emerging-tech-2026-09-07.html</guid>
@@ -130,20 +144,6 @@
       <guid>https://www.odwyercapital.com/energy-transition-2026-08-25.html</guid>
       <pubDate>Tue, 25 Aug 2026 13:30:00 GMT</pubDate>
       <description>The South Korean battery maker aims to free up capital for future growth businesses; Saudi crown prince and French president are set to sign several agreements on health, transport and energy; The funding supports the acquisition of Shell’s Sprng Energy portfolio, expanding ABRen’s total renewable capacity in India to 9.</description>
-    </item>
-    <item>
-      <title>Materials Investment Brief — August 24, 2026</title>
-      <link>https://www.odwyercapital.com/materials-2026-08-24.html</link>
-      <guid>https://www.odwyercapital.com/materials-2026-08-24.html</guid>
-      <pubDate>Mon, 24 Aug 2026 13:30:00 GMT</pubDate>
-      <description>The new island, modelled on Jurong Island's development, could house advanced manufacturing and future power infrastructure; Scientists have developed an ultrathin coating that could dramatically improve how efficiently heat is transferred during condensation; Foreign investors are cautiously returning to Indian equities, but a durable FPI reallocation remains unconfirmed.</description>
-    </item>
-    <item>
-      <title>Emerging Tech Investment Brief — August 24, 2026</title>
-      <link>https://www.odwyercapital.com/emerging-tech-2026-08-24.html</link>
-      <guid>https://www.odwyercapital.com/emerging-tech-2026-08-24.html</guid>
-      <pubDate>Mon, 24 Aug 2026 13:30:00 GMT</pubDate>
-      <description>Economists studying the region are worried that AI’s gains won’t be evenly shared across Asia; OpenAI has imposed a two-week pause on frontier-model development after internal signals indicated that an upcoming system known as Astra could reach a "Crit; President Donald Trump repeated his commitment to secure U.</description>
     </item>
   </channel>
 </rss>

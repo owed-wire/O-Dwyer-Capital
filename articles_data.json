@@ -1,5 +1,85 @@
 [
   {
+    "id": 85,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 09, 2026",
+    "url": "emerging-tech-2026-09-09.html",
+    "excerpt": "AI infrastructure buildout is driving elevated demand for high-bandwidth memory chips, with Micron Technology benefiting from the acceleration. Semiconductor manufacturers including TSMC and ASML are advancing next-generation lithography capabilities to enable smaller node production, while concurrent policy shifts are expanding data center deployment capacity across U.S. jurisdictions.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "chip manufacturing",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Business Insider",
+      "Theregister.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "chip manufacturing",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 30 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, chip manufacturing, space technology"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 09, 2026",
+    "url": "energy-transition-2026-09-09.html",
+    "excerpt": "Global energy storage capacity deployment is accelerating as CATL and other manufacturers address industry catch-up requirements, while distributed solar generation expanded significantly with projects like Torrent Green Energy's 322MWp Indian commissioning. Residential electrification trends are emerging as a secondary growth vector in mature markets like Europe, potentially creating new demand streams beyond utility-scale battery and solar installations.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "energy storage",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Moby.co",
+      "Power Technology",
+      "MakeUseOf"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 35 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, solar energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 83,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
