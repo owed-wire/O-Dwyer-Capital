@@ -1,5 +1,117 @@
 [
   {
+    "id": 88,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 10, 2026",
+    "url": "materials-2026-09-10.html",
+    "excerpt": "Georgia's EV manufacturing ambitions face regulatory reversal following administration change, while Thailand advances competitive positioning through targeted tax incentives for localized production and export capability. Ford's supply chain exposure to Chinese technology illustrates ongoing geopolitical friction in the automotive sector, as governments increasingly condition manufacturing investment on domestic content requirements and technology sourcing restrictions.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 11,
+    "primary_sources": [
+      "Grist",
+      "Paul Tan's Automotive News",
+      "Just-auto.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 15 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 10, 2026",
+    "url": "emerging-tech-2026-09-10.html",
+    "excerpt": "Google's \u20ac13 billion Finnish data center investment signals accelerating capital deployment in AI infrastructure, while concurrent regulatory pushback across Asia and North America is forcing developers to redesign facility architectures to address power consumption and environmental concerns. The sector's infrastructure demands are reshaping both hyperscaler capex strategies and energy partnerships, as evidenced by Brookfield's positioning in the AI power supply chain and SpaceX's large-scale data center deployment dynamics.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Scientific American",
+      "Quartz India",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 31 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 10, 2026",
+    "url": "energy-transition-2026-09-10.html",
+    "excerpt": "Global technology and renewable energy sectors are converging around AI-driven energy infrastructure, with major capital deployment evident in Google's $15 billion European AI investment and ongoing consolidation in battery storage\u2014where China maintains dominant supply chain control despite $500M+ annual competitive spending. Operational optimization through AI integration is emerging as critical to accelerating renewable transition timelines, as evidenced by industry calls for scenario-based systems integration rather than infrastructure-first deployment models.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "energy storage",
+      "renewable energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "24/7 Wall St."
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage",
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "energy storage",
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 36 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence",
+      "Accelerating trends: energy storage, renewable energy"
+    ]
+  },
+  {
     "id": 85,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",

@@ -3,62 +3,57 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-08T08:00:00Z to 2026-09-09T16:40:05.853455Z
-Fetched 224 articles
+Fetching articles from 2026-09-09T08:00:00Z to 2026-09-10T16:25:54.668171Z
+Fetched 213 articles
 
 2. Categorizing articles...
-   energy-transition: 37 articles
-   emerging-tech: 86 articles
-   materials: 9 articles
+   energy-transition: 38 articles
+   emerging-tech: 76 articles
+   materials: 11 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://thenextweb.com/news/neso-palantir-21m-direct-award-foundry-lock-in
-   Source validation: 15 live of 37 fetched
-   Generated AI excerpt: Global energy storage capacity deployment is accelerating as CATL and other manufacturers address industry catch-up requirements, while distributed solar generation expanded significantly with projects like Torrent Green Energy's 322MWp Indian commissioning. Residential electrification trends are emerging as a secondary growth vector in mature markets like Europe, potentially creating new demand streams beyond utility-scale battery and solar installations.
-   Generated AI article body (6185 chars)
+   Source validation: 15 live of 38 fetched
+   Generated AI excerpt: Global technology and renewable energy sectors are converging around AI-driven energy infrastructure, with major capital deployment evident in Google's $15 billion European AI investment and ongoing consolidation in battery storage—where China maintains dominant supply chain control despite $500M+ annual competitive spending. Operational optimization through AI integration is emerging as critical to accelerating renewable transition timelines, as evidenced by industry calls for scenario-based systems integration rather than infrastructure-first deployment models.
+   Generated AI article body (6485 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://thenextweb.com/news/south-korea-ai-power-demand-nuclear-reactors
-   Dropping dead/unreachable source: https://thenextweb.com/news/stoke-space-1bn-series-e-fully-reusable-nova
-   Dropping dead/unreachable source: https://thenextweb.com/news/sam-altman-axios-idea-guy-sobering-models
-   Dropping dead/unreachable source: https://thenextweb.com/news/asml-tsmc-12-inch-masks-high-na-euv
-   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/back-to-school-techlash-9.7327303
-   Source validation: 15 live of 86 fetched
-   Generated AI excerpt: AI infrastructure buildout is driving elevated demand for high-bandwidth memory chips, with Micron Technology benefiting from the acceleration. Semiconductor manufacturers including TSMC and ASML are advancing next-generation lithography capabilities to enable smaller node production, while concurrent policy shifts are expanding data center deployment capacity across U.S. jurisdictions.
-   Generated AI article body (5861 chars)
+   Source validation: 15 live of 76 fetched
+   Generated AI excerpt: Google's €13 billion Finnish data center investment signals accelerating capital deployment in AI infrastructure, while concurrent regulatory pushback across Asia and North America is forcing developers to redesign facility architectures to address power consumption and environmental concerns. The sector's infrastructure demands are reshaping both hyperscaler capex strategies and energy partnerships, as evidenced by Brookfield's positioning in the AI power supply chain and SpaceX's large-scale data center deployment dynamics.
+   Generated AI article body (6202 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/35810/sigma-lithium-shares-fall-after-b
-   Source validation: 8 live of 9 fetched
-   Generated AI excerpt: Manufacturing supply chain reshoring from China continues gaining momentum, with apparel producers like Cone Denim pivoting to Mexico, while biotech consolidation accelerates through partnerships such as HOLIFERM-ORGANICA to commercialize innovation at scale. Simultaneously, emerging markets present contrasting opportunities—African packaging shows investor appetite for growth, though geopolitical and regulatory headwinds in Kenya and environmental constraints in California's lithium sector signal rising operational and permitting risks for resource-intensive ventures.
-   Generated AI article body (6307 chars)
-   Skipped materials: No new themes since last brief
+   Source validation: 11 live of 11 fetched
+   Generated AI excerpt: Georgia's EV manufacturing ambitions face regulatory reversal following administration change, while Thailand advances competitive positioning through targeted tax incentives for localized production and export capability. Ford's supply chain exposure to Chinese technology illustrates ongoing geopolitical friction in the automotive sector, as governments increasingly condition manufacturing investment on domestic content requirements and technology sourcing restrictions.
+   Generated AI article body (7088 chars)
+   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-09-09.html
-Generated: emerging-tech-2026-09-09.html
+Generated: energy-transition-2026-09-10.html
+Generated: emerging-tech-2026-09-10.html
+Generated: materials-2026-09-10.html
 
 5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 85 URLs
+Generated sitemap.xml with 88 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 224
-Briefs created: 2
-HTML files: energy-transition-2026-09-09.html, emerging-tech-2026-09-09.html
+Articles fetched: 213
+Briefs created: 3
+HTML files: energy-transition-2026-09-10.html, emerging-tech-2026-09-10.html, materials-2026-09-10.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 224,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 213,
+  "briefs_created": 3,
+  "html_files_created": 3,
   "files": [
-    "energy-transition-2026-09-09.html",
-    "emerging-tech-2026-09-09.html"
+    "energy-transition-2026-09-10.html",
+    "emerging-tech-2026-09-10.html",
+    "materials-2026-09-10.html"
   ],
-  "publication_date": "2026-09-09T16:41:17.077538",
+  "publication_date": "2026-09-10T16:26:58.182553",
   "status": "success"
 }
