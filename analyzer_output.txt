@@ -3,57 +3,20 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-09T08:00:00Z to 2026-09-10T16:25:54.668171Z
-Fetched 213 articles
+Fetching articles from 2026-09-10T08:00:00Z to 2026-09-11T16:30:07.947327Z
+Fetched 228 articles
 
 2. Categorizing articles...
-   energy-transition: 38 articles
-   emerging-tech: 76 articles
-   materials: 11 articles
-
-3. Creating analytical briefs...
-   Source validation: 15 live of 38 fetched
-   Generated AI excerpt: Global technology and renewable energy sectors are converging around AI-driven energy infrastructure, with major capital deployment evident in Google's $15 billion European AI investment and ongoing consolidation in battery storage—where China maintains dominant supply chain control despite $500M+ annual competitive spending. Operational optimization through AI integration is emerging as critical to accelerating renewable transition timelines, as evidenced by industry calls for scenario-based systems integration rather than infrastructure-first deployment models.
-   Generated AI article body (6485 chars)
-   Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 15 live of 76 fetched
-   Generated AI excerpt: Google's €13 billion Finnish data center investment signals accelerating capital deployment in AI infrastructure, while concurrent regulatory pushback across Asia and North America is forcing developers to redesign facility architectures to address power consumption and environmental concerns. The sector's infrastructure demands are reshaping both hyperscaler capex strategies and energy partnerships, as evidenced by Brookfield's positioning in the AI power supply chain and SpaceX's large-scale data center deployment dynamics.
-   Generated AI article body (6202 chars)
-   Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 11 live of 11 fetched
-   Generated AI excerpt: Georgia's EV manufacturing ambitions face regulatory reversal following administration change, while Thailand advances competitive positioning through targeted tax incentives for localized production and export capability. Ford's supply chain exposure to Chinese technology illustrates ongoing geopolitical friction in the automotive sector, as governments increasingly condition manufacturing investment on domestic content requirements and technology sourcing restrictions.
-   Generated AI article body (7088 chars)
-   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
-
-4. Generating dated HTML files...
-Generated: energy-transition-2026-09-10.html
-Generated: emerging-tech-2026-09-10.html
-Generated: materials-2026-09-10.html
-
-5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
-
-6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 88 URLs
-Generated feed.xml with 20 items
-
-============================================================
-PUBLICATION COMPLETE
-============================================================
-Articles fetched: 213
-Briefs created: 3
-HTML files: energy-transition-2026-09-10.html, emerging-tech-2026-09-10.html, materials-2026-09-10.html
-
-=== SUMMARY ===
-{
-  "articles_fetched": 213,
-  "briefs_created": 3,
-  "html_files_created": 3,
-  "files": [
-    "energy-transition-2026-09-10.html",
-    "emerging-tech-2026-09-10.html",
-    "materials-2026-09-10.html"
-  ],
-  "publication_date": "2026-09-10T16:26:58.182553",
-  "status": "success"
-}
+Traceback (most recent call last):
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 938, in <module>
+    main()
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 932, in main
+    summary = analyzer.run()
+              ^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 867, in run
+    category = self.categorize_article(article)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 191, in categorize_article
+    article.get('description', '').lower()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
