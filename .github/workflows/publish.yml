@@ -1,11 +1,12 @@
-name: Daily Article Publisher
+name: Weekly Article Publisher
 
-# Runs Monday through Friday. Scheduled early and on an odd minute to reduce
-# GitHub's scheduled-run queue lag (jobs on :00/:30 wait the longest). The job
-# still typically lands 30 min - 2 hrs later than the cron time under load.
+# Runs every Monday, covering the prior week's news. Scheduled early and on an
+# odd minute to reduce GitHub's scheduled-run queue lag (jobs on :00/:30 wait
+# the longest). The job still typically lands 30 min - 2 hrs later than the
+# cron time under load.
 on:
   schedule:
-    - cron: '17 12 * * 1-5'  # 12:17 UTC = ~8:17 AM EDT / 7:17 AM EST, Mon-Fri
+    - cron: '17 12 * * 1'  # 12:17 UTC = ~8:17 AM EDT / 7:17 AM EST, Monday
   workflow_dispatch:  # Allow manual triggers
 
 # Grant write permissions to the workflow
@@ -58,7 +59,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Daily article publication - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git commit -m "Weekly article publication - $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
 
       - name: Deployment notification

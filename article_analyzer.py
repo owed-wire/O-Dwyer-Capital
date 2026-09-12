@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 O'Dwyer Capital Article Analyzer
-Fetches articles from NewsAPI, analyzes them, and publishes daily briefs
+Fetches articles from NewsAPI, analyzes them, and publishes weekly briefs
 """
 
 import json
@@ -23,6 +23,10 @@ class ArticleAnalyzer:
         self.base_url = "https://newsapi.org/v2/everything"
         self.existing_articles = self.load_existing_articles()
         self.new_articles = []
+        # Set by fetch_articles(); used later to phrase the AI prompt as
+        # "this week (date-date)" instead of "today".
+        self.window_from = None
+        self.window_to = None
 
     def load_existing_articles(self) -> List[Dict]:
         """Load existing articles from JSON"""
@@ -36,55 +40,39 @@ class ArticleAnalyzer:
 
     def get_time_window(self) -> tuple:
         """
-        Determine the time window for fetching articles.
-        Monday: weekend + Monday morning (Friday 5pm through Monday 8am)
-        Tue-Fri: from previous post to now
-        Sat-Sun: from most recent article date to now
+        Determine the time window for fetching articles: everything since the
+        last published brief, so a weekly cadence (or a manual workflow_dispatch
+        run on any day, or a missed Monday) always picks up cleanly where the
+        last brief left off, with no gaps or overlaps.
+
+        Falls back to a straight 7-day lookback when there's no prior history
+        (first run ever). Never looks back more than 30 days regardless, since
+        NewsAPI's free tier only returns roughly the last month of articles -
+        this just prevents a long gap from producing an empty/rejected request.
         """
         now = datetime.utcnow()
-        weekday = now.weekday()  # 0=Mon, 1=Tue, ..., 5=Sat, 6=Sun
 
-        # If it's Monday
-        if weekday == 0:  # 0 = Monday
-            # Get articles from Friday 5pm through Monday 8am
-            friday = now - timedelta(days=3)
-            friday = friday.replace(hour=17, minute=0, second=0, microsecond=0)
-            from_date = friday
-            to_date = now
-        # If it's Saturday or Sunday, look back to most recent article
-        elif weekday in [5, 6]:  # 5=Saturday, 6=Sunday
-            # Find the most recent article date
-            if self.existing_articles and len(self.existing_articles) > 0:
-                # Try to parse the date from the most recent article
+        from_date = None
+        if self.existing_articles:
+            latest_date_str = self.existing_articles[0].get('date', '')
+            if latest_date_str:
                 try:
-                    latest_date_str = self.existing_articles[0].get('date', '')
-                    # Parse common date formats (e.g., "May 30, 2026" or "2026-05-30")
-                    if latest_date_str:
-                        # Try parsing "Month DD, YYYY" format
-                        try:
-                            latest_date = datetime.strptime(latest_date_str, "%B %d, %Y")
-                        except:
-                            # Try ISO format
-                            latest_date = datetime.strptime(latest_date_str.split('T')[0], "%Y-%m-%d")
-                        # Start from the latest article date
-                        from_date = latest_date.replace(hour=0, minute=0, second=0, microsecond=0)
-                    else:
-                        # Fallback: use 7 days ago
-                        from_date = now - timedelta(days=7)
-                except:
-                    # Fallback: use 7 days ago
-                    from_date = now - timedelta(days=7)
-            else:
-                # No existing articles, use 7 days ago
-                from_date = now - timedelta(days=7)
-            to_date = now
-        else:
-            # For Tue-Fri: assume previous post was yesterday at 8am
-            yesterday = now - timedelta(days=1)
-            from_date = yesterday.replace(hour=8, minute=0, second=0, microsecond=0)
-            to_date = now
+                    latest_date = datetime.strptime(latest_date_str, "%B %d, %Y")
+                except ValueError:
+                    try:
+                        latest_date = datetime.strptime(latest_date_str.split('T')[0], "%Y-%m-%d")
+                    except ValueError:
+                        latest_date = None
+                if latest_date:
+                    from_date = latest_date.replace(hour=0, minute=0, second=0, microsecond=0)
 
-        return from_date, to_date
+        if from_date is None:
+            from_date = now - timedelta(days=7)
+
+        earliest_allowed = now - timedelta(days=30)
+        from_date = max(from_date, earliest_allowed)
+
+        return from_date, now
 
     def fetch_articles(self) -> List[Dict]:
         """Fetch articles from NewsAPI based on time window"""
@@ -93,6 +81,7 @@ class ArticleAnalyzer:
             return []
 
         from_date, to_date = self.get_time_window()
+        self.window_from, self.window_to = from_date, to_date
         from_str = from_date.isoformat() + "Z"
         to_str = to_date.isoformat() + "Z"
 
@@ -120,8 +109,12 @@ class ArticleAnalyzer:
                         'to': to_str,
                         'sortBy': 'relevancy',
                         'language': 'en',
+                        # A week's worth of news needs more than NewsAPI's default
+                        # 20-result page to avoid capping candidate volume.
+                        'pageSize': 100,
                         'apiKey': self.api_key
-                    }
+                    },
+                    timeout=15
                 )
 
                 if response.status_code == 200:
@@ -143,8 +136,9 @@ class ArticleAnalyzer:
     BLOCKED_DOMAINS = {'biztoc.com', 'news.google.com', 'slickdeals.net'}
 
     # Don't publish a brief built on fewer live sources than this - a one-source
-    # "brief" is just a reprint of that source, not analysis
-    MIN_LIVE_SOURCES = 3
+    # "brief" is just a reprint of that source, not analysis. Raised from 3 for
+    # the weekly cadence, where a week of news should easily clear this bar.
+    MIN_LIVE_SOURCES = 5
 
     def is_blocked_source(self, url: str) -> bool:
         try:
@@ -166,7 +160,7 @@ class ArticleAnalyzer:
         except Exception:
             return False
 
-    def filter_live_articles(self, articles: List[Dict], limit: int = 15) -> List[Dict]:
+    def filter_live_articles(self, articles: List[Dict], limit: int = 25) -> List[Dict]:
         """Keep only articles whose links are verified live (checks up to `limit`)"""
         live = []
         checked = 0
@@ -390,19 +384,19 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
 
     def generate_article_body(self, category: str, themes: List[str], articles: List[Dict],
                               trend_analysis: Dict, related_briefs: List[Dict]) -> str:
-        """Generate the FULL article body HTML using Claude, based on today's news.
+        """Generate the FULL article body HTML using Claude, based on this week's news.
 
         This is the core fix for duplicate articles: previously only the excerpt was
         AI-generated and the article page was a copy of a static template. Now the
-        entire body is written fresh from the day's fetched articles.
+        entire body is written fresh from the week's fetched articles.
         """
         if not self.claude_client:
             print("   WARNING: No ANTHROPIC_API_KEY - falling back to insight-based body")
             return self.generate_fallback_body(category, articles)
 
-        # Today's source material, numbered. The model cites by NUMBER, never by URL -
-        # models mis-transcribe long URLs (a one-digit typo = dead link on the site).
-        cited = articles[:12]
+        # This week's source material, numbered. The model cites by NUMBER, never by
+        # URL - models mis-transcribe long URLs (a one-digit typo = dead link on the site).
+        cited = articles[:20]
         source_lines = []
         for i, a in enumerate(cited, 1):
             title = a.get('title', '')
@@ -417,11 +411,14 @@ Generate ONLY the excerpt text, nothing else. No quotes, no preamble."""
             prior_lines.append(f"- \"{rb['title']}\" ({rb['date']}): {rb['excerpt']}")
         prior_coverage = "\n".join(prior_lines) if prior_lines else "None - this is the first brief in this category."
 
-        today_str = datetime.now().strftime("%B %d, %Y")
+        if self.window_from and self.window_to:
+            week_range_str = f"{self.window_from.strftime('%B %d')}-{self.window_to.strftime('%B %d, %Y')}"
+        else:
+            week_range_str = datetime.now().strftime("%B %d, %Y")
 
-        prompt = f"""You are the research analyst for O'Dwyer Capital, a private family investment office. Write today's ({today_str}) {category} investment brief as an HTML fragment.
+        prompt = f"""You are the research analyst for O'Dwyer Capital, a private family investment office. Write this week's ({week_range_str}) {category} investment brief as an HTML fragment.
 
-TODAY'S NEWS (your ONLY source material - every claim must come from these):
+THIS WEEK'S NEWS (your ONLY source material - every claim must come from these):
 {source_material}
 
 CURRENT THEMES: {', '.join(themes) if themes else 'n/a'}
@@ -432,19 +429,19 @@ PRIOR O'DWYER COVERAGE (do NOT repeat this analysis - focus on what has CHANGED 
 {prior_coverage}
 
 REQUIREMENTS:
-1. 500-800 words, written for investment professionals. Factual, specific, no marketing fluff.
+1. 900-1400 words, written for investment professionals. Factual, specific, no marketing fluff.
 2. Structure with these tags only: <h2>, <h3>, <p>, <strong>, <a>. No <html>, <head>, <body>, or <div> wrappers.
-3. Sections: an opening <h2> headline specific to today's developments (NOT a generic category name), <h3>Executive Summary</h3>, <h2>Key Developments</h2> (2-4 subsections), <h2>Investment Implications</h2> including risk factors.
+3. Sections: an opening <h2> headline specific to this week's developments (NOT a generic category name), <h3>Executive Summary</h3>, <h2>Key Developments</h2> (3-5 subsections), <h2>Investment Implications</h2> including risk factors.
 4. Link claims to sources inline by NUMBER: <a href="[N]" target="_blank">anchor text</a> where N is the source number above (e.g. <a href="[3]" target="_blank">the report</a>). NEVER write out a URL - use only the bracketed number as the href.
 5. Include concrete figures (market sizes, growth rates, timelines) ONLY when they appear in the source material. Never invent numbers.
-6. Where prior coverage exists, add one short paragraph noting how today's developments extend or diverge from it.
+6. Where prior coverage exists, add one short paragraph noting how this week's developments extend or diverge from it.
 
 Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
 
         try:
             message = self.claude_client.messages.create(
                 model=os.getenv('ARTICLE_MODEL', 'claude-haiku-4-5-20251001'),
-                max_tokens=3000,
+                max_tokens=4000,
                 messages=[{"role": "user", "content": prompt}]
             )
             body = message.content[0].text.strip()
@@ -471,10 +468,10 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
             return self.generate_fallback_body(category, articles)
 
     def generate_fallback_body(self, category: str, articles: List[Dict]) -> str:
-        """Non-AI fallback: build a body from today's actual articles so content is still unique per day"""
+        """Non-AI fallback: build a body from this week's actual articles so content is still unique per week"""
         today_str = datetime.now().strftime("%B %d, %Y")
-        parts = [f"<h2>{category} Investment Brief &mdash; {today_str}</h2>",
-                 "<h3>Today's Developments</h3>"]
+        parts = [f"<h2>{category} Investment Brief &mdash; Week of {today_str}</h2>",
+                 "<h3>This Week's Developments</h3>"]
         for a in articles[:8]:
             title = a.get('title', '')
             desc = (a.get('description') or '').strip()
@@ -610,7 +607,7 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
                 '  <channel>\n'
                 "    <title>O'Dwyer Capital — Investment Briefs</title>\n"
                 f'    <link>{self.SITE_URL}/thoughts.html</link>\n'
-                "    <description>Daily investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>\n"
+                "    <description>Weekly investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>\n"
                 '    <language>en-us</language>\n'
                 + "\n".join(items) + "\n"
                 '  </channel>\n'
