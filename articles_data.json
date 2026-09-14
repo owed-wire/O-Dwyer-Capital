@@ -1,5 +1,106 @@
 [
   {
+    "id": 91,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 14, 2026",
+    "url": "materials-2026-09-14.html",
+    "excerpt": "Critical minerals supply chain constraints are reshaping infrastructure and automotive investment priorities, with lithium and other essential materials facing significant sourcing challenges that domestic production cannot yet offset. Energy transition infrastructure plays like Enbridge are attracting capital as stable alternatives amid market volatility, while legacy mining assets and emerging domestic extraction projects face multi-year development timelines to bridge supply gaps.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 12,
+    "primary_sources": [
+      "TheStreet",
+      "Bringatrailer.com",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 16 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 14, 2026",
+    "url": "emerging-tech-2026-09-14.html",
+    "excerpt": "Dell Technologies is experiencing significant AI-driven demand, with a $95B server backlog reflecting accelerating enterprise infrastructure investment in artificial intelligence capabilities. The infrastructure buildout signals sustained capital deployment across data center modernization as companies move beyond pilot programs toward production-scale AI implementations.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TheStreet",
+      "Viewfromthewing.com",
+      "MarketBeat"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 32 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 14, 2026",
+    "url": "energy-transition-2026-09-14.html",
+    "excerpt": "Venture Global's entry into buy territory amid rising oil prices reflects renewed investor appetite for energy infrastructure plays, while space-enabled logistics and satellite technologies are reshaping traditional shipping and energy sector valuations alongside commodity price volatility.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Hurriyet Daily News",
+      "Investor's Business Daily"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 37 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology"
+    ]
+  },
+  {
     "id": 88,
     "title": "Materials Investment Brief",
     "slug": "materials",
