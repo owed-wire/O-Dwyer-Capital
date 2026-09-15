@@ -3,58 +3,20 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-11T17:00:00Z to 2026-09-14T18:05:17.119830Z
-Fetched 263 articles
+Fetching articles from 2026-09-14T08:00:00Z to 2026-09-15T17:01:04.603056Z
+Fetched 237 articles
 
 2. Categorizing articles...
-   energy-transition: 33 articles
-   emerging-tech: 77 articles
-   materials: 12 articles
-
-3. Creating analytical briefs...
-   Source validation: 15 live of 33 fetched
-   Generated AI excerpt: Venture Global's entry into buy territory amid rising oil prices reflects renewed investor appetite for energy infrastructure plays, while space-enabled logistics and satellite technologies are reshaping traditional shipping and energy sector valuations alongside commodity price volatility.
-   Generated AI article body (6733 chars)
-   Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://thenextweb.com/news/detrimental-cost-scaling-too-fast-greg-keith
-   Source validation: 15 live of 77 fetched
-   Generated AI excerpt: Dell Technologies is experiencing significant AI-driven demand, with a $95B server backlog reflecting accelerating enterprise infrastructure investment in artificial intelligence capabilities. The infrastructure buildout signals sustained capital deployment across data center modernization as companies move beyond pilot programs toward production-scale AI implementations.
-   Generated AI article body (7016 chars)
-   Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 12 live of 12 fetched
-   Generated AI excerpt: Critical minerals supply chain constraints are reshaping infrastructure and automotive investment priorities, with lithium and other essential materials facing significant sourcing challenges that domestic production cannot yet offset. Energy transition infrastructure plays like Enbridge are attracting capital as stable alternatives amid market volatility, while legacy mining assets and emerging domestic extraction projects face multi-year development timelines to bridge supply gaps.
-   Generated AI article body (7085 chars)
-   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
-
-4. Generating dated HTML files...
-Generated: energy-transition-2026-09-14.html
-Generated: emerging-tech-2026-09-14.html
-Generated: materials-2026-09-14.html
-
-5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
-
-6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 91 URLs
-Generated feed.xml with 20 items
-
-============================================================
-PUBLICATION COMPLETE
-============================================================
-Articles fetched: 263
-Briefs created: 3
-HTML files: energy-transition-2026-09-14.html, emerging-tech-2026-09-14.html, materials-2026-09-14.html
-
-=== SUMMARY ===
-{
-  "articles_fetched": 263,
-  "briefs_created": 3,
-  "html_files_created": 3,
-  "files": [
-    "energy-transition-2026-09-14.html",
-    "emerging-tech-2026-09-14.html",
-    "materials-2026-09-14.html"
-  ],
-  "publication_date": "2026-09-14T18:06:20.240545",
-  "status": "success"
-}
+Traceback (most recent call last):
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 938, in <module>
+    main()
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 932, in main
+    summary = analyzer.run()
+              ^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 867, in run
+    category = self.categorize_article(article)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 191, in categorize_article
+    article.get('description', '').lower()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
