@@ -1,5 +1,107 @@
 [
   {
+    "id": 94,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 16, 2026",
+    "url": "materials-2026-09-16.html",
+    "excerpt": "Critical minerals infrastructure is consolidating around emerging supply chains, with private Indian firms establishing domestic rare earth and specialty mineral operations while Saudi Arabia's 110-million-tonne rare earth discovery signals geopolitical shifts in resource access\u2014developments critical as AI infrastructure demand intensifies semiconductor and processing capacity requirements globally.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 5,
+    "primary_sources": [
+      "Business Standard",
+      "Space Daily"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 17 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 16, 2026",
+    "url": "emerging-tech-2026-09-16.html",
+    "excerpt": "AI infrastructure demand continues to drive enterprise capital allocation, with data center stocks attracting institutional investment despite mounting regulatory scrutiny and political pushback. Non-AI pure-plays in semiconductors, industrial equipment, and components are benefiting from elevated spending on supporting infrastructure, positioning themselves as lower-volatility exposure to the sector's underlying growth dynamics.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "The New Republic",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 33 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 16, 2026",
+    "url": "energy-transition-2026-09-16.html",
+    "excerpt": "Hybrid solar-battery projects are advancing across multiple geographies, with recent PPAs signed in Germany and Australia, while community solar financing reached $117 million in a single close, reflecting accelerating deployment of integrated renewable energy and storage infrastructure.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Globalresearch.ca",
+      "Worldconstructionnetwork.com",
+      "Power Technology"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 38 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, solar energy"
+    ]
+  },
+  {
     "id": 91,
     "title": "Materials Investment Brief",
     "slug": "materials",
