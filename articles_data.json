@@ -1,5 +1,112 @@
 [
   {
+    "id": 97,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 18, 2026",
+    "url": "materials-2026-09-18.html",
+    "excerpt": "AI-driven automation is accelerating capital deployment across industrial sectors, with defense contractors like Lockheed Martin achieving sub-30-day component manufacturing timelines through integrated supply chain partnerships, while traditional industries including beverage manufacturing and mining are simultaneously investing in workforce upskilling and critical minerals processing to maintain competitive positioning in an increasingly technology-dependent supply environment.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 8,
+    "primary_sources": [
+      "Financial Post",
+      "POLITICO.eu",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 18 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 18, 2026",
+    "url": "emerging-tech-2026-09-18.html",
+    "excerpt": "AI infrastructure deployment is straining grid capacity, creating utility sector opportunities as data centers scale rapidly to support model training and inference workloads. Concurrent regulatory pressures\u2014including proposed AI productivity taxes in Europe and labor restrictions on AI-enabled devices\u2014are beginning to reshape enterprise adoption timelines and capex allocation across technology-dependent sectors.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Just-food.com",
+      "24/7 Wall St."
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 34 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 18, 2026",
+    "url": "energy-transition-2026-09-18.html",
+    "excerpt": "Australian battery storage capacity is expanding with the SEC, Aware Super and Birdwood consortium commencing construction of a 1.86GWh facility in Victoria, signaling accelerating utility-scale energy storage deployment as a critical infrastructure component of the climate transition.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Project Syndicate",
+      "Power Technology",
+      "Thoughtcatalog.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 39 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
     "id": 94,
     "title": "Materials Investment Brief",
     "slug": "materials",

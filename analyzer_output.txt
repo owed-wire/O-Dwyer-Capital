@@ -3,20 +3,57 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-16T08:00:00Z to 2026-09-17T17:01:07.792216Z
-Fetched 225 articles
+Fetching articles from 2026-09-17T08:00:00Z to 2026-09-18T16:25:40.122953Z
+Fetched 219 articles
 
 2. Categorizing articles...
-Traceback (most recent call last):
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 938, in <module>
-    main()
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 932, in main
-    summary = analyzer.run()
-              ^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 867, in run
-    category = self.categorize_article(article)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/article_analyzer.py", line 191, in categorize_article
-    article.get('description', '').lower()
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'lower'
+   energy-transition: 41 articles
+   emerging-tech: 80 articles
+   materials: 8 articles
+
+3. Creating analytical briefs...
+   Source validation: 15 live of 41 fetched
+   Generated AI excerpt: Australian battery storage capacity is expanding with the SEC, Aware Super and Birdwood consortium commencing construction of a 1.86GWh facility in Victoria, signaling accelerating utility-scale energy storage deployment as a critical infrastructure component of the climate transition.
+   Generated AI article body (6518 chars)
+   Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
+   Source validation: 15 live of 80 fetched
+   Generated AI excerpt: AI infrastructure deployment is straining grid capacity, creating utility sector opportunities as data centers scale rapidly to support model training and inference workloads. Concurrent regulatory pressures—including proposed AI productivity taxes in Europe and labor restrictions on AI-enabled devices—are beginning to reshape enterprise adoption timelines and capex allocation across technology-dependent sectors.
+   Generated AI article body (6605 chars)
+   Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
+   Source validation: 8 live of 8 fetched
+   Generated AI excerpt: AI-driven automation is accelerating capital deployment across industrial sectors, with defense contractors like Lockheed Martin achieving sub-30-day component manufacturing timelines through integrated supply chain partnerships, while traditional industries including beverage manufacturing and mining are simultaneously investing in workforce upskilling and critical minerals processing to maintain competitive positioning in an increasingly technology-dependent supply environment.
+   Generated AI article body (6287 chars)
+   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
+
+4. Generating dated HTML files...
+Generated: energy-transition-2026-09-18.html
+Generated: emerging-tech-2026-09-18.html
+Generated: materials-2026-09-18.html
+
+5. Updating articles_data.json...
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
+
+6. Regenerating sitemap.xml and feed.xml...
+Generated sitemap.xml with 97 URLs
+Generated feed.xml with 20 items
+
+============================================================
+PUBLICATION COMPLETE
+============================================================
+Articles fetched: 219
+Briefs created: 3
+HTML files: energy-transition-2026-09-18.html, emerging-tech-2026-09-18.html, materials-2026-09-18.html
+
+=== SUMMARY ===
+{
+  "articles_fetched": 219,
+  "briefs_created": 3,
+  "html_files_created": 3,
+  "files": [
+    "energy-transition-2026-09-18.html",
+    "emerging-tech-2026-09-18.html",
+    "materials-2026-09-18.html"
+  ],
+  "publication_date": "2026-09-18T16:26:34.078787",
+  "status": "success"
+}
