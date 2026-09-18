@@ -1,5 +1,1267 @@
 [
   {
+    "id": 97,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 18, 2026",
+    "url": "materials-2026-09-18.html",
+    "excerpt": "AI-driven automation is accelerating capital deployment across industrial sectors, with defense contractors like Lockheed Martin achieving sub-30-day component manufacturing timelines through integrated supply chain partnerships, while traditional industries including beverage manufacturing and mining are simultaneously investing in workforce upskilling and critical minerals processing to maintain competitive positioning in an increasingly technology-dependent supply environment.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 8,
+    "primary_sources": [
+      "Financial Post",
+      "POLITICO.eu",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 18 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 18, 2026",
+    "url": "emerging-tech-2026-09-18.html",
+    "excerpt": "AI infrastructure deployment is straining grid capacity, creating utility sector opportunities as data centers scale rapidly to support model training and inference workloads. Concurrent regulatory pressures\u2014including proposed AI productivity taxes in Europe and labor restrictions on AI-enabled devices\u2014are beginning to reshape enterprise adoption timelines and capex allocation across technology-dependent sectors.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Just-food.com",
+      "24/7 Wall St."
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 34 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 18, 2026",
+    "url": "energy-transition-2026-09-18.html",
+    "excerpt": "Australian battery storage capacity is expanding with the SEC, Aware Super and Birdwood consortium commencing construction of a 1.86GWh facility in Victoria, signaling accelerating utility-scale energy storage deployment as a critical infrastructure component of the climate transition.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Project Syndicate",
+      "Power Technology",
+      "Thoughtcatalog.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 39 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 16, 2026",
+    "url": "materials-2026-09-16.html",
+    "excerpt": "Critical minerals infrastructure is consolidating around emerging supply chains, with private Indian firms establishing domestic rare earth and specialty mineral operations while Saudi Arabia's 110-million-tonne rare earth discovery signals geopolitical shifts in resource access\u2014developments critical as AI infrastructure demand intensifies semiconductor and processing capacity requirements globally.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 5,
+    "primary_sources": [
+      "Business Standard",
+      "Space Daily"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 17 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 16, 2026",
+    "url": "emerging-tech-2026-09-16.html",
+    "excerpt": "AI infrastructure demand continues to drive enterprise capital allocation, with data center stocks attracting institutional investment despite mounting regulatory scrutiny and political pushback. Non-AI pure-plays in semiconductors, industrial equipment, and components are benefiting from elevated spending on supporting infrastructure, positioning themselves as lower-volatility exposure to the sector's underlying growth dynamics.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "The New Republic",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 33 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 16, 2026",
+    "url": "energy-transition-2026-09-16.html",
+    "excerpt": "Hybrid solar-battery projects are advancing across multiple geographies, with recent PPAs signed in Germany and Australia, while community solar financing reached $117 million in a single close, reflecting accelerating deployment of integrated renewable energy and storage infrastructure.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Globalresearch.ca",
+      "Worldconstructionnetwork.com",
+      "Power Technology"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 38 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, solar energy"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 14, 2026",
+    "url": "materials-2026-09-14.html",
+    "excerpt": "Critical minerals supply chain constraints are reshaping infrastructure and automotive investment priorities, with lithium and other essential materials facing significant sourcing challenges that domestic production cannot yet offset. Energy transition infrastructure plays like Enbridge are attracting capital as stable alternatives amid market volatility, while legacy mining assets and emerging domestic extraction projects face multi-year development timelines to bridge supply gaps.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 12,
+    "primary_sources": [
+      "TheStreet",
+      "Bringatrailer.com",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 16 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 14, 2026",
+    "url": "emerging-tech-2026-09-14.html",
+    "excerpt": "Dell Technologies is experiencing significant AI-driven demand, with a $95B server backlog reflecting accelerating enterprise infrastructure investment in artificial intelligence capabilities. The infrastructure buildout signals sustained capital deployment across data center modernization as companies move beyond pilot programs toward production-scale AI implementations.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TheStreet",
+      "Viewfromthewing.com",
+      "MarketBeat"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 32 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 14, 2026",
+    "url": "energy-transition-2026-09-14.html",
+    "excerpt": "Venture Global's entry into buy territory amid rising oil prices reflects renewed investor appetite for energy infrastructure plays, while space-enabled logistics and satellite technologies are reshaping traditional shipping and energy sector valuations alongside commodity price volatility.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Hurriyet Daily News",
+      "Investor's Business Daily"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 37 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 10, 2026",
+    "url": "materials-2026-09-10.html",
+    "excerpt": "Georgia's EV manufacturing ambitions face regulatory reversal following administration change, while Thailand advances competitive positioning through targeted tax incentives for localized production and export capability. Ford's supply chain exposure to Chinese technology illustrates ongoing geopolitical friction in the automotive sector, as governments increasingly condition manufacturing investment on domestic content requirements and technology sourcing restrictions.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 11,
+    "primary_sources": [
+      "Grist",
+      "Paul Tan's Automotive News",
+      "Just-auto.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 15 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 10, 2026",
+    "url": "emerging-tech-2026-09-10.html",
+    "excerpt": "Google's \u20ac13 billion Finnish data center investment signals accelerating capital deployment in AI infrastructure, while concurrent regulatory pushback across Asia and North America is forcing developers to redesign facility architectures to address power consumption and environmental concerns. The sector's infrastructure demands are reshaping both hyperscaler capex strategies and energy partnerships, as evidenced by Brookfield's positioning in the AI power supply chain and SpaceX's large-scale data center deployment dynamics.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Scientific American",
+      "Quartz India",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 31 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 10, 2026",
+    "url": "energy-transition-2026-09-10.html",
+    "excerpt": "Global technology and renewable energy sectors are converging around AI-driven energy infrastructure, with major capital deployment evident in Google's $15 billion European AI investment and ongoing consolidation in battery storage\u2014where China maintains dominant supply chain control despite $500M+ annual competitive spending. Operational optimization through AI integration is emerging as critical to accelerating renewable transition timelines, as evidenced by industry calls for scenario-based systems integration rather than infrastructure-first deployment models.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "energy storage",
+      "renewable energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "24/7 Wall St."
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage",
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "energy storage",
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 36 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence",
+      "Accelerating trends: energy storage, renewable energy"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 09, 2026",
+    "url": "emerging-tech-2026-09-09.html",
+    "excerpt": "AI infrastructure buildout is driving elevated demand for high-bandwidth memory chips, with Micron Technology benefiting from the acceleration. Semiconductor manufacturers including TSMC and ASML are advancing next-generation lithography capabilities to enable smaller node production, while concurrent policy shifts are expanding data center deployment capacity across U.S. jurisdictions.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "chip manufacturing",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Business Insider",
+      "Theregister.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "chip manufacturing",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 30 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, chip manufacturing, space technology"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 09, 2026",
+    "url": "energy-transition-2026-09-09.html",
+    "excerpt": "Global energy storage capacity deployment is accelerating as CATL and other manufacturers address industry catch-up requirements, while distributed solar generation expanded significantly with projects like Torrent Green Energy's 322MWp Indian commissioning. Residential electrification trends are emerging as a secondary growth vector in mature markets like Europe, potentially creating new demand streams beyond utility-scale battery and solar installations.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "battery technology",
+      "energy storage",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Moby.co",
+      "Power Technology",
+      "MakeUseOf"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "battery technology",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 35 historical briefs"
+    },
+    "trend_context": [
+      "New developments: battery technology, solar energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 07, 2026",
+    "url": "emerging-tech-2026-09-07.html",
+    "excerpt": "The AI infrastructure buildout is creating acute semiconductor and component supply constraints, with hardware vendors reporting sustained scrambling for scarce parts to meet demand. Simultaneously, competitive positioning is shifting as space and hardware companies\u2014including SpaceX's recent $60 billion move into AI through Anthropic\u2014challenge traditional software incumbents, while data platforms and edge computing devices emerge as primary value capture points over conventional SaaS models.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Kotaku",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 29 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 07, 2026",
+    "url": "energy-transition-2026-09-07.html",
+    "excerpt": "AI-driven hydropower optimization faces resilience challenges as climate volatility increases, exemplified by Nepal's concentrated renewable infrastructure exposure during recent flooding. Decentralized energy systems paired with predictive analytics are emerging as alternative risk-mitigation strategies, though hydrogen fuel standardization and nuclear policy uncertainty continue to fragment investment in alternative baseload capacity.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Abcnews.com",
+      "BBC News"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 34 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 04, 2026",
+    "url": "emerging-tech-2026-09-04.html",
+    "excerpt": "Memory and semiconductor manufacturers are increasingly central to AI infrastructure scaling, with Micron Technology positioning itself as a critical supplier amid elevated chip demand. Commercial aerospace recovery, evidenced by Ducommun's defense and space exposure, signals renewed capital allocation toward space technology alongside semiconductor consolidation in the AI supply chain.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "The Verge",
+      "Windows Central"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 28 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 04, 2026",
+    "url": "energy-transition-2026-09-04.html",
+    "excerpt": "Global energy markets are consolidating around AI-optimized renewable infrastructure, with major developers like PowerChina expanding wind and storage capacity in emerging markets to address grid stability. Geopolitical supply chain diversification\u2014driven by Middle East volatility and Eastern European energy transitions\u2014is accelerating investment in distributed energy resources and battery storage technologies as strategic alternatives to traditional fossil fuel dependencies.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "wind energy",
+      "energy storage"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment",
+      "Al Jazeera English",
+      "PRNewswire"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 33 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, wind energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 02, 2026",
+    "url": "energy-transition-2026-09-02.html",
+    "excerpt": "Global energy storage and wind assets are consolidating amid accelerating deployment cycles, with strategic acquisitions including Sanmar's majority stake in AltEons Energy and CIP's purchase of the Gawara Baya hybrid wind-plus-battery project in Australia signaling institutional confidence despite near-term policy headwinds in key markets like the EU.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Al Jazeera English",
+      "MarketBeat",
+      "Power Technology"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 32 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 31, 2026",
+    "url": "materials-2026-08-31.html",
+    "excerpt": "In a strategic appeal, Finance Minister Nirmala Sitharaman encouraged global investors to set up manufacturing and innovation centers in India; Solstice Advanced Materials (NASDAQ:SOLS) jumped by 12; Rare Earth Metal and Alloy Production Added to Emerging Western Mine-to-Magnet Champion DENVER, Aug.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 10,
+    "primary_sources": [
+      "PRNewswire",
+      "The Times of India",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 14 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 31, 2026",
+    "url": "emerging-tech-2026-08-31.html",
+    "excerpt": "Wealth advisors say tech workers are getting anxious about the market turning, and are looking for advice on how to position for the AI bubble bursting; On Wednesday, Nvidia Corp CEO Jensen Huang brushed off OpenAI\u2019s new Jalape\u00f1o chip, saying he remains confident in Nvidia\u2019s technology and ability to supply t; Nvidia Corp CEO Jensen Huang said the company is benefiting from the rapid rise of both open and closed AI models, arguing that the success of either approac.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "chip manufacturing",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Business Insider",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "chip manufacturing",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 27 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, chip manufacturing, space technology"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 31, 2026",
+    "url": "energy-transition-2026-08-31.html",
+    "excerpt": "Aug 28 (Reuters) - California on Friday sued the Trump administration and an offshore wind developer over a deal that canceled a planned project off the stat; With the era of Plug-in solar coming to the UK, what does this mean for those with increasing electricity bills?; Solar now requires no more upfront capital than coal or gas to produce the same annual electricity, reversing a disadvantage that was as large as five-to-one.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "wind energy",
+      "solar energy",
+      "electrification"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy",
+        "solar energy"
+      ],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 31 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy, solar energy"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 28, 2026",
+    "url": "materials-2026-08-28.html",
+    "excerpt": "Critical minerals are still flowing out of conflict zones, but accountability is harder than ever; Board of Directors Authorizes $500 Million Share Repurchase Program Company Affirms Third Quarter and Full-Year 2026 Guidance MORRIS PLAINS, N; VANCOUVER, BC, Aug.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 8,
+    "primary_sources": [
+      "PRNewswire",
+      "ABC News (AU)",
+      "Foreign Policy"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 13 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 28, 2026",
+    "url": "emerging-tech-2026-08-28.html",
+    "excerpt": "Nicolas Sauvage, founder and president of TDK Ventures, said product managers will provide judgement and taste; Proposed US tariffs on semiconductor-powered devices could soon drive up prices on smartphones, laptops, and everyday tech; OpenAI says its new Jalape\u00f1o AI chip could significantly reduce the cost of running artificial intelligence by delivering substantially higher efficiency and.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "chip manufacturing",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Business Insider",
+      "Android Authority",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "chip manufacturing",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 26 historical briefs"
+    },
+    "trend_context": [
+      "New developments: chip manufacturing, artificial intelligence"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 28, 2026",
+    "url": "energy-transition-2026-08-28.html",
+    "excerpt": "The Trump administration's latest deal to cancel offshore wind projects and boost fossil fuel energy development instead is generating a huge payday for one; Everpure stock is sliding despite the enterprise data storage company handily beating Q2 earnings expectations; EPC firm's latest credentials support accelerated growth in 30+ states with consistent project delivery STUART, Fla.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "PRNewswire",
+      "Investor's Business Daily",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 30 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 27, 2026",
+    "url": "emerging-tech-2026-08-27.html",
+    "excerpt": "AI and robots are advancing faster than you think, and we're not prepared for a world where the majority may be out of work; NOVVA Group and Mongolia's MDDIC sign MOU on clean-powered AI infrastructure, supporting Mongolia's \"Sovereign by Design\" green AI data centre initiative; While investors chase flashy AI chip stocks, a quiet storage giant has been compounding record revenues and locking in hyperscaler contracts through 2027.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Theregister.com",
+      "BusinessLine",
+      "24/7 Wall St."
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 25 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 27, 2026",
+    "url": "energy-transition-2026-08-27.html",
+    "excerpt": "Users have a little more time to migrate from Azure storage to OneDrive; Energy storage is the key to the clean energy transition; Emerson Electric makes automation systems, and has grown into an international leader with more than 125,000 customers worldwide.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "electrification",
+      "artificial intelligence",
+      "wind energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Theregister.com",
+      "CleanTechnica",
+      "Investor's Business Daily"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "wind energy"
+      ],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 29 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, wind energy"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 26, 2026",
+    "url": "materials-2026-08-26.html",
+    "excerpt": "GRAND FALLS-WINDSOR, Newfoundland and Labrador, Aug; Canada is preparing targeted retaliatory tariffs after trade talks with the United States collapsed and President Donald Trump threatened 50% duties on Canadian autos, auto parts and steel; VANCOUVER, British Columbia, Aug.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "electrification"
+    ],
+    "investment_relevance": "high",
+    "article_count": 4,
+    "primary_sources": [
+      "Financial Post",
+      "The Times of India"
+    ],
+    "trend_analysis": {
+      "new_themes": [],
+      "ongoing_themes": [
+        "electrification"
+      ],
+      "accelerating_themes": [
+        "electrification"
+      ],
+      "historical_context": "Based on analysis of 12 historical briefs"
+    },
+    "trend_context": [
+      "Accelerating trends: electrification"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 26, 2026",
+    "url": "emerging-tech-2026-08-26.html",
+    "excerpt": "The Apple Watch Ultra 4 is poised to deliver significant advancements in smartwatch technology; India leads Asia-Pacific data centre growth, with capacity quadrupling and substantial future projects underway; India\u2019s data centre footprint is projected to exceed 101 million sq ft and capacity 6.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Socialmediaexaminer.com",
+      "Geeky Gadgets",
+      "BusinessLine"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 24 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 26, 2026",
+    "url": "energy-transition-2026-08-26.html",
+    "excerpt": "The Department of Energy\u2019s moonshot funding program is working; Norwegian energy minister vows to keep drilling in Arctic, rejecting the long-standing idea of his country as Europe\u2019s \u2018green battery\u2019 Read Full Article at RT; The tax equity investment marks the latest stage of financing for Aratina 2, which is currently under construction.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "solar energy",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "RT",
+      "Energymonitor.ai",
+      "Grist"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "energy storage"
+      ],
+      "accelerating_themes": [
+        "energy storage"
+      ],
+      "historical_context": "Based on analysis of 28 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy, artificial intelligence",
+      "Accelerating trends: energy storage"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 25, 2026",
+    "url": "emerging-tech-2026-08-25.html",
+    "excerpt": "Guinness Global Innovators, an investment management company, recently released its Q2 2026 quarterly investor update for its \u201cGuinness Global Innovators Fun; Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups; Peter Thiel's firm just filed a strikingly focused $418 million portfolio that ignores chips entirely and bets everything on a single constraint choking the.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "chip manufacturing",
+      "wind energy",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Internet",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "chip manufacturing",
+        "wind energy",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 23 historical briefs"
+    },
+    "trend_context": [
+      "New developments: chip manufacturing, wind energy, artificial intelligence"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 25, 2026",
+    "url": "energy-transition-2026-08-25.html",
+    "excerpt": "The South Korean battery maker aims to free up capital for future growth businesses; Saudi crown prince and French president are set to sign several agreements on health, transport and energy; The funding supports the acquisition of Shell\u2019s Sprng Energy portfolio, expanding ABRen\u2019s total renewable capacity in India to 9.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Energymonitor.ai",
+      "Al Jazeera English",
+      "Just-auto.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 27 historical briefs"
+    },
+    "trend_context": [
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "August 24, 2026",
+    "url": "materials-2026-08-24.html",
+    "excerpt": "The new island, modelled on Jurong Island's development, could house advanced manufacturing and future power infrastructure; Scientists have developed an ultrathin coating that could dramatically improve how efficiently heat is transferred during condensation; Foreign investors are cautiously returning to Indian equities, but a durable FPI reallocation remains unconfirmed.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 10,
+    "primary_sources": [
+      "Science Daily",
+      "The Times of India",
+      "CNA"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 11 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "August 24, 2026",
+    "url": "emerging-tech-2026-08-24.html",
+    "excerpt": "Economists studying the region are worried that AI\u2019s gains won\u2019t be evenly shared across Asia; OpenAI has imposed a two-week pause on frontier-model development after internal signals indicated that an upcoming system known as Astra could reach a \"Crit; President Donald Trump repeated his commitment to secure U.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 22 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "August 24, 2026",
+    "url": "energy-transition-2026-08-24.html",
+    "excerpt": "Falling prices have made grid-scale storage batteries more attractive, reports Bloomberg; With plug-in solar soon to be legal in the UK, you may be investing \u2014 and these batteries let you store your generated power; Heart Aerospace\u2019s X1 demonstrator flew for 27 minutes on August 12 from Plattsburgh International Airport, powered entirely by batteries.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology",
+      "power grid"
+    ],
+    "investment_relevance": "high",
+    "article_count": 15,
+    "primary_sources": [
+      "TechRadar",
+      "Slashdot.org",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology",
+        "power grid"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 26 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology, power grid"
+    ]
+  },
+  {
     "id": 62,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
