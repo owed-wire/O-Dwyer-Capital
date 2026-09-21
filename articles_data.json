@@ -1,5 +1,112 @@
 [
   {
+    "id": 100,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 21, 2026",
+    "url": "materials-2026-09-21.html",
+    "excerpt": "The U.S. rare earth supply chain is consolidating around domestic and allied sources, evidenced by recent acquisitions in Greenland and emerging recovery opportunities from coal ash reserves, positioning critical mineral access as a strategic complement to AI infrastructure buildout. Mining equipment manufacturers are simultaneously expanding overseas capacity\u2014XCMG's new Indonesian remanufacturing base signals competition intensifying in the supply chain servicing this sector.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 13,
+    "primary_sources": [
+      "New York Post",
+      "Science Daily",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 19 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 21, 2026",
+    "url": "emerging-tech-2026-09-21.html",
+    "excerpt": "AI infrastructure spending continues to accelerate, with NVIDIA leadership confirming robust capital deployment across the sector, while supply chain optimization\u2014including Samsung's DDR5 reallocation and aerospace sector crossover\u2014reflects growing demand pressures. Space technology consolidation discussions, including potential SpaceX-Tesla strategic combinations, signal investor appetite for integrated platforms capturing both orbital and terrestrial AI deployment opportunities.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "space technology",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Ubergizmo",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "space technology",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 35 historical briefs"
+    },
+    "trend_context": [
+      "New developments: space technology, artificial intelligence"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 21, 2026",
+    "url": "energy-transition-2026-09-21.html",
+    "excerpt": "Australia's deployment of 144 Tesla Megapacks represents a critical inflection point in grid-scale battery storage, enabling 8-hour duration discharge capacity that addresses intermittency challenges in renewable-heavy grids. Concurrent market expansion\u2014evidenced by Actis launching a renewable energy platform in Mexico\u2014signals accelerating capital deployment into Latin American wind and solar infrastructure, while corporate energy transition commitments increasingly hinge on Scope 3 supplier energy requirements as a material compliance driver.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "wind energy",
+      "power grid",
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Power Technology",
+      "Supply Chain Dive",
+      "XDA Developers"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy",
+        "power grid",
+        "battery technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 40 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy, power grid, battery technology"
+    ]
+  },
+  {
     "id": 97,
     "title": "Materials Investment Brief",
     "slug": "materials",
