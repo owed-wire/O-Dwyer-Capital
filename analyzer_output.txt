@@ -3,61 +3,76 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-18T00:00:00Z to 2026-09-21T18:13:21.868128Z
-Fetched 287 articles
+Fetching articles from 2026-09-21T00:00:00Z to 2026-09-28T19:42:05.942403Z
+Fetched 288 articles
 
 2. Categorizing articles...
-   energy-transition: 45 articles
-   emerging-tech: 87 articles
-   materials: 13 articles
+   energy-transition: 59 articles
+   emerging-tech: 91 articles
+   materials: 22 articles
 
 3. Creating analytical briefs...
-   Source validation: 25 live of 45 fetched
-   Generated AI excerpt: Australia's deployment of 144 Tesla Megapacks represents a critical inflection point in grid-scale battery storage, enabling 8-hour duration discharge capacity that addresses intermittency challenges in renewable-heavy grids. Concurrent market expansion—evidenced by Actis launching a renewable energy platform in Mexico—signals accelerating capital deployment into Latin American wind and solar infrastructure, while corporate energy transition commitments increasingly hinge on Scope 3 supplier energy requirements as a material compliance driver.
-   Generated AI article body (10483 chars)
+   Dropping dead/unreachable source: https://thenextweb.com/news/amber-electric-49m-series-e-morgan-stanley-1gt
+   Dropping dead/unreachable source: https://thenextweb.com/news/eu-data-centre-rating-scheme-energy-water
+   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/prince-edward-island/pei-summerside-solar-farm-fire-9.73533
+   Source validation: 25 live of 59 fetched
+   Generated AI excerpt: AI-driven optimization is increasingly critical to solar deployment efficiency, as demonstrated by California's pilot programs integrating computational management with distributed generation assets. The U.S. residential solar market is experiencing accelerated adoption through accessible formats like balcony-mounted systems, though regulatory standardization remains fragmented across state jurisdictions.
+   Generated AI article body (11336 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://thenextweb.com/news/huawei-intelligent-world-2035-report-tokens-agents-forecast
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/36526/citi-forecasts-widening-memory-ch
-   Dropping dead/unreachable source: https://thenextweb.com/news/hinton-senate-briefing-ai-regulation-year
-   Dropping dead/unreachable source: https://thenextweb.com/news/newsom-ai-kill-switch-order
-   Source validation: 25 live of 87 fetched
-   Generated AI excerpt: AI infrastructure spending continues to accelerate, with NVIDIA leadership confirming robust capital deployment across the sector, while supply chain optimization—including Samsung's DDR5 reallocation and aerospace sector crossover—reflects growing demand pressures. Space technology consolidation discussions, including potential SpaceX-Tesla strategic combinations, signal investor appetite for integrated platforms capturing both orbital and terrestrial AI deployment opportunities.
-   Generated AI article body (10196 chars)
+   Dropping dead/unreachable source: https://thenextweb.com/news/oracle-force-majeure-project-jupiter-new-mexico
+   Dropping dead/unreachable source: https://thenextweb.com/news/us-china-ai-incident-alert-bessent-he-lifeng
+   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/36617/magnachip-shares-rise-14-after-se
+   Dropping dead/unreachable source: https://thenextweb.com/news/us-rejects-global-ai-governance
+   Dropping dead/unreachable source: https://thenextweb.com/news/sprind-nadi-ai-chip-design-challenge
+   Dropping dead/unreachable source: https://thenextweb.com/news/upwind-acquires-aegis-ai-security-labs
+   Dropping dead/unreachable source: https://thenextweb.com/news/morphotonics-raises-40m-waveguide-manufacturing-ai-glasses
+   Dropping dead/unreachable source: https://thenextweb.com/news/pentagon-ai-lie-detector-polygraph-next
+   Dropping dead/unreachable source: https://thenextweb.com/news/openai-global-ai-standards-push
+   Dropping dead/unreachable source: https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-g
+   Dropping dead/unreachable source: https://www.npr.org/2026/09/23/nx-s1-5978055/congress-ai-regulation
+   Dropping dead/unreachable source: https://thenextweb.com/news/markdown-default-language-search-data-ai-models
+   Dropping dead/unreachable source: https://thenextweb.com/news/glass-lewis-clarity-ai-merger-madrid-ai-centre
+   Dropping dead/unreachable source: https://thenextweb.com/news/finnish-ai-cloud-company-verda-raises-189m-and-it-is-now-the-l
+   Source validation: 25 live of 91 fetched
+   Generated AI excerpt: Microsoft and Google are intensifying competition in AI-integrated laptops, with Google's Gemini-enhanced devices starting at $899 while Microsoft leverages Snapdragon architecture for improved mobile-computing convergence. Meanwhile, enterprise AI adoption is creating measurable workplace wellness challenges, as employers navigate cognitive load and mental health impacts alongside productivity gains.
+   Generated AI article body (12866 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 13 live of 13 fetched
-   Generated AI excerpt: The U.S. rare earth supply chain is consolidating around domestic and allied sources, evidenced by recent acquisitions in Greenland and emerging recovery opportunities from coal ash reserves, positioning critical mineral access as a strategic complement to AI infrastructure buildout. Mining equipment manufacturers are simultaneously expanding overseas capacity—XCMG's new Indonesian remanufacturing base signals competition intensifying in the supply chain servicing this sector.
-   Generated AI article body (9640 chars)
+   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/36645/premier-graphene-affiliate-secure
+   Dropping dead/unreachable source: https://sputnikglobe.com/20260923/why-china-dominates-as-the-worlds-rare-earth-powerhouse-
+   Source validation: 20 live of 22 fetched
+   Generated AI excerpt: Rare earth critical minerals are experiencing renewed strategic importance as geopolitical supply chain concerns drive domestic production initiatives, with MP Materials advancing toward commercial deliveries to automotive manufacturers while yttrium export controls from China intensify Western sourcing pressures. The sector demonstrated immediate market response, with critical metals equities surging 25% following expanded U.S. mining permits and security agreements, signaling investor confidence in domestic supply chain diversification.
+   Generated AI article body (12814 chars)
    Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-09-21.html
-Generated: emerging-tech-2026-09-21.html
-Generated: materials-2026-09-21.html
+Generated: energy-transition-2026-09-28.html
+Generated: emerging-tech-2026-09-28.html
+Generated: materials-2026-09-28.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 100 URLs
+Generated sitemap.xml with 103 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 287
+Articles fetched: 288
 Briefs created: 3
-HTML files: energy-transition-2026-09-21.html, emerging-tech-2026-09-21.html, materials-2026-09-21.html
+HTML files: energy-transition-2026-09-28.html, emerging-tech-2026-09-28.html, materials-2026-09-28.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 287,
+  "articles_fetched": 288,
   "briefs_created": 3,
   "html_files_created": 3,
   "files": [
-    "energy-transition-2026-09-21.html",
-    "emerging-tech-2026-09-21.html",
-    "materials-2026-09-21.html"
+    "energy-transition-2026-09-28.html",
+    "emerging-tech-2026-09-28.html",
+    "materials-2026-09-28.html"
   ],
-  "publication_date": "2026-09-21T18:15:01.468282",
+  "publication_date": "2026-09-28T19:44:31.966384",
   "status": "success"
 }

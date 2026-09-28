@@ -1,5 +1,111 @@
 [
   {
+    "id": 103,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "September 28, 2026",
+    "url": "materials-2026-09-28.html",
+    "excerpt": "Rare earth critical minerals are experiencing renewed strategic importance as geopolitical supply chain concerns drive domestic production initiatives, with MP Materials advancing toward commercial deliveries to automotive manufacturers while yttrium export controls from China intensify Western sourcing pressures. The sector demonstrated immediate market response, with critical metals equities surging 25% following expanded U.S. mining permits and security agreements, signaling investor confidence in domestic supply chain diversification.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 20,
+    "primary_sources": [
+      "The Daily Caller",
+      "Yahoo Entertainment",
+      "24/7 Wall St."
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 20 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "September 28, 2026",
+    "url": "emerging-tech-2026-09-28.html",
+    "excerpt": "Microsoft and Google are intensifying competition in AI-integrated laptops, with Google's Gemini-enhanced devices starting at $899 while Microsoft leverages Snapdragon architecture for improved mobile-computing convergence. Meanwhile, enterprise AI adoption is creating measurable workplace wellness challenges, as employers navigate cognitive load and mental health impacts alongside productivity gains.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Slashdot.org",
+      "CNET",
+      "Entrepreneur"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 36 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology"
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "September 28, 2026",
+    "url": "energy-transition-2026-09-28.html",
+    "excerpt": "AI-driven optimization is increasingly critical to solar deployment efficiency, as demonstrated by California's pilot programs integrating computational management with distributed generation assets. The U.S. residential solar market is experiencing accelerated adoption through accessible formats like balcony-mounted systems, though regulatory standardization remains fragmented across state jurisdictions.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Gizmodo.com",
+      "The Verge",
+      "KQED"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 41 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, solar energy"
+    ]
+  },
+  {
     "id": 100,
     "title": "Materials Investment Brief",
     "slug": "materials",
