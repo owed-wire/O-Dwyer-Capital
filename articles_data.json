@@ -1,5 +1,114 @@
 [
   {
+    "id": 106,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "October 05, 2026",
+    "url": "materials-2026-10-05.html",
+    "excerpt": "Critical supply chain vulnerabilities in advanced materials are intensifying as China's dominance in rare earth processing creates bottlenecks for U.S. aerospace and defense sectors, while alternative sources like Greenland's Sarfartoq expansion and consolidation plays in specialty metals aim to address the $62B+ market opportunity in securing non-Chinese supply chains for AI infrastructure and high-tech manufacturing.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 20,
+    "primary_sources": [
+      "PRNewswire",
+      "RT",
+      "Naturalnews.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 21 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "October 05, 2026",
+    "url": "emerging-tech-2026-10-05.html",
+    "excerpt": "AI-driven data-center expansion is accelerating across the US, with projects proliferating at the gubernatorial level as demand intensifies. However, the sector faces a critical revenue justification gap, with analyses suggesting AI requires $6 trillion in annual revenue to economically sustain the infrastructure buildout currently underway.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Boing Boing",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 37 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "October 05, 2026",
+    "url": "energy-transition-2026-10-05.html",
+    "excerpt": "Offshore wind development is accelerating in key markets, with projects like Montrose expected to drive employment growth and grid capacity expansion. Distributed renewable energy systems have demonstrated operational resilience in conflict zones, suggesting increased market interest in decentralized infrastructure that can withstand supply chain disruptions.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "wind energy",
+      "artificial intelligence",
+      "renewable energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "CNET",
+      "Scientific American",
+      "Energytransition.org"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "wind energy",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 42 historical briefs"
+    },
+    "trend_context": [
+      "New developments: wind energy, artificial intelligence",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
     "id": 103,
     "title": "Materials Investment Brief",
     "slug": "materials",

@@ -6,6 +6,27 @@
     <description>Weekly investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Materials Investment Brief — October 05, 2026</title>
+      <link>https://www.odwyercapital.com/materials-2026-10-05.html</link>
+      <guid>https://www.odwyercapital.com/materials-2026-10-05.html</guid>
+      <pubDate>Mon, 05 Oct 2026 13:30:00 GMT</pubDate>
+      <description>Critical supply chain vulnerabilities in advanced materials are intensifying as China's dominance in rare earth processing creates bottlenecks for U.S. aerospace and defense sectors, while alternative sources like Greenland's Sarfartoq expansion and consolidation plays in specialty metals aim to address the $62B+ market opportunity in securing non-Chinese supply chains for AI infrastructure and high-tech manufacturing.</description>
+    </item>
+    <item>
+      <title>Emerging Tech Investment Brief — October 05, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-10-05.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-10-05.html</guid>
+      <pubDate>Mon, 05 Oct 2026 13:30:00 GMT</pubDate>
+      <description>AI-driven data-center expansion is accelerating across the US, with projects proliferating at the gubernatorial level as demand intensifies. However, the sector faces a critical revenue justification gap, with analyses suggesting AI requires $6 trillion in annual revenue to economically sustain the infrastructure buildout currently underway.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — October 05, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-10-05.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-10-05.html</guid>
+      <pubDate>Mon, 05 Oct 2026 13:30:00 GMT</pubDate>
+      <description>Offshore wind development is accelerating in key markets, with projects like Montrose expected to drive employment growth and grid capacity expansion. Distributed renewable energy systems have demonstrated operational resilience in conflict zones, suggesting increased market interest in decentralized infrastructure that can withstand supply chain disruptions.</description>
+    </item>
+    <item>
       <title>Materials Investment Brief — September 28, 2026</title>
       <link>https://www.odwyercapital.com/materials-2026-09-28.html</link>
       <guid>https://www.odwyercapital.com/materials-2026-09-28.html</guid>
@@ -123,27 +144,6 @@
       <guid>https://www.odwyercapital.com/emerging-tech-2026-09-10.html</guid>
       <pubDate>Thu, 10 Sep 2026 13:30:00 GMT</pubDate>
       <description>Google's €13 billion Finnish data center investment signals accelerating capital deployment in AI infrastructure, while concurrent regulatory pushback across Asia and North America is forcing developers to redesign facility architectures to address power consumption and environmental concerns. The sector's infrastructure demands are reshaping both hyperscaler capex strategies and energy partnerships, as evidenced by Brookfield's positioning in the AI power supply chain and SpaceX's large-scale data center deployment dynamics.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — September 10, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-09-10.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-09-10.html</guid>
-      <pubDate>Thu, 10 Sep 2026 13:30:00 GMT</pubDate>
-      <description>Global technology and renewable energy sectors are converging around AI-driven energy infrastructure, with major capital deployment evident in Google's $15 billion European AI investment and ongoing consolidation in battery storage—where China maintains dominant supply chain control despite $500M+ annual competitive spending. Operational optimization through AI integration is emerging as critical to accelerating renewable transition timelines, as evidenced by industry calls for scenario-based systems integration rather than infrastructure-first deployment models.</description>
-    </item>
-    <item>
-      <title>Emerging Tech Investment Brief — September 09, 2026</title>
-      <link>https://www.odwyercapital.com/emerging-tech-2026-09-09.html</link>
-      <guid>https://www.odwyercapital.com/emerging-tech-2026-09-09.html</guid>
-      <pubDate>Wed, 09 Sep 2026 13:30:00 GMT</pubDate>
-      <description>AI infrastructure buildout is driving elevated demand for high-bandwidth memory chips, with Micron Technology benefiting from the acceleration. Semiconductor manufacturers including TSMC and ASML are advancing next-generation lithography capabilities to enable smaller node production, while concurrent policy shifts are expanding data center deployment capacity across U.S. jurisdictions.</description>
-    </item>
-    <item>
-      <title>Energy Transition Investment Brief — September 09, 2026</title>
-      <link>https://www.odwyercapital.com/energy-transition-2026-09-09.html</link>
-      <guid>https://www.odwyercapital.com/energy-transition-2026-09-09.html</guid>
-      <pubDate>Wed, 09 Sep 2026 13:30:00 GMT</pubDate>
-      <description>Global energy storage capacity deployment is accelerating as CATL and other manufacturers address industry catch-up requirements, while distributed solar generation expanded significantly with projects like Torrent Green Energy's 322MWp Indian commissioning. Residential electrification trends are emerging as a secondary growth vector in mature markets like Europe, potentially creating new demand streams beyond utility-scale battery and solar installations.</description>
     </item>
   </channel>
 </rss>

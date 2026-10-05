@@ -3,76 +3,69 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-21T00:00:00Z to 2026-09-28T19:42:05.942403Z
-Fetched 288 articles
+Fetching articles from 2026-09-28T00:00:00Z to 2026-10-05T20:45:28.686765Z
+Fetched 278 articles
 
 2. Categorizing articles...
    energy-transition: 59 articles
-   emerging-tech: 91 articles
-   materials: 22 articles
+   emerging-tech: 69 articles
+   materials: 20 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://thenextweb.com/news/amber-electric-49m-series-e-morgan-stanley-1gt
-   Dropping dead/unreachable source: https://thenextweb.com/news/eu-data-centre-rating-scheme-energy-water
-   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/prince-edward-island/pei-summerside-solar-farm-fire-9.73533
+   Dropping dead/unreachable source: https://thenextweb.com/news/vw-gotion-lfp-valencia-49
+   Dropping dead/unreachable source: https://thenextweb.com/news/alibaba-solaria-spain-data-centre
+   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/canada-ev-battery-investments-9.7362430
    Source validation: 25 live of 59 fetched
-   Generated AI excerpt: AI-driven optimization is increasingly critical to solar deployment efficiency, as demonstrated by California's pilot programs integrating computational management with distributed generation assets. The U.S. residential solar market is experiencing accelerated adoption through accessible formats like balcony-mounted systems, though regulatory standardization remains fragmented across state jurisdictions.
-   Generated AI article body (11336 chars)
+   Generated AI excerpt: Offshore wind development is accelerating in key markets, with projects like Montrose expected to drive employment growth and grid capacity expansion. Distributed renewable energy systems have demonstrated operational resilience in conflict zones, suggesting increased market interest in decentralized infrastructure that can withstand supply chain disruptions.
+   Generated AI article body (10267 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://thenextweb.com/news/oracle-force-majeure-project-jupiter-new-mexico
-   Dropping dead/unreachable source: https://thenextweb.com/news/us-china-ai-incident-alert-bessent-he-lifeng
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/36617/magnachip-shares-rise-14-after-se
-   Dropping dead/unreachable source: https://thenextweb.com/news/us-rejects-global-ai-governance
-   Dropping dead/unreachable source: https://thenextweb.com/news/sprind-nadi-ai-chip-design-challenge
-   Dropping dead/unreachable source: https://thenextweb.com/news/upwind-acquires-aegis-ai-security-labs
-   Dropping dead/unreachable source: https://thenextweb.com/news/morphotonics-raises-40m-waveguide-manufacturing-ai-glasses
-   Dropping dead/unreachable source: https://thenextweb.com/news/pentagon-ai-lie-detector-polygraph-next
-   Dropping dead/unreachable source: https://thenextweb.com/news/openai-global-ai-standards-push
-   Dropping dead/unreachable source: https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-g
-   Dropping dead/unreachable source: https://www.npr.org/2026/09/23/nx-s1-5978055/congress-ai-regulation
-   Dropping dead/unreachable source: https://thenextweb.com/news/markdown-default-language-search-data-ai-models
-   Dropping dead/unreachable source: https://thenextweb.com/news/glass-lewis-clarity-ai-merger-madrid-ai-centre
-   Dropping dead/unreachable source: https://thenextweb.com/news/finnish-ai-cloud-company-verda-raises-189m-and-it-is-now-the-l
-   Source validation: 25 live of 91 fetched
-   Generated AI excerpt: Microsoft and Google are intensifying competition in AI-integrated laptops, with Google's Gemini-enhanced devices starting at $899 while Microsoft leverages Snapdragon architecture for improved mobile-computing convergence. Meanwhile, enterprise AI adoption is creating measurable workplace wellness challenges, as employers navigate cognitive load and mental health impacts alongside productivity gains.
-   Generated AI article body (12866 chars)
+   Dropping dead/unreachable source: https://thenextweb.com/news/samsung-1bn-helix-kkr-ai-infrastructure
+   Dropping dead/unreachable source: https://thenextweb.com/news/trump-white-house-ai-ceos-lunch-2
+   Dropping dead/unreachable source: https://thenextweb.com/news/pentagon-project-meridian-musk-luckey-gingrich
+   Dropping dead/unreachable source: https://thenextweb.com/news/ai-control-enterprise-resilience-kill-switch
+   Dropping dead/unreachable source: https://thenextweb.com/news/pope-leo-ai-safety-fears-not-fake-news-jensen-huang
+   Dropping dead/unreachable source: https://thenextweb.com/news/nyc-council-subpoena-spacexai-ai-safety-hearing
+   Dropping dead/unreachable source: https://thenextweb.com/news/glm-5-3-cyber-exploits-mythos-anthropic-safeguards
+   Dropping dead/unreachable source: https://thenextweb.com/news/autoheal-7-9m-seed-self-improving-software-factory
+   Dropping dead/unreachable source: https://thenextweb.com/news/moca-chain-mainnet-ai-agents-digital-identity
+   Source validation: 25 live of 69 fetched
+   Generated AI excerpt: AI-driven data-center expansion is accelerating across the US, with projects proliferating at the gubernatorial level as demand intensifies. However, the sector faces a critical revenue justification gap, with analyses suggesting AI requires $6 trillion in annual revenue to economically sustain the infrastructure buildout currently underway.
+   Generated AI article body (11802 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://investorshub.advfn.com/market-news/article/36645/premier-graphene-affiliate-secure
-   Dropping dead/unreachable source: https://sputnikglobe.com/20260923/why-china-dominates-as-the-worlds-rare-earth-powerhouse-
-   Source validation: 20 live of 22 fetched
-   Generated AI excerpt: Rare earth critical minerals are experiencing renewed strategic importance as geopolitical supply chain concerns drive domestic production initiatives, with MP Materials advancing toward commercial deliveries to automotive manufacturers while yttrium export controls from China intensify Western sourcing pressures. The sector demonstrated immediate market response, with critical metals equities surging 25% following expanded U.S. mining permits and security agreements, signaling investor confidence in domestic supply chain diversification.
-   Generated AI article body (12814 chars)
+   Source validation: 20 live of 20 fetched
+   Generated AI excerpt: Critical supply chain vulnerabilities in advanced materials are intensifying as China's dominance in rare earth processing creates bottlenecks for U.S. aerospace and defense sectors, while alternative sources like Greenland's Sarfartoq expansion and consolidation plays in specialty metals aim to address the $62B+ market opportunity in securing non-Chinese supply chains for AI infrastructure and high-tech manufacturing.
+   Generated AI article body (12530 chars)
    Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-09-28.html
-Generated: emerging-tech-2026-09-28.html
-Generated: materials-2026-09-28.html
+Generated: energy-transition-2026-10-05.html
+Generated: emerging-tech-2026-10-05.html
+Generated: materials-2026-10-05.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 103 URLs
+Generated sitemap.xml with 106 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 288
+Articles fetched: 278
 Briefs created: 3
-HTML files: energy-transition-2026-09-28.html, emerging-tech-2026-09-28.html, materials-2026-09-28.html
+HTML files: energy-transition-2026-10-05.html, emerging-tech-2026-10-05.html, materials-2026-10-05.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 288,
+  "articles_fetched": 278,
   "briefs_created": 3,
   "html_files_created": 3,
   "files": [
-    "energy-transition-2026-09-28.html",
-    "emerging-tech-2026-09-28.html",
-    "materials-2026-09-28.html"
+    "energy-transition-2026-10-05.html",
+    "emerging-tech-2026-10-05.html",
+    "materials-2026-10-05.html"
   ],
-  "publication_date": "2026-09-28T19:44:31.966384",
+  "publication_date": "2026-10-05T20:47:14.459141",
   "status": "success"
 }
