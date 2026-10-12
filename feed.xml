@@ -6,6 +6,20 @@
     <description>Weekly investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>
     <language>en-us</language>
     <item>
+      <title>Emerging Tech Investment Brief — October 12, 2026</title>
+      <link>https://www.odwyercapital.com/emerging-tech-2026-10-12.html</link>
+      <guid>https://www.odwyercapital.com/emerging-tech-2026-10-12.html</guid>
+      <pubDate>Mon, 12 Oct 2026 13:30:00 GMT</pubDate>
+      <description>The technology sector is experiencing concurrent investment waves across AI agents, quantum computing, and space infrastructure, with major players including Google backing biological AI research and Amazon's reported restrictions on AI agents potentially creating competitive openings. SpaceX's valuation trajectory and GM's advanced manufacturing capabilities signal accelerating capital deployment in AI-driven production systems and space commercialization, though quantum computing adoption remains constrained by fundamental technical barriers.</description>
+    </item>
+    <item>
+      <title>Energy Transition Investment Brief — October 12, 2026</title>
+      <link>https://www.odwyercapital.com/energy-transition-2026-10-12.html</link>
+      <guid>https://www.odwyercapital.com/energy-transition-2026-10-12.html</guid>
+      <pubDate>Mon, 12 Oct 2026 13:30:00 GMT</pubDate>
+      <description>AI-powered energy storage solutions are gaining traction as companies like Moment Energy repurpose end-of-life EV batteries into containerized systems, addressing both grid stability and circular economy demands. Meanwhile, infrastructure projects such as Hawaii's LNG facilities face significant stranded asset risks, underscoring the capital intensity and execution challenges in energy transition investments amid geopolitical uncertainty and rising bond yields.</description>
+    </item>
+    <item>
       <title>Materials Investment Brief — October 05, 2026</title>
       <link>https://www.odwyercapital.com/materials-2026-10-05.html</link>
       <guid>https://www.odwyercapital.com/materials-2026-10-05.html</guid>
@@ -130,20 +144,6 @@
       <guid>https://www.odwyercapital.com/energy-transition-2026-09-14.html</guid>
       <pubDate>Mon, 14 Sep 2026 13:30:00 GMT</pubDate>
       <description>Venture Global's entry into buy territory amid rising oil prices reflects renewed investor appetite for energy infrastructure plays, while space-enabled logistics and satellite technologies are reshaping traditional shipping and energy sector valuations alongside commodity price volatility.</description>
-    </item>
-    <item>
-      <title>Materials Investment Brief — September 10, 2026</title>
-      <link>https://www.odwyercapital.com/materials-2026-09-10.html</link>
-      <guid>https://www.odwyercapital.com/materials-2026-09-10.html</guid>
-      <pubDate>Thu, 10 Sep 2026 13:30:00 GMT</pubDate>
-      <description>Georgia's EV manufacturing ambitions face regulatory reversal following administration change, while Thailand advances competitive positioning through targeted tax incentives for localized production and export capability. Ford's supply chain exposure to Chinese technology illustrates ongoing geopolitical friction in the automotive sector, as governments increasingly condition manufacturing investment on domestic content requirements and technology sourcing restrictions.</description>
-    </item>
-    <item>
-      <title>Emerging Tech Investment Brief — September 10, 2026</title>
-      <link>https://www.odwyercapital.com/emerging-tech-2026-09-10.html</link>
-      <guid>https://www.odwyercapital.com/emerging-tech-2026-09-10.html</guid>
-      <pubDate>Thu, 10 Sep 2026 13:30:00 GMT</pubDate>
-      <description>Google's €13 billion Finnish data center investment signals accelerating capital deployment in AI infrastructure, while concurrent regulatory pushback across Asia and North America is forcing developers to redesign facility architectures to address power consumption and environmental concerns. The sector's infrastructure demands are reshaping both hyperscaler capex strategies and energy partnerships, as evidenced by Brookfield's positioning in the AI power supply chain and SpaceX's large-scale data center deployment dynamics.</description>
     </item>
   </channel>
 </rss>

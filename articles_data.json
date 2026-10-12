@@ -1,5 +1,76 @@
 [
   {
+    "id": 108,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "October 12, 2026",
+    "url": "emerging-tech-2026-10-12.html",
+    "excerpt": "The technology sector is experiencing concurrent investment waves across AI agents, quantum computing, and space infrastructure, with major players including Google backing biological AI research and Amazon's reported restrictions on AI agents potentially creating competitive openings. SpaceX's valuation trajectory and GM's advanced manufacturing capabilities signal accelerating capital deployment in AI-driven production systems and space commercialization, though quantum computing adoption remains constrained by fundamental technical barriers.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence",
+      "space technology",
+      "quantum computing"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Gizmodo.com",
+      "The Verge"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "space technology",
+        "quantum computing"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 38 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, space technology, quantum computing"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "October 12, 2026",
+    "url": "energy-transition-2026-10-12.html",
+    "excerpt": "AI-powered energy storage solutions are gaining traction as companies like Moment Energy repurpose end-of-life EV batteries into containerized systems, addressing both grid stability and circular economy demands. Meanwhile, infrastructure projects such as Hawaii's LNG facilities face significant stranded asset risks, underscoring the capital intensity and execution challenges in energy transition investments amid geopolitical uncertainty and rising bond yields.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "CleanTechnica",
+      "MIT Technology Review",
+      "Yahoo Entertainment"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 43 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ]
+  },
+  {
     "id": 106,
     "title": "Materials Investment Brief",
     "slug": "materials",

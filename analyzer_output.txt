@@ -3,69 +3,72 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-09-28T00:00:00Z to 2026-10-05T20:45:28.686765Z
-Fetched 278 articles
+Fetching articles from 2026-10-05T00:00:00Z to 2026-10-12T21:17:31.201227Z
+Fetched 282 articles
 
 2. Categorizing articles...
-   energy-transition: 59 articles
-   emerging-tech: 69 articles
-   materials: 20 articles
+   energy-transition: 50 articles
+   emerging-tech: 81 articles
+   materials: 19 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://thenextweb.com/news/vw-gotion-lfp-valencia-49
-   Dropping dead/unreachable source: https://thenextweb.com/news/alibaba-solaria-spain-data-centre
-   Dropping dead/unreachable source: https://www.cbc.ca/news/canada/canada-ev-battery-investments-9.7362430
-   Source validation: 25 live of 59 fetched
-   Generated AI excerpt: Offshore wind development is accelerating in key markets, with projects like Montrose expected to drive employment growth and grid capacity expansion. Distributed renewable energy systems have demonstrated operational resilience in conflict zones, suggesting increased market interest in decentralized infrastructure that can withstand supply chain disruptions.
-   Generated AI article body (10267 chars)
+   Dropping dead/unreachable source: https://thenextweb.com/news/voltus-225m-series-d-virtual-power-plant
+   Dropping dead/unreachable source: https://thenextweb.com/news/deepseek-12bn-funding-round-tencent-catl
+   Dropping dead/unreachable source: https://thenextweb.com/news/nokia-hotard-data-centres-europe
+   Dropping dead/unreachable source: https://thenextweb.com/news/nvidia-1-billion-us-science-genesis-mission-quantum
+   Dropping dead/unreachable source: https://www.cbc.ca/news/climate/what-on-earth-electricians-9.7373733
+   Source validation: 25 live of 50 fetched
+   Generated AI excerpt: AI-powered energy storage solutions are gaining traction as companies like Moment Energy repurpose end-of-life EV batteries into containerized systems, addressing both grid stability and circular economy demands. Meanwhile, infrastructure projects such as Hawaii's LNG facilities face significant stranded asset risks, underscoring the capital intensity and execution challenges in energy transition investments amid geopolitical uncertainty and rising bond yields.
+   Generated AI article body (10869 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://thenextweb.com/news/samsung-1bn-helix-kkr-ai-infrastructure
-   Dropping dead/unreachable source: https://thenextweb.com/news/trump-white-house-ai-ceos-lunch-2
-   Dropping dead/unreachable source: https://thenextweb.com/news/pentagon-project-meridian-musk-luckey-gingrich
-   Dropping dead/unreachable source: https://thenextweb.com/news/ai-control-enterprise-resilience-kill-switch
-   Dropping dead/unreachable source: https://thenextweb.com/news/pope-leo-ai-safety-fears-not-fake-news-jensen-huang
-   Dropping dead/unreachable source: https://thenextweb.com/news/nyc-council-subpoena-spacexai-ai-safety-hearing
-   Dropping dead/unreachable source: https://thenextweb.com/news/glm-5-3-cyber-exploits-mythos-anthropic-safeguards
-   Dropping dead/unreachable source: https://thenextweb.com/news/autoheal-7-9m-seed-self-improving-software-factory
-   Dropping dead/unreachable source: https://thenextweb.com/news/moca-chain-mainnet-ai-agents-digital-identity
-   Source validation: 25 live of 69 fetched
-   Generated AI excerpt: AI-driven data-center expansion is accelerating across the US, with projects proliferating at the gubernatorial level as demand intensifies. However, the sector faces a critical revenue justification gap, with analyses suggesting AI requires $6 trillion in annual revenue to economically sustain the infrastructure buildout currently underway.
-   Generated AI article body (11802 chars)
+   Dropping dead/unreachable source: https://thenextweb.com/news/vittorio-colao-europe-ai-compute-28th-regime-wave-by-vento
+   Dropping dead/unreachable source: https://thenextweb.com/news/national-medal-of-science-musk-huang-su-brin-nadella-dell
+   Dropping dead/unreachable source: https://thenextweb.com/news/trump-24bn-ai-science-pledges-europe
+   Dropping dead/unreachable source: https://thenextweb.com/news/chip-simulation-startup-vinci-raises-250m-at-a-1-5bn-valuation
+   Dropping dead/unreachable source: https://thenextweb.com/news/alibaba-joe-tsai-open-source-ai-sovereignty-europe-wave-by-ven
+   Dropping dead/unreachable source: https://thenextweb.com/news/marco-argenti-goldman-sachs-ai-third-wave-growth-wave-by-vento
+   Dropping dead/unreachable source: https://www.npr.org/2026/10/05/nx-s1-5925803/drones-buzz-overhead-troops-hunker-undergroun
+   Dropping dead/unreachable source: https://thenextweb.com/news/sam-altman-trump-ai-accord-good-start-vanity-fair
+   Dropping dead/unreachable source: https://thenextweb.com/news/station-f-anthropic-startups-in-person-ai-boom-wave-by-vento
+   Dropping dead/unreachable source: https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatg
+   Dropping dead/unreachable source: https://thenextweb.com/news/healthcare-ai-human-context-claims-workers-compensation
+   Dropping dead/unreachable source: https://thenextweb.com/news/coreweave-india-adaniconnex-240mw-navi-mumbai
+   Source validation: 25 live of 81 fetched
+   Generated AI excerpt: The technology sector is experiencing concurrent investment waves across AI agents, quantum computing, and space infrastructure, with major players including Google backing biological AI research and Amazon's reported restrictions on AI agents potentially creating competitive openings. SpaceX's valuation trajectory and GM's advanced manufacturing capabilities signal accelerating capital deployment in AI-driven production systems and space commercialization, though quantum computing adoption remains constrained by fundamental technical barriers.
+   Generated AI article body (10995 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 20 live of 20 fetched
-   Generated AI excerpt: Critical supply chain vulnerabilities in advanced materials are intensifying as China's dominance in rare earth processing creates bottlenecks for U.S. aerospace and defense sectors, while alternative sources like Greenland's Sarfartoq expansion and consolidation plays in specialty metals aim to address the $62B+ market opportunity in securing non-Chinese supply chains for AI infrastructure and high-tech manufacturing.
-   Generated AI article body (12530 chars)
-   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
+   Source validation: 19 live of 19 fetched
+   Generated AI excerpt: U.S. and Australian-backed rare earth mining projects are advancing as supply chain pressures mount, yet processing capacity remains a critical constraint with China retaining dominant market control. Strategic resource competition is intensifying across multiple fronts—from rare earth supply chains to broader geopolitical positioning around commodities in emerging markets—reshaping near-term investment opportunities in critical materials infrastructure.
+   Generated AI article body (11972 chars)
+   Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-10-05.html
-Generated: emerging-tech-2026-10-05.html
-Generated: materials-2026-10-05.html
+Generated: energy-transition-2026-10-12.html
+Generated: emerging-tech-2026-10-12.html
 
 5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 106 URLs
+Generated sitemap.xml with 108 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 278
-Briefs created: 3
-HTML files: energy-transition-2026-10-05.html, emerging-tech-2026-10-05.html, materials-2026-10-05.html
+Articles fetched: 282
+Briefs created: 2
+HTML files: energy-transition-2026-10-12.html, emerging-tech-2026-10-12.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 278,
-  "briefs_created": 3,
-  "html_files_created": 3,
+  "articles_fetched": 282,
+  "briefs_created": 2,
+  "html_files_created": 2,
   "files": [
-    "energy-transition-2026-10-05.html",
-    "emerging-tech-2026-10-05.html",
-    "materials-2026-10-05.html"
+    "energy-transition-2026-10-12.html",
+    "emerging-tech-2026-10-12.html"
   ],
-  "publication_date": "2026-10-05T20:47:14.459141",
+  "publication_date": "2026-10-12T21:19:45.031242",
   "status": "success"
 }
