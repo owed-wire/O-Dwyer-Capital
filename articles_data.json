@@ -1,5 +1,82 @@
 [
   {
+    "id": 110,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "October 19, 2026",
+    "url": "emerging-tech-2026-10-19.html",
+    "excerpt": "Global AI infrastructure investments are accelerating, with data center expansion driving demand for advanced energy storage solutions to manage power consumption and grid stability. Singapore's economy expanded over 5% amid AI adoption, while major tech players are competing heavily on GPU optimization and data management capabilities\u2014signaling sustained capex cycles in compute and storage infrastructure.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "energy storage",
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "TechRadar",
+      "The Atlantic",
+      "Business Insider"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "energy storage",
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 39 historical briefs"
+    },
+    "trend_context": [
+      "New developments: energy storage, artificial intelligence"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "October 19, 2026",
+    "url": "energy-transition-2026-10-19.html",
+    "excerpt": "Sub-Saharan Africa's 560 million people without grid access present a parallel renewable deployment opportunity, while lithium-ion battery research into multi-ion clustering mechanisms continues advancing storage efficiency\u2014critical as AI infrastructure demands drive incremental power consumption across data centers globally.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "renewable energy",
+      "artificial intelligence",
+      "battery technology"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Filippo.io",
+      "Al Jazeera English"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence",
+        "battery technology"
+      ],
+      "ongoing_themes": [
+        "renewable energy"
+      ],
+      "accelerating_themes": [
+        "renewable energy"
+      ],
+      "historical_context": "Based on analysis of 44 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence, battery technology",
+      "Accelerating trends: renewable energy"
+    ]
+  },
+  {
     "id": 108,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",

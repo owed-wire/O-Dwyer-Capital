@@ -3,72 +3,62 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-10-05T00:00:00Z to 2026-10-12T21:17:31.201227Z
-Fetched 282 articles
+Fetching articles from 2026-10-12T00:00:00Z to 2026-10-19T18:44:34.507957Z
+Fetched 283 articles
 
 2. Categorizing articles...
-   energy-transition: 50 articles
-   emerging-tech: 81 articles
-   materials: 19 articles
+   energy-transition: 56 articles
+   emerging-tech: 77 articles
+   materials: 25 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://thenextweb.com/news/voltus-225m-series-d-virtual-power-plant
-   Dropping dead/unreachable source: https://thenextweb.com/news/deepseek-12bn-funding-round-tencent-catl
-   Dropping dead/unreachable source: https://thenextweb.com/news/nokia-hotard-data-centres-europe
-   Dropping dead/unreachable source: https://thenextweb.com/news/nvidia-1-billion-us-science-genesis-mission-quantum
-   Dropping dead/unreachable source: https://www.cbc.ca/news/climate/what-on-earth-electricians-9.7373733
-   Source validation: 25 live of 50 fetched
-   Generated AI excerpt: AI-powered energy storage solutions are gaining traction as companies like Moment Energy repurpose end-of-life EV batteries into containerized systems, addressing both grid stability and circular economy demands. Meanwhile, infrastructure projects such as Hawaii's LNG facilities face significant stranded asset risks, underscoring the capital intensity and execution challenges in energy transition investments amid geopolitical uncertainty and rising bond yields.
-   Generated AI article body (10869 chars)
+   Dropping dead/unreachable source: https://thenextweb.com/news/imf-ai-investment-global-growth-asia
+   Source validation: 25 live of 56 fetched
+   Generated AI excerpt: Sub-Saharan Africa's 560 million people without grid access present a parallel renewable deployment opportunity, while lithium-ion battery research into multi-ion clustering mechanisms continues advancing storage efficiency—critical as AI infrastructure demands drive incremental power consumption across data centers globally.
+   Generated AI article body (11858 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://thenextweb.com/news/vittorio-colao-europe-ai-compute-28th-regime-wave-by-vento
-   Dropping dead/unreachable source: https://thenextweb.com/news/national-medal-of-science-musk-huang-su-brin-nadella-dell
-   Dropping dead/unreachable source: https://thenextweb.com/news/trump-24bn-ai-science-pledges-europe
-   Dropping dead/unreachable source: https://thenextweb.com/news/chip-simulation-startup-vinci-raises-250m-at-a-1-5bn-valuation
-   Dropping dead/unreachable source: https://thenextweb.com/news/alibaba-joe-tsai-open-source-ai-sovereignty-europe-wave-by-ven
-   Dropping dead/unreachable source: https://thenextweb.com/news/marco-argenti-goldman-sachs-ai-third-wave-growth-wave-by-vento
-   Dropping dead/unreachable source: https://www.npr.org/2026/10/05/nx-s1-5925803/drones-buzz-overhead-troops-hunker-undergroun
-   Dropping dead/unreachable source: https://thenextweb.com/news/sam-altman-trump-ai-accord-good-start-vanity-fair
-   Dropping dead/unreachable source: https://thenextweb.com/news/station-f-anthropic-startups-in-person-ai-boom-wave-by-vento
-   Dropping dead/unreachable source: https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatg
-   Dropping dead/unreachable source: https://thenextweb.com/news/healthcare-ai-human-context-claims-workers-compensation
-   Dropping dead/unreachable source: https://thenextweb.com/news/coreweave-india-adaniconnex-240mw-navi-mumbai
-   Source validation: 25 live of 81 fetched
-   Generated AI excerpt: The technology sector is experiencing concurrent investment waves across AI agents, quantum computing, and space infrastructure, with major players including Google backing biological AI research and Amazon's reported restrictions on AI agents potentially creating competitive openings. SpaceX's valuation trajectory and GM's advanced manufacturing capabilities signal accelerating capital deployment in AI-driven production systems and space commercialization, though quantum computing adoption remains constrained by fundamental technical barriers.
-   Generated AI article body (10995 chars)
+   Dropping dead/unreachable source: https://thenextweb.com/news/imf-circular-ai-deals-financial-stability-report
+   Dropping dead/unreachable source: https://thenextweb.com/news/asml-q3-capacity-2030-orders
+   Dropping dead/unreachable source: https://thenextweb.com/news/loops-3-5m-seed-round-ai-commerce-a16z-speedrun
+   Dropping dead/unreachable source: https://thenextweb.com/news/palantir-shyam-sankar-pentagon-replaced-anthropic-face-the-nat
+   Dropping dead/unreachable source: https://thenextweb.com/news/ai-hr-decision-fatigue-automation-paycom
+   Dropping dead/unreachable source: https://thenextweb.com/news/pluto-security-42m-ai-workspace-security-stealth
+   Source validation: 25 live of 77 fetched
+   Generated AI excerpt: Global AI infrastructure investments are accelerating, with data center expansion driving demand for advanced energy storage solutions to manage power consumption and grid stability. Singapore's economy expanded over 5% amid AI adoption, while major tech players are competing heavily on GPU optimization and data management capabilities—signaling sustained capex cycles in compute and storage infrastructure.
+   Generated AI article body (12136 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 19 live of 19 fetched
-   Generated AI excerpt: U.S. and Australian-backed rare earth mining projects are advancing as supply chain pressures mount, yet processing capacity remains a critical constraint with China retaining dominant market control. Strategic resource competition is intensifying across multiple fronts—from rare earth supply chains to broader geopolitical positioning around commodities in emerging markets—reshaping near-term investment opportunities in critical materials infrastructure.
-   Generated AI article body (11972 chars)
+   Source validation: 25 live of 25 fetched
+   Generated AI excerpt: Global mineral supply chains are consolidating around strategic partnerships, exemplified by Mercuria and Gécamines' joint venture to market 240,000 tonnes of Kipushi zinc concentrate, while geopolitical reassessment of rare earth production capacity signals renewed focus on domestic sourcing and mineral governance frameworks. Manufacturing innovation is simultaneously reshaping production economics, as demonstrated by Bangladesh-based operations winning international architecture recognition for operational efficiency gains.
+   Generated AI article body (10632 chars)
    Skipped materials: No new themes since last brief
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-10-12.html
-Generated: emerging-tech-2026-10-12.html
+Generated: energy-transition-2026-10-19.html
+Generated: emerging-tech-2026-10-19.html
 
 5. Updating articles_data.json...
 Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 108 URLs
+Generated sitemap.xml with 110 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 282
+Articles fetched: 283
 Briefs created: 2
-HTML files: energy-transition-2026-10-12.html, emerging-tech-2026-10-12.html
+HTML files: energy-transition-2026-10-19.html, emerging-tech-2026-10-19.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 282,
+  "articles_fetched": 283,
   "briefs_created": 2,
   "html_files_created": 2,
   "files": [
-    "energy-transition-2026-10-12.html",
-    "emerging-tech-2026-10-12.html"
+    "energy-transition-2026-10-19.html",
+    "emerging-tech-2026-10-19.html"
   ],
-  "publication_date": "2026-10-12T21:19:45.031242",
+  "publication_date": "2026-10-19T18:46:17.603676",
   "status": "success"
 }
