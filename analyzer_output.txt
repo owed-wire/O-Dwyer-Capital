@@ -3,62 +3,58 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-10-12T00:00:00Z to 2026-10-19T18:44:34.507957Z
-Fetched 283 articles
+Fetching articles from 2026-10-19T00:00:00Z to 2026-10-26T18:42:07.484516Z
+Fetched 274 articles
 
 2. Categorizing articles...
-   energy-transition: 56 articles
-   emerging-tech: 77 articles
-   materials: 25 articles
+   energy-transition: 46 articles
+   emerging-tech: 81 articles
+   materials: 23 articles
 
 3. Creating analytical briefs...
-   Dropping dead/unreachable source: https://thenextweb.com/news/imf-ai-investment-global-growth-asia
-   Source validation: 25 live of 56 fetched
-   Generated AI excerpt: Sub-Saharan Africa's 560 million people without grid access present a parallel renewable deployment opportunity, while lithium-ion battery research into multi-ion clustering mechanisms continues advancing storage efficiency—critical as AI infrastructure demands drive incremental power consumption across data centers globally.
-   Generated AI article body (11858 chars)
+   Source validation: 25 live of 46 fetched
+   Generated AI excerpt: AI-driven data center demand is significantly straining clean energy capacity, with operators racing to secure renewable power sources to meet computing infrastructure growth. Regional energy systems face mounting pressure to deliver reliable baseload and peak capacity simultaneously, while policy frameworks struggle to accommodate accelerated timelines for grid modernization and renewable deployment.
+   Generated AI article body (10640 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://thenextweb.com/news/imf-circular-ai-deals-financial-stability-report
-   Dropping dead/unreachable source: https://thenextweb.com/news/asml-q3-capacity-2030-orders
-   Dropping dead/unreachable source: https://thenextweb.com/news/loops-3-5m-seed-round-ai-commerce-a16z-speedrun
-   Dropping dead/unreachable source: https://thenextweb.com/news/palantir-shyam-sankar-pentagon-replaced-anthropic-face-the-nat
-   Dropping dead/unreachable source: https://thenextweb.com/news/ai-hr-decision-fatigue-automation-paycom
-   Dropping dead/unreachable source: https://thenextweb.com/news/pluto-security-42m-ai-workspace-security-stealth
-   Source validation: 25 live of 77 fetched
-   Generated AI excerpt: Global AI infrastructure investments are accelerating, with data center expansion driving demand for advanced energy storage solutions to manage power consumption and grid stability. Singapore's economy expanded over 5% amid AI adoption, while major tech players are competing heavily on GPU optimization and data management capabilities—signaling sustained capex cycles in compute and storage infrastructure.
-   Generated AI article body (12136 chars)
+   Dropping dead/unreachable source: https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war
+   Source validation: 25 live of 81 fetched
+   Generated AI excerpt: AI infrastructure investment is intensifying as major tech players recalibrate capital allocation strategies, with Meta narrowing capex forecasts while competing in AI agents and autonomous systems, while data center expansion emerges as a politically sensitive variable in upcoming electoral cycles. The sector faces operational friction points, including regulatory pushback on environmental impacts—as evidenced by Finland's response to Google's forest clearing for AI infrastructure—that could materially affect deployment timelines and permitting costs.
+   Generated AI article body (11698 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Source validation: 25 live of 25 fetched
-   Generated AI excerpt: Global mineral supply chains are consolidating around strategic partnerships, exemplified by Mercuria and Gécamines' joint venture to market 240,000 tonnes of Kipushi zinc concentrate, while geopolitical reassessment of rare earth production capacity signals renewed focus on domestic sourcing and mineral governance frameworks. Manufacturing innovation is simultaneously reshaping production economics, as demonstrated by Bangladesh-based operations winning international architecture recognition for operational efficiency gains.
-   Generated AI article body (10632 chars)
-   Skipped materials: No new themes since last brief
+   Source validation: 23 live of 23 fetched
+   Generated AI excerpt: AI-enabled resource optimization is emerging as a critical efficiency lever across infrastructure and supply chains, with applications ranging from distributed computing via connected home appliances to automated rare earth extraction processes. This convergence reflects broader capital reallocation toward AI-powered operational improvements in traditionally capital-intensive sectors, alongside continued geographic diversification of critical mineral sourcing.
+   Generated AI article body (11032 chars)
+   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-10-19.html
-Generated: emerging-tech-2026-10-19.html
+Generated: energy-transition-2026-10-26.html
+Generated: emerging-tech-2026-10-26.html
+Generated: materials-2026-10-26.html
 
 5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml and feed.xml...
-Generated sitemap.xml with 110 URLs
+Generated sitemap.xml with 113 URLs
 Generated feed.xml with 20 items
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 283
-Briefs created: 2
-HTML files: energy-transition-2026-10-19.html, emerging-tech-2026-10-19.html
+Articles fetched: 274
+Briefs created: 3
+HTML files: energy-transition-2026-10-26.html, emerging-tech-2026-10-26.html, materials-2026-10-26.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 283,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 274,
+  "briefs_created": 3,
+  "html_files_created": 3,
   "files": [
-    "energy-transition-2026-10-19.html",
-    "emerging-tech-2026-10-19.html"
+    "energy-transition-2026-10-26.html",
+    "emerging-tech-2026-10-26.html",
+    "materials-2026-10-26.html"
   ],
-  "publication_date": "2026-10-19T18:46:17.603676",
+  "publication_date": "2026-10-26T18:43:51.107193",
   "status": "success"
 }
