@@ -1,0 +1,134 @@
+# O'Dwyer Capital
+
+> O'Dwyer Capital is a family investment office backing the energy transition, emerging technology and strategic materials shifts of the next twenty years, with patient capital (5-20 year thesis horizon) and research published every week.
+
+Every Monday we publish an investment brief for each of three series: Energy Transition (renewables, storage, grid), Emerging Tech (AI infrastructure, semiconductors, satellites, quantum) and Materials (rare earths, graphene, critical mineral supply chains). Each brief has an executive summary, key developments with cited sources, investment implications and risk factors. Briefs are personal perspectives for informational purposes only, not investment advice.
+
+## Site
+
+- [Home](https://www.odwyercapital.com/): who we are, our approach and focus areas
+- [Research](https://www.odwyercapital.com/thoughts): searchable archive of every brief
+- [Contact](https://www.odwyercapital.com/contact): investment opportunities, partnerships and research inquiries
+- [RSS feed](https://www.odwyercapital.com/feed.xml): the latest briefs
+
+## Latest briefs
+
+- [Critical Materials Reshoring Accelerates as Supply Chain Diversification Becomes Competitive Imperative](https://www.odwyercapital.com/materials-2026-10-26): October 26, 2026. AI-enabled resource optimization is emerging as a critical efficiency lever across infrastructure and supply chains, with applications ranging from distributed computing via connected home appliances to automated rare earth extraction processes. This convergence reflects broader capital reallocation toward AI-powered operational improvements in traditionally capital-intensive sectors, alongside continued geographic diversification of critical mineral sourcing.
+- [Data Center Opposition and Supply Chain Nationalism Challenge AI Infrastructure Buildout](https://www.odwyercapital.com/emerging-tech-2026-10-26): October 26, 2026. AI infrastructure investment is intensifying as major tech players recalibrate capital allocation strategies, with Meta narrowing capex forecasts while competing in AI agents and autonomous systems, while data center expansion emerges as a politically sensitive variable in upcoming electoral cycles. The sector faces operational friction points, including regulatory pushback on environmental impacts—as evidenced by Finland's response to Google's forest clearing for AI infrastructure—that could materially affect deployment timelines and permitting costs.
+- [AI Data Center Energy Demand Collides with Grid Constraints and Geopolitical Oil Volatility](https://www.odwyercapital.com/energy-transition-2026-10-26): October 26, 2026. AI-driven data center demand is significantly straining clean energy capacity, with operators racing to secure renewable power sources to meet computing infrastructure growth. Regional energy systems face mounting pressure to deliver reliable baseload and peak capacity simultaneously, while policy frameworks struggle to accommodate accelerated timelines for grid modernization and renewable deployment.
+
+## Energy Transition archive
+
+- [Grid Resilience and Storage Drive Energy Investment as AI Power Demand Strains Capacity](https://www.odwyercapital.com/energy-transition-2026-10-19): October 19, 2026
+- [Energy Storage Surge and Data-Center Power Demands Collide with Supply-Chain Reshoring](https://www.odwyercapital.com/energy-transition-2026-10-12): October 12, 2026
+- [Geopolitical Disruption and Infrastructure Bottlenecks Drive Energy Investment Reshuffling](https://www.odwyercapital.com/energy-transition-2026-10-05): October 5, 2026
+- [AI's Energy Demands Meet Solar Innovation as Grid Infrastructure Becomes the Binding Constraint](https://www.odwyercapital.com/energy-transition-2026-09-28): September 28, 2026
+- [Grid-Scale Battery Storage and Offshore Wind Acceleration Drive Infrastructure Investment Opportunity](https://www.odwyercapital.com/energy-transition-2026-09-21): September 21, 2026
+- [Battery Infrastructure and Social License Drive Energy Storage Momentum Amid Transition Uncertainty](https://www.odwyercapital.com/energy-transition-2026-09-18): September 18, 2026
+- [Hybrid Solar-Battery PPAs and Mining-Scale Storage Signal Acceleration in Distributed Energy Infrastructure](https://www.odwyercapital.com/energy-transition-2026-09-16): September 16, 2026
+- [Oil Price Surge and Renewable Infrastructure Expansion Signal Diverging Energy Sector Dynamics](https://www.odwyercapital.com/energy-transition-2026-09-14): September 14, 2026
+- [AI's Infrastructure Surge Collides with Energy Storage and Grid Integration Challenges](https://www.odwyercapital.com/energy-transition-2026-09-10): September 10, 2026
+- [Nuclear Restart Financing and Distributed Home Electrification Reshape U.S.-Europe Energy Investment Landscape](https://www.odwyercapital.com/energy-transition-2026-09-09): September 9, 2026
+- [Concentrated Energy Infrastructure Faces Systemic Stress; AI-Driven Renewable Buildout Offers Partial Hedge](https://www.odwyercapital.com/energy-transition-2026-09-07): September 7, 2026
+- [Energy Supply Shock Reshapes Infrastructure Investment Thesis as AI Demand Collides with Geopolitical Risk](https://www.odwyercapital.com/energy-transition-2026-09-04): September 4, 2026
+- [Geothermal and Storage Investments Surge While Wind and Solar Scale Globally](https://www.odwyercapital.com/energy-transition-2026-09-02): September 2, 2026
+- [Energy Investment Brief — August 31, 2026](https://www.odwyercapital.com/energy-transition-2026-08-31): August 31, 2026
+- [Energy Investment Brief — August 28, 2026](https://www.odwyercapital.com/energy-transition-2026-08-28): August 28, 2026
+- [Energy Investment Brief — August 27, 2026](https://www.odwyercapital.com/energy-transition-2026-08-27): August 27, 2026
+- [Energy Investment Brief — August 26, 2026](https://www.odwyercapital.com/energy-transition-2026-08-26): August 26, 2026
+- [Energy Investment Brief — August 25, 2026](https://www.odwyercapital.com/energy-transition-2026-08-25): August 25, 2026
+- [Energy Investment Brief — August 24, 2026](https://www.odwyercapital.com/energy-transition-2026-08-24): August 24, 2026
+- [Energy Investment Brief — August 21, 2026](https://www.odwyercapital.com/energy-transition-2026-08-21): August 21, 2026
+- [Energy Investment Brief — August 20, 2026](https://www.odwyercapital.com/energy-transition-2026-08-20): August 20, 2026
+- [Energy Investment Brief — August 19, 2026](https://www.odwyercapital.com/energy-transition-2026-08-19): August 19, 2026
+- [Energy Investment Brief — August 18, 2026](https://www.odwyercapital.com/energy-transition-2026-08-18): August 18, 2026
+- [Energy Investment Brief — August 14, 2026](https://www.odwyercapital.com/energy-transition-2026-08-14): August 14, 2026
+- [Energy Investment Brief — August 13, 2026](https://www.odwyercapital.com/energy-transition-2026-08-13): August 13, 2026
+- [Energy Investment Brief — August 12, 2026](https://www.odwyercapital.com/energy-transition-2026-08-12): August 12, 2026
+- [Energy Investment Brief — August 11, 2026](https://www.odwyercapital.com/energy-transition-2026-08-11): August 11, 2026
+- [Energy Investment Brief — August 10, 2026](https://www.odwyercapital.com/energy-transition-2026-08-10): August 10, 2026
+- [Global Battery and Solar Scale Accelerates While U.S. Nuclear Enrichment Emerges as Strategic Infrastructure Play](https://www.odwyercapital.com/energy-transition-2026-08-07): August 7, 2026
+- [Green Hydrogen and Grid Resilience Drive Capital Deployment Across Emerging Markets and Utility Modernization](https://www.odwyercapital.com/energy-transition-2026-08-06): August 6, 2026
+- [Battery Materials Scaling and Distributed Solar Policy Expansion Drive Near-Term Deployment Economics](https://www.odwyercapital.com/energy-transition-2026-08-05): August 5, 2026
+- [European Renewables Consolidation and Data Center Power Dynamics Reshape Investment Landscape](https://www.odwyercapital.com/energy-transition-2026-08-04): August 4, 2026
+- [Large-Scale Solar Deployment Accelerates Amid Macroeconomic Headwinds and AI Grid Inflexibility Concerns](https://www.odwyercapital.com/energy-transition-2026-08-03): August 3, 2026
+- [Battery Storage and Silicon Photonics Emerge as Critical Infrastructure Enablers for AI-Driven Energy Demand](https://www.odwyercapital.com/energy-transition-2026-07-31): July 31, 2026
+- [AI Infrastructure Surge Catalyzes $100B Data Center Build and Grid Storage Acceleration](https://www.odwyercapital.com/energy-transition-2026-07-30): July 30, 2026
+- [Grid Integration and Battery Storage Accelerate as Infrastructure Bottlenecks Drive Regional Investment Divergence](https://www.odwyercapital.com/energy-transition-2026-07-29): July 29, 2026
+- [AI Data Center Demand Catalyzes Battery and Biogas Investment Cycles](https://www.odwyercapital.com/energy-transition-2026-07-28): July 28, 2026
+- [Offshore Nuclear and Data Center Demand Reshape U.S. Energy Infrastructure as Political Energy Cuts Create Regional Disparities](https://www.odwyercapital.com/energy-transition-2026-07-27): July 27, 2026
+- [Grid Infrastructure and Renewable Scaling Drive Divergent Investment Paths](https://www.odwyercapital.com/energy-transition-2026-07-24): July 24, 2026
+- [Energy Storage Venture Formation and DOE AI-Acceleration Drive Near-Term Deployment Momentum](https://www.odwyercapital.com/energy-transition-2026-07-23): July 23, 2026
+- [UK Grid Capacity Crunch Meets Global Energy Infrastructure Expansion: AI Economy Dependency on Power Supply Resolution](https://www.odwyercapital.com/energy-transition-2026-07-21): July 21, 2026
+- [AI Demand Collides with Grid Vulnerability: Distributed Energy and Nuclear Solutions Emerge as Critical Infrastructure Play](https://www.odwyercapital.com/energy-transition-2026-07-20): July 20, 2026
+- [Energy Storage and Grid Infrastructure Drive Co-Investment Activity as Capacity Buildout Accelerates](https://www.odwyercapital.com/energy-transition-2026-07-17): July 17, 2026
+- [Data Center Power Demand Reshapes Energy Investment Landscape Amid Geopolitical Tensions](https://www.odwyercapital.com/energy-transition-2026-07-16): July 16, 2026
+- [Energy Transition Investment Brief: Battery Storage & Advanced Battery Technologies](https://www.odwyercapital.com/energy-transition-2026-05-30): May 30, 2026
+
+## Emerging Tech archive
+
+- [AI Infrastructure Consolidation Amid Geopolitical Security Concerns and Regulatory Tightening](https://www.odwyercapital.com/emerging-tech-2026-10-19): October 19, 2026
+- [AI Infrastructure Races Against Talent Constraints While Quantum and Biotech Funding Surge](https://www.odwyercapital.com/emerging-tech-2026-10-12): October 12, 2026
+- [Data Center Power Crisis and AI Workforce Fragmentation Reshape Tech Investment Landscape](https://www.odwyercapital.com/emerging-tech-2026-10-05): October 5, 2026
+- [AI Hardware Convergence and Geopolitical Fragmentation Reshape Consumer and Enterprise Technology Markets](https://www.odwyercapital.com/emerging-tech-2026-09-28): September 28, 2026
+- [AI Infrastructure Consolidation Accelerates Amid Supply Chain Pressures and Regulatory Uncertainty](https://www.odwyercapital.com/emerging-tech-2026-09-21): September 21, 2026
+- [Infrastructure Strain and Regulatory Divergence Emerge as AI Scaling Bottlenecks](https://www.odwyercapital.com/emerging-tech-2026-09-18): September 18, 2026
+- [AI Infrastructure Consolidation and Political Uncertainty Drive Divergent Sector Opportunities](https://www.odwyercapital.com/emerging-tech-2026-09-16): September 16, 2026
+- [Infrastructure Bottlenecks and Economic Model Skepticism Collide as AI Capital Deployment Accelerates](https://www.odwyercapital.com/emerging-tech-2026-09-14): September 14, 2026
+- [European Nuclear Commitments and North American Backlash Reshape AI Infrastructure Investment Strategy](https://www.odwyercapital.com/emerging-tech-2026-09-10): September 10, 2026
+- [Political Headwinds and Manufacturing Bottlenecks Reshape AI Infrastructure Economics](https://www.odwyercapital.com/emerging-tech-2026-09-09): September 9, 2026
+- [AI Infrastructure Fracturing: Software Resilience and Power Scarcity Emerge as Dual Constraints](https://www.odwyercapital.com/emerging-tech-2026-09-07): September 7, 2026
+- [AI Infrastructure Buildout Accelerates as Hardware Cooling and Data Center Economics Reshape the Sector](https://www.odwyercapital.com/emerging-tech-2026-09-04): September 4, 2026
+- [Technology Investment Brief — August 31, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-31): August 31, 2026
+- [Technology Investment Brief — August 28, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-28): August 28, 2026
+- [Technology Investment Brief — August 27, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-27): August 27, 2026
+- [Technology Investment Brief — August 26, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-26): August 26, 2026
+- [Technology Investment Brief — August 25, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-25): August 25, 2026
+- [Technology Investment Brief — August 24, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-24): August 24, 2026
+- [Technology Investment Brief — August 21, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-21): August 21, 2026
+- [Technology Investment Brief — August 20, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-20): August 20, 2026
+- [Technology Investment Brief — August 18, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-18): August 18, 2026
+- [Technology Investment Brief — August 17, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-17): August 17, 2026
+- [Technology Investment Brief — August 14, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-14): August 14, 2026
+- [Technology Investment Brief — August 13, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-13): August 13, 2026
+- [Technology Investment Brief — August 12, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-12): August 12, 2026
+- [Technology Investment Brief — August 11, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-11): August 11, 2026
+- [Technology Investment Brief — August 10, 2026](https://www.odwyercapital.com/emerging-tech-2026-08-10): August 10, 2026
+- [Amazon's Trainium Pivot and Global AI Infrastructure Consolidation Signal Competitive Reshuffling](https://www.odwyercapital.com/emerging-tech-2026-08-07): August 7, 2026
+- [U.S. AI Infrastructure Fragmentation and Global Capital Competition Reshape Regional Investment Dynamics](https://www.odwyercapital.com/emerging-tech-2026-08-06): August 6, 2026
+- [AI Infrastructure Demand and Quantum Computing Convergence Drive Equipment and Software Valuations Higher](https://www.odwyercapital.com/emerging-tech-2026-08-05): August 5, 2026
+- [AI Infrastructure Buildout Extends Beyond Data Centers as Defense and Robotics Capital Accelerates](https://www.odwyercapital.com/emerging-tech-2026-08-04): August 4, 2026
+- [Semiconductor Capex Acceleration and Strategic Infrastructure Race Reshape AI Investment Landscape](https://www.odwyercapital.com/emerging-tech-2026-08-03): August 3, 2026
+- [Power Scarcity Emerges as Critical Bottleneck While Memory Markets Diverge in 2027](https://www.odwyercapital.com/emerging-tech-2026-07-31): July 31, 2026
+- [AI Infrastructure Buildout Accelerates Amid Energy and Supply Chain Constraints](https://www.odwyercapital.com/emerging-tech-2026-07-30): July 30, 2026
+- [AI Infrastructure Demand Deepens While Market Correction Risks Emerge](https://www.odwyercapital.com/emerging-tech-2026-07-29): July 29, 2026
+- [AI Data Center Buildout Accelerates Amid Massive Capital Commitments and Regional Growth Divergence](https://www.odwyercapital.com/emerging-tech-2026-07-28): July 28, 2026
+- [Nuclear Power and Storage Infrastructure Converge as AI Data Center Economics Reshape Capital Allocation](https://www.odwyercapital.com/emerging-tech-2026-07-27): July 27, 2026
+- [AI Infrastructure Buildout Accelerates Amid Tesla Cash Burn and Memory Demand Spike](https://www.odwyercapital.com/emerging-tech-2026-07-24): July 24, 2026
+- [Semiconductor Demand Surge Amid Global Macro Headwinds](https://www.odwyercapital.com/emerging-tech-2026-07-16): July 16, 2026
+- [Space, AI, and Digital Assets: The Next Wave](https://www.odwyercapital.com/emerging-tech-2026-05-30): May 30, 2026
+
+## Materials archive
+
+- [Critical Materials Supply Chain Consolidation Accelerates Amid Geopolitical Competition for Rare Earth Access](https://www.odwyercapital.com/materials-2026-10-05): October 5, 2026
+- [Domestic Critical Minerals Supply Chain Transitions from Policy to Operational Reality as Processing Capacity Expands](https://www.odwyercapital.com/materials-2026-09-28): September 28, 2026
+- [Rare Earth Supply Consolidation and Domestic Mining Renaissance Reshape Critical Materials Strategy](https://www.odwyercapital.com/materials-2026-09-21): September 21, 2026
+- [Critical Minerals Supply Chain Consolidation Accelerates Amid Defense-Industrial and Battery Recycling Investments](https://www.odwyercapital.com/materials-2026-09-18): September 18, 2026
+- [India's Critical Minerals Consolidation and Global Supply Repositioning Amid Structural Scarcity](https://www.odwyercapital.com/materials-2026-09-16): September 16, 2026
+- [U.S. Government Direct Investment in Critical Minerals Signals Geopolitical Recalibration of Supply Chain Strategy](https://www.odwyercapital.com/materials-2026-09-14): September 14, 2026
+- [Supply Chain Realignment: Critical Minerals and EV Manufacturing Face Divergent Policy Currents](https://www.odwyercapital.com/materials-2026-09-10): September 10, 2026
+- [Innovation Investment Brief — August 31, 2026](https://www.odwyercapital.com/materials-2026-08-31): August 31, 2026
+- [Innovation Investment Brief — August 28, 2026](https://www.odwyercapital.com/materials-2026-08-28): August 28, 2026
+- [Innovation Investment Brief — August 26, 2026](https://www.odwyercapital.com/materials-2026-08-26): August 26, 2026
+- [Innovation Investment Brief — August 24, 2026](https://www.odwyercapital.com/materials-2026-08-24): August 24, 2026
+- [Innovation Investment Brief — August 19, 2026](https://www.odwyercapital.com/materials-2026-08-19): August 19, 2026
+- [Innovation Investment Brief — August 13, 2026](https://www.odwyercapital.com/materials-2026-08-13): August 13, 2026
+- [Innovation Investment Brief — August 12, 2026](https://www.odwyercapital.com/materials-2026-08-12): August 12, 2026
+- [Innovation Investment Brief — August 11, 2026](https://www.odwyercapital.com/materials-2026-08-11): August 11, 2026
+- [U.S. Manufacturing Renaissance and Critical Materials Convergence Drive Dual Infrastructure Build](https://www.odwyercapital.com/materials-2026-08-06): August 6, 2026
+- [Supply Chain Repositioning and Manufacturing Expansion Signal Shifting Global Capital Allocation](https://www.odwyercapital.com/materials-2026-08-05): August 5, 2026
+- [Regional EV Manufacturing and Critical Minerals Bottlenecks Create Divergent Supply Chain Risks](https://www.odwyercapital.com/materials-2026-07-27): July 27, 2026
+- [Automotive Supply Chain Consolidation and Critical Materials Vulnerability Reshape EV Investment Landscape](https://www.odwyercapital.com/materials-2026-07-24): July 24, 2026
+- [Critical Minerals and Advanced Manufacturing Emerge as AI Supply Chain Lynchpin](https://www.odwyercapital.com/materials-2026-07-23): July 23, 2026
+- [Thermal Interface Materials Market Accelerates to $6.2B as Semiconductor and Data Center Demand Intensifies](https://www.odwyercapital.com/materials-2026-07-16): July 16, 2026
+- [Investment Analysis Brief: Graphene Heating Films Market Opportunity](https://www.odwyercapital.com/materials-2026-05-30): May 30, 2026
