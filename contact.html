@@ -1,502 +1,438 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - O'Dwyer Capital</title>
-    <meta name="description" content="Get in touch with O'Dwyer Capital, a private family investment office focused on long-term opportunities in transformational sectors.">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="dark.css">
-    <script src="theme.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-32PXHG0656"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-32PXHG0656');
-    </script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact - O'Dwyer Capital</title>
+<meta name="description" content="Get in touch with O'Dwyer Capital about investment opportunities, partnerships or our research.">
+<meta property="og:title" content="Contact — O'Dwyer Capital">
+<meta property="og:description" content="Investment opportunities, partnerships and research inquiries.">
+<meta property="og:image" content="https://www.odwyercapital.com/odwyer_capital_logo_primary.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="canonical" href="https://www.odwyercapital.com/contact.html">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-32PXHG0656"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-32PXHG0656');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0c110f;
+    --bg-2: #111815;
+    --surface: #151d19;
+    --line: rgba(236, 231, 220, 0.09);
+    --line-strong: rgba(236, 231, 220, 0.16);
+    --text: #ece7dc;
+    --muted: #a2a89f;
+    --faint: #737a72;
+    --gold: #c9a55c;
+    --gold-soft: #e2c88f;
+    --green: #2f6b4f;
+    --error: #e08a74;
+    --serif: "Fraunces", Georgia, "Times New Roman", serif;
+    --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --wrap: 1200px;
+    --gutter: clamp(16px, 4vw, 40px);
+  }
 
-        :root {
-            --primary-green: #1a4d2e;
-            --secondary-green: #2d6a4f;
-            --accent-gold: #d4a574;
-            --dark-gold: #c9965f;
-            --light-bg: #f9f8f6;
-            --white: #ffffff;
-            --text-dark: #333333;
-            --text-gray: #666666;
-            --error-red: #d32f2f;
-            --success-green: #388e3c;
-        }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 400 16px/1.65 var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+  img { display: block; }
+  button, input, textarea { font: inherit; color: inherit; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gutter); }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-dark);
-            background: var(--white);
-            overflow-x: hidden;
-        }
+  .mark { width: 36px; height: auto; flex: none; }
 
-        a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
+  /* Header */
+  .site-header {
+    position: sticky; top: 0; z-index: 20;
+    background: rgba(12, 17, 15, 0.86);
+    backdrop-filter: saturate(140%) blur(12px);
+    -webkit-backdrop-filter: saturate(140%) blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand-name { font: 400 21px/1 var(--serif); letter-spacing: 0.01em; }
+  .nav { display: flex; align-items: center; gap: 36px; }
+  .nav a { font-size: 14px; color: var(--muted); transition: color .2s; }
+  .nav a:hover { color: var(--text); }
+  .nav .btn { color: var(--text); }
+  .nav .btn[aria-current] { border-color: var(--gold); }
+  .menu-toggle { display: none; background: none; border: 0; color: var(--text); padding: 8px; margin-right: -8px; cursor: pointer; }
 
-        a:hover {
-            color: var(--dark-gold);
-        }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    font: 500 14px/1 var(--sans); letter-spacing: 0.01em;
+    padding: 14px 22px; border-radius: 999px; background: none; cursor: pointer;
+    border: 1px solid var(--line-strong);
+    transition: background .2s, border-color .2s, color .2s, opacity .2s;
+  }
+  .btn:hover { border-color: var(--gold); }
+  .btn-sm { padding: 10px 18px; }
+  .btn-gold { background: var(--gold); border-color: var(--gold); color: #17140d; }
+  .btn-gold:hover { background: var(--gold-soft); border-color: var(--gold-soft); }
+  .btn[disabled] { opacity: .6; cursor: progress; }
+  .link-arrow { font: 500 14px/1 var(--sans); color: var(--gold-soft); display: inline-flex; gap: 8px; align-items: center; white-space: nowrap; }
+  .link-arrow span { transition: transform .2s; }
+  a:hover .link-arrow span, .link-arrow:hover span { transform: translateX(4px); }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
+  .eyebrow {
+    font: 500 12px/1 var(--sans); letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--gold); display: flex; align-items: center; gap: 12px;
+  }
+  .eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--gold); opacity: .7; }
 
-        /* ===== HEADER ===== */
-        header {
-            background: var(--white);
-            padding: 15px 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #e0e0e0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            overflow-x: auto;
-        }
+  /* Layout */
+  .contact {
+    background: radial-gradient(ellipse 50% 60% at 0% 0%, rgba(47, 107, 79, 0.28), transparent 70%);
+  }
+  .contact .wrap {
+    display: grid; grid-template-columns: 1fr 1.15fr; gap: clamp(40px, 7vw, 104px);
+    padding-top: clamp(56px, 9vw, 112px); padding-bottom: clamp(72px, 10vw, 128px);
+  }
+  .intro h1 {
+    font: 300 clamp(44px, 6.4vw, 80px)/1 var(--serif); letter-spacing: -0.025em;
+    margin: 24px 0 0;
+  }
+  .intro h1 em { font-style: italic; color: var(--gold-soft); }
+  .intro > p { color: var(--muted); font-size: clamp(16px, 1.5vw, 18px); max-width: 440px; margin: 24px 0 48px; }
 
-        .logo-container {
-            display: flex;
-            align-items: center;
-            flex-shrink: 0;
-            min-width: 200px;
-        }
+  .audiences { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  .audiences li { display: grid; grid-template-columns: 32px 1fr; gap: 8px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+  .audiences .num { font-size: 12px; color: var(--gold); letter-spacing: .08em; padding-top: 5px; }
+  .audiences strong { display: block; font: 400 20px/1.3 var(--serif); }
+  .audiences span { display: block; color: var(--muted); font-size: 14px; margin-top: 4px; }
 
-        .logo-container img {
-            height: 60px;
-            width: auto;
-        }
+  .research-note {
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    margin-top: 32px; padding: 20px 24px; border: 1px solid var(--line); border-radius: 14px;
+    transition: border-color .2s, background .2s;
+  }
+  .research-note:hover { border-color: var(--line-strong); background: var(--surface); }
+  .research-note small { display: block; font-size: 12px; color: var(--faint); letter-spacing: .1em; text-transform: uppercase; }
+  .research-note b { display: block; font: 400 17px/1.35 var(--serif); margin-top: 6px; }
 
-        nav {
-            display: flex;
-            gap: 40px;
-            margin-left: auto;
-            flex-shrink: 0;
-        }
+  /* Form card */
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 20px;
+    padding: clamp(24px, 4vw, 48px); align-self: start;
+  }
+  .card h2 { font: 400 26px/1.2 var(--serif); margin: 0 0 6px; }
+  .card .sub { color: var(--faint); font-size: 14px; margin: 0 0 32px; }
 
-        nav a {
-            color: var(--text-dark);
-            font-weight: 500;
-            font-size: 15px;
-            position: relative;
-            white-space: nowrap;
-        }
+  fieldset { border: 0; padding: 0; margin: 0 0 28px; }
+  legend, label.field-label { display: block; font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 10px; padding: 0; }
+  .opt { color: var(--faint); font-weight: 400; }
 
-        nav a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--accent-gold);
-            transition: width 0.3s;
-        }
+  .topics { display: flex; flex-wrap: wrap; gap: 8px; }
+  .topics input { position: absolute; opacity: 0; pointer-events: none; }
+  .topics label {
+    font-size: 14px; color: var(--muted); cursor: pointer;
+    border: 1px solid var(--line-strong); border-radius: 999px; padding: 9px 16px;
+    transition: border-color .2s, color .2s, background .2s;
+  }
+  .topics label:hover { border-color: var(--gold); color: var(--text); }
+  .topics input:checked + label { background: var(--text); border-color: var(--text); color: var(--bg); }
+  .topics input:focus-visible + label { outline: 2px solid var(--gold); outline-offset: 2px; }
 
-        nav a:hover::after {
-            width: 100%;
-        }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .field { margin-bottom: 24px; }
+  .input {
+    width: 100%; background: var(--bg); border: 1px solid var(--line-strong); border-radius: 12px;
+    padding: 14px 16px; font-size: 15px; outline: none; transition: border-color .2s, box-shadow .2s;
+  }
+  .input::placeholder { color: var(--faint); }
+  .input:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(201, 165, 92, 0.15); }
+  textarea.input { min-height: 160px; resize: vertical; line-height: 1.6; }
+  .field.invalid .input { border-color: var(--error); }
+  .hint { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; color: var(--faint); margin-top: 8px; min-height: 18px; }
+  .err { color: var(--error); }
+  fieldset.invalid .err-topic { display: block; }
+  .err-topic { display: none; font-size: 12px; color: var(--error); margin-top: 10px; }
 
-        /* ===== HERO SECTION ===== */
-        .hero {
-            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
-            padding: 60px 30px;
-            text-align: center;
-            color: var(--white);
-        }
+  .submit-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-top: 8px; flex-wrap: wrap; }
+  .fine { font-size: 12px; color: var(--faint); max-width: 300px; margin: 0; }
+  .fine a { border-bottom: 1px solid var(--line-strong); }
 
-        .hero h1 {
-            font-size: 48px;
-            font-weight: 700;
-            margin-bottom: 15px;
-            letter-spacing: -1px;
-        }
+  .success { text-align: center; padding: clamp(24px, 6vw, 64px) 8px; }
+  .success .check {
+    width: 64px; height: 64px; border-radius: 50%; margin: 0 auto 28px;
+    display: grid; place-items: center; border: 1px solid rgba(201, 165, 92, 0.5); color: var(--gold);
+  }
+  .success h2 { font: 300 36px/1.1 var(--serif); margin: 0 0 14px; }
+  .success h2 em { font-style: italic; color: var(--gold-soft); }
+  .success p { color: var(--muted); max-width: 380px; margin: 0 auto 32px; }
+  .success .actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
 
-        .hero p {
-            font-size: 18px;
-            color: rgba(255, 255, 255, 0.95);
-            font-weight: 300;
-            max-width: 600px;
-            margin: 0 auto;
-        }
+  /* Footer */
+  footer { border-top: 1px solid var(--line); padding: 64px 0 40px; }
+  .foot-top { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; }
+  .foot-tag { font: 300 italic 22px/1.3 var(--serif); color: var(--muted); margin: 20px 0 0; }
+  .foot-col h4 { font: 500 12px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--faint); margin: 0 0 18px; }
+  .foot-col a { display: block; color: var(--muted); font-size: 14px; padding: 5px 0; }
+  .foot-col a:hover { color: var(--text); }
+  .foot-bottom { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 24px; font-size: 12px; color: var(--faint); }
+  .foot-bottom p { margin: 0; max-width: 640px; }
 
-        /* ===== CONTACT SECTION ===== */
-        .contact-section {
-            padding: 80px 50px;
-            background: var(--light-bg);
-        }
 
-        .contact-container {
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        .contact-intro {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .contact-intro h2 {
-            font-size: 32px;
-            color: var(--primary-green);
-            margin-bottom: 15px;
-        }
-
-        .contact-intro p {
-            font-size: 16px;
-            color: var(--text-gray);
-            line-height: 1.7;
-        }
-
-        /* ===== FORM STYLING ===== */
-        .contact-form {
-            background: var(--white);
-            padding: 50px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-        }
-
-        .form-group {
-            margin-bottom: 25px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            color: var(--text-dark);
-            font-weight: 600;
-            font-size: 15px;
-        }
-
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-family: inherit;
-            font-size: 15px;
-            color: var(--text-dark);
-            transition: border-color 0.3s, box-shadow 0.3s;
-        }
-
-        .form-group input:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--accent-gold);
-            box-shadow: 0 0 0 3px rgba(212, 165, 116, 0.1);
-        }
-
-        .form-group textarea {
-            resize: vertical;
-            min-height: 150px;
-        }
-
-        .form-group.captcha {
-            display: flex;
-            justify-content: center;
-            margin: 30px 0;
-        }
-
-        /* reCAPTCHA styling */
-        .g-recaptcha {
-            display: inline-block;
-        }
-
-        .form-group.submit {
-            margin-top: 35px;
-            margin-bottom: 0;
-        }
-
-        .btn {
-            width: 100%;
-            padding: 14px 30px;
-            font-size: 16px;
-            font-weight: 600;
-            background: var(--accent-gold);
-            color: var(--primary-green);
-            border: 2px solid var(--accent-gold);
-            border-radius: 4px;
-            cursor: pointer;
-            transition: all 0.3s;
-            text-decoration: none;
-            display: inline-block;
-            text-align: center;
-        }
-
-        .btn:hover {
-            background: var(--dark-gold);
-            border-color: var(--dark-gold);
-        }
-
-        .btn:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-        }
-
-        /* ===== MESSAGES ===== */
-        .form-message {
-            padding: 15px;
-            border-radius: 4px;
-            margin-bottom: 20px;
-            display: none;
-            animation: slideDown 0.3s ease-out;
-        }
-
-        .form-message.success {
-            background: #c8e6c9;
-            color: var(--success-green);
-            border-left: 4px solid var(--success-green);
-            display: block;
-        }
-
-        .form-message.error {
-            background: #ffcdd2;
-            color: var(--error-red);
-            border-left: 4px solid var(--error-red);
-            display: block;
-        }
-
-        /* ===== CONTACT INFO ===== */
-        .contact-info {
-            margin-top: 60px;
-            padding-top: 40px;
-            border-top: 1px solid #e0e0e0;
-            text-align: center;
-        }
-
-        .contact-info h3 {
-            color: var(--primary-green);
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-
-        .contact-info p {
-            color: var(--text-gray);
-            margin-bottom: 10px;
-            font-size: 15px;
-        }
-
-        /* ===== FOOTER ===== */
-        footer {
-            background: var(--primary-green);
-            color: var(--white);
-            padding: 50px;
-            text-align: center;
-            margin-top: 80px;
-        }
-
-        footer p {
-            margin-bottom: 10px;
-            font-size: 15px;
-        }
-
-        footer p.tagline {
-            color: var(--accent-gold);
-            font-style: italic;
-            font-weight: 500;
-        }
-
-        footer p.copyright {
-            font-size: 13px;
-            color: rgba(255, 255, 255, 0.7);
-            margin-top: 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            padding-top: 20px;
-        }
-
-        /* ===== ANIMATIONS ===== */
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* ===== RESPONSIVE ===== */
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                gap: 15px;
-                padding: 15px 20px;
-            }
-
-            nav {
-                gap: 20px;
-                margin-left: 0;
-            }
-
-            .hero {
-                padding: 40px 20px;
-            }
-
-            .hero h1 {
-                font-size: 32px;
-            }
-
-            .contact-section {
-                padding: 60px 20px;
-            }
-
-            .contact-form {
-                padding: 30px 20px;
-            }
-
-            .contact-intro h2 {
-                font-size: 24px;
-            }
-
-            footer {
-                padding: 30px 20px;
-            }
-        }
-    </style>
+  /* Responsive */
+  @media (max-width: 900px) {
+    /* Bring the form up right after the intro; audiences move below it */
+    .contact .wrap { grid-template-columns: 1fr; gap: 0; }
+    .intro { display: contents; }
+    .intro > p { margin-bottom: 36px; }
+    .card { order: 1; margin-bottom: 48px; }
+    .audiences, .research-note { order: 2; }
+  }
+  @media (max-width: 760px) {
+    .nav { display: none; }
+    .nav.open {
+      display: flex; flex-direction: column; align-items: flex-start; gap: 20px;
+      position: absolute; top: 72px; left: 0; right: 0;
+      padding: 24px var(--gutter) 28px; background: var(--bg); border-bottom: 1px solid var(--line);
+    }
+    .nav.open a { font-size: 17px; color: var(--text); }
+    .menu-toggle { display: block; }
+    .row { grid-template-columns: 1fr; gap: 0; }
+    .submit-row .btn { width: 100%; }
+    .foot-top { grid-template-columns: 1fr 1fr; }
+    .foot-top > :first-child { grid-column: 1 / -1; }
+    .foot-bottom { flex-direction: column; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
 </head>
 <body>
-    <!-- HEADER -->
-    <header>
-        <a href="index.html" class="logo-container">
-            <img src="odwyer_capital_logo_primary.webp" alt="O'Dwyer Capital">
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="thoughts.html">Thoughts</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <h1>Get in Touch</h1>
-        <p>Have a question or investment opportunity? We'd love to hear from you.</p>
-    </section>
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand" aria-label="O'Dwyer Capital home">
+      <img class="mark" src="assets/mark-96.png" alt="" width="36" height="35">
+      <span class="brand-name">O'Dwyer Capital</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html#approach">Approach</a>
+      <a href="index.html#focus">Focus</a>
+      <a href="thoughts.html">Research</a>
+      <a href="contact.html" class="btn btn-sm" aria-current="page">Get in touch</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h16M4 16h16"/></svg>
+    </button>
+  </div>
+</header>
 
-    <!-- CONTACT SECTION -->
-    <section class="contact-section">
-        <div class="contact-container">
-            <div class="contact-intro">
-                <h2>Contact Us</h2>
-                <p>Have a question or opportunity to discuss? Send us a message and we'll be in touch.</p>
-            </div>
+<main class="contact">
+  <div class="wrap">
+    <div class="intro">
+      <div class="eyebrow">Contact</div>
+      <h1>Start a<br><em>conversation.</em></h1>
+      <p>Whether you're building something in our sectors, allocating capital alongside us, or responding to our research, we'd like to hear from you.</p>
 
-            <form class="contact-form" id="contactForm">
-                <div class="form-message" id="formMessage"></div>
+      <ul class="audiences">
+        <li>
+          <div class="num">01</div>
+          <div><strong>Founders &amp; operators</strong><span>Building in energy transition, technology &amp; space, or strategic materials.</span></div>
+        </li>
+        <li>
+          <div class="num">02</div>
+          <div><strong>Capital partners</strong><span>Allocators and family offices who share a long-term view of value creation.</span></div>
+        </li>
+        <li>
+          <div class="num">03</div>
+          <div><strong>Research readers</strong><span>Questions, counterpoints or ideas sparked by our weekly briefs.</span></div>
+        </li>
+      </ul>
 
-                <div class="form-group">
-                    <label for="name">Name *</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
+      <a class="research-note" href="thoughts.html">
+        <div><small>Our research</small><b>Read this week's briefs to see where our thinking is</b></div>
+        <span class="link-arrow">Research <span>→</span></span>
+      </a>
+    </div>
 
-                <div class="form-group">
-                    <label for="email">Email *</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
+    <div class="card" id="card">
+      <form id="form" novalidate>
+        <h2>Send us a message</h2>
+        <p class="sub">All fields are required unless marked optional.</p>
 
-                <div class="form-group">
-                    <label for="subject">Subject *</label>
-                    <input type="text" id="subject" name="subject" placeholder="e.g., Investment Inquiry, Partnership, General Question" required>
-                </div>
+        <fieldset id="topic-set">
+          <legend>What's this about?</legend>
+          <div class="topics">
+            <input type="radio" name="topic" id="t1" value="Investment opportunity"><label for="t1">Investment opportunity</label>
+            <input type="radio" name="topic" id="t2" value="Partnership"><label for="t2">Partnership</label>
+            <input type="radio" name="topic" id="t3" value="Our research"><label for="t3">Our research</label>
+            <input type="radio" name="topic" id="t4" value="Something else"><label for="t4">Something else</label>
+          </div>
+          <div class="err-topic">Choose the option that fits best.</div>
+        </fieldset>
 
-                <div class="form-group">
-                    <label for="inquiry">Inquiry *</label>
-                    <textarea id="inquiry" name="inquiry" placeholder="Tell us about your inquiry..." required></textarea>
-                </div>
-
-                <div class="form-group captcha">
-                    <div class="g-recaptcha" data-sitekey="6LdEhQQtAAAAABicMjX1EQKEfZ_ZnS-FT_mDMvma"></div>
-                </div>
-
-                <div class="form-group submit">
-                    <button type="submit" class="btn">Send Inquiry</button>
-                </div>
-            </form>
+        <div class="row">
+          <div class="field">
+            <label class="field-label" for="name">Name</label>
+            <input class="input" id="name" name="name" autocomplete="name" required>
+            <div class="hint"><span class="err"></span></div>
+          </div>
+          <div class="field">
+            <label class="field-label" for="email">Email</label>
+            <input class="input" id="email" name="email" type="email" autocomplete="email" required>
+            <div class="hint"><span class="err"></span></div>
+          </div>
         </div>
-    </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2026 O'Dwyer Capital. All rights reserved.</p>
-        <p class="tagline">Invested in What Endures</p>
-        <p class="copyright">Private Family Office | Generational Wealth Stewardship</p>
-    </footer>
+        <div class="field">
+          <label class="field-label" for="org">Company or organization <span class="opt">(optional)</span></label>
+          <input class="input" id="org" name="organization" autocomplete="organization">
+          <div class="hint"></div>
+        </div>
 
-    <script>
-        const contactForm = document.getElementById('contactForm');
-        const formMessage = document.getElementById('formMessage');
+        <div class="field">
+          <label class="field-label" for="message">Message</label>
+          <textarea class="input" id="message" name="inquiry" maxlength="2000" required placeholder="A few sentences on what you're working on or what you'd like to discuss."></textarea>
+          <div class="hint"><span class="err"></span><span id="chars">0 / 2000</span></div>
+        </div>
 
-        contactForm.addEventListener('submit', async (e) => {
-            e.preventDefault();
+        <div class="field">
+          <div class="g-recaptcha" data-sitekey="6LdEhQQtAAAAABicMjX1EQKEfZ_ZnS-FT_mDMvma" data-theme="dark"></div>
+          <div class="hint"><span class="err" id="captcha-err"></span></div>
+        </div>
 
-            // Get reCAPTCHA token
-            const recaptchaToken = grecaptcha.getResponse();
-            if (!recaptchaToken) {
-                showMessage('Please complete the reCAPTCHA', 'error');
-                return;
-            }
+        <div class="submit-row">
+          <p class="fine">We use your details only to reply to this message.</p>
+          <button class="btn btn-gold" type="submit" id="send">Send message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
 
-            // Collect form data
-            const formData = new FormData(contactForm);
-            const data = {
-                name: formData.get('name'),
-                email: formData.get('email'),
-                subject: formData.get('subject'),
-                inquiry: formData.get('inquiry'),
-                'g-recaptcha-response': recaptchaToken
-            };
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <a href="index.html" class="brand">
+          <img class="mark" src="assets/mark-96.png" alt="" width="36" height="35">
+          <span class="brand-name">O'Dwyer Capital</span>
+        </a>
+        <p class="foot-tag">Invested in what endures.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Firm</h4>
+        <a href="index.html#approach">Approach</a>
+        <a href="index.html#focus">Focus areas</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Research</h4>
+        <a href="thoughts.html">All briefs</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>Content on this site reflects personal perspectives and is provided for informational purposes only. It is not investment advice or a recommendation to buy or sell any security.</p>
+      <span>© 2026 O'Dwyer Capital · Private family office</span>
+    </div>
+  </div>
+</footer>
 
-            // Submit to Formspree (see setup instructions below)
-            try {
-                const response = await fetch('https://formspree.io/f/maqkzyko', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(data)
-                });
+<script>
+  const form = document.getElementById('form');
+  const card = document.getElementById('card');
+  const msg = document.getElementById('message');
+  const chars = document.getElementById('chars');
+  const topicSet = document.getElementById('topic-set');
 
-                if (response.ok) {
-                    showMessage('Thank you! We\'ll be in touch soon.', 'success');
-                    contactForm.reset();
-                    grecaptcha.reset();
-                } else {
-                    showMessage('Something went wrong. Please try again.', 'error');
-                }
-            } catch (error) {
-                showMessage('Error sending message. Please try again.', 'error');
-            }
-        });
+  const checks = {
+    name: v => v.trim() ? '' : 'Please enter your name.',
+    email: v => !v.trim() ? 'Please enter your email.' : /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) ? '' : 'That email doesn’t look right.',
+    message: v => v.trim().length >= 20 ? '' : 'Please add a little more detail (20+ characters).',
+  };
 
-        function showMessage(message, type) {
-            formMessage.textContent = message;
-            formMessage.className = `form-message ${type}`;
-            setTimeout(() => {
-                if (type === 'success') {
-                    formMessage.style.display = 'none';
-                }
-            }, 5000);
-        }
-    </script>
+  function validate(id) {
+    const el = document.getElementById(id);
+    const error = checks[id](el.value);
+    const field = el.closest('.field');
+    field.classList.toggle('invalid', !!error);
+    field.querySelector('.err').textContent = error;
+    el.setAttribute('aria-invalid', !!error);
+    return !error;
+  }
+
+  Object.keys(checks).forEach(id => {
+    const el = document.getElementById(id);
+    el.addEventListener('blur', () => el.value && validate(id));
+    el.addEventListener('input', () => el.closest('.field').classList.contains('invalid') && validate(id));
+  });
+  msg.addEventListener('input', () => chars.textContent = `${msg.value.length} / 2000`);
+  topicSet.addEventListener('change', () => topicSet.classList.remove('invalid'));
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const topicOk = !!form.querySelector('input[name=topic]:checked');
+    topicSet.classList.toggle('invalid', !topicOk);
+    const ok = Object.keys(checks).map(validate).every(Boolean) && topicOk;
+    if (!ok) {
+      const first = form.querySelector('.invalid');
+      first.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      return;
+    }
+    const token = window.grecaptcha ? grecaptcha.getResponse() : '';
+    const captchaErr = document.getElementById('captcha-err');
+    captchaErr.textContent = token ? '' : 'Please tick the “I’m not a robot” box.';
+    if (!token) return;
+
+    const send = document.getElementById('send');
+    send.disabled = true; send.textContent = 'Sending…';
+    const first = document.getElementById('name').value.trim().split(/\s+/)[0];
+    const data = new FormData(form);
+    fetch('https://formspree.io/f/maqkzyko', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({
+        name: data.get('name'),
+        email: data.get('email'),
+        subject: data.get('topic'),
+        organization: data.get('organization'),
+        inquiry: data.get('inquiry'),
+        'g-recaptcha-response': token,
+      }),
+    }).then(res => {
+      if (!res.ok) throw new Error(res.status);
+      card.innerHTML = `
+        <div class="success" role="status">
+          <div class="check"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 13.5l4.5 4.5L20 8"/></svg></div>
+          <h2>Thank you, <em>${first.replace(/[&<>"']/g, '')}.</em></h2>
+          <p>Your message is with us. If it's a fit, we'll be in touch at the email you provided.</p>
+          <div class="actions">
+            <a class="btn" href="thoughts.html">Read our research</a>
+            <a class="btn" href="index.html">Back to home</a>
+          </div>
+        </div>`;
+      card.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }).catch(() => {
+      send.disabled = false; send.textContent = 'Send message';
+      captchaErr.textContent = 'Your message didn’t send. Check your connection and try again.';
+      if (window.grecaptcha) grecaptcha.reset();
+    });
+  });
+
+  const toggle = document.querySelector('.menu-toggle'), nav = document.getElementById('nav');
+  toggle.addEventListener('click', () => toggle.setAttribute('aria-expanded', nav.classList.toggle('open')));
+</script>
 </body>
 </html>

@@ -74,6 +74,29 @@ O'Dwyer Capital is a family investment office brand that conveys heritage, stabi
 
 ---
 
+## Website (2026 redesign)
+
+The website uses a dark palette built from the brand greens and gold. These values apply to odwyercapital.com; the print and logo guidance above is unchanged.
+
+### Colors
+- **Background**: `#0c110f` (green-black), raised surfaces `#151d19`
+- **Text**: `#ece7dc` (warm off-white), secondary text `#a2a89f`
+- **Gold accent**: `#c9a55c` for buttons, labels and links; `#e2c88f` for italic emphasis in headlines
+- **Green glow**: `#2f6b4f`, used only as soft background gradients
+- **Research series**: Energy Transition `#c9a55c`, Emerging Tech `#8fbfa3`, Materials `#c98a6a`
+
+### Typography
+- **Headlines**: Fraunces (Google Fonts), light weight, with one word in gold italic for emphasis
+- **Body and interface**: Inter (Google Fonts)
+- **Labels**: Inter, uppercase, letter-spaced, in gold
+
+### Logo on the website
+- Header, footer and favicon-sized uses: the knot mark alone (`assets/mark-96.png`) beside "O'Dwyer Capital" set in Fraunces
+- Large decorative use: `assets/mark-720.webp` at low opacity behind the homepage headline
+- The full logo's dark green wordmark has too little contrast on the dark site background, so the site does not use it
+
+---
+
 ## Logo Composition
 
 The O'Dwyer Capital logo consists of three elements:

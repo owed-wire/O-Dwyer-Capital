@@ -5,3 +5,4 @@ requirements.txt
 README.md
 *.md
 .gitignore
+templates
