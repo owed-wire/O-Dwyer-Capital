@@ -53,6 +53,16 @@ This guide sets up automated daily article publishing to odwyercapital.com with 
    - Output Directory: (leave empty)
 5. Click "Deploy"
 
+## Cloudflare Pages (serves odwyercapital.com)
+
+The live domain is served by Cloudflare Pages, connected to this repository's `main` branch. Vercel still builds each push, but it doesn't serve the public domain.
+
+Cloudflare build settings (Workers & Pages → o-dwyer-capital → Settings → Build):
+- **Build command**: `bash build_site.sh`
+- **Build output directory**: `dist`
+
+`build_site.sh` copies the website into `dist/` and leaves out the Python scripts, Markdown docs, `templates/` and repo config, so those files aren't publicly served. If you add a new kind of file the site needs, check it isn't matched by an exclude in that script.
+
 ## Step 4: Connect Your Domain
 
 In Vercel project settings:
