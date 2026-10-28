@@ -6,13 +6,14 @@ Fetches articles from NewsAPI, analyzes them, and publishes weekly briefs
 
 import json
 import os
-import shutil
 import requests
 from datetime import datetime, timedelta
 from typing import List, Dict
 from urllib.parse import urlparse
 import re
 from anthropic import Anthropic
+
+from brief_renderer import headline_of, render_brief_page
 
 class ArticleAnalyzer:
     def __init__(self, api_key: str = None, thoughts_file: str = "articles_data.json"):
@@ -483,70 +484,7 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
                     parts.append(f"<p>{desc}</p>")
         return "\n".join(parts)
 
-    def build_related_section(self, related_briefs: List[Dict]) -> str:
-        """Build the Related Coverage HTML section linking to earlier briefs"""
-        if not related_briefs:
-            return ""
-        items = "\n".join(
-            f'                <li><a href="{rb["url"]}">{rb["title"]} &mdash; {rb["date"]}</a></li>'
-            for rb in related_briefs
-        )
-        return f"""
-            <div class="related-briefs">
-                <h2>Related Coverage</h2>
-                <p>Earlier O'Dwyer briefs on similar themes:</p>
-                <ul>
-{items}
-                </ul>
-            </div>"""
-
     SITE_URL = "https://www.odwyercapital.com"
-
-    def extract_headline(self, body_html: str, fallback: str) -> str:
-        """Pull the article's unique opening <h2> headline for use as page title"""
-        m = re.search(r'<h2[^>]*>(.*?)</h2>', body_html or '', re.DOTALL)
-        if m:
-            text = re.sub(r'<[^>]+>', '', m.group(1)).strip()
-            if text:
-                return text
-        return fallback
-
-    def inject_seo(self, html_content: str, brief: Dict) -> str:
-        """Give each article a unique <title>, meta description, canonical URL and Article schema"""
-        headline = self.extract_headline(
-            brief.get('body_html', ''),
-            f"{brief.get('title', '')} - {brief.get('date', '')}"
-        )
-        excerpt = (brief.get('excerpt') or '').strip()
-        page_url = f"{self.SITE_URL}/{brief.get('url', '')}"
-
-        try:
-            iso_date = datetime.strptime(brief.get('date', ''), "%B %d, %Y").strftime("%Y-%m-%d")
-        except Exception:
-            iso_date = datetime.now().strftime("%Y-%m-%d")
-
-        # Unique <title> (use lambda so special chars in headline can't break the regex)
-        new_title = f"{headline} | O'Dwyer Capital"
-        html_content = re.sub(r'<title>.*?</title>', lambda m: f'<title>{new_title}</title>',
-                              html_content, count=1, flags=re.DOTALL)
-
-        schema = {
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": headline,
-            "description": excerpt,
-            "datePublished": iso_date,
-            "author": {"@type": "Organization", "name": "O'Dwyer Capital"},
-            "publisher": {"@type": "Organization", "name": "O'Dwyer Capital", "url": self.SITE_URL},
-            "mainEntityOfPage": page_url
-        }
-        meta_desc = excerpt.replace('"', '&quot;')
-        head_extra = (
-            f'    <meta name="description" content="{meta_desc}">\n'
-            f'    <link rel="canonical" href="{page_url}">\n'
-            f'    <script type="application/ld+json">{json.dumps(schema)}</script>\n'
-        )
-        return html_content.replace('</head>', head_extra + '</head>', 1)
 
     def generate_sitemap(self) -> str:
         """Regenerate sitemap.xml including every published article"""
@@ -594,7 +532,7 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
             link = f"{self.SITE_URL}/{u}"
             items.append(
                 f"    <item>\n"
-                f"      <title>{esc(a.get('title', ''))} — {esc(a.get('date', ''))}</title>\n"
+                f"      <title>{esc(a.get('headline') or a.get('title', ''))} — {esc(a.get('date', ''))}</title>\n"
                 f"      <link>{link}</link>\n"
                 f"      <guid>{link}</guid>\n"
                 f"      <pubDate>{pub}</pubDate>\n"
@@ -744,101 +682,35 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
             return None
 
     def generate_html_files(self, briefs: List[Dict] = None) -> List[str]:
-        """Copy template HTML files and update date from brief data - ONLY for categories with new briefs"""
+        """Render a dated page for each new brief using templates/brief.html (see brief_renderer.py)"""
         if not briefs:
             # No new briefs created, don't generate any HTML files
             return []
 
         generated_files = []
         today = datetime.now().strftime("%Y-%m-%d")
-
-        template_map = {
-            'energy-transition': 'energy-transition.html',
-            'emerging-tech': 'emerging-tech.html',
-            'materials': 'materials.html'
-        }
-
         base_path = os.path.dirname(__file__)
 
-        # Create a map of slug -> brief for easy lookup
-        brief_map = {brief.get('slug', ''): brief for brief in briefs if brief.get('slug')}
-
-        # Only generate HTML for categories that had new briefs
         for brief in briefs:
             slug = brief.get('slug', '')
-            if slug not in template_map:
+            body_html = brief.get('body_html', '')
+            dst_file = f"{slug}-{today}.html"
+            if not body_html:
+                print(f"WARNING: no body generated for {slug}; "
+                      f"skipping {dst_file} to avoid publishing a duplicate")
                 continue
 
-            template_file = template_map[slug]
-            src_path = os.path.join(base_path, template_file)
-            dst_file = f"{slug}-{today}.html"
-            dst_path = os.path.join(base_path, dst_file)
-
-            if os.path.exists(src_path):
-                try:
-                    # Read template (only used for page chrome: header, nav, styles, footer)
-                    with open(src_path, 'r', encoding='utf-8', errors='replace') as f:
-                        html_content = f.read()
-
-                    # 1. Update date - matches ANY existing date, not a hardcoded one.
-                    #    If the template has no Date line, inject one into article-meta.
-                    brief_date = brief.get('date', '')
-                    if re.search(r'<strong>Date:</strong>', html_content):
-                        html_content = re.sub(
-                            r'(<strong>Date:</strong>\s*)[A-Za-z]+ \d{1,2}, \d{4}',
-                            lambda m: m.group(1) + brief_date,
-                            html_content
-                        )
-                    else:
-                        html_content = html_content.replace(
-                            '<div class="article-meta">',
-                            f'<div class="article-meta"><strong>Date:</strong> {brief_date} | ',
-                            1
-                        )
-
-                    # 2. Replace the ENTIRE article body with today's AI-generated content.
-                    #    This is the duplicate-article fix: previously the old body was
-                    #    copied verbatim, so every "new" article had identical content.
-                    body_html = brief.get('body_html', '')
-                    if body_html:
-                        tags_html = "".join(
-                            f'<span class="tag">{t}</span>'
-                            for t in (brief.get('tags', []) + brief.get('themes', []))
-                        )
-                        related_html = self.build_related_section(brief.get('related_briefs', []))
-                        new_body = (
-                            f'<div class="article-body">\n{body_html}\n'
-                            f'{related_html}\n'
-                            f'            <div class="tags">{tags_html}</div>\n'
-                            f'        </div>'
-                        )
-                        html_content, n = re.subn(
-                            r'<div class="article-body">.*?</div>\s*(?=</section>)',
-                            lambda m: new_body,
-                            html_content,
-                            count=1,
-                            flags=re.DOTALL
-                        )
-                        if n == 0:
-                            print(f"WARNING: could not locate article-body in {template_file}; "
-                                  f"skipping {dst_file} to avoid publishing a duplicate")
-                            continue
-                    else:
-                        print(f"WARNING: no body generated for {slug}; "
-                              f"skipping {dst_file} to avoid publishing a duplicate")
-                        continue
-
-                    # 3. Unique title, meta description, canonical URL, Article schema
-                    html_content = self.inject_seo(html_content, brief)
-
-                    # Write the dated article file
-                    with open(dst_path, 'w', encoding='utf-8') as f:
-                        f.write(html_content)
-
-                    generated_files.append(dst_file)
-                    print(f"Generated: {dst_file}")
-                except Exception as e:
-                    print(f"Error generating {dst_file}: {e}")
+            try:
+                # The headline is stored in articles_data.json for the homepage and Thoughts listings
+                brief['headline'] = headline_of(body_html, brief.get('title', ''))
+                # Related briefs and previous/next links come from this week's briefs plus the archive
+                html_content = render_brief_page(brief, body_html, briefs + self.existing_articles)
+                with open(os.path.join(base_path, dst_file), 'w', encoding='utf-8') as f:
+                    f.write(html_content)
+                generated_files.append(dst_file)
+                print(f"Generated: {dst_file}")
+            except Exception as e:
+                print(f"Error generating {dst_file}: {e}")
 
         return generated_files
 
