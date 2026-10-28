@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 import re
 from anthropic import Anthropic
 
-from brief_renderer import headline_of, render_brief_page
+from brief_renderer import SERIES, headline_of, page_url, render_brief_page, update_listing_pages
 
 class ArticleAnalyzer:
     def __init__(self, api_key: str = None, thoughts_file: str = "articles_data.json"):
@@ -489,9 +489,9 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
     def generate_sitemap(self) -> str:
         """Regenerate sitemap.xml including every published article"""
         today = datetime.now().strftime("%Y-%m-%d")
-        entries = [(f"{self.SITE_URL}/", today),
-                   (f"{self.SITE_URL}/thoughts.html", today),
-                   (f"{self.SITE_URL}/contact.html", today)]
+        entries = [(page_url("index.html"), today),
+                   (page_url("thoughts.html"), today),
+                   (page_url("contact.html"), today)]
         for a in self.existing_articles:
             u = a.get('url')
             if not u:
@@ -500,7 +500,7 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
                 lastmod = datetime.strptime(a.get('date', ''), "%B %d, %Y").strftime("%Y-%m-%d")
             except Exception:
                 lastmod = today
-            entries.append((f"{self.SITE_URL}/{u}", lastmod))
+            entries.append((page_url(u), lastmod))
 
         urls = "\n".join(
             f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n  </url>"
@@ -529,12 +529,13 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
                 pub = datetime.strptime(a.get('date', ''), "%B %d, %Y").strftime("%a, %d %b %Y 13:30:00 GMT")
             except Exception:
                 continue
-            link = f"{self.SITE_URL}/{u}"
+            link = page_url(u)
             items.append(
                 f"    <item>\n"
                 f"      <title>{esc(a.get('headline') or a.get('title', ''))} — {esc(a.get('date', ''))}</title>\n"
                 f"      <link>{link}</link>\n"
-                f"      <guid>{link}</guid>\n"
+                # Guids keep the original .html address so feed readers don't list old briefs again
+                f"      <guid isPermaLink=\"false\">{self.SITE_URL}/{u}</guid>\n"
                 f"      <pubDate>{pub}</pubDate>\n"
                 f"      <description>{esc(a.get('excerpt', ''))}</description>\n"
                 f"    </item>"
@@ -544,7 +545,7 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
                 '<rss version="2.0">\n'
                 '  <channel>\n'
                 "    <title>O'Dwyer Capital — Investment Briefs</title>\n"
-                f'    <link>{self.SITE_URL}/thoughts.html</link>\n'
+                f'    <link>{page_url("thoughts.html")}</link>\n'
                 "    <description>Weekly investment briefs on energy transition, emerging technology, and strategic materials from O'Dwyer Capital.</description>\n"
                 '    <language>en-us</language>\n'
                 + "\n".join(items) + "\n"
@@ -554,6 +555,56 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
         with open(path, 'w', encoding='utf-8') as f:
             f.write(feed)
         print(f"Generated feed.xml with {len(items)} items")
+        return path
+
+    def generate_llms_txt(self) -> str:
+        """Regenerate llms.txt: a plain-text guide to the site and every brief, for AI assistants"""
+        briefs = []
+        for a in self.existing_articles:
+            try:
+                briefs.append((datetime.strptime(a.get('date', ''), "%B %d, %Y"), a))
+            except Exception:
+                continue
+        briefs.sort(key=lambda x: x[0], reverse=True)
+
+        def line(d, a, excerpt=False):
+            text = f"- [{a.get('headline') or a.get('title', '')}]({page_url(a['url'])}): {d.strftime('%B %d, %Y').replace(' 0', ' ')}"
+            return f"{text}. {a.get('excerpt', '')}" if excerpt else text
+
+        latest_day = briefs[0][0] if briefs else None
+        parts = [
+            "# O'Dwyer Capital",
+            "",
+            "> O'Dwyer Capital is a family investment office backing the energy transition, emerging "
+            "technology and strategic materials shifts of the next twenty years, with patient capital "
+            "(5-20 year thesis horizon) and research published every week.",
+            "",
+            "Every Monday we publish an investment brief for each of three series: Energy Transition "
+            "(renewables, storage, grid), Emerging Tech (AI infrastructure, semiconductors, satellites, "
+            "quantum) and Materials (rare earths, graphene, critical mineral supply chains). Each brief "
+            "has an executive summary, key developments with cited sources, investment implications and "
+            "risk factors. Briefs are personal perspectives for informational purposes only, not "
+            "investment advice.",
+            "",
+            "## Site",
+            "",
+            f"- [Home]({page_url('index.html')}): who we are, our approach and focus areas",
+            f"- [Research]({page_url('thoughts.html')}): searchable archive of every brief",
+            f"- [Contact]({page_url('contact.html')}): investment opportunities, partnerships and research inquiries",
+            f"- [RSS feed]({self.SITE_URL}/feed.xml): the latest briefs",
+            "",
+            "## Latest briefs",
+            "",
+            *[line(d, a, excerpt=True) for d, a in briefs if d == latest_day],
+        ]
+        for slug, name in SERIES.items():
+            parts += ["", f"## {name} archive", "",
+                      *[line(d, a) for d, a in briefs if a.get('slug') == slug and d != latest_day]]
+
+        path = os.path.join(os.path.dirname(__file__), 'llms.txt')
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write("\n".join(parts) + "\n")
+        print(f"Generated llms.txt with {len(briefs)} briefs")
         return path
 
     def analyze_historical_trends(self, category_slug: str, current_themes: List[str]) -> Dict:
@@ -772,10 +823,12 @@ Output ONLY the HTML fragment. No markdown, no code fences, no preamble."""
         print("\n5. Updating articles_data.json...")
         json_path = self.update_articles_json(published_briefs)
 
-        # Keep search engines and feed readers up to date
-        print("\n6. Regenerating sitemap.xml and feed.xml...")
+        # Keep search engines, AI crawlers and feed readers up to date
+        print("\n6. Regenerating sitemap.xml, feed.xml, llms.txt and the brief listings...")
         self.generate_sitemap()
         self.generate_feed()
+        self.generate_llms_txt()
+        update_listing_pages(self.existing_articles, os.path.dirname(os.path.abspath(__file__)))
 
         summary = {
             'articles_fetched': len(articles),

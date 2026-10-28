@@ -11,6 +11,18 @@
 <meta property="og:description" content="A family investment office backing the energy, technology and materials shifts of the next twenty years.">
 <meta property="og:image" content="https://www.odwyercapital.com/odwyer_capital_logo_primary.png">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://www.odwyercapital.com/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "O'Dwyer Capital",
+  "description": "A family investment office backing the energy transition, emerging technology and strategic materials shifts of the next twenty years, with patient capital and weekly published research.",
+  "url": "https://www.odwyercapital.com/",
+  "logo": "https://www.odwyercapital.com/odwyer_capital_logo_primary.png",
+  "knowsAbout": ["Energy transition", "Energy storage", "Power grid modernization", "Renewable energy", "Satellite infrastructure", "Semiconductors", "Quantum computing", "Rare earths", "Graphene", "Critical mineral supply chains"]
+}
+</script>
 <link rel="icon" type="image/png" href="favicon.png">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-32PXHG0656"></script>
@@ -288,13 +300,13 @@
       <h1>Invested in what <em>endures.</em></h1>
       <p class="hero-lede">We back the energy, technology and materials shifts that will define the next twenty years, with patient capital and research we publish every week.</p>
       <div class="hero-actions">
-        <a href="thoughts.html" class="btn btn-gold" id="latest-link">Read the latest brief</a>
+        <a href="materials-2026-10-26.html" class="btn btn-gold" id="latest-link">Read the latest brief</a>
         <a href="#approach" class="link-arrow">How we invest <span>→</span></a>
       </div>
       <div class="stats">
         <div class="stat"><b>3</b><span>Focus sectors</span></div>
         <div class="stat"><b>5–20 yr</b><span>Thesis horizon</span></div>
-        <div class="stat"><b id="brief-count">100+</b><span>Research briefs published</span></div>
+        <div class="stat"><b id="brief-count"><!-- static:brief-count -->110<!-- /static:brief-count --></b><span>Research briefs published</span></div>
         <div class="stat"><b>Weekly</b><span>Briefing cadence</span></div>
       </div>
     </div>
@@ -382,25 +394,26 @@
         </div>
         <p>Every week we publish our read on energy, technology and materials markets: what moved, and why it matters for long-term capital.</p>
       </div>
-      <div class="briefs" id="latest-briefs">
-        <a class="brief" href="energy-transition-2026-10-26.html">
-          <div class="brief-meta"><span class="sector">Energy</span><span>Oct 26, 2026</span></div>
-          <h3>AI Data Center Energy Demand Collides with Grid Constraints and Geopolitical Oil Volatility</h3>
-          <p>Data center growth is straining renewable supply as operators race to secure power, while grid policy struggles to keep pace with accelerated timelines.</p>
+      <div class="briefs" id="latest-briefs"><!-- static:latest-briefs -->
+        <a class="brief" href="materials-2026-10-26.html">
+          <div class="brief-meta"><span class="sector">Materials</span><span>Oct 26, 2026</span></div>
+          <h3>Critical Materials Reshoring Accelerates as Supply Chain Diversification Becomes Competitive Imperative</h3>
+          <p>AI-enabled resource optimization is emerging as a critical efficiency lever across infrastructure and supply chains, with applications ranging from distributed computing via connected home appliances to automated rare earth extraction processes. This convergence reflects broader capital reallocation toward AI-powered operational improvements in traditionally capital-intensive sectors, alongside continued geographic diversification of critical mineral sourcing.</p>
           <span class="link-arrow">Read brief <span>→</span></span>
         </a>
         <a class="brief" href="emerging-tech-2026-10-26.html">
           <div class="brief-meta"><span class="sector">Technology</span><span>Oct 26, 2026</span></div>
           <h3>Data Center Opposition and Supply Chain Nationalism Challenge AI Infrastructure Buildout</h3>
-          <p>Big tech is rebalancing capital allocation across AI agents and autonomy, while regulatory pushback on environmental impact adds friction to expansion.</p>
+          <p>AI infrastructure investment is intensifying as major tech players recalibrate capital allocation strategies, with Meta narrowing capex forecasts while competing in AI agents and autonomous systems, while data center expansion emerges as a politically sensitive variable in upcoming electoral cycles. The sector faces operational friction points, including regulatory pushback on environmental impacts—as evidenced by Finland&#x27;s response to Google&#x27;s forest clearing for AI infrastructure—that could materially affect deployment timelines and permitting costs.</p>
           <span class="link-arrow">Read brief <span>→</span></span>
         </a>
-        <a class="brief" href="materials-2026-10-26.html">
-          <div class="brief-meta"><span class="sector">Materials</span><span>Oct 26, 2026</span></div>
-          <h3>Critical Materials Reshoring Accelerates as Supply Chain Diversification Becomes Competitive Imperative</h3>
-          <p>AI-powered optimization is reaching capital-intensive supply chains, alongside continued geographic diversification of critical mineral sourcing.</p>
+        <a class="brief" href="energy-transition-2026-10-26.html">
+          <div class="brief-meta"><span class="sector">Energy</span><span>Oct 26, 2026</span></div>
+          <h3>AI Data Center Energy Demand Collides with Grid Constraints and Geopolitical Oil Volatility</h3>
+          <p>AI-driven data center demand is significantly straining clean energy capacity, with operators racing to secure renewable power sources to meet computing infrastructure growth. Regional energy systems face mounting pressure to deliver reliable baseload and peak capacity simultaneously, while policy frameworks struggle to accommodate accelerated timelines for grid modernization and renewable deployment.</p>
           <span class="link-arrow">Read brief <span>→</span></span>
         </a>
+        <!-- /static:latest-briefs -->
       </div>
       <div class="research-foot">
         <span>Personal perspectives for informational purposes only, not investment advice.</span>
@@ -467,7 +480,8 @@
     if (e.target.closest('a')) { nav.classList.remove('open'); toggle.setAttribute('aria-expanded', false); }
   });
 
-  // The cards above are a fallback; refresh them (and the brief count) from the archive the weekly job updates
+  // The weekly job writes these cards into the page (for crawlers that don't run JavaScript);
+  // refresh them (and the brief count) from the archive in case the page is served stale
   const SECTOR = { 'energy-transition': 'Energy', 'emerging-tech': 'Technology', 'materials': 'Materials' };
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   fetch('articles_data.json')

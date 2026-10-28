@@ -18,6 +18,13 @@ SERIES = {"energy-transition": "Energy Transition", "emerging-tech": "Emerging T
 TEMPLATE_PATH = os.path.join(os.path.dirname(__file__), "templates", "brief.html")
 
 
+def page_url(path: str) -> str:
+    """Public URL for a site file. Cloudflare Pages 308-redirects "x.html" to "x", so links
+    that crawlers treat as authoritative (canonical, sitemap, feed, schema) use the short form."""
+    path = path[:-5] if path.endswith(".html") else path
+    return f"{SITE_URL}/" if path in ("", "index") else f"{SITE_URL}/{path}"
+
+
 def _date(brief: Dict) -> datetime:
     return datetime.strptime(brief["date"], "%B %d, %Y")
 
@@ -174,7 +181,7 @@ def render_brief_page(brief: Dict, body_html: str, archive: List[Dict]) -> str:
         pager += (f'<a class="next" href="{next_b["url"]}"><small>Next {series} brief →</small>'
                   f'<strong>{html.escape(label(next_b))}</strong></a>')
 
-    page_url = f"{SITE_URL}/{brief['url']}"
+    url = page_url(brief["url"])
     schema = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -183,7 +190,7 @@ def render_brief_page(brief: Dict, body_html: str, archive: List[Dict]) -> str:
         "datePublished": d.strftime("%Y-%m-%d"),
         "author": {"@type": "Organization", "name": "O'Dwyer Capital"},
         "publisher": {"@type": "Organization", "name": "O'Dwyer Capital", "url": SITE_URL},
-        "mainEntityOfPage": page_url,
+        "mainEntityOfPage": url,
     }
     sources_html = "".join(
         f'<li><a href="{u}" target="_blank" rel="noopener"><b>{_domain(u)}</b>'
@@ -192,8 +199,8 @@ def render_brief_page(brief: Dict, body_html: str, archive: List[Dict]) -> str:
     values = {
         "TITLE": html.escape(title),
         "DESCRIPTION": html.escape(brief.get("excerpt", "")),
-        "URL": page_url,
-        "URL_ENC": urllib.parse.quote(page_url, safe=""),
+        "URL": url,
+        "URL_ENC": urllib.parse.quote(url, safe=""),
         "TITLE_ENC": urllib.parse.quote(title),
         "ISO_DATE": d.strftime("%Y-%m-%d"),
         "SCHEMA": json.dumps(schema).replace("</", "<\\/"),
@@ -216,3 +223,105 @@ def render_brief_page(brief: Dict, body_html: str, archive: List[Dict]) -> str:
     # One pass, so placeholder-like text inside a brief is never substituted
     page = re.sub(r"\{\{(\w+)\}\}", lambda m: values[m.group(1)], page)
     return page
+
+
+def _fill(page: str, name: str, content: str) -> str:
+    """Replace the content between <!-- static:name --> and <!-- /static:name --> markers"""
+    pattern = re.compile(rf"(<!-- static:{name} -->).*?(<!-- /static:{name} -->)", re.DOTALL)
+    if not pattern.search(page):
+        raise ValueError(f"missing <!-- static:{name} --> markers")
+    return pattern.sub(lambda m: m.group(1) + content + m.group(2), page, count=1)
+
+
+def update_listing_pages(archive: List[Dict], base_dir: str) -> None:
+    """Write the brief listings into index.html and thoughts.html as plain HTML.
+
+    Both pages re-render these from articles_data.json in the browser, but most AI crawlers
+    don't run JavaScript, so the markup they need to find the briefs has to be in the file.
+    It mirrors what the pages' scripts draw on first load.
+    """
+    briefs = sorted(archive, key=_date, reverse=True)
+    esc = html.escape
+
+    def label(b):
+        return b.get("headline") or b.get("title", "")
+
+    def fmt(b):
+        return _nice_date(_date(b), "%b %d, %Y")
+
+    # Homepage: brief count, latest-brief button and this week's three cards
+    sector = {"energy-transition": "Energy", "emerging-tech": "Technology", "materials": "Materials"}
+    path = os.path.join(base_dir, "index.html")
+    with open(path, encoding="utf-8") as f:
+        page = f.read()
+    page = _fill(page, "brief-count", str(len(briefs)))
+    page = re.sub(r'(<a href=")[^"]*(" class="btn btn-gold" id="latest-link">)',
+                  lambda m: m.group(1) + esc(briefs[0]["url"]) + m.group(2), page)
+    page = _fill(page, "latest-briefs", "".join(f"""
+        <a class="brief" href="{esc(b['url'])}">
+          <div class="brief-meta"><span class="sector">{sector.get(b['slug'], '')}</span><span>{fmt(b)}</span></div>
+          <h3>{esc(label(b))}</h3>
+          <p>{esc(b.get('excerpt', ''))}</p>
+          <span class="link-arrow">Read brief <span>→</span></span>
+        </a>""" for b in briefs[:3]) + "\n        ")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(page)
+
+    # Thoughts: hero stats, featured panel, and every earlier brief (first 12 shown, the rest
+    # hidden until "Load more", but their links are still in the page for crawlers)
+    page_size = 12
+    latest = briefs[0]
+    same_day = [b for b in briefs[1:] if b["date"] == latest["date"]]
+    pool = [b for b in briefs if b["date"] != latest["date"]]
+    first = _date(briefs[-1])
+
+    def sources(b, suffix):
+        return f"{b['article_count']} {suffix}" if b.get("article_count") else ""
+
+    def chips(b):
+        return "".join(f'<span class="chip" data-theme="{esc(t.lower())}">{esc(t[:1].upper() + t[1:])}</span>'
+                       for t in (b.get("themes") or [])[:3])
+
+    stats = f"""
+      <div><b>{len(briefs)}</b><span>Briefs published</span></div>
+      <div><b>3</b><span>Research series</span></div>
+      <div><b>{first.strftime('%b')} ’{first.strftime('%y')}</b><span>Publishing since</span></div>"""
+    featured = f"""
+      <div class="featured">
+        <a class="featured-main" href="{esc(latest['url'])}" data-series="{latest['slug']}">
+          <div class="featured-label"><span class="pill-new">Latest</span><span class="series">{SERIES.get(latest['slug'], '')}</span></div>
+          <h2>{esc(label(latest))}</h2>
+          <p>{esc(latest.get('excerpt', ''))}</p>
+          <div class="meta-row"><span>{fmt(latest)} · {sources(latest, 'sources analyzed') or 'O’Dwyer Analysis'}</span><span class="link-arrow">Read brief <span>→</span></span></div>
+        </a>
+        <div class="featured-side">
+          <div>
+            <div class="side-label">Also this week</div>
+            <ul class="also-list">
+              {''.join(f'<li><a href="{esc(b["url"])}" data-series="{b["slug"]}"><span class="series">{SERIES.get(b["slug"], "")}</span><strong>{esc(label(b))}</strong></a></li>' for b in same_day)}
+            </ul>
+          </div>
+        </div>
+      </div>"""
+    grid = "".join(f"""
+        <a class="card" href="{esc(b['url'])}" data-series="{b['slug']}"{' hidden' if i >= page_size else ''}>
+          <div class="card-top"><span class="series">{SERIES.get(b['slug'], '')}</span><time>{fmt(b)}</time></div>
+          <h3>{esc(label(b))}</h3>
+          <p>{esc(b.get('excerpt', ''))}</p>
+          <div class="chips">{chips(b)}</div>
+          <div class="meta-row"><span>{sources(b, 'sources')}</span><span class="link-arrow">Read <span>→</span></span></div>
+        </a>""" for i, b in enumerate(pool))
+    shown = min(page_size, len(pool))
+    more = (f'<span>Showing {shown} of {len(pool)}</span><div class="progress"><i style="width:{shown / len(pool) * 100:g}%"></i></div>'
+            f'<button class="btn" id="load">Load more briefs</button>') if len(pool) > shown else ""
+
+    path = os.path.join(base_dir, "thoughts.html")
+    with open(path, encoding="utf-8") as f:
+        page = f.read()
+    page = _fill(page, "hero-stats", stats)
+    page = _fill(page, "featured", featured)
+    page = _fill(page, "count", f"<b>Archive</b> · {len(pool)} earlier briefs")
+    page = _fill(page, "grid", grid)
+    page = _fill(page, "more", more)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(page)

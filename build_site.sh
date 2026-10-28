@@ -24,6 +24,10 @@ tar -cf - \
   --exclude=./.gitignore \
   --exclude=./.gitattributes \
   --exclude=./build_site.sh \
+  --exclude=./emerging-tech.html \
+  --exclude=./energy-transition.html \
+  --exclude=./materials.html \
+  --exclude='./odwyer-*-mockup.html' \
   . | tar -xf - -C dist
 
 echo "Copied $(find dist -type f | wc -l) files to dist/"

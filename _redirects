@@ -1,0 +1,9 @@
+# Cloudflare Pages redirects (https://developers.cloudflare.com/pages/configuration/redirects/)
+
+# Pre-redesign series pages, now templates for article_analyzer_simple.py only (not deployed)
+/emerging-tech.html      /thoughts#emerging-tech      301
+/emerging-tech           /thoughts#emerging-tech      301
+/energy-transition.html  /thoughts#energy-transition  301
+/energy-transition       /thoughts#energy-transition  301
+/materials.html          /thoughts#materials          301
+/materials               /thoughts#materials          301
