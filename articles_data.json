@@ -1,5 +1,75 @@
 [
   {
+    "id": 115,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "November 09, 2026",
+    "url": "emerging-tech-2026-11-09.html",
+    "excerpt": "The AI infrastructure buildout is creating dual market pressures: surging capital deployment in data center construction to support model training and inference, while simultaneously triggering regulatory and environmental scrutiny that could reshape developer economics. Recent industry trends\u2014from large-scale employee restructuring at major tech firms to proposed UK Community Investment Covenants\u2014signal that AI's economic impact extends beyond compute capacity to workforce reallocation and infrastructure localization requirements.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Business Insider",
+      "TechRadar",
+      "CNET"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 41 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ],
+    "headline": "AI Infrastructure Crunch: Talent Rationalization, Power Constraints, and Market Volatility Reshape Tech Investment Thesis"
+  },
+  {
+    "id": 114,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "November 09, 2026",
+    "url": "energy-transition-2026-11-09.html",
+    "excerpt": "Global electrification initiatives could reduce energy consumption by approximately 50%, yet policy implementation remains fragmented across major markets\u2014exemplified by UK regulatory gaps and Wall Street's continued reliance on natural gas as a transition bridge. Solar adoption is accelerating in distributed applications, though consumer sentiment reflects growing friction around bundled subscription models rather than hardware economics alone.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "solar energy"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Fullycharged.show",
+      "Grist",
+      "Theregister.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "solar energy"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 46 historical briefs"
+    },
+    "trend_context": [
+      "New developments: solar energy"
+    ],
+    "headline": "Energy Storage and Grid Infrastructure Emerge as Critical Bottlenecks as Electrification Pathway Accelerates"
+  },
+  {
     "id": 113,
     "title": "Materials Investment Brief",
     "slug": "materials",
