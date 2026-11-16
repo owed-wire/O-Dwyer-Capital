@@ -3,58 +3,59 @@ Starting O'Dwyer Capital Article Analyzer...
 ============================================================
 
 1. Fetching articles from NewsAPI...
-Fetching articles from 2026-10-26T00:00:00Z to 2026-11-09T22:25:28.059035Z
-Fetched 280 articles
+Fetching articles from 2026-11-09T00:00:00Z to 2026-11-16T22:09:42.485521Z
+Fetched 272 articles
 
 2. Categorizing articles...
-   energy-transition: 56 articles
-   emerging-tech: 70 articles
+   energy-transition: 63 articles
+   emerging-tech: 60 articles
    materials: 18 articles
 
 3. Creating analytical briefs...
-   Source validation: 25 live of 56 fetched
-   Generated AI excerpt: Global electrification initiatives could reduce energy consumption by approximately 50%, yet policy implementation remains fragmented across major markets—exemplified by UK regulatory gaps and Wall Street's continued reliance on natural gas as a transition bridge. Solar adoption is accelerating in distributed applications, though consumer sentiment reflects growing friction around bundled subscription models rather than hardware economics alone.
-   Generated AI article body (12307 chars)
+   Dropping dead/unreachable source: https://www.cbc.ca/news/science/canada-un-climate-summit-cop31-9.7413260
+   Source validation: 25 live of 63 fetched
+   Generated AI excerpt: AI-driven data center proliferation is intensifying energy demand volatility, with significant capital allocation implications for both traditional power infrastructure and renewable energy solutions. While global fossil fuel emissions are projected to decline in 2026, the concurrent surge in computational capacity requirements presents competing pressures on grid stability and rural electrification economics, creating divergent investment outcomes across energy subsectors through 2027-2028.
+   Generated AI article body (11607 chars)
    Created brief: Energy Transition Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://www.npr.org/2026/10/29/nx-s1-6008066/automakers-inflation-tariffs-chips-diesel-ear
-   Source validation: 25 live of 70 fetched
-   Generated AI excerpt: The AI infrastructure buildout is creating dual market pressures: surging capital deployment in data center construction to support model training and inference, while simultaneously triggering regulatory and environmental scrutiny that could reshape developer economics. Recent industry trends—from large-scale employee restructuring at major tech firms to proposed UK Community Investment Covenants—signal that AI's economic impact extends beyond compute capacity to workforce reallocation and infrastructure localization requirements.
-   Generated AI article body (12629 chars)
+   Source validation: 25 live of 60 fetched
+   Generated AI excerpt: Global AI infrastructure expansion continues despite regulatory headwinds, with Google committing $17 billion to a Wyoming data center project as net employment projections suggest AI could generate nearly 2 million jobs by 2030, though reputational risks and internal workforce pushback are creating execution uncertainties for major technology vendors.
+   Generated AI article body (13216 chars)
    Created brief: Emerging Tech Investment Brief (NEW/ACCELERATING themes found)
-   Dropping dead/unreachable source: https://improvephotography.com/73809/how-to-choose-a-brass-insert-fittings-supplier-for-pp
-   Source validation: 17 live of 18 fetched
-   Generated AI excerpt: U.S. rare earth supply vulnerability has intensified as domestic production covers less than 1% of national magnet demand, prompting the Pentagon to negotiate a 75-year supply agreement to reduce China dependency. Concurrent mining sector underperformance—with top 50 mining stocks losing $712 billion in value since February—underscores structural challenges in critical materials infrastructure, while emerging ventures like Nagare Labs signal private-sector innovation in memory and materials bottlenecks.
-   Generated AI article body (11565 chars)
-   Skipped materials: No new themes since last brief
+   Source validation: 18 live of 18 fetched
+   Generated AI excerpt: India's critical minerals strategy is gaining momentum through state-backed incentives and bilateral partnerships, with HEG Advanced Materials receiving Rs 610 crore under the Enhanced Capital Investment Scheme while simultaneous lithium negotiations with Russia's Rosatom signal efforts to secure supply chains essential for AI infrastructure and energy transition technologies.
+   Generated AI article body (11093 chars)
+   Created brief: Materials Investment Brief (NEW/ACCELERATING themes found)
 
 4. Generating dated HTML files...
-Generated: energy-transition-2026-11-09.html
-Generated: emerging-tech-2026-11-09.html
+Generated: energy-transition-2026-11-16.html
+Generated: emerging-tech-2026-11-16.html
+Generated: materials-2026-11-16.html
 
 5. Updating articles_data.json...
-Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 2 new briefs
+Updated /home/runner/work/O-Dwyer-Capital/O-Dwyer-Capital/articles_data.json with 3 new briefs
 
 6. Regenerating sitemap.xml, feed.xml, llms.txt and the brief listings...
-Generated sitemap.xml with 115 URLs
+Generated sitemap.xml with 118 URLs
 Generated feed.xml with 20 items
-Generated llms.txt with 112 briefs
+Generated llms.txt with 115 briefs
 
 ============================================================
 PUBLICATION COMPLETE
 ============================================================
-Articles fetched: 280
-Briefs created: 2
-HTML files: energy-transition-2026-11-09.html, emerging-tech-2026-11-09.html
+Articles fetched: 272
+Briefs created: 3
+HTML files: energy-transition-2026-11-16.html, emerging-tech-2026-11-16.html, materials-2026-11-16.html
 
 === SUMMARY ===
 {
-  "articles_fetched": 280,
-  "briefs_created": 2,
-  "html_files_created": 2,
+  "articles_fetched": 272,
+  "briefs_created": 3,
+  "html_files_created": 3,
   "files": [
-    "energy-transition-2026-11-09.html",
-    "emerging-tech-2026-11-09.html"
+    "energy-transition-2026-11-16.html",
+    "emerging-tech-2026-11-16.html",
+    "materials-2026-11-16.html"
   ],
-  "publication_date": "2026-11-09T22:27:18.724318",
+  "publication_date": "2026-11-16T22:11:37.767854",
   "status": "success"
 }

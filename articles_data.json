@@ -1,5 +1,109 @@
 [
   {
+    "id": 118,
+    "title": "Materials Investment Brief",
+    "slug": "materials",
+    "date": "November 16, 2026",
+    "url": "materials-2026-11-16.html",
+    "excerpt": "India's critical minerals strategy is gaining momentum through state-backed incentives and bilateral partnerships, with HEG Advanced Materials receiving Rs 610 crore under the Enhanced Capital Investment Scheme while simultaneous lithium negotiations with Russia's Rosatom signal efforts to secure supply chains essential for AI infrastructure and energy transition technologies.",
+    "tags": [
+      "Innovation"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 18,
+    "primary_sources": [
+      "Americanthinker.com",
+      "Nature.com",
+      "The Times of India"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 23 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ],
+    "headline": "India's Critical Mineral Supply Chain Localization Accelerates Amid Geopolitical Realignment"
+  },
+  {
+    "id": 117,
+    "title": "Emerging Tech Investment Brief",
+    "slug": "emerging-tech",
+    "date": "November 16, 2026",
+    "url": "emerging-tech-2026-11-16.html",
+    "excerpt": "Global AI infrastructure expansion continues despite regulatory headwinds, with Google committing $17 billion to a Wyoming data center project as net employment projections suggest AI could generate nearly 2 million jobs by 2030, though reputational risks and internal workforce pushback are creating execution uncertainties for major technology vendors.",
+    "tags": [
+      "Technology"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Business Insider",
+      "CNET"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 42 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ],
+    "headline": "Leadership Instability and Regulatory Headwinds Threaten AI Infrastructure Momentum"
+  },
+  {
+    "id": 116,
+    "title": "Energy Transition Investment Brief",
+    "slug": "energy-transition",
+    "date": "November 16, 2026",
+    "url": "energy-transition-2026-11-16.html",
+    "excerpt": "AI-driven data center proliferation is intensifying energy demand volatility, with significant capital allocation implications for both traditional power infrastructure and renewable energy solutions. While global fossil fuel emissions are projected to decline in 2026, the concurrent surge in computational capacity requirements presents competing pressures on grid stability and rural electrification economics, creating divergent investment outcomes across energy subsectors through 2027-2028.",
+    "tags": [
+      "Energy"
+    ],
+    "source": "O'Dwyer Analysis",
+    "analysis_type": "analytical",
+    "themes": [
+      "artificial intelligence"
+    ],
+    "investment_relevance": "high",
+    "article_count": 25,
+    "primary_sources": [
+      "Science Daily",
+      "Cornell.edu",
+      "Nature.com"
+    ],
+    "trend_analysis": {
+      "new_themes": [
+        "artificial intelligence"
+      ],
+      "ongoing_themes": [],
+      "accelerating_themes": [],
+      "historical_context": "Based on analysis of 47 historical briefs"
+    },
+    "trend_context": [
+      "New developments: artificial intelligence"
+    ],
+    "headline": "Data Center Energy Demands Collide with Grid Realities as AI Boom Tests Infrastructure Economics"
+  },
+  {
     "id": 115,
     "title": "Emerging Tech Investment Brief",
     "slug": "emerging-tech",
